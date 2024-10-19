@@ -1,0 +1,23 @@
+.home-section {
+    background-color: #2C3E50;
+    color: #F9F9F9;
+    padding: 100px 20px;
+  }
+  
+  .home-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .home-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  

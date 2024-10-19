@@ -1,0 +1,31 @@
+.lawyers-section {
+    background-color: #f4f4f9;
+  }
+  
+  .lawyer-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .lawyer-card {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    width: 200px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .lawyer-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .lawyer-card h3 {
+    font-size: 1.2rem;
+  }
+  

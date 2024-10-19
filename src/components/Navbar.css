@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #2C3E50;
+    color: #F9F9F9;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #C7A017;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin-left: 25px;
+  }
+  
+  .navbar-menu a {
+    color: #F9F9F9;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  
+  .navbar-menu a:hover {
+    color: #C7A017;
+  }
+  
