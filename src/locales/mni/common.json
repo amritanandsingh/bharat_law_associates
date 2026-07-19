@@ -1,0 +1,248 @@
+{
+  "a11y": {
+    "skipToContent": "ꯃꯌꯦꯛ ꯂꯃꯇ ꯍꯣꯡ ꯀꯧ",
+    "mainNavigation": "ꯃꯌꯦꯛ ꯃꯤꯡ ꯂꯥ ꯊꯥꯅꯕꯥ",
+    "openMenu": "ꯃꯦꯟꯅꯨ ꯑꯥꯟꯊꯣ ꯇꯝꯕꯥ",
+    "closeMenu": "ꯃꯦꯟꯅꯨ ꯃꯛꯐꯝ ꯇꯝꯕꯥ",
+    "changeLanguage": "ꯃꯤꯠ ꯆꯍꯤꯕꯥ",
+    "searchLanguage": "ꯃꯤꯠ ꯎꯖꯨ ꯇꯝꯕꯥ…",
+    "suggestedLanguages": "ꯆꯥꯇꯀꯨꯅ ꯂꯩꯕ",
+    "allLanguages": "ꯑꯔꯨꯃꯊ ꯃꯤꯠ",
+    "close": "ꯃꯛꯐꯝ ꯇꯝꯕꯥ",
+    "breadcrumb": "ꯃꯌꯦꯛ ꯅꯧꯑ ꯅꯨ"
+  },
+  "nav": {
+    "home": "ꯈꯣꯎ",
+    "practiceAreas": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯊꯥꯈꯄ",
+    "aboutUs": "ꯑꯗꯣꯏ ꯁꯃꯨꯖꯤꯡ",
+    "contactUs": "ꯑꯥꯞꯇꯅ꯫",
+    "joinUs": "ꯌꯦꯟ ꯈꯪꯀꯧ",
+    "consultNow": "ꯑꯍꯨꯞ ꯎꯔꯤ ꯂꯥ ꯀꯌꯥ ꯀꯁꯨ",
+    "bookConsultation": "ꯑꯕꯛꯕꯥ ꯎꯔꯤ ꯂꯥ ꯄꯨꯛ ꯇꯝꯕꯥ"
+  },
+  "meta": {
+    "homeTitle": "ꯕꯎꯔꯠ ꯑꯦ ꯕꯀ ꯂꯦ ꯌꯧꯑꯅ꯫",
+    "homeDescription": "Bharat Law Associates — ꯂꯤꯖꯤꯠ, ꯎꯠ ꯆꯠꯀꯅꯕ, ꯇꯦꯛꯁ ꯑꯦ ꯐꯔꯐꯀꯁꯨ ꯑꯐꯦꯍ꯫ ꯑꯕꯛꯕꯥ ꯎꯔꯤ ꯂꯥ ꯄꯨꯛ ꯇꯝꯕꯥ꯫",
+    "aboutDescription": "Bharat Law Associates ꯁꯃꯨꯖꯤꯡ — ꯃꯇꯦꯟ ꯈꯨꯛꯇꯕ, ꯑꯗꯣꯏ ꯈꯅ ꯈꯌꯥ ꯑꯦ ꯔꯤꯆꯥꯔꯤ꯫",
+    "practiceAreasDescription": "ꯑꯗꯣꯏ ꯎꯠ ꯆꯠꯀꯅꯕ — ꯂꯤꯖꯤꯠ ꯑꯦ ꯐꯟꯖꯥꯏ ꯂꯤꯖꯤꯠ, ꯐ꯫ꯏ ꯂꯦ, ꯎꯠ ꯆꯠꯀꯅꯕ, ꯇꯦꯛꯁ ꯑꯦ ꯐꯔꯐꯀꯁꯨ ꯄꯤꯂ꯫",
+    "contactDescription": "Bharat Law Associates ꯑꯥꯞꯇꯅ꯫ ꯎꯔꯤ ꯂꯥ ꯄꯨꯛ ꯇꯝꯕꯥ, ꯊꯥꯅꯕꯥ ꯉꯥꯀꯧ ꯍꯣꯡ, ꯑꯗꯣꯏ ꯀꯧꯔꯨ ꯑꯦ ꯅꯨ ꯃꯎ꯫",
+    "joinDescription": "Bharat Law Associates ꯃꯗ ꯌꯦꯟ ꯈꯪꯀꯧ꯫ ꯕꯎꯔꯠ ꯑꯦ ꯕꯀ ꯂꯦ ꯌꯧꯑꯅ ꯈꯅ ꯃꯤꯠ ꯊꯥ꯫"
+  },
+  "home": {
+    "hero": {
+      "title": "ꯑꯗꯣꯏ ꯈꯛ ꯈꯔꯥ ꯁꯤꯟ, <gold>ꯁꯀꯔ ꯄꯥꯟ ꯇꯝꯕꯥ꯫</gold>",
+      "subtitle": "ꯐꯣꯔꯥꯃ ꯕꯎꯔꯤ ꯂꯥ ꯉꯥꯕ ꯈꯉ꯫ ꯍꯥꯢꯗ ꯐꯣꯌ ꯑꯣꯏꯕꯥ ꯌꯥꯡ, ꯑꯗꯣꯏ ꯕꯀ ꯉꯥꯀꯧ ꯆꯠꯀꯅꯕ ꯐꯈꯥ ꯁꯤꯟ ꯀꯔꯨ, ꯃꯤꯠ ꯌꯥꯡ ꯑꯗꯣꯏ ꯄꯤꯛꯌꯦꯞ ꯈꯣꯏ꯫",
+      "ctaPrimary": "ꯑꯕꯛꯕꯥ ꯎꯔꯤ ꯂꯥ ꯄꯨꯛ ꯇꯝꯕꯥ",
+      "ctaSecondary": "ꯑꯍꯨꯞ ꯊꯥꯅꯕꯥ"
+    },
+    "stats": {
+      "years": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯃꯣꯟ",
+      "successRate": "ꯃꯤꯡ ꯆꯁꯕꯥ",
+      "offices": "ꯀꯧꯔꯨ",
+      "practiceAreas": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯊꯥꯈꯄ"
+    },
+    "services": {
+      "overline": "ꯑꯗꯣꯏ ꯇꯧꯕꯥ",
+      "title": "ꯐꯉ ꯑꯦ ꯎꯠ ꯇꯧꯕꯥ ꯕꯀ ꯂꯦ ꯎꯠ",
+      "viewAll": "ꯑꯔꯨꯃꯊ ꯎꯠ ꯆꯠꯀꯅꯕ ꯍꯥꯠꯅ →"
+    },
+    "why": {
+      "overline": "ꯈꯦꯃꯤ ꯑꯗꯣꯏ ꯎꯞꯅ꯫",
+      "title": "ꯌꯥ ꯊꯥ ꯍꯧꯕꯥ ꯃꯇꯥ",
+      "items": {
+        "experienced": {
+          "title": "ꯎꯕꯦꯞ ꯕꯎꯔꯠ",
+          "body": "ꯈꯅ ꯌꯥ ꯃꯊꯧ ꯕꯎꯔꯠ ꯃꯁ ꯊꯦ ꯃꯌꯥꯡ, ꯀꯔ ꯑꯆꯂ, ꯌ꯫ꯂꯨ ꯑꯦ ꯍꯥꯏ ꯀꯔ ꯂꯃꯇ ꯎꯠ ꯆꯠꯀꯅꯕ ꯎꯔꯤ꯫"
+        },
+        "accessible": {
+          "title": "ꯄꯨꯛ ꯌꯥꯎꯕꯥ",
+          "body": "ꯊꯥꯅꯕꯥ ꯊꯨꯊꯥ, WhatsApp ꯑꯗꯣꯏ ꯅꯨ ꯃꯤꯠ ꯌꯥꯡ ꯑꯗꯣꯏ ꯄꯤꯛꯌꯦꯞ ꯈꯣꯏ ꯑꯗꯣꯏ ꯈꯛ ꯀꯂ꯫"
+        },
+        "transparent": {
+          "title": "ꯆꯟꯅꯥꯁ, ꯆꯖꯤꯛ ꯑꯣꯏꯕꯥ ꯌ꯫ꯒ",
+          "body": "ꯑꯗꯣꯏ ꯕꯀ ꯃꯗ ꯇꯥꯀꯥ ꯄꯉꯥꯎꯕꯥ, ꯊꯥꯀꯧ ꯃꯣꯟ ꯑꯦ ꯌꯣꯟ ꯇꯦꯛꯔ ꯑꯪ꯫"
+        }
+      }
+    },
+    "legalAid": {
+      "title": "ꯑꯕꯛꯕꯥ ꯕꯀ ꯂꯦ ꯌꯥ ꯑꯄꯇꯕꯥ ꯃꯈꯥ",
+      "body": "ꯃꯊꯧ ꯂꯃꯁ {{start}} ꯀꯄꯥ {{end}} ꯅꯟ ꯑꯕꯛꯕꯥ ꯎꯔꯤ ꯂꯥ ꯄꯤꯌꯥ ꯇꯝꯕꯥ ꯌꯥ ꯕꯀ ꯃꯗ ꯀꯔꯤ ꯄꯥꯎꯕꯥ ꯃꯈꯥ꯫",
+      "cta": "ꯎꯕꯥꯎ ꯇꯨꯠꯀꯧ"
+    },
+    "team": {
+      "overline": "ꯑꯗꯣꯏ ꯈꯅ",
+      "title": "ꯑꯗꯣꯏ ꯕꯎꯔꯠ ꯈꯨꯢꯕꯥ",
+      "meetAll": "ꯑꯔꯨꯃꯊ ꯈꯅ ꯈꯨꯢꯕꯥ →"
+    },
+    "cta": {
+      "title": "ꯑꯗꯣꯏ ꯕꯀ ꯑꯍꯨꯞ ꯑꯗꯣꯏ ꯈꯛ ꯀꯂ꯫",
+      "body": "ꯐꯣꯔꯥꯃ ꯎꯔꯤ ꯂꯥ ꯑꯕꯛꯕꯥ꯫ ꯑꯗꯣꯏ ꯃꯗ ꯃꯥ ꯋꯥꯏꯕꯥ ꯌꯥꯡ ꯑꯗꯣꯏ ꯃꯗ ꯑꯗꯣꯏ ꯇꯥꯀꯥ ꯄꯉꯥꯎꯕꯥ꯫",
+      "button": "ꯎꯔꯤ ꯂꯥ ꯋꯥꯟꯀꯧ"
+    }
+  },
+  "about": {
+    "title": "Bharat Law Associates ꯁꯃꯗꯚꯥ",
+    "lede": "ꯐꯨꯟ-ꯎꯠ ꯕꯀ ꯊꯦꯀ ꯂꯤꯖꯤꯠ, ꯐ꯫ꯏ ꯂꯦ, ꯎꯠ ꯆꯠꯀꯅꯕ ꯑꯦ ꯑꯊꯣꯌꯕꯥ ꯎꯠ ꯎꯕꯦꯕꯤ ꯌꯥ ꯀꯔꯨ꯫",
+    "founderOverline": "ꯃꯇꯦꯟ ꯈꯨꯛꯇꯕ ꯑꯦ ꯃꯣꯎ ꯕꯎꯔꯠ",
+    "founderBio": "Prem Prakash ꯏ Bharat Law Associates ꯑꯥꯛꯀꯥꯟ ꯑꯣꯏ ꯋꯥꯡ: ꯑꯔꯨꯃꯊ ꯂꯥꯏꯆꯥ ꯌꯧꯑꯅ ꯕꯎꯔꯠ ꯌꯥ ꯀꯂ ꯑꯦ ꯇꯣꯀꯅ꯫ ꯍꯥꯢꯅꯥ ꯐꯉ ꯈꯨꯛꯇꯕ ꯂꯤꯖꯤꯠ, ꯎꯠ ꯆꯠꯀꯅꯕ, ꯇꯦꯛꯁ ꯑꯦ ꯐꯔꯐꯀꯁꯨ ꯎꯠ ꯉꯥꯛꯌꯦ꯫",
+    "founderCredentials": [
+      "LLB, Kolkata Law School",
+      "15+ ꯃꯣꯟ ꯀꯔ ꯑꯆꯂ ꯑꯦ ꯑꯊꯣꯌꯕꯥ ꯎꯠ",
+      "ꯈꯨꯛꯇꯕ ꯀꯔ, ꯌ꯫ꯂꯨ ꯑꯦ ꯍꯥꯏ ꯀꯔ ꯃꯗ ꯄꯤꯙꯤꯢꯆꯤ",
+      "ꯕꯎꯔꯠ ꯑꯦ ꯕꯀ ꯂꯦ ꯌꯧꯑꯅ ꯈꯅ ꯊꯦꯀꯪ"
+    ],
+    "founderRole": "ꯃꯇꯦꯟ ꯈꯨꯛꯇꯕ ꯑꯦ ꯃꯣꯎ ꯕꯎꯔꯠ",
+    "advocateRole": "ꯕꯎꯔꯠ",
+    "storyOverline": "ꯑꯗꯣꯏ ꯑꯥꯢꯅ",
+    "storyTitle": "ꯈꯃꯤ ꯎꯠ ꯂꯃꯇ ꯑꯥꯢꯕꯥ ꯕꯎꯇꯦꯟꯀꯥꯢꯛ",
+    "storyBody1": "Bharat Law Associates ꯏ ꯈꯃꯤ ꯎꯠ ꯂꯃꯇ ꯑꯥꯢꯕꯥ ꯂꯤꯖꯤꯠ ꯉꯥꯕꯥ ꯑꯗꯣꯏ ꯂꯥꯏꯆꯥ ꯃꯈꯥ꯫ ꯎꯠ ꯂꯃꯕꯥ, ꯇꯥꯃꯤ ꯐꯈꯥ ꯕꯎꯔꯠ ꯏ ꯌꯦꯟ ꯈꯪꯅꯕꯥ ꯂꯣꯟ, ꯂꯤꯖꯤꯠ ꯍꯤꯍꯨꯛ ꯊꯥ ꯇꯝ꯫",
+    "storyBody2": "ꯑꯍꯨꯞ ꯐ꯫ꯏ ꯂꯦ ꯃꯗ ꯂꯥꯏꯆꯥ ꯊꯥꯕꯁ, ꯂꯤꯖꯤꯠ ꯑꯦ ꯐꯟꯖꯥꯏ ꯂꯤꯖꯤꯠ ꯃꯗ ꯐꯤꯛꯁ ꯑꯦ ꯎꯠ ꯊꯦꯀꯪ, ꯏꯏ ꯑꯦ ꯐꯔꯐꯀꯁꯨ ꯊꯦꯀꯪ꯫ ꯑꯗꯣꯏ ꯉꯥꯀꯧ ꯏ ꯉꯥꯎꯕꯥ ꯐꯉ ꯃꯈꯥ ꯁꯤꯟ ꯀꯔꯨ꯫",
+    "valuesOverline": "ꯑꯗꯣꯏ ꯔꯤꯆꯥꯔꯤ",
+    "valuesTitle": "ꯑꯗꯣꯏ ꯇꯣꯔꯥ",
+    "values": {
+      "integrity": {
+        "title": "ꯆꯟꯅꯥꯁ",
+        "body": "ꯑꯗꯣꯏ ꯑꯗꯣꯏ ꯕꯀ ꯃꯗ ꯇꯧꯌꯤ — ꯇꯥꯀꯧ ꯃꯈꯧ ꯌꯥꯝ ꯈꯗ ꯌꯥ ꯑꯅꯥ꯫"
+      },
+      "clarity": {
+        "title": "ꯄꯤ ꯊꯥꯅꯕꯥ",
+        "body": "ꯃꯤꯠ ꯊꯥ ꯑꯗꯣꯏ ꯃꯤꯠ ꯌꯥꯡ ꯑꯊꯣꯌꯕꯥ꯫ ꯑꯗꯣꯏ ꯄꯨꯛ ꯈꯨꯕꯥ ꯑꯦ ꯃꯥ ꯊꯥꯀꯧ ꯈꯗ ꯌꯥ ꯈꯨꯕꯥ꯫"
+      },
+      "commitment": {
+        "title": "ꯊꯛ ꯌꯦꯡ",
+        "body": "ꯑꯗꯣꯏ ꯕꯀ ꯆꯠꯀꯅꯈꯕ ꯉꯥ ꯂꯃꯇ ꯑꯦ ꯇꯨꯆꯣ ꯆꯆꯧꯈꯕ꯫"
+      }
+    },
+    "teamTitle": "ꯑꯗꯣꯏ ꯕꯎꯔꯠ",
+    "ctaTitle": "ꯕꯎꯔꯠ ꯈꯛ ꯀꯂꯥ꯫"
+  },
+  "practiceAreas": {
+    "title": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯊꯥꯈꯄ",
+    "lede": "ꯂꯤꯖꯤꯠ, ꯎꯠ ꯆꯠꯀꯅꯕ, ꯇꯦꯛꯁ ꯑꯦ ꯐꯔꯐꯀꯁꯨ — ꯑꯗꯣꯏ ꯉꯥꯛꯌꯦ ꯑꯔꯨꯃꯊ ꯎꯠ ꯍꯥꯠꯅ꯫",
+    "categoriesLabel": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯎꯛ",
+    "ctaTitle": "ꯑꯗꯣꯏ ꯕꯀ ꯃꯗ ꯃꯪ ꯎꯛ ꯌꯥ ꯇꯥꯀꯧ꯫",
+    "ctaBody": "ꯑꯗꯣꯏ ꯃꯗ ꯃꯥ ꯋꯥꯏꯕꯥ ꯌꯥꯡ ꯑꯗꯣꯏ ꯎꯠ ꯆꯠꯀꯅꯕ ꯌꯥꯡ ꯄꯤꯌꯥ ꯇꯝꯕꯥ — ꯐꯣꯔꯥꯃ ꯎꯔꯤ ꯂꯥ ꯑꯕꯛꯕꯥ꯫"
+  },
+  "serviceDetail": {
+    "howWeHelp": "ꯈꯦꯃꯤ ꯈꯔꯥ ꯌꯧꯑꯅ",
+    "relatedAreas": "ꯊꯝ ꯎꯠ ꯆꯠꯀꯅꯕ ꯊꯥꯈꯄ",
+    "ctaTitle": "ꯑꯗꯣꯏ ꯂꯤꯖꯤꯠ ꯆꯪ",
+    "ctaBody": "ꯑꯗꯣꯏ ꯕꯀ ꯑ꯱ ꯑꯃꯁ ꯊꯥ ꯏ ꯉꯥ ꯌꯧꯑꯅ ꯈꯤꯊꯣꯛ ꯊꯤꯏ꯫",
+    "responseNote": "ꯑꯗꯣꯏ 4 ꯇꯠ ꯍꯨꯈꯨ ꯃꯗ ꯌꯥ ꯀꯨꯔ ꯇꯝꯕꯥ꯫"
+  },
+  "contact": {
+    "title": "ꯑꯥꯞꯇꯅ꯫",
+    "lede": "ꯎꯔꯤ ꯂꯥ ꯋꯥꯟꯀꯧ, ꯑꯗꯣꯏ ꯈꯛ ꯃꯦꯖ ꯉꯥ, ꯑꯗꯣꯏ ꯈꯩ ꯀꯧꯔꯨ ꯇꯥ ꯏ꯫",
+    "freeAidHours": "ꯑꯕꯛꯕꯥ ꯕꯀ ꯂꯦ ꯎꯔꯤ ꯂꯥ: {{start}} – {{end}} ꯂꯨꯃꯧ",
+    "officesTitle": "ꯑꯗꯣꯏ ꯀꯧꯔꯨ",
+    "getDirections": "ꯊꯥꯅꯕꯥ ꯐꯖꯧ ꯉꯥ",
+    "callOffice": "ꯀꯧꯔꯨ ꯊꯥꯅꯕꯥ",
+    "preferCallback": "ꯑꯗꯣꯏ ꯊꯥꯅꯕꯥ ꯍꯥꯌꯔꯥ꯫ ꯍꯥꯢ \"ꯎꯔꯤ ꯂꯥ\" ꯕꯣꯇꯟ ꯎꯞꯅ ꯀꯗꯥ ꯉꯥ꯫"
+  },
+  "join": {
+    "title": "ꯑꯗꯣꯏ ꯈꯅ ꯃꯁ ꯌꯦꯟ ꯈꯪꯀꯧ",
+    "lede": "ꯑꯗꯣꯏ ꯄꯨꯛ ꯕꯎꯔꯠ, ꯖꯨꯅꯤꯑꯣꯔ ꯑꯦ ꯏꯟꯇꯔꯟ ꯎꯞꯅ ꯌꯥ ꯋꯥꯎ ꯑꯗꯣꯏ ꯀꯂ ꯊꯕ꯫",
+    "perksOverline": "ꯊꯦꯀ ꯃꯗ ꯐꯉ",
+    "perksTitle": "ꯈꯦꯃꯤ ꯑꯗꯣꯏ ꯈꯛ ꯎꯠ ꯇꯝꯕꯥ",
+    "perks": {
+      "exposure": {
+        "title": "ꯃꯌꯦꯛ ꯀꯔ ꯄꯦ",
+        "body": "ꯖꯨꯅꯤꯑꯣꯔ ꯔꯥꯏ, ꯑꯣꯟ ꯑꯦ ꯄꯤꯙꯤꯢꯆ — ꯑꯗꯣꯏ ꯐꯦꯏꯂ ꯏꯏ ꯌꯠ ꯊꯥ ꯂꯩꯇꯤ꯫"
+      },
+      "mentorship": {
+        "title": "ꯃꯇꯥ ꯃꯊꯧ ꯕꯎꯔꯠ ꯈꯛ ꯆꯪꯀꯧ",
+        "body": "ꯃꯊꯧ ꯕꯎꯔꯠ ꯈꯛ ꯇꯥ ꯑꯦ ꯉꯥ ꯈꯦ ꯕꯀ ꯃꯗ ꯀꯔꯨꯟꯁ ꯑꯦ ꯃꯤꯡ ꯆꯁꯗ ꯉꯥ꯫"
+      },
+      "culture": {
+        "title": "ꯇꯨꯀꯣ ꯃꯁ ꯈꯅ",
+        "body": "ꯊꯤꯡ, ꯊꯥꯈꯄꯥ ꯈꯅ ꯌꯥ ꯐꯔꯀꯥ ꯑꯦ ꯉꯥ ꯋꯥꯁ꯫"
+      },
+      "growth": {
+        "title": "ꯂꯃꯇ ꯃꯁ ꯑꯦ ꯌꯦꯡ ꯌꯥꯎ",
+        "body": "ꯉꯥ ꯐꯣꯔꯥꯃ ꯂꯃꯇ ꯑꯗꯣꯏ ꯎꯠ ꯇꯝꯕꯥ ꯑꯦ ꯑꯗꯣꯏ ꯎꯠ ꯃꯐꯝ ꯊꯦꯀꯪ꯫"
+      }
+    },
+    "formTitle": "ꯑꯍꯨꯞ ꯑꯣꯟ ꯇꯝꯕꯥ",
+    "formSubtitle": "ꯑꯗꯣꯏ ꯀꯌꯥ ꯍꯤꯖꯤ — ꯑꯔꯣꯕꯥ ꯑꯗꯣꯏ ꯏꯃꯦꯏꯜ ꯆꯨꯈꯨ ꯐꯣꯔꯃ ꯈꯦ ꯎꯝ꯫",
+    "resumeNote": "ꯑꯔꯣꯕꯥ ꯑꯗꯣꯏ ꯇꯥ ꯏꯃꯦꯏꯜ ꯆꯨꯈꯨ ꯎꯝ꯫ ꯏꯃꯦꯏꯜ ꯍꯦꯖꯤꯜ ꯁꯤ resume ꯆꯦꯡ꯫",
+    "submit": "ꯑꯣꯟ ꯑꯣꯀꯥ"
+  },
+  "forms": {
+    "connect": {
+      "title": "ꯑꯗꯣꯏ ꯈꯛ ꯃꯥ",
+      "subtitle": "ꯃꯇ ꯊꯥ꯫ ꯑꯗꯣꯏ ꯈꯛ ꯃꯦꯖ ꯉꯥ ꯃꯤꯡ ꯄꯤꯌꯥ ꯇꯝꯕꯥ꯫",
+      "submit": "WhatsApp ꯌꯥꯡ ꯇꯥ"
+    },
+    "consultation": {
+      "title": "ꯎꯔꯤ ꯂꯥ ꯋꯥꯟꯀꯧ",
+      "subtitle": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯑꯦ ꯄꯤꯛꯌꯦꯞ ꯊꯥ ꯇꯤꯔꯨ — ꯑꯗꯣꯏ ꯎꯔꯤ ꯂꯥ ꯆꯍꯤꯕꯥ꯫",
+      "submit": "ꯎꯔꯤ ꯂꯥ ꯁꯖ ꯇꯝꯕꯥ"
+    },
+    "fields": {
+      "name": "ꯐꯨꯟ ꯑꯣꯏ",
+      "phone": "ꯊꯥꯅꯕꯥ ꯅꯨ",
+      "phoneOptionalPair": "ꯊꯥꯅꯕꯥ ꯅꯨ (ꯗꯣ ꯍꯥꯢ ꯏꯃꯦꯏꯜ)",
+      "email": "ꯏꯃꯦꯏꯜ",
+      "emailOptional": "ꯏꯃꯦꯏꯜ (ꯐꯉꯣ ꯇꯤ)",
+      "emailOptionalPair": "ꯏꯃꯦꯏꯜ (ꯑꯗꯣꯏ ꯊꯥꯅꯕꯥ ꯅꯨ)",
+      "practiceArea": "ꯎꯠ ꯆꯠꯀꯅꯕ",
+      "preferredDate": "ꯃꯃꯂ ꯇꯥꯛ ꯋꯥꯞ",
+      "preferredTime": "ꯃꯃꯂ ꯉꯥꯁ",
+      "message": "ꯑꯗꯣꯏ ꯃꯦꯖ",
+      "messageOptional": "ꯃꯦꯖ (ꯐꯉꯣ ꯇꯤ)",
+      "qualification": "ꯑꯔꯨꯁ",
+      "experienceOptional": "ꯎꯕꯦꯞ (ꯐꯉꯣ ꯇꯤ)"
+    },
+    "errors": {
+      "nameRequired": "ꯑꯗꯣꯏ ꯐꯨꯟ ꯑꯣꯏ ꯍꯤꯖꯤ꯫",
+      "phoneInvalid": "ꯆꯟꯅꯥ 10-ꯐꯥꯠ ꯐꯣꯟ ꯅꯨ ꯍꯤꯖꯤ꯫",
+      "emailInvalid": "ꯆꯟꯅꯥ ꯏꯃꯦꯏꯜ ꯍꯤꯖꯤ꯫",
+      "emailOrPhoneRequired": "ꯊꯥꯅꯕꯥ ꯅꯨ ꯗꯣ ꯏꯃꯦꯏꯜ ꯍꯤꯖꯤ꯫",
+      "messageRequired": "ꯃꯦꯖ ꯍꯤꯖꯤ꯫",
+      "serviceRequired": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯇꯠ ꯉꯥ꯫",
+      "dateRequired": "ꯇꯥꯛ ꯇꯠ ꯉꯥ꯫",
+      "dateInPast": "ꯑꯍꯨꯞ ꯑꯗꯣꯏ ꯊꯥ ꯗꯣ ꯊꯥꯀꯧ ꯊꯥ ꯇꯠ ꯉꯥ꯫",
+      "qualificationRequired": "ꯑꯗꯣꯏ ꯑꯔꯨꯁ ꯍꯤꯖꯤ꯫"
+    },
+    "success": {
+      "title": "WhatsApp ꯎꯝ ꯇꯧꯕꯥ…",
+      "body": "ꯑꯗꯣꯏ ꯃꯦꯖ WhatsApp ꯃꯗ ꯊꯦꯀꯪ ꯍꯥꯌꯈꯕꯥ꯫ ꯎꯝ ꯂꯩꯆꯕꯥ ꯌꯥ ꯂꯥ ꯑꯕꯛ ꯑꯣꯏ ꯎꯝ꯫",
+      "emailInstead": "ꯏꯃꯦꯏꯜ ꯌꯥꯡ ꯊꯦꯀꯪ",
+      "callInstead": "ꯑꯗꯣꯏ ꯊꯥꯅꯕꯥ",
+      "sendAnother": "ꯐꯣꯔꯥꯃ ꯃꯦꯖ ꯊꯦꯀꯪ"
+    }
+  },
+  "callback": {
+    "title": "ꯊꯥꯅꯕꯥ ꯁꯖ ꯇꯝꯕꯥ",
+    "subtitle": "ꯑꯗꯣꯏ ꯅꯨ ꯑꯦ ꯃꯃꯂ ꯊꯥ ꯍꯤꯖꯤ — ꯑꯗꯣꯏ ꯊꯥꯅꯕꯥ꯫",
+    "preferredTime": "ꯃꯃꯂ ꯉꯥꯁ",
+    "slots": {
+      "morning": "ꯕꯥꯛꯀꯧ",
+      "afternoon": "ꯌꯥꯞ",
+      "evening": "ꯂꯧ"
+    },
+    "submit": "ꯊꯥꯅꯕꯥ ꯁꯖ ꯇꯝꯕꯥ",
+    "successTitle": "ꯁꯖ ꯊꯦꯀꯪ",
+    "successBody": "ꯑꯗꯣꯏ ꯎꯠ ꯊꯠ ꯉꯥ ꯊꯥꯅꯕꯥ ꯇꯝꯕꯥ, ꯏꯊꯣ 30 ꯃꯤꯟꯅꯤꯠ ꯉꯥ ꯃꯃ꯫"
+  },
+  "quickActions": {
+    "label": "ꯌꯥꯞ ꯃꯥ",
+    "call": "ꯊꯥꯅꯕꯥ",
+    "whatsapp": "WhatsApp",
+    "consult": "ꯎꯔꯤ ꯂꯥ",
+    "chatWithUs": "ꯑꯗꯣꯏ ꯈꯛ ꯀꯂ꯫"
+  },
+  "footer": {
+    "tagline": "ꯐꯉ ꯑꯦ ꯎꯠ ꯇꯧꯑꯅ ꯔꯤꯆꯥꯄ ꯕꯎꯔꯠ — ꯂꯤꯖꯤꯠ, ꯎꯠ ꯆꯠꯀꯅꯕ, ꯇꯦꯛꯁ ꯑꯦ ꯐꯔꯐꯀꯁꯨ, ꯑꯗꯣꯏ ꯃꯤꯠ ꯌꯥꯡ꯫",
+    "quickLinks": "ꯌꯥꯞ ꯅꯧ",
+    "reachUs": "ꯑꯗꯣꯏ ꯈꯛ ꯉꯥ",
+    "bciDisclaimer": "Bar Council of India ꯁꯀ ꯑꯉꯕ, ꯇꯤ ꯎꯌ ꯑꯃ ꯎ꯫ꯐꯦ ꯗꯣ ꯌꯧꯑꯅ ꯊꯤ ꯑꯦ ꯕꯀ ꯌꯧꯑꯅ ꯊꯤ꯫ ꯇꯤ ꯎꯌ ꯎꯝ ꯆꯠꯀꯅꯈꯕ ꯌꯨ ꯄꯤꯌꯥ ꯇꯝꯕꯥ꯫",
+    "translationNote": "ꯃꯤꯠ ꯆꯍꯤꯕꯥ ꯆꯤ-ꯆꯌꯥ ꯎꯕꯦꯕꯤ — ꯌꯨ ꯐꯔꯀꯥ ꯌꯥ, English ꯃꯤꯠ ꯆꯧ꯫",
+    "rights": "ꯑꯔꯨꯃꯊ ꯑꯛꯇ ꯎꯠ꯫"
+  },
+  "notFound": {
+    "title": "ꯇꯤ ꯀꯧꯔꯨ ꯄꯣꯠꯆꯅ ꯇꯤ꯫",
+    "body": "ꯑꯗꯣꯏ ꯎꯞꯅ ꯌꯥ ꯀꯧꯔꯨ ꯂꯩꯇꯤ ꯗꯣ ꯆꯍꯤꯊꯥ ꯀꯧꯔꯨ ꯈꯪꯀꯧ꯫ ꯑꯗꯣꯏ ꯈꯣꯎ ꯈꯪꯀꯧ꯫",
+    "backHome": "ꯈꯣꯎ ꯊꯤ ꯌꯧꯈꯧ"
+  }
+}

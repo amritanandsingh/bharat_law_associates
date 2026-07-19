@@ -1,0 +1,111 @@
+/* Reserve space above the mobile action bar */
+@media (max-width: 767px) {
+  main {
+    padding-block-end: calc(var(--actionbar-h) + env(safe-area-inset-bottom));
+  }
+}
+
+.action-bar {
+  position: fixed;
+  inset-inline: 0;
+  inset-block-end: 0;
+  z-index: 90;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.4fr;
+  align-items: stretch;
+  height: calc(var(--actionbar-h) + env(safe-area-inset-bottom));
+  padding-block-end: env(safe-area-inset-bottom);
+  background: var(--navy-950);
+  border-block-start: 1px solid var(--line-dark);
+  box-shadow: 0 -4px 16px rgba(10, 20, 29, 0.3);
+}
+
+.action-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  color: var(--on-dark);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.action-whatsapp svg {
+  color: var(--whatsapp);
+}
+
+.action-consult {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  margin: 8px;
+  border-radius: var(--r-full);
+  background: var(--gold-500);
+  color: #14263a;
+  font-size: var(--fs-small);
+  font-weight: 600;
+}
+
+.action-consult:active {
+  background: var(--gold-600);
+}
+
+/* Desktop FAB */
+.whatsapp-fab {
+  display: none;
+  position: fixed;
+  inset-block-end: 24px;
+  inset-inline-end: 24px;
+  z-index: 90;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--r-full);
+  background: var(--whatsapp);
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  transition: transform var(--dur-med) var(--ease-out);
+}
+
+.whatsapp-fab:hover {
+  transform: scale(1.06);
+}
+
+.whatsapp-fab-tip {
+  position: absolute;
+  inset-inline-end: calc(100% + var(--sp-3));
+  background: var(--navy-900);
+  color: var(--on-dark);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  white-space: nowrap;
+  padding: var(--sp-2) var(--sp-4);
+  border-radius: var(--r-full);
+  opacity: 0;
+  transform: translateX(8px);
+  pointer-events: none;
+  transition: opacity var(--dur-med) var(--ease-out),
+    transform var(--dur-med) var(--ease-out);
+}
+
+[dir='rtl'] .whatsapp-fab-tip {
+  transform: translateX(-8px);
+}
+
+.whatsapp-fab:hover .whatsapp-fab-tip,
+.whatsapp-fab:focus-visible .whatsapp-fab-tip {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (min-width: 768px) {
+  .action-bar {
+    display: none;
+  }
+  .whatsapp-fab {
+    display: flex;
+  }
+}

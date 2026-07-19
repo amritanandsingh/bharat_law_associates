@@ -1,0 +1,91 @@
+.contact-hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin-block-start: var(--sp-6);
+}
+
+.contact-hero-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-3);
+  font-family: var(--font-serif);
+  font-size: var(--fs-h3);
+  font-weight: 600;
+  color: var(--gold-300);
+  min-height: 44px;
+}
+
+.contact-hero-hours {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  color: var(--on-dark-2);
+  font-size: var(--fs-small);
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-10);
+}
+
+.contact-forms {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-8);
+  max-width: 560px;
+}
+
+.contact-side h2 {
+  margin-block-end: var(--sp-5);
+}
+
+.office-card {
+  background: var(--paper);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--sp-6);
+  margin-block-end: var(--sp-4);
+}
+
+.office-card h4 {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-block-end: var(--sp-2);
+}
+
+.office-card h4 svg {
+  color: var(--gold-600);
+}
+
+.office-card p {
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  margin-block-end: var(--sp-4);
+}
+
+.office-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+}
+
+.office-actions .btn {
+  min-height: 44px;
+  padding-block: var(--sp-2);
+  font-size: var(--fs-small);
+}
+
+.contact-callback-hint {
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+}
+
+@media (min-width: 1024px) {
+  .contact-layout {
+    grid-template-columns: 7fr 5fr;
+    align-items: start;
+  }
+}

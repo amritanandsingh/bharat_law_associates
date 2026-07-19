@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Bharat Law Associates — Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mobile-first, multilingual marketing site for Bharat Law Associates (React 18 + Create React App).
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Multi-page via `react-router-dom` v6: Home, About, Practice Areas (19 services in 4 categories with detail pages), Contact (Connect + Schedule a Consultation forms), Join Us, 404
+- Forms submit via prefilled **WhatsApp** deep link with **mailto/tel fallbacks** (no backend)
+- Sticky mobile action bar (Call / WhatsApp / Consult), callback-request modal, desktop WhatsApp FAB
+- **23 languages**: English + all 22 scheduled Indian languages (`react-i18next`, lazy-loaded per-locale chunks, RTL support for Urdu/Kashmiri/Sindhi, on-demand fonts for Ol Chiki / Meetei Mayek / Nastaliq)
+- Custom "Pillar & Scales" SVG logo + design-token CSS system (no UI framework)
 
-### `npm start`
+## Where things live
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Firm details (phones, WhatsApp, addresses, emails)** → `src/config/site.js` — *all values are placeholders; replace before go-live* (a console warning fires in dev while any remain)
+- Services catalog (ids, categories, icons) → `src/data/services.js`; display text → `src/locales/<lng>/services.json`
+- All UI copy → `src/locales/<lng>/common.json` (`en/` is the source of truth)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Scripts
 
-### `npm test`
+- `npm start` / `npm run build` — CRA dev server / production build
+- `npm run i18n:check` — fails if any locale's keys drift from `en/` (missing keys, orphans, broken `{{placeholders}}`, wrong array lengths)
+- `npm run i18n:fill` — English-fills missing keys in every locale and writes a `missing-translations.json` worklist
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment note
 
-### `npm run build`
+This is an SPA — the production host must rewrite unknown paths to `index.html`
+(e.g. Netlify `_redirects`: `/* /index.html 200`, or the equivalent `vercel.json` rewrite),
+otherwise deep links like `/practice-areas/gst-registration` will 404 on refresh.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Translation disclaimer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Non-English content is machine-translated and should be reviewed by a native speaker
+before go-live; the footer carries an "English version prevails" note.

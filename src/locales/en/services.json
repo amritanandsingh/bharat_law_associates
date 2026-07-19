@@ -1,0 +1,265 @@
+{
+  "services": {
+    "learnMore": "Learn more",
+    "categories": {
+      "litigation": {
+        "name": "Litigation & Disputes",
+        "description": "Representation before trial courts, tribunals and the High Court in civil, criminal, family, consumer and property matters."
+      },
+      "business-registration": {
+        "name": "Business Registration",
+        "description": "Company, LLP and firm incorporation with end-to-end documentation, filings and post-registration compliance."
+      },
+      "tax": {
+        "name": "Tax Services",
+        "description": "GST and income-tax registration, return filing and representation in departmental notices and proceedings."
+      },
+      "intellectual-property": {
+        "name": "Intellectual Property",
+        "description": "Trademark, copyright and patent protection — search, filing, prosecution and enforcement."
+      }
+    },
+    "items": {
+      "civil-litigation": {
+        "name": "Civil Litigation",
+        "summary": "Suits, injunctions, recovery and appeals argued with thorough preparation.",
+        "description": "We represent plaintiffs and defendants in civil suits — money recovery, declarations, injunctions, specific performance and appeals. Every matter begins with an honest assessment of its strength, followed by clear strategy, careful drafting and vigorous argument.",
+        "bullets": [
+          "Case assessment with a realistic opinion on merits and timelines",
+          "Drafting of plaints, written statements, applications and appeals",
+          "Interim relief: injunctions, attachment and stay applications",
+          "Representation before trial courts and the High Court",
+          "Execution proceedings to actually realise your decree"
+        ]
+      },
+      "criminal-litigation": {
+        "name": "Criminal Litigation",
+        "summary": "Bail, trial defence and complaints handled with urgency and discretion.",
+        "description": "From the first police notice to the final judgment, we defend clients at every stage of a criminal proceeding — bail and anticipatory bail, quashing petitions, trial defence and appeals — and assist complainants in filing and pursuing cases.",
+        "bullets": [
+          "Bail and anticipatory bail applications, argued on priority",
+          "Advice on police notices, FIRs and arrest procedure",
+          "Trial defence with meticulous cross-examination",
+          "Quashing petitions and criminal appeals before the High Court",
+          "Complaint drafting and prosecution support for victims"
+        ]
+      },
+      "divorce-matrimonial-cases": {
+        "name": "Divorce & Matrimonial Cases",
+        "summary": "Divorce, maintenance and custody handled with sensitivity and firmness.",
+        "description": "Family disputes need both empathy and precision. We advise on mutual-consent and contested divorce, maintenance, domestic violence proceedings and child custody — always seeking the resolution that protects your future and your children.",
+        "bullets": [
+          "Mutual-consent divorce completed with minimum friction",
+          "Contested divorce petitions and defence",
+          "Maintenance and alimony claims under all applicable laws",
+          "Child custody and visitation arrangements",
+          "Protection orders in domestic violence proceedings"
+        ]
+      },
+      "cheque-bounce-cases": {
+        "name": "Cheque Bounce Cases",
+        "summary": "Section 138 complaints and defence, from notice to judgment.",
+        "description": "Dishonoured cheques are governed by strict timelines. We issue and reply to statutory demand notices, file and defend complaints under Section 138 of the Negotiable Instruments Act, and pursue parallel recovery where it strengthens your position.",
+        "bullets": [
+          "Statutory demand notice within the limitation period",
+          "Filing and prosecution of Section 138 complaints",
+          "Defence strategy for accused drawers",
+          "Settlement negotiation and compounding",
+          "Parallel civil recovery where appropriate"
+        ]
+      },
+      "consumer-complaints": {
+        "name": "Consumer Complaints",
+        "summary": "Claims against deficient services and defective goods before consumer forums.",
+        "description": "We help consumers claim compensation for defective products, deficient services, unfair trade practices and insurance or builder disputes before District, State and National Consumer Commissions.",
+        "bullets": [
+          "Drafting and filing of consumer complaints",
+          "Builder delay and real-estate claims",
+          "Insurance claim rejection disputes",
+          "Medical negligence and service deficiency claims",
+          "Execution of consumer forum orders"
+        ]
+      },
+      "property-disputes": {
+        "name": "Property Disputes",
+        "summary": "Title, partition, possession and tenancy disputes resolved decisively.",
+        "description": "Property matters are often a family's most valuable asset at stake. We handle title verification, partition suits, possession and eviction proceedings, boundary disputes and documentation — combining litigation with practical settlement where possible.",
+        "bullets": [
+          "Title search and due diligence before purchase",
+          "Partition suits among family members and co-owners",
+          "Possession, eviction and tenancy proceedings",
+          "Injunctions against illegal construction or dispossession",
+          "Sale deed, gift deed and will drafting and registration support"
+        ]
+      },
+      "labour-employment-disputes": {
+        "name": "Labour & Employment Disputes",
+        "summary": "For employees and employers — termination, dues and service matters.",
+        "description": "We advise employees on wrongful termination, unpaid dues, gratuity and PF claims, and represent employers in domestic enquiries, labour court proceedings and compliance matters.",
+        "bullets": [
+          "Wrongful termination and reinstatement claims",
+          "Recovery of unpaid salary, gratuity and PF dues",
+          "Representation before labour courts and tribunals",
+          "Domestic enquiry and disciplinary proceeding support",
+          "Employment contract and policy drafting"
+        ]
+      },
+      "private-limited-company-registration": {
+        "name": "Private Limited Company Registration",
+        "summary": "Incorporation handled end-to-end — name approval to certificate.",
+        "description": "We incorporate your private limited company from start to finish: name reservation, digital signatures, drafting of charter documents, filing with the Registrar of Companies and post-incorporation registrations, so you can focus on the business itself.",
+        "bullets": [
+          "Name reservation and availability strategy",
+          "DSC and DIN for directors",
+          "MoA and AoA drafted for your actual business",
+          "Incorporation filing and certificate from the RoC",
+          "PAN, TAN and post-incorporation compliance calendar"
+        ]
+      },
+      "llp-registration": {
+        "name": "LLP Registration",
+        "summary": "Limited liability partnership set up with a sound partnership deed.",
+        "description": "A limited liability partnership combines partnership flexibility with limited liability. We handle incorporation, draft an LLP agreement that anticipates disputes before they arise, and complete all registrar filings.",
+        "bullets": [
+          "LLP name reservation and incorporation filing",
+          "Custom LLP agreement — capital, profit sharing, exit terms",
+          "Designated partner DSC and DIN",
+          "PAN, TAN and bank account documentation",
+          "Annual filing and compliance support"
+        ]
+      },
+      "partnership-firm-registration": {
+        "name": "Partnership Firm Registration",
+        "summary": "Registered partnership deeds that prevent tomorrow's disputes.",
+        "description": "We draft and register partnership deeds that clearly record capital contribution, profit sharing, duties and exit terms — the clauses that decide disputes years later — and complete registration with the Registrar of Firms.",
+        "bullets": [
+          "Partnership deed drafting with dispute-proof clauses",
+          "Registration with the Registrar of Firms",
+          "PAN and bank documentation for the firm",
+          "Reconstitution on admission or retirement of partners",
+          "Dissolution and settlement of accounts"
+        ]
+      },
+      "msme-udyam-registration": {
+        "name": "MSME / Udyam Registration",
+        "summary": "Unlock MSME benefits — credit, subsidies and payment protection.",
+        "description": "Udyam registration gives micro, small and medium enterprises access to priority lending, subsidies, tender preferences and protection against delayed payments. We complete the registration and advise on the benefits you can actually claim.",
+        "bullets": [
+          "Udyam registration with correct classification",
+          "Advice on schemes and subsidies applicable to you",
+          "Delayed payment claims under the MSMED Act",
+          "Updates and amendments to existing registrations",
+          "Bank and tender documentation support"
+        ]
+      },
+      "fssai-license": {
+        "name": "FSSAI License",
+        "summary": "Food business licensing — registration, state and central licenses.",
+        "description": "Every food business in India needs FSSAI registration or a license. We determine the correct category for your operations, prepare the documentation, file the application and handle renewals and modifications.",
+        "bullets": [
+          "Correct category assessment — registration, state or central",
+          "Complete documentation and application filing",
+          "Response to queries and inspection support",
+          "Renewals, modifications and additional locations",
+          "Compliance advice on labelling and hygiene requirements"
+        ]
+      },
+      "startup-india-registration": {
+        "name": "Startup India Registration",
+        "summary": "DPIIT recognition — tax benefits and easier compliance for startups.",
+        "description": "DPIIT recognition under Startup India opens tax exemptions, self-certification, faster IP processing and access to government schemes. We prepare your application, pitch documentation and post-recognition filings.",
+        "bullets": [
+          "DPIIT recognition application and documentation",
+          "Advice on eligible tax exemptions",
+          "Angel tax exemption filings",
+          "IP fast-track benefits for recognised startups",
+          "Ongoing compliance for recognised entities"
+        ]
+      },
+      "gst-registration": {
+        "name": "GST Registration",
+        "summary": "Fast, correct GST registration with the right classification.",
+        "description": "We assess whether and where you need GST registration, complete the application with correct HSN/SAC classification, respond to departmental queries and obtain your GSTIN — including amendments and additional places of business.",
+        "bullets": [
+          "Registration liability assessment",
+          "Application with correct HSN/SAC classification",
+          "Reply to registration queries and clarifications",
+          "Amendments — address, business lines, additional places",
+          "Composition scheme advice for eligible businesses"
+        ]
+      },
+      "gst-return-filing": {
+        "name": "GST Return Filing",
+        "summary": "Accurate monthly and annual returns, reconciled and on time.",
+        "description": "Late or mismatched GST returns invite notices and blocked input credit. We prepare and file your periodic returns, reconcile input tax credit with vendor filings and keep your compliance calendar clean.",
+        "bullets": [
+          "GSTR-1 and GSTR-3B preparation and filing",
+          "Input tax credit reconciliation with GSTR-2B",
+          "Annual return and reconciliation statement",
+          "Notice replies for mismatches and late filings",
+          "Refund applications for exports and inverted duty"
+        ]
+      },
+      "income-tax-return-filing": {
+        "name": "Income Tax Return Filing",
+        "summary": "Returns for individuals, professionals and businesses — filed right.",
+        "description": "We prepare and file income-tax returns for salaried individuals, professionals, firms and companies — choosing the correct regime, claiming eligible deductions and handling the follow-through when the department raises questions.",
+        "bullets": [
+          "Return preparation for all taxpayer categories",
+          "Old vs new regime comparison and planning",
+          "Capital gains computation for property and shares",
+          "Rectifications and revised returns",
+          "Refund tracking and follow-up"
+        ]
+      },
+      "tax-notice-reply": {
+        "name": "Tax Notice Reply",
+        "summary": "Considered, timely replies to income-tax and GST notices.",
+        "description": "A tax notice has deadlines that must not be missed. We analyse the notice, gather the record, draft a considered reply and represent you before the officer — for scrutiny, demand, penalty and GST show-cause notices alike.",
+        "bullets": [
+          "Notice analysis and risk assessment",
+          "Document compilation and reply drafting",
+          "Representation before tax authorities",
+          "Appeals against adverse orders",
+          "Stay applications against recovery"
+        ]
+      },
+      "trademark-registration": {
+        "name": "Trademark Registration",
+        "summary": "Protect your brand name and logo before someone else does.",
+        "description": "Your brand is your reputation. We run a proper availability search, file the application in the correct classes, prosecute it through examination and opposition, and keep watch so nobody rides on your name.",
+        "bullets": [
+          "Comprehensive availability search and risk opinion",
+          "Application filing in the correct classes",
+          "Reply to examination reports and hearings",
+          "Opposition proceedings — for and against",
+          "Renewal, assignment and licensing support"
+        ]
+      },
+      "copyright-registration": {
+        "name": "Copyright Registration",
+        "summary": "Register your creative and software works for enforceable proof.",
+        "description": "Registration turns your authorship into enforceable proof. We register literary, artistic, musical and software works, respond to objections and act against infringement — including online takedowns.",
+        "bullets": [
+          "Registration of literary, artistic and software works",
+          "Objection replies and discrepancy hearings",
+          "Assignment and licensing agreements",
+          "Infringement notices and takedown actions",
+          "Advice on ownership in commissioned work"
+        ]
+      },
+      "patent-filing": {
+        "name": "Patent Filing",
+        "summary": "From invention disclosure to grant — searches, drafting, prosecution.",
+        "description": "We take inventions from disclosure to grant: prior-art searches, provisional and complete specifications drafted with claims that actually protect, and prosecution through examination — with honest advice on what is worth patenting.",
+        "bullets": [
+          "Patentability and prior-art search with opinion",
+          "Provisional and complete specification drafting",
+          "Filing and prosecution before the Patent Office",
+          "Response to examination reports and hearings",
+          "Renewals and inventor/assignment documentation"
+        ]
+      }
+    }
+  }
+}
