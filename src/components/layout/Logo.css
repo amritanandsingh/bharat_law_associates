@@ -1,0 +1,62 @@
+.logo-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logo-line1 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.logo-line2 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.625rem;
+  letter-spacing: 0.42em;
+  margin-inline-end: -0.42em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.logo-dark .logo-line1 {
+  color: var(--on-dark);
+}
+
+.logo-dark .logo-line2 {
+  color: var(--gold-500);
+}
+
+.logo-light .logo-line1 {
+  color: #14263a;
+}
+
+.logo-light .logo-line2 {
+  color: var(--gold-700);
+}
+
+.logo-stacked {
+  flex-direction: column;
+  gap: var(--sp-3);
+  text-align: center;
+}
+
+.logo-stacked .logo-text {
+  align-items: center;
+}
+
+@media (max-width: 359px) {
+  .logo-line2 {
+    display: none;
+  }
+}

@@ -1,0 +1,193 @@
+.container {
+  width: min(100% - 2 * var(--gutter), var(--container));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: var(--sp-16);
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding-block: var(--sp-24);
+  }
+}
+
+/* Section header pattern: overline + heading + gold rule */
+.section-head {
+  margin-block-end: var(--sp-8);
+}
+
+.overline {
+  display: block;
+  font-size: var(--fs-overline);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-700);
+  margin-block-end: var(--sp-2);
+}
+
+.on-dark .overline {
+  color: var(--gold-300);
+}
+
+.gold-rule {
+  width: 48px;
+  height: 3px;
+  border-radius: var(--r-full);
+  background: var(--gold-500);
+  margin-block-start: var(--sp-4);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  min-height: 48px;
+  padding: var(--sp-3) var(--sp-6);
+  border-radius: var(--r-sm);
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  transition: transform var(--dur-fast) var(--ease-out),
+    box-shadow var(--dur-med) var(--ease-out),
+    filter var(--dur-fast) var(--ease-out),
+    background-color var(--dur-fast) var(--ease-out);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-gold {
+  background: var(--gold-500);
+  color: #14263A;
+}
+
+.btn-gold:hover {
+  filter: brightness(1.05);
+  box-shadow: var(--shadow-gold);
+}
+
+.btn-ghost-light {
+  border: 1.5px solid var(--gold-500);
+  color: var(--gold-300);
+  background: transparent;
+}
+
+.btn-ghost-light:hover {
+  background: rgba(201, 162, 39, 0.12);
+}
+
+.btn-ghost-dark {
+  border: 1.5px solid var(--navy-600);
+  color: var(--navy-700);
+  background: transparent;
+}
+
+.btn-ghost-dark:hover {
+  background: rgba(44, 62, 80, 0.06);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Text link with sliding gold underline */
+.link-gold {
+  color: var(--gold-700);
+  font-weight: 600;
+  background-image: linear-gradient(var(--gold-500), var(--gold-500));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  transition: background-size var(--dur-med) var(--ease-out);
+  padding-block-end: 2px;
+}
+
+.link-gold:hover {
+  background-size: 100% 2px;
+}
+
+[dir='rtl'] .link-gold {
+  background-position: 100% 100%;
+}
+
+/* Scroll reveal */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity var(--dur-slow) var(--ease-out),
+    transform var(--dur-slow) var(--ease-out);
+  transition-delay: calc(var(--i, 0) * 60ms);
+}
+
+[data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Page hero band (About / Practice Areas / Contact / Join Us) */
+.page-hero {
+  background: var(--navy-900);
+  color: var(--on-dark);
+  padding-block: calc(var(--nav-h) + var(--sp-10)) var(--sp-10);
+}
+
+.page-hero h1 {
+  color: var(--on-dark);
+}
+
+.page-hero .breadcrumb {
+  font-size: var(--fs-caption);
+  color: var(--on-dark-2);
+  margin-block-end: var(--sp-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  align-items: center;
+}
+
+.page-hero .breadcrumb a:hover {
+  color: var(--gold-300);
+}
+
+.page-hero p.lede {
+  color: var(--on-dark-2);
+  max-width: 60ch;
+  margin-block-start: var(--sp-3);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: var(--sp-4);
+  inset-block-start: -48px;
+  z-index: 200;
+  background: var(--gold-500);
+  color: #14263A;
+  padding: var(--sp-2) var(--sp-4);
+  border-radius: var(--r-sm);
+  font-weight: 600;
+  transition: inset-block-start var(--dur-fast) var(--ease-out);
+}
+
+.skip-link:focus {
+  inset-block-start: var(--sp-4);
+}

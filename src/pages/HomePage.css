@@ -1,0 +1,323 @@
+/* Hero */
+.hero {
+  position: relative;
+  margin-block-start: calc(-1 * var(--nav-h));
+  min-height: 88svh;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(120% 80% at 50% 0%, #1f3648 0%, #101f2c 60%);
+  overflow: hidden;
+}
+
+/* Faint gold jaali lattice */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M24 0 L48 24 L24 48 L0 24 Z M24 8 L40 24 L24 40 L8 24 Z' fill='none' stroke='%23C9A227' stroke-opacity='0.05' stroke-width='1'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+.hero-inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: var(--sp-8);
+  padding-block: calc(var(--nav-h) + var(--sp-16)) var(--sp-20);
+}
+
+.hero h1 {
+  font-size: var(--fs-display);
+  color: var(--on-dark);
+  max-width: 18ch;
+}
+
+.hero-gold {
+  font-style: italic;
+  color: var(--gold-300);
+}
+
+.hero-rule {
+  display: block;
+  width: 64px;
+  height: 3px;
+  border-radius: var(--r-full);
+  background: var(--gold-500);
+  margin-block: var(--sp-5);
+  transform-origin: 0 50%;
+  animation: hero-rule-in 700ms var(--ease-out) 200ms backwards;
+}
+
+[dir='rtl'] .hero-rule {
+  transform-origin: 100% 50%;
+}
+
+@keyframes hero-rule-in {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+.hero-sub {
+  color: var(--on-dark-2);
+  font-size: var(--fs-body-lg);
+  max-width: 52ch;
+  margin-block-end: var(--sp-8);
+}
+
+.hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-4);
+}
+
+.hero-mark {
+  display: none;
+  justify-self: center;
+  opacity: 0.5;
+}
+
+/* Stats strip */
+.stats-wrap {
+  margin-block-start: -40px;
+  position: relative;
+  z-index: 2;
+}
+
+.stats-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--sp-6);
+  background: var(--paper);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-lg);
+  padding: var(--sp-8) var(--sp-6);
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  color: var(--gold-700);
+}
+
+.stat-label {
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+}
+
+/* Services preview: horizontal snap on mobile */
+.home-services-row {
+  display: flex;
+  gap: var(--sp-4);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-block-end: var(--sp-3);
+  -webkit-overflow-scrolling: touch;
+}
+
+.home-services-row > * {
+  min-width: 78%;
+  scroll-snap-align: start;
+}
+
+.home-services-more {
+  margin-block-start: var(--sp-6);
+}
+
+/* Why us */
+.why-us {
+  background: var(--paper);
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-8);
+}
+
+.why-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--r-full);
+  background: var(--gold-100);
+  color: var(--gold-700);
+  margin-block-end: var(--sp-3);
+}
+
+.why-item h4 {
+  margin-block-end: var(--sp-2);
+}
+
+.why-item p {
+  color: var(--ink-2);
+  font-size: var(--fs-small);
+  max-width: 44ch;
+}
+
+/* Free legal aid banner */
+.aid-banner {
+  background: var(--navy-800);
+  padding-block: var(--sp-10);
+}
+
+.aid-inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  border-inline-start: 4px solid var(--gold-500);
+  padding-inline-start: var(--sp-6);
+  color: var(--on-dark);
+}
+
+.aid-inner svg {
+  color: var(--gold-300);
+  flex-shrink: 0;
+}
+
+.aid-inner h3 {
+  color: var(--on-dark);
+  margin-block-end: var(--sp-1);
+}
+
+.aid-inner p {
+  color: var(--on-dark-2);
+  font-size: var(--fs-small);
+  max-width: 60ch;
+}
+
+.aid-inner .btn {
+  align-self: flex-start;
+}
+
+/* Team */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--sp-4);
+}
+
+.lawyer-card {
+  background: var(--paper);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--sp-6) var(--sp-4);
+  text-align: center;
+}
+
+.lawyer-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: var(--r-full);
+  background: var(--navy-800);
+  color: var(--gold-300);
+  font-family: var(--font-serif);
+  font-size: var(--fs-h3);
+  font-weight: 600;
+  margin-block-end: var(--sp-4);
+  outline: 2px solid var(--gold-500);
+  outline-offset: 4px;
+}
+
+.lawyer-role {
+  font-size: var(--fs-caption);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold-700);
+  margin-block-start: var(--sp-1);
+}
+
+.lawyer-qual {
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  margin-block-start: var(--sp-1);
+}
+
+/* CTA band */
+.cta-band {
+  background: var(--sand);
+  padding-block: var(--sp-16);
+}
+
+.cta-inner {
+  max-width: 640px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-4);
+}
+
+.cta-inner p {
+  color: var(--ink-2);
+}
+
+.cta-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-4);
+}
+
+@media (min-width: 480px) {
+  .home-services-row > * {
+    min-width: 46%;
+  }
+}
+
+@media (min-width: 768px) {
+  .stats-card {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .why-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .aid-inner {
+    flex-direction: row;
+    align-items: center;
+  }
+  .aid-inner > div {
+    flex: 1;
+  }
+  .aid-inner .btn {
+    align-self: center;
+  }
+  .home-services-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-x: visible;
+    gap: var(--sp-6);
+  }
+  .home-services-row > * {
+    min-width: 0;
+  }
+  .team-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--sp-6);
+  }
+  .cta-actions {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-inner {
+    grid-template-columns: 7fr 5fr;
+  }
+  .hero-mark {
+    display: block;
+  }
+}

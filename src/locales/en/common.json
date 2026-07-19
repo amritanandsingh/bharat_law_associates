@@ -1,0 +1,248 @@
+{
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "mainNavigation": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "changeLanguage": "Change language",
+    "searchLanguage": "Search language…",
+    "suggestedLanguages": "Suggested",
+    "allLanguages": "All languages",
+    "close": "Close",
+    "breadcrumb": "Breadcrumb"
+  },
+  "nav": {
+    "home": "Home",
+    "practiceAreas": "Practice Areas",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "joinUs": "Join Us",
+    "consultNow": "Consult Now",
+    "bookConsultation": "Book a Free Consultation"
+  },
+  "meta": {
+    "homeTitle": "Advocates & Legal Consultants",
+    "homeDescription": "Bharat Law Associates — trusted advocates for litigation, business registration, tax and intellectual property matters across India. Book a free consultation.",
+    "aboutDescription": "Learn about Bharat Law Associates — our founder, our team of advocates, and the values that guide our practice.",
+    "practiceAreasDescription": "Explore our practice areas: civil and criminal litigation, family law, business registration, tax and intellectual property services.",
+    "contactDescription": "Contact Bharat Law Associates. Schedule a consultation, request a callback, or visit our Kolkata and New Delhi offices.",
+    "joinDescription": "Careers at Bharat Law Associates. Join a growing team of advocates and legal professionals."
+  },
+  "home": {
+    "hero": {
+      "title": "Standing beside you, for <gold>justice delivered.</gold>",
+      "subtitle": "From the first consultation to the final order, we handle your legal matter with clarity, preparation and complete transparency — in the language you are most comfortable with.",
+      "ctaPrimary": "Book a Free Consultation",
+      "ctaSecondary": "Call Now"
+    },
+    "stats": {
+      "years": "Years of Experience",
+      "successRate": "Success Rate",
+      "offices": "Offices",
+      "practiceAreas": "Practice Areas"
+    },
+    "services": {
+      "overline": "What we do",
+      "title": "Legal services for every stage of life and business",
+      "viewAll": "View all practice areas →"
+    },
+    "why": {
+      "overline": "Why choose us",
+      "title": "Counsel you can rely on",
+      "items": {
+        "experienced": {
+          "title": "Experienced advocates",
+          "body": "A team led by senior counsel with years of courtroom practice across trial courts, tribunals and the High Court."
+        },
+        "accessible": {
+          "title": "Always reachable",
+          "body": "Reach us by phone, WhatsApp or a quick callback request — and speak to us in the language you prefer."
+        },
+        "transparent": {
+          "title": "Honest, transparent advice",
+          "body": "Straightforward opinions on the strength of your matter, realistic timelines and no hidden charges."
+        }
+      }
+    },
+    "legalAid": {
+      "title": "Free legal aid for those who need it",
+      "body": "We offer a free consultation window every evening from {{start}} to {{end}} for individuals who cannot afford representation.",
+      "cta": "Ask about eligibility"
+    },
+    "team": {
+      "overline": "Our team",
+      "title": "Meet our advocates",
+      "meetAll": "Meet the full team →"
+    },
+    "cta": {
+      "title": "Discuss your matter with us today",
+      "body": "The first consultation is free. Tell us what happened, and we will tell you where you stand.",
+      "button": "Schedule a Consultation"
+    }
+  },
+  "about": {
+    "title": "About Bharat Law Associates",
+    "lede": "A full-service law firm serving individuals, families and businesses with litigation, compliance and advisory support across India.",
+    "founderOverline": "Founder & Managing Advocate",
+    "founderBio": "Prem Prakash founded Bharat Law Associates with a simple conviction: every client deserves counsel that listens first and advises honestly. Under his leadership the firm has grown into a multi-practice chamber handling litigation, business registration, tax and intellectual property matters.",
+    "founderCredentials": [
+      "LLB, Kolkata Law School",
+      "15+ years of courtroom and advisory practice",
+      "Appears before trial courts, tribunals and the High Court",
+      "Leads a team of dedicated advocates and legal professionals"
+    ],
+    "founderRole": "Founder & Managing Advocate",
+    "advocateRole": "Advocate",
+    "storyOverline": "Our story",
+    "storyTitle": "From a solo practice to a growing chamber",
+    "storyBody1": "Bharat Law Associates began as a solo practice built on referrals from satisfied clients. As the practice grew, advocates with complementary specialisations joined, allowing the firm to handle matters end-to-end — from drafting and registration to trial and appeal.",
+    "storyBody2": "Today the firm advises families on personal matters, defends clients in civil and criminal proceedings, and helps entrepreneurs start and protect their businesses. Our goal is to remain the firm clients recommend to the people they care about.",
+    "valuesOverline": "Our values",
+    "valuesTitle": "What we stand for",
+    "values": {
+      "integrity": {
+        "title": "Integrity",
+        "body": "We tell you the truth about your matter — even when it is not what you hoped to hear."
+      },
+      "clarity": {
+        "title": "Clarity",
+        "body": "Plain-language advice, in your language. You will always know what is happening and what comes next."
+      },
+      "commitment": {
+        "title": "Commitment",
+        "body": "Your matter is prepared thoroughly and argued vigorously, whatever the forum."
+      }
+    },
+    "teamTitle": "Our advocates",
+    "ctaTitle": "Ready to talk to an advocate?"
+  },
+  "practiceAreas": {
+    "title": "Practice Areas",
+    "lede": "Litigation, business registration, tax and intellectual property — explore the full range of matters we handle.",
+    "categoriesLabel": "Practice area categories",
+    "ctaTitle": "Not sure which category your matter falls under?",
+    "ctaBody": "Tell us what happened and we will point you in the right direction — the first consultation is free."
+  },
+  "serviceDetail": {
+    "howWeHelp": "How we help",
+    "relatedAreas": "Related practice areas",
+    "ctaTitle": "Discuss your case",
+    "ctaBody": "Share the basics of your matter and get a clear first opinion from our team.",
+    "responseNote": "We respond within 4 working hours."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "lede": "Schedule a consultation, send us a message, or walk into either of our offices.",
+    "freeAidHours": "Free legal aid consultation: {{start}} – {{end}} daily",
+    "officesTitle": "Our offices",
+    "getDirections": "Get directions",
+    "callOffice": "Call office",
+    "preferCallback": "Prefer that we call you? Use the “Consult” button below to request a callback."
+  },
+  "join": {
+    "title": "Join Our Team",
+    "lede": "We are always looking for advocates, juniors and interns who care about doing the work properly.",
+    "perksOverline": "Life at the firm",
+    "perksTitle": "Why work with us",
+    "perks": {
+      "exposure": {
+        "title": "Real courtroom exposure",
+        "body": "Juniors argue, draft and appear — you will not spend your years only carrying files."
+      },
+      "mentorship": {
+        "title": "Genuine mentorship",
+        "body": "Work directly with senior counsel and learn how matters are actually prepared and won."
+      },
+      "culture": {
+        "title": "A collegial chamber",
+        "body": "A small, supportive team where questions are welcome and credit is shared."
+      },
+      "growth": {
+        "title": "Room to grow",
+        "body": "Take ownership of matters early and build your own practice within the firm."
+      }
+    },
+    "formTitle": "Apply now",
+    "formSubtitle": "Fill in your details — submitting opens your email app with a pre-filled application addressed to us.",
+    "resumeNote": "Submitting opens your email app. Please attach your resume to the email before sending.",
+    "submit": "Send Application"
+  },
+  "forms": {
+    "connect": {
+      "title": "Connect with us",
+      "subtitle": "Have a question? Send us a message and we will get back to you.",
+      "submit": "Send via WhatsApp"
+    },
+    "consultation": {
+      "title": "Schedule a Consultation",
+      "subtitle": "Pick a practice area and a convenient time — we will confirm your appointment.",
+      "submit": "Request Appointment"
+    },
+    "fields": {
+      "name": "Full name",
+      "phone": "Phone number",
+      "phoneOptionalPair": "Phone number (or email below)",
+      "email": "Email",
+      "emailOptional": "Email (optional)",
+      "emailOptionalPair": "Email (or phone above)",
+      "practiceArea": "Practice area",
+      "preferredDate": "Preferred date",
+      "preferredTime": "Preferred time",
+      "message": "Your message",
+      "messageOptional": "Message (optional)",
+      "qualification": "Qualification",
+      "experienceOptional": "Experience (optional)"
+    },
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "phoneInvalid": "Please enter a valid 10-digit Indian mobile number.",
+      "emailInvalid": "Please enter a valid email address.",
+      "emailOrPhoneRequired": "Please provide a phone number or an email address.",
+      "messageRequired": "Please write a short message.",
+      "serviceRequired": "Please choose a practice area.",
+      "dateRequired": "Please choose a date.",
+      "dateInPast": "Please choose today or a future date.",
+      "qualificationRequired": "Please enter your qualification."
+    },
+    "success": {
+      "title": "Opening WhatsApp…",
+      "body": "Your message is ready to send in WhatsApp. If it did not open, use one of the options below.",
+      "emailInstead": "Send by email instead",
+      "callInstead": "Call us instead",
+      "sendAnother": "Send another message"
+    }
+  },
+  "callback": {
+    "title": "Request a callback",
+    "subtitle": "Leave your number and a convenient time — we will call you.",
+    "preferredTime": "Preferred time",
+    "slots": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening"
+    },
+    "submit": "Request Callback",
+    "successTitle": "Request sent",
+    "successBody": "We will call you back during working hours, usually within 30 minutes."
+  },
+  "quickActions": {
+    "label": "Quick contact",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "consult": "Consult",
+    "chatWithUs": "Chat with us"
+  },
+  "footer": {
+    "tagline": "Trusted counsel for families and businesses — litigation, registration, tax and intellectual property, in your language.",
+    "quickLinks": "Quick links",
+    "reachUs": "Reach us",
+    "bciDisclaimer": "As per the rules of the Bar Council of India, this website is not an advertisement or solicitation. The information here is for general awareness only and does not constitute legal advice. By using this website you acknowledge that you are seeking information voluntarily.",
+    "translationNote": "Translations are provided for convenience; in case of any difference, the English version prevails.",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "This page has been adjourned.",
+    "body": "The page you are looking for does not exist or has moved. Let us take you somewhere useful.",
+    "backHome": "Back to Home"
+  }
+}
