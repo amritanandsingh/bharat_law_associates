@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const LOCALES_DIR = join(ROOT, 'src', 'locales');
 const SOURCE = 'en';
-const NAMESPACES = ['common', 'services'];
+const NAMESPACES = ['common', 'services', 'articles'];
 
 const mode = process.argv[2];
 if (!['check', 'fill'].includes(mode)) {

@@ -58,6 +58,7 @@ const Footer = () => {
             <li><Link to="/">{t('nav.home')}</Link></li>
             <li><Link to="/about-us">{t('nav.aboutUs')}</Link></li>
             <li><Link to="/practice-areas">{t('nav.practiceAreas')}</Link></li>
+            <li><Link to="/articles">{t('nav.articles')}</Link></li>
             <li><Link to="/contact-us">{t('nav.contactUs')}</Link></li>
             <li><Link to="/join-us">{t('nav.joinUs')}</Link></li>
           </ul>
@@ -85,7 +86,9 @@ const Footer = () => {
                 <span>
                   <strong>{office.city}</strong>
                   <br />
-                  {office.lines.join(', ')}, {office.state} {office.pincode}
+                  {[office.lines.join(', '), [office.state, office.pincode].filter(Boolean).join(' ')]
+                    .filter(Boolean)
+                    .join(', ')}
                 </span>
               </li>
             ))}

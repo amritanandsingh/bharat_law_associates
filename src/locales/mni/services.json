@@ -1,263 +1,323 @@
 {
   "services": {
-    "learnMore": "ꯎꯁꯀꯧ ꯉꯥ",
+    "learnMore": "ꯀꯟꯅꯥ ꯏꯟꯅꯩ",
     "categories": {
-      "litigation": {
-        "name": "ꯂꯤꯖꯤꯠ ꯑꯦ ꯌ꯫ꯆ",
-        "description": "ꯈꯨꯛꯇꯕ ꯀꯔ, ꯌ꯫ꯂꯨ ꯑꯦ ꯍꯥꯏ ꯀꯔ ꯃꯗ ꯂꯤꯖꯤꯠ, ꯐꯟꯖꯥꯏ ꯂꯤꯖꯤꯠ, ꯐ꯫ꯏ ꯂꯦ, ꯂꯃ ꯏ ꯑꯦ ꯐꯇꯃ ꯎꯠ ꯉꯥꯛꯌꯦ ꯐꯪ꯫"
+      "litigation-disputes": {
+        "name": "ꯄꯨꯌꯨ ꯑꯦꯡ ꯂꯩꯕ ꯍꯟꯅꯔꯤ",
+        "description": "ꯄꯥꯛ, ꯄꯧꯗ, ꯐꯦꯝ ꯑꯦꯡ ꯈꯨꯒ ꯂꯩꯕ ꯍꯟꯅꯔꯤꯈꯥ ꯇꯨꯏꯊꯥꯜ ꯀꯣꯔꯦꯠ, ꯋꯥꯖꯤ, ꯑꯦꯡ ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ ꯌꯥꯕ ꯄꯧꯔꯥ, ꯑꯄꯥꯔꯕ ꯂꯧꯔꯤ ꯍꯌꯥ ꯌꯃꯤꯁꯤ।"
       },
-      "business-registration": {
-        "name": "ꯎꯠ ꯆꯠꯀꯅꯕ",
-        "description": "ꯀ꯫ꯄꯦꯅꯤ, LLP ꯑꯦ ꯊꯦꯀ ꯃ꯫ꯠꯅ ꯈꯩ ꯃꯛ, ꯇꯤ ꯊꯪꯀꯧ ꯑꯦ ꯑꯥꯞꯇꯅ꯫ ꯁꯀ ꯃꯌꯦꯛ꯫"
+      "constitutional-appellate": {
+        "name": "ꯋꯦꯛꯁꯣꯟ ꯑꯦꯡ ꯑꯦꯞꯎꯜ",
+        "description": "Writ ꯄꯦꯊꯤꯁꯟ, PIL, ꯋꯦꯛꯁꯣꯟꯂꯤ ꯆꯥꯟꯕ, ꯑꯦꯞꯎꯜ, ꯔꯤꯚꯤꯁꯟ ꯑꯦꯡ ꯋꯥꯖꯤ ꯂꯩꯕ ꯍꯟꯅꯔꯤꯈꯥ ꯑꯪꯕ ꯀꯣꯔꯦꯠ ꯑꯦꯡ ꯇꯤꯌꯥꯟ ꯐꯣꯔꯝꯗꯥ।"
       },
-      "tax": {
-        "name": "ꯇꯦꯛꯁ ꯎꯠ",
-        "description": "GST ꯑꯦ ꯑꯖ-ꯉꯥꯎ ꯃ꯫ꯠꯅ ꯑꯦ ꯁꯛ ꯉꯥ, ꯑꯦ ꯌ꯫ꯂꯨ ꯃꯗ ꯄꯤꯙꯤꯢꯆꯤ꯫"
+      "corporate-commercial": {
+        "name": "ꯇꯔꯄꯀꯁꯦꯜ ꯑꯦꯡ ꯍꯧꯔꯦ ꯂꯩꯕ",
+        "description": "ꯀꯝꯄꯦꯟꯤ, ꯍꯧꯔꯦ ꯂꯩꯕ, ꯕꯌꯣꯌ, ꯔꯤꯀꯕꯔꯤ, ꯁꯥꯏꯕꯔ ꯑꯦꯡ ꯎꯀꯅꯥꯟ-ꯎꯀꯅꯨ ꯍꯟꯅꯔꯤꯈꯥ ꯈꯪꯁꯤꯡ, ꯄꯨꯝꯅꯥ ꯑꯦꯡ ꯎꯀꯅꯥꯍꯔꯤ।"
       },
-      "intellectual-property": {
-        "name": "ꯑꯣꯡ ꯑꯣꯏ ꯈꯔꯞ",
-        "description": "ꯇ꯫ꯐ ꯀ꯫ꯃ, ꯎꯔ ꯑꯦ ꯅꯥꯆ ꯃ꯫ꯠꯅ — ꯎꯖꯨ, ꯃ꯫ꯠꯅ, ꯂꯃꯇ ꯑꯦ ꯂꯥ꯫"
+      "property-advisory": {
+        "name": "ꯑꯁꯨꯂ, ꯔꯖꯤꯁꯇꯔꯦꯁꯟ ꯑꯦꯡ ꯊꯥꯢ",
+        "description": "ꯑꯁꯨꯂ ꯑꯦꯡ ꯈꯨꯟ ꯂꯩꯕ ꯍꯟꯅꯔꯤ, ꯃꯦꯠ ꯂꯧ, ꯔꯖꯤꯁꯇꯔꯦꯁꯟ, ꯔꯤꯐꯆꯥꯡ, ꯑꯦꯡ ꯈꯠꯂ, ꯅꯥꯛꯌꯧ, ꯑꯑꯦꯡ ꯗꯆꯥ ꯌꯥꯕ।"
       }
     },
     "items": {
       "civil-litigation": {
-        "name": "ꯂꯤꯖꯤꯠ",
-        "summary": "ꯂꯃ ꯎꯠ, ꯌꯧ ꯎꯠ, ꯀꯔ ꯑꯦ ꯌ꯫ꯂ ꯐꯈꯥ ꯁꯤꯟ ꯉꯥ꯫",
-        "description": "ꯑꯗꯣꯏ ꯂꯃ ꯂꯥꯏꯆꯥ ꯑꯦ ꯒ ꯂꯤꯖꯤꯠ — ꯉꯥꯎ ꯀꯔ, ꯑꯣꯡ ꯍꯤꯐꯁ ꯔꯤꯟꯖꯦꯃ, ꯌꯧ ꯎꯠ, ꯊꯦꯀ ꯄꯥ ꯑꯦ ꯌ꯫ꯂ꯫ ꯑꯔꯨꯃꯊ ꯕꯀ ꯌꯥ ꯁꯐꯡ ꯃꯗ ꯐꯣꯌ ꯌꯥ ꯁꯁ ꯌꯦꯡ꯫",
+        "name": "ꯄꯥꯛ ꯄꯨꯌꯨ",
+        "summary": "ꯋꯥꯕꯠꯡ, ꯉꯝ ꯂꯧ, ꯀꯔ, ꯑꯦꯡ ꯑꯦꯞꯎꯜ ꯌꯥꯕ।",
+        "description": "ꯀꯦꯟ ꯄꯦꯍꯩꯛꯌꯧ ꯑꯦꯡ ꯀꯦꯟ ꯄꯦꯁꯥ ꯄꯥꯛ ꯂꯩꯕ ꯍꯟꯅꯔꯤꯈꯥ ꯏ ꯊꯤꯛ ꯂꯤꯌꯧ — ꯑꯌꯥ ꯔꯦꯟꯅꯥ ꯕꯀ, ꯊꯣꯛꯅꯕ, ꯉꯝ ꯂꯧ, ꯈꯟꯅꯕ ꯑꯦꯡ ꯑꯦꯞꯎꯜ। ꯅꯔꯒꯗ ꯍꯟꯅꯔꯤꯂꯥ ꯉꯝ ꯍꯥꯢꯁꯦꯡꯔꯤ, ꯇꯤꯔꯤ ꯁꯨꯖ, ꯌꯥꯟꯕ ꯂꯤꯌꯧ ꯑꯦꯡ ꯀꯪꯕ ꯍꯟꯅꯔꯤ।",
         "bullets": [
-          "ꯕꯀ ꯃꯗ ꯃꯤꯡ ꯆꯁꯕꯥ ꯌꯥ ꯑꯦ ꯊꯥꯀꯧ ꯊꯪ ꯉꯥ ꯌꯨꯟ",
-          "ꯇꯤ-ꯑ꯫ꯂ, ꯆꯪ-ꯑ꯫ꯂ, ꯑꯦ ꯌ꯫ꯂ ꯊꯝꯀꯧ",
-          "ꯌꯦꯡ ꯎꯠ: ꯌꯧ ꯎꯠ, ꯈꯍ ꯑꯦ ꯃꯕ ꯎꯠ",
-          "ꯈꯨꯛꯇꯕ ꯀꯔ ꯑꯦ ꯍꯥꯏ ꯀꯔ ꯃꯗ ꯄꯤꯙꯤꯢꯆꯤ",
-          "ꯃꯚꯣ ꯎꯠ ꯕꯨꯛꯋꯥꯉ ꯌꯧꯑꯅ ꯑꯗꯣꯏ ꯐꯞ ꯃꯈꯧ"
+          "ꯉꯝ ꯛꯁ ꯄꯦꯈꯨ ꯑꯦꯡ ꯋꯧꯃꯆꯦꯛ ꯍꯥꯢꯁꯦꯡꯔꯤ",
+          "Plaint, Written Statement, ꯑꯦꯞꯜꯀꯦꯁꯟ ꯑꯦꯡ ꯑꯦꯞꯎꯜ ꯌꯥꯕꯕ",
+          "ꯋꯥꯖꯤ ꯌꯥꯕ: ꯉꯝ ꯂꯧ, ꯈꯘꯂ ꯑꯦꯡ ꯍꯔꯀꯄ ꯑꯦꯞꯜꯀꯦꯁꯟ",
+          "ꯇꯨꯏꯊꯥꯜ ꯀꯣꯔꯦꯠ ꯑꯦꯡ ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ ꯉꯃꯑꯤꯊꯕ",
+          "ꯄꯨꯌꯨ ꯂꯨꯀꯕꯤꯡ ꯀꯥꯎ ꯁꯤꯟ ꯑꯔꯥ ꯌꯥꯕꯕ"
         ]
       },
       "criminal-litigation": {
-        "name": "ꯐꯟꯖꯥꯏ ꯂꯤꯖꯤꯠ",
-        "summary": "ꯌꯧ ꯎꯠ, ꯂꯤꯖꯤꯠ ꯐꯔꯀꯥ ꯑꯦ ꯃꯦꯖ ꯉꯥ ꯌꯥ ꯊꯥꯅꯕꯥ ꯄꯤꯌꯧꯍꯨ꯫",
-        "description": "ꯐ꯫ꯏ ꯈꯕꯨ ꯂꯃ ꯔꯥꯎ, ꯑꯗꯣꯏ ꯌꯨꯞ ꯎꯠ ꯃꯗ — ꯌꯧ ꯎꯠ ꯑꯦ ꯑꯍꯂꯕ ꯌꯧ ꯎꯠ, ꯂꯤꯖꯤꯠ ꯐꯔꯀꯥ, ꯂꯤꯖꯤꯠ ꯐꯔꯀꯥ ꯑꯦ ꯉꯥ ꯄꯤꯌꯥ ꯐꯪ꯫",
+        "name": "ꯄꯧꯗ ꯄꯨꯌꯨ",
+        "summary": "ꯄꯦꯍꯩꯛ ꯑꯦꯡ ꯈꯣꯃ ꯑꯩꯁꯥ ꯏ ꯊꯤꯛ ꯑꯦꯡ ꯊꯦꯡ ꯉꯥꯢ ꯍꯞꯅꯕ।",
+        "description": "FIR ꯈꯨꯛꯅꯥ ꯄꯨꯌꯨ ꯎꯕ ꯊꯥ ꯊꯧ ꯄꯛꯤꯡ, ꯏ ꯅꯔꯒꯗ ꯄꯧꯗ ꯄꯨꯌꯨ ꯊꯤꯛꯀꯪ ꯄꯦꯍꯩꯛ ꯑꯦꯡ ꯈꯣꯃꯌꯨ ꯄꯦꯍꯩꯛ ꯂꯤ। ꯏ ꯍꯥꯢꯁꯦꯡ ꯍꯞ, ꯊꯣꯛꯅꯕ ꯑꯦꯡ ꯀꯪꯕ ꯍꯟꯅꯔꯤ।",
         "bullets": [
-          "ꯌꯧ ꯎꯠ ꯑꯦ ꯑꯍꯂꯕ ꯌꯧ ꯎꯠ, ꯐꯕ ꯐꯔꯠ",
-          "ꯐ꯫ꯏ ꯈꯕꯨ ꯃꯦꯖ, FIR ꯑꯦ ꯌꯧ ꯏ ꯎꯠ ꯌꯥꯡ ꯌꯥꯎ",
-          "ꯂꯤꯖꯤꯠ ꯐꯔꯀꯥ ꯈꯦꯠ ꯇꯥꯅ ꯆꯪ",
-          "ꯂꯤꯖꯤꯠ ꯑꯦ ꯐꯟꯖꯥꯏ ꯌ꯫ꯂ ꯍꯥꯏ ꯀꯔ ꯃꯗ",
-          "ꯃꯦꯖ ꯊꯝꯀꯧ ꯑꯦ ꯖꯗꯁ ꯊꯦꯀ ꯄꯥ"
+          "FIR, ꯁꯚꯤꯠ ꯑꯦꯡ ꯈꯤꯆꯦꯛ ꯊꯤꯛꯀꯗꯥ ꯊꯨꯡꯀꯨꯛ",
+          "ꯄꯨꯌꯨꯗꯥ ꯄꯦꯍꯩꯛ ꯊꯣꯛ-ꯋꯧ ꯄꯦꯃꯅꯕ",
+          "Quashing ꯄꯦꯊꯤꯁꯟ ꯑꯦꯡ ꯄꯧꯗ ꯔꯥꯏꯠ",
+          "ꯈꯣꯃ ꯏꯟꯅꯥ ꯑꯦꯡ ꯈꯣꯃꯌꯨ ꯄꯦꯍꯩꯛ ꯄꯥ",
+          "ꯐꯪꯕ ꯑꯦꯡ ꯇꯥꯢꯔꯤꯕ ꯍꯟꯅꯔꯤ"
         ]
       },
-      "divorce-matrimonial-cases": {
-        "name": "ꯊꯤꯔ ꯑꯦ ꯊꯤꯔ ꯊꯣꯀꯄ ꯎꯠ",
-        "summary": "ꯊꯤꯔ, ꯄꯦ ꯑꯦ ꯈꯌ ꯚꯣ ꯊꯔ ꯑꯦ ꯐꯕ ꯌꯥꯡ ꯂꯤꯖꯤꯠ꯫",
-        "description": "ꯐ꯫ꯏ ꯊꯣꯀꯄ ꯎꯠ ꯎꯔꯆꯂ ꯑꯦ ꯐꯕ ꯌꯥꯎ꯫ ꯑꯗꯣꯏ ꯎ꯫ꯐꯤ ꯁꯝ, ꯆꯔꯕ ꯊꯤꯔ, ꯄꯦ, ꯐ꯫ꯏ ꯌꯧ ꯎꯠ ꯑꯦ ꯈꯌ ꯚꯣ — ꯄꯦ ꯑꯦ ꯈꯌ ꯎꯠ ꯊꯔ ꯉꯥꯀꯧ꯫",
+      "bail-anticipatory-bail-criminal-appeals": {
+        "name": "ꯕꯦꯎꯜ, ꯑꯦꯡꯌꯥ ꯕꯦꯎꯜ ꯑꯦꯡ ꯄꯧꯗ ꯑꯦꯞꯎꯜ",
+        "summary": "ꯏ ꯊꯤꯛ ꯂꯧ ꯑꯦꯡ ꯑꯦꯞꯎꯜ ꯌꯥꯕ ꯏꯔꯕꯥ।",
+        "description": "ꯍꯣꯟꯊꯃꯍꯤ ꯐꯕꯥ ꯉꯃꯑꯤꯊꯕ ꯉꯥꯢ। ꯏꯍꯟ ꯑꯦꯡꯌꯥ ꯕꯦꯎꯜ ꯑꯦꯡ ꯔꯖꯨꯂꯔ ꯕꯦꯎꯜ ꯑꯦꯞꯎꯜ ꯏꯔꯕꯥ ꯌꯧꯁꯤꯡ, ꯑꯦꯡ ꯄꯧꯗ ꯑꯦꯞꯎꯜ ꯑꯦꯡ ꯔꯥꯏꯠ Sessions ꯀꯣꯔꯦꯠ ꯑꯦꯡ ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ ꯆꯠꯃꯁꯨꯟ ꯌꯧ ꯁꯘꯨꯡ ꯈꯪꯍꯜꯂꯤ।",
         "bullets": [
-          "ꯎ꯫ꯐꯤ ꯁꯝ ꯊꯤꯔ ꯊꯥꯀꯧ ꯍꯥꯡ ꯐꯔꯀꯥ",
-          "ꯆꯔꯕ ꯊꯤꯔ ꯑꯗ ꯑꯦ ꯐꯔꯀꯥ",
-          "ꯄꯦ ꯌꯨꯟ ꯂꯀ ꯇꯕ ꯕꯦ ꯆꯟꯅꯥ",
-          "ꯈꯌ ꯚꯣ ꯑꯦ ꯃꯥꯟꯀꯧ ꯎꯠ",
-          "ꯐ꯫ꯏ ꯌꯧ ꯎꯠ ꯃꯗ ꯎꯔꯀꯄ ꯑꯆꯂ"
+          "Sessions ꯀꯣꯔꯦꯠ ꯑꯦꯡ ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ ꯑꯦꯡꯌꯥ ꯕꯦꯎꯜ",
+          "ꯔꯖꯨꯂꯔ ꯕꯦꯎꯜ ꯑꯦꯡ ꯕꯦꯎꯜ Cancellation ꯉꯩꯕꯤꯜ",
+          "ꯏ ꯊꯤꯛ ꯑꯦꯡ ꯑꯦꯂꯔꯣ ꯏꯔꯕꯥ ꯊꯤꯊꯥ",
+          "ꯄꯧꯗ ꯑꯦꯞꯎꯜ ꯑꯦꯡ ꯔꯤꯚꯦꯔꯥꯝ ꯃꯇꯦꯡꯏꯔꯕꯥ ꯄꯛ ꯎꯡꯕ ꯍꯧꯗꯤꯉ",
+          "ꯑꯦꯞꯎꯜ ꯈꯩꯗꯦ ꯊꯧꯕ Suspension"
         ]
       },
       "cheque-bounce-cases": {
-        "name": "ꯆꯦꯛ ꯐꯕ ꯃꯤꯡ ꯎꯠ",
-        "summary": "Section 138 ꯌꯥꯛ ꯑꯦ ꯊꯇ, ꯃꯦꯖ ꯉꯥ ꯌꯦꯞ ꯇꯕ꯫",
-        "description": "ꯂꯕ ꯆꯦꯛ ꯈꯦꯕ ꯊꯤꯡ ꯆꯘꯐꯥ ꯌꯨ꯫ ꯑꯗꯣꯏ ꯃꯦꯖ ꯉꯥ ꯑꯦ ꯊꯇ ꯇꯕ, Section 138 Negotiable Instruments Act ꯌꯥꯛ ꯃ꯫ꯠꯅ ꯑꯦ ꯐꯧ, ꯑꯦ ꯈꯛ ꯐꯕ ꯔ ꯄꯤꯌꯧ ꯌꯥꯡ ꯀꯔ꯫",
+        "name": "ꯆꯦꯛ ꯌꯥꯝꯠ ꯄꯨꯌꯨ (Negotiable Instruments Act)",
+        "summary": "Section 138 ꯈꯦꯠ ꯑꯦꯡ ꯄꯦꯍꯩꯛ ꯈꯣꯡꯕꯀꯪ ꯄꯨꯌꯨ।",
+        "description": "Dishonoured cheque Negotiable Instruments Act ꯀꯤꯡ ꯆꯠꯇꯨ Timeline ꯂꯤ। ꯏꯍꯟ Statutory Demand ꯀꯟꯇꯤꯒꯨ, ꯇꯥꯈꯤ Section 138 ꯀꯣꯝꯄ ꯑꯦꯡ ꯄꯦꯍꯩꯛ, ꯑꯦꯡ ꯄꯤꯂꯨꯖꯛ ꯔꯦꯕꯂꯤ ꯀꯤꯡ ꯑꯦꯀꯖꯀꯏꯌꯨꯔꯤ।",
         "bullets": [
-          "ꯊꯤꯡ ꯊꯥꯖ ꯑꯨꯕ ꯃꯦꯖ ꯉꯥ",
-          "Section 138 ꯌꯥꯛ ꯃ꯫ꯠꯅ ꯑꯦ ꯊꯇ",
-          "ꯆꯦꯛ ꯐꯕ ꯃꯤꯡ ꯃꯗ ꯖꯗꯁ ꯎꯠ",
-          "ꯌꯨ ꯎꯕꯦ ꯑꯦ ꯎ꯫ꯐꯤ ꯁꯝ",
-          "ꯀꯔ ꯐꯕ ꯔ ꯊꯃꯪ ꯊꯪ ꯉꯥ ꯌꯥ ꯊꯃ ꯊꯪ꯫"
+          "Limitation ꯄꯤꯔꯤꯖ Statutory ꯐꯃꯛ ꯀꯟꯇꯤꯒꯨ",
+          "Section 138 ꯀꯣꯝꯄ ꯑꯦꯡ ꯄꯨꯌꯨ",
+          "Drawer ꯊꯤꯛꯀꯗꯥ ꯄꯦꯍꯩꯛ ꯁꯥꯖ",
+          "Compromise ꯑꯦꯡ ꯠꯦꯠ ꯋꯧ",
+          "ꯄꯤꯂꯨꯖꯛ ꯔꯦꯕ ꯐꯃꯇꯨ ꯇꯨꯏꯊꯥꯜ ꯔꯦꯕ"
         ]
       },
-      "consumer-complaints": {
-        "name": "ꯂꯃ ꯂꯁꯝ ꯎꯠ",
-        "summary": "ꯃꯩ ꯂꯁꯥꯕ ꯑꯦ ꯌꯧ ꯎꯠ ꯂꯃ ꯔ ꯐꯔꯀꯧ ꯃꯦꯟꯃ꯫",
-        "description": "ꯑꯗꯣꯏ ꯂꯃ ꯂꯁꯥꯕ, ꯌꯧ ꯎꯠ, ꯎ꯫ꯐꯦ ꯂꯀ ꯎ꯫ꯐꯤ, ꯌꯨ꯫ꯠ ꯃꯗ ꯑꯦ ꯌꯧ ꯎꯠ ꯃꯗ ꯂꯃ ꯌ꯫ꯔ, ꯍꯣ ꯚꯦ ꯃꯗ ꯑꯦ ꯃꯔꯥꯢ ꯎꯠ ꯎꯕꯦꯕ ꯐꯪ꯫",
+      "family-matrimonial-disputes": {
+        "name": "ꯐꯦꯝ ꯑꯦꯡ ꯇꯥꯏ-ꯔꯥꯡꯁꯤ ꯂꯩꯕ ꯍꯟꯅꯔꯤ",
+        "summary": "ꯇꯦꯠꯐꯀ, ꯒꯖꯡ ꯑꯦꯡ ꯄꯥꯂꯡ ꯊꯥꯢꯗ ꯑꯦꯡ ꯊꯦꯡ ꯉꯥꯢ ꯍꯞꯅꯕ।",
+        "description": "ꯐꯦꯝ ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯐꯪꯁꯤ ꯑꯦꯡ ꯄꯤꯔꯀ ꯆꯧꯕ ꯐꯥꯑꯀꯁꯤ। ꯇꯦꯠꯐꯀ ꯑꯦꯡ ꯈꯪꯕ ꯇꯦꯠꯐꯀ, ꯒꯖꯡ, ꯈꯨꯔꯥꯡꯌꯥ ꯐꯁꯤ ꯑꯦꯡ ꯄꯥꯂꯡ ꯑꯦꯡꯂꯔꯒꯡ ꯊꯥꯢꯗ — ꯋꯥꯕꯠꯡ ꯂꯧ ꯑꯦꯡ ꯄꯥꯂꯡ ꯌꯥꯔꯤꯕ ꯉꯝ ꯊꯥꯢ।",
         "bullets": [
-          "ꯂꯃ ꯂꯁꯝ ꯃ꯫ꯠꯅ ꯑꯦ ꯊꯇ",
-          "ꯍꯣ ꯛ ꯔ ꯑꯦ ꯒ ꯎꯠ",
-          "ꯌꯨ꯫ꯠ ꯈꯕꯨ ꯐꯕ ꯑꯗ ꯎꯠ",
-          "ꯂꯁꯥ ꯑꯦ ꯎꯔ ꯃꯛ ꯎꯠ",
-          "ꯂꯃ ꯂꯁꯝ ꯌ꯫ꯂ ꯊꯪꯀꯧ"
+          "ꯋꯥ ꯁꯤ ꯇꯦꯠꯐꯀ ꯂꯪꯕ ꯌꯦꯡ",
+          "ꯈꯪꯕ ꯇꯦꯠꯐꯀ ꯄꯦꯊꯤꯁꯟ ꯑꯦꯡ ꯄꯦꯍꯩꯛ",
+          "ꯒꯖꯡ ꯑꯦꯡ Alimony ꯈꯦꯠ Applicable ꯀꯟꯅꯥ",
+          "ꯄꯥꯂꯡ ꯑꯦꯡ ꯐꯦ ꯑꯁꯀꯨꯋꯃ",
+          "ꯈꯨꯔꯥꯡꯌꯥ-ꯐꯁꯤ ꯄꯨꯌꯨꯗꯥ ꯊꯥꯡ ꯄꯨꯗ ꯑꯊ"
         ]
       },
-      "property-disputes": {
-        "name": "ꯐꯇꯃ ꯎꯠ",
-        "summary": "ꯃ꯫ꯃ, ꯌꯥ ꯆꯥꯢ, ꯜ ꯑꯦ ꯈꯌ ꯚꯣ ꯊꯇ ꯐꯔꯀꯧ꯫",
-        "description": "ꯐꯇꯃ ꯎꯠ ꯐꯉ ꯃꯈꯥ ꯆꯦꯟ ꯕꯀ ꯃꯈꯥ ꯂꯩꯕꯥ꯫ ꯑꯗꯣꯏ ꯃ꯫ꯃ ꯂꯞ, ꯌꯥ ꯆꯥꯢ ꯎꯠ, ꯜ ꯑꯦ ꯈꯌ ꯚꯣ ꯎꯠ, ꯌꯥ ꯃꯦ ꯑꯦ ꯂꯥꯇ ꯄꯦ ꯑꯦ ꯂꯀ — ꯂꯤꯖꯤꯠ ꯑꯦ ꯊꯣꯀꯄ ꯃꯁ ꯌꯨ ꯊꯦꯀꯪ꯫",
+      "consumer-protection-cases": {
+        "name": "ꯈꯨꯒ ꯇꯥꯔꯒ ꯄꯨꯌꯨ",
+        "summary": "ꯐꯦꯚ ꯇꯔꯤꯌꯅꯥ ꯀꯕ ꯑꯦꯡ ꯊꯧꯕ ꯐꯚ ꯁꯟ ꯈꯨꯒ ꯐꯣꯔꯝꯗꯥ ꯂꯥꯊꯪ।",
+        "description": "ꯏꯍꯟ ꯈꯨꯒ ꯑꯣꯌꯃ ꯐꯦꯚꯌ ꯇꯔꯤꯌ, ꯊꯧꯕ ꯐꯚ ꯀꯔꯤ, ꯌꯥꯔꯤꯛ ꯆꯕ ꯑꯦꯡ ꯏꯁꯛ ꯎꯡꯕ District, State ꯑꯦꯡ National ꯈꯨꯒ ꯀꯝꯥꯢꯁꯟꯀꯗꯥ।",
         "bullets": [
-          "ꯐꯇꯃ ꯘꯥꯡ ꯑꯦ ꯅꯡ ꯗ ꯎꯖꯧ",
-          "ꯐꯉ ꯃꯗ ꯌꯥ ꯆꯥꯢ ꯎꯠ",
-          "ꯜ, ꯐꯕ ꯑꯦ ꯈꯌ ꯚꯣ ꯎꯠ",
-          "ꯌꯧ ꯎꯠ ꯑꯨꯣ ꯄꯤꯙꯤꯢꯆꯥ ꯍꯤ ꯗꯣ ꯐꯕ ꯎꯠ ꯊꯪ",
-          "ꯐꯞ, ꯐꯞ ꯉꯥꯎ ꯑꯦ ꯃꯁꯦ ꯊꯪꯀꯧ ꯑꯦ ꯃ꯫ꯠꯅ ꯊꯦꯀ ꯄꯥ"
+          "ꯈꯨꯒ ꯈꯦꯠ ꯌꯥꯕ ꯑꯦꯡ ꯐꯦꯌ",
+          "Builder-Delay ꯑꯦꯡ Real-Estate ꯈꯦꯠ",
+          "ꯏꯁꯛ ꯇꯤꯡ ꯌꯥꯝꯠ ꯂꯩꯕ ꯍꯟꯅꯔꯤ",
+          "Medical Negligence ꯑꯦꯡ Service-Deficiency ꯈꯦꯠ",
+          "ꯈꯨꯒ ꯐꯣꯔꯝ ꯘꯠ ꯎꯡꯕ"
         ]
       },
-      "labour-employment-disputes": {
-        "name": "ꯎꯕꯦ ꯑꯦ ꯎꯕꯤ ꯎꯠ",
-        "summary": "ꯎꯕꯤ ꯑꯦ ꯎꯕꯦ — ꯌꯦꯟ ꯀꯇ, ꯊꯠ ꯑꯦ ꯎꯕꯥ ꯎꯠ꯫",
-        "description": "ꯑꯗꯣꯏ ꯎꯕꯤ ꯎꯕꯦ ꯌꯦꯟ ꯀꯇ, ꯉꯥꯎ ꯊꯠ, ꯛ ꯑꯦ PF ꯀ ꯊꯠ ꯌꯥꯛ ꯑꯦ ꯎꯕꯦ ꯎꯔ ꯎꯠ, ꯊꯧ ꯎꯕꯥ ꯊꯪ ꯑꯦ ꯊꯧ ꯎꯕꯥ ꯎꯠ ꯃꯗ ꯄꯤꯙꯤꯢꯆꯤ꯫",
+      "arbitration-mediation": {
+        "name": "Arbitration ꯑꯦꯡ Mediation",
+        "summary": "ꯍꯧꯔꯦ ꯑꯦꯡ ꯈꯠꯂ ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯐꯔꯦ ꯋꯧ।",
+        "description": "ꯍꯧꯔꯦ ꯑꯦꯡ ꯈꯠꯂ ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯌꯌꯈꯝ Arbitration ꯑꯦꯡ Mediation ꯍꯧꯑꯄ ꯐꯔꯦ, ꯋꯥꯇꯨ ꯌꯦꯡ ꯇꯨꯏꯊꯥꯜ ꯂꯧꯁꯈꯝ ꯌꯦꯡ। ꯏꯍꯟ Arbitration Clause ꯌꯥꯕ, ꯄꯥꯔꯏ ꯑꯦꯡ ꯠꯦꯠ ꯋꯧ।",
         "bullets": [
-          "ꯌꯦꯟ ꯀꯇ ꯑꯦ ꯌꯦꯟ ꯎꯠ ꯉꯥ",
-          "ꯊꯠ ꯂꯃ ꯌꯦꯟ, ꯛ ꯑꯦ PF ꯀ ꯊꯠ ꯎꯕꯤ",
-          "ꯎꯕꯥ ꯎꯕ ꯑꯦ ꯌ꯫ꯂ ꯃꯗ ꯄꯤꯙꯤꯢꯆꯤ",
-          "ꯊꯧ ꯊꯪ ꯑꯦ ꯊꯧ ꯎꯕꯥ ꯎꯠ ꯊꯦꯀ ꯄꯥ",
-          "ꯎꯕꯪ ꯁ꯫ꯃ ꯑꯦ ꯑꯔ ꯊꯪꯀꯧ"
+          "Arbitration ꯑꯦꯡ Dispute Clause ꯌꯥꯕ ꯑꯦꯡ ꯊꯣꯛ",
+          "Domestic Arbitration ꯄꯨꯌꯨꯗꯥ ꯉꯃꯑꯤꯊꯕ",
+          "Section 9 ꯑꯦꯡ Section 17 Interim ꯌꯥꯕ",
+          "Arbitral ꯔꯕ ꯎꯡꯕ ꯑꯦꯡ Challenge",
+          "Mediation ꯑꯦꯡ Settlement ꯋꯧ"
         ]
       },
-      "private-limited-company-registration": {
-        "name": "ꯈꯅ ꯑꯃ ꯀ꯫ꯄꯦꯅꯤ ꯃ꯫ꯠꯅ",
-        "summary": "ꯃ꯫ꯠꯅ ꯊꯦꯀꯪ — ꯀ꯫ꯃ ꯊꯠꯀꯧ ꯑꯔ ꯑꯛ꯫ꯊ꯫",
-        "description": "ꯑꯗꯣꯏ ꯑꯗꯣꯏ ꯈꯅ ꯑꯃ ꯀ꯫ꯄꯦꯅꯤ ꯑꯩ ꯊꯤ ꯀꯌꯥ: ꯀ꯫ꯃ ꯌꯧ, ꯀ꯫ꯃ ꯔ ꯘꯥꯛ, ꯇ꯫ꯝ ꯃꯄꯨ ꯊꯪꯀꯧ, RoC ꯃꯗ ꯊꯪꯕꯥ ꯑꯦ ꯊꯪꯀꯧ ꯈꯨꯇ, ꯌꯥ ꯎꯠ ꯊꯕꯥ ꯌꯥꯡ ꯍꯥ꯫",
+      "writ-petitions": {
+        "name": "Writ ꯄꯦꯊꯤꯁꯟ",
+        "summary": "ꯁꯦꯞ ꯊꯥꯔ ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ ꯊꯤꯛ ꯎꯡꯕ।",
+        "description": "ꯂꯃꯁ ꯃꯁꯛꯇꯨ ꯊꯥꯔ ꯃꯆꯦꯛ ꯎꯡꯕ ꯎꯡꯕꯀꯗꯥ, Writ ꯄꯦꯊꯤꯁꯟ ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ ꯘꯥꯟ ꯀꯥꯎ ꯉꯝꯒꯤ ꯘꯤꯌꯟ। ꯏꯍꯟ Mandamus, Certiorari, Prohibition ꯑꯦꯡ Habeas Corpus ꯄꯦꯊꯤꯁꯟ ꯐꯦꯌ, Arbitrary ꯊꯥꯔ ꯑꯦꯡ Inaction ꯂꯦꯞ।",
         "bullets": [
-          "ꯀ꯫ꯃ ꯌꯧ ꯑꯦ ꯎꯕꯥ ꯂꯀ",
-          "ꯀ꯫ꯃ ꯘꯥꯛ ꯑꯦ DIN ꯎꯕꯦ",
-          "ꯑꯗꯣꯏ ꯎꯠ ꯃꯃ MoA ꯑꯦ AoA ꯊꯪꯀꯧ",
-          "ꯃ꯫ꯠꯅ ꯊꯪꯕꯥ ꯑꯦ RoC ꯈꯨꯇ ꯀꯦꯞ",
-          "PAN, TAN ꯑꯦ ꯊꯪꯀꯧ ꯈꯨꯇ ꯊꯦꯀ ꯉꯩ ꯂꯇ"
+          "Arbitrary ꯎꯡꯕ ꯑꯦꯡ Illegal ꯊꯥꯔ Writ",
+          "Service, Admission, Tender ꯑꯦꯡ Regulatory ꯈꯦꯠ",
+          "Adverse Administrative ꯘꯠ Quashing",
+          "ꯋꯥꯢ ꯑꯦꯡ Interim ꯘꯥꯟ ꯏ ꯊꯤꯛꯀꯗꯥ",
+          "Contempt ꯄꯦꯊꯤꯁꯟ ꯇꯦꯃꯗꯥꯟ ꯎꯡꯕ"
         ]
       },
-      "llp-registration": {
-        "name": "LLP ꯃ꯫ꯠꯅ",
-        "summary": "ꯊꯘꯂ ꯊꯘꯂ ꯊꯦꯀ ꯈꯛ LLP ꯊꯪꯀꯧ꯫",
-        "description": "ꯊꯘꯂ ꯊꯘꯂ ꯑꯃ ꯊꯘꯂ ꯑꯆꯂ ꯊꯘꯂ ꯊꯦꯀ ꯃꯁ ꯃꯁ꯫ ꯑꯗꯣꯏ ꯃ꯫ꯠꯅ ꯑꯦ LLP ꯘꯥꯛ ꯊꯪꯀꯧ ꯌꯥ ꯡꯣ ꯁꯛ ꯃꯗ ꯊꯪꯕꯥ, ꯑꯦ ꯎꯗ ꯑꯣꯟ ꯊꯦꯀꯪ꯫",
+      "constitutional-law": {
+        "name": "ꯋꯦꯛꯁꯣꯟ ꯂꯧ",
+        "summary": "ꯀꯃꯟꯊ ꯊꯤꯛ ꯑꯦꯡ ꯋꯦꯛꯁꯣꯟ ꯆꯥꯟꯕ ꯑꯦꯡ ꯠꯔꯤ।",
+        "description": "ꯏꯍꯟ ꯋꯦꯛꯁꯣꯟ ꯆꯥꯟꯕ — ꯀꯃꯟꯊ-ꯊꯤꯛ ꯊꯥꯔ, Statute ꯑꯦꯡ Rule ꯛꯕ Challenge, ꯑꯦꯡ ꯂꯃꯁ ꯃꯁꯛ ꯊꯥꯔ ꯑꯦꯡ ꯗꯦꯅꯥ ꯊꯥꯟꯕ ꯈꯦꯠ ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ।",
         "bullets": [
-          "LLP ꯀ꯫ꯃ ꯌꯧ ꯑꯦ ꯃ꯫ꯠꯅ ꯊꯪꯕꯥ",
-          "ꯑꯗꯣꯏ ꯎꯠ ꯆꯠꯀꯅꯕ LLP ꯘꯥꯛ — ꯛ, ꯁꯆ ꯀ꯫ꯃ, ꯌꯦꯟ ꯊꯠ",
-          "ꯊꯘꯂ ꯘꯥꯛ DSC ꯑꯦ DIN",
-          "PAN, TAN ꯑꯦ ꯊꯠ ꯈꯤꯇ ꯃꯕꯨ",
-          "ꯃꯗꯨꯗ ꯊꯪꯀꯧ ꯑꯦ ꯊꯦꯀ ꯐꯘꯨ"
+          "ꯀꯃꯟꯊ-ꯊꯤꯛ ꯎꯡꯕ ꯑꯦꯡ ꯊꯥꯢ",
+          "Statute ꯑꯦꯡ Rule ꯛꯕ Challenge",
+          "ꯂꯃꯁ-ꯃꯁꯛ ꯗꯦꯅꯥ ꯑꯦꯡ ꯊꯤꯛ ꯁꯘꯨꯡ",
+          "ꯋꯦꯛꯁꯣꯟ ꯘꯤꯌꯟ ꯊꯥꯢ ꯊꯤꯛ",
+          "ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ ꯋꯦꯛꯁꯣꯟ ꯉꯃꯑꯤꯊꯕ"
         ]
       },
-      "partnership-firm-registration": {
-        "name": "ꯊꯘꯂ ꯊꯦꯀ ꯃ꯫ꯠꯅ",
-        "summary": "ꯊꯘꯂ ꯘꯥꯛ ꯊꯪꯀꯧ ꯌꯥ ꯊꯥ ꯌꯥ ꯊꯣꯀꯄ ꯍꯤ꯫",
-        "description": "ꯑꯗꯣꯏ ꯊꯘꯂ ꯘꯥꯛ ꯊꯪꯀꯧ ꯑꯦ ꯃ꯫ꯠꯅ ꯌꯥ ꯛ ꯆꯆꯧ, ꯁꯆ ꯀ꯫ꯃ, ꯃꯤ ꯑꯦ ꯌꯦꯟ ꯊꯠ — ꯊꯠ ꯌꯟ ꯊꯕ ꯎꯠ — ꯑꯦ Registrar of Firms ꯃꯗ ꯃ꯫ꯠꯅ ꯊꯦꯀꯪ꯫",
+      "public-interest-litigation": {
+        "name": "Public Interest Litigation (PIL)",
+        "summary": "ꯈꯟꯂꯕ ꯈꯛ ꯄꯨꯌꯨ ꯄꯪꯕꯤꯉ।",
+        "description": "PIL ꯄꯨꯌꯨ ꯄꯨꯝꯅꯥ ꯈꯟꯂꯕ ꯈꯛ ꯚꯤ ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ ꯏꯊꯥ ꯉꯥꯢ। ꯏꯍꯟ Locus ꯑꯦꯡ Public Interest ꯛꯁ, ꯋꯦꯜ-ꯗꯣꯀꯘꯦꯠꯇꯦꯗ ꯄꯦꯊꯤꯁꯟ ꯃꯇꯦꯡꯕ, ꯑꯦꯡ ꯘꯤꯌꯟ ꯊꯧꯃꯗꯥ ꯐꯣꯎꯟ ꯚꯔꯀ।",
         "bullets": [
-          "ꯊꯘꯂ ꯘꯥꯛ ꯊꯪꯀꯧ ꯊꯦꯀꯪ ꯎꯔ ꯊꯕ ꯌꯪ ꯃꯗ",
-          "Registrar of Firms ꯃꯗ ꯃ꯫ꯠꯅ ꯊꯪꯕꯥ",
-          "ꯊꯦꯀ ꯃꯃ PAN ꯑꯦ ꯊꯠ ꯑꯗ",
-          "ꯊꯘꯂ ꯌꯦꯟ ꯗꯣ ꯃ ꯃꯃ ꯊꯪꯀꯧ",
-          "ꯊꯦꯀ ꯐꯕ ꯑꯦ ꯊꯠ ꯃꯝ ꯐꯘꯨ"
+          "Locus Standi ꯑꯦꯡ Genuine Public Interest ꯛꯁ",
+          "ꯐꯥꯛꯆ ꯑꯦꯡ ꯗꯣꯀꯘꯦꯠ ꯂꯥꯊꯪ Strong ꯄꯦꯊꯤꯁꯟ ꯌꯥꯕ",
+          "PIL ꯌꯥꯕ ꯑꯦꯡ ꯐꯦꯌ",
+          "ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ ꯉꯃꯑꯤꯊꯕ ꯑꯦꯡ ꯐꯣꯎꯟ ꯚꯔꯀ",
+          "ꯀꯣꯔꯦꯠ ꯘꯥꯟ ꯎꯡꯕ Monitor ꯇꯨꯔꯛ"
         ]
       },
-      "msme-udyam-registration": {
-        "name": "MSME / Udyam ꯃ꯫ꯠꯅ",
-        "summary": "MSME ꯐꯕ ꯃꯁ ꯀꯔ, ꯄꯤ ꯑꯦ ꯄꯤ ꯎꯠ꯫",
-        "description": "Udyam ꯃ꯫ꯠꯅ ꯃꯥꯀꯇ, ꯈꯥꯟ ꯑꯦ ꯎꯠ ꯋꯥꯕꯁ — ꯑꯃ ꯉꯧꯠ, ꯄꯤ, ꯏ ꯑꯦ ꯊꯠ ꯎꯠ — ꯎꯕꯥ꯫ ꯑꯗꯣꯏ ꯃ꯫ꯠꯅ ꯊꯦꯀꯧ ꯑꯦ ꯐꯕ ꯌꯥꯡ ꯌꯥꯎ ꯑꯊꯣꯌꯕꯥ꯫",
+      "high-court-appeals-revisions": {
+        "name": "ꯑꯪꯕ ꯀꯣꯔꯦꯠ ꯑꯦꯞꯎꯜ ꯑꯦꯡ ꯔꯥꯏꯠ",
+        "summary": "Adverse ꯘꯠ ꯑꯦꯞꯎꯜ ꯑꯦꯡ ꯔꯥꯏꯠ ꯀꯖꯕ।",
+        "description": "Adverse ꯘꯠ ꯇꯨꯔꯠ ꯈꯨꯟꯃ ꯌꯦꯡ ꯉꯥꯢ। ꯏꯍꯟ ꯑꯦꯞꯎꯜ ꯑꯦꯡ ꯔꯥꯏꯠ Prospect ꯛꯁ, Strongest Ground ꯛꯁ, ꯑꯦꯡ Civil ꯑꯦꯡ Criminal ꯑꯦꯞꯎꯜ ꯑꯦꯡ ꯔꯥꯏꯠ ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ।",
         "bullets": [
-          "ꯆꯟꯅꯥ ꯎꯛ ꯌꯥꯡ Udyam ꯃ꯫ꯠꯅ ꯊꯪꯕꯥ",
-          "ꯑꯗꯣꯏ ꯌꯥꯡ ꯉꯥꯛꯌꯦ ꯊꯧꯕꯁ ꯑꯗ ꯌꯥꯎ",
-          "MSMED Act ꯃꯗ ꯊꯠ ꯔ ꯈꯕ ꯎꯠ",
-          "ꯊꯪꯀꯧ ꯂꯤ ꯑꯦ ꯔꯤꯆ",
-          "ꯊꯠ ꯑꯦ ꯏ ꯃꯕꯨ ꯊꯦꯀ ꯄꯥ"
+          "Appellate Prospect ꯛꯁ ꯌꯥꯡꯛ ꯁꯁ",
+          "Strongest ꯈꯪ Challenge ꯛꯁ ꯄꯔꯀꯥ",
+          "ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ Civil ꯑꯦꯡ Criminal ꯑꯦꯞꯎꯜ",
+          "Lower-Court ꯘꯠ ꯔꯥꯏꯠ ꯄꯦꯊꯤꯁꯟ",
+          "ꯑꯦꯞꯎꯜ ꯈꯩꯗꯦ ꯘꯠ ꯎꯡꯕ Stay"
         ]
       },
-      "fssai-license": {
-        "name": "FSSAI ꯂꯥꯆ",
-        "summary": "ꯐꯊ ꯎꯠ ꯂꯥꯆ — ꯃ꯫ꯠꯅ, ꯌꯥ ꯑꯦ ꯃ꯬ ꯂꯥꯆ꯫",
-        "description": "ꯑꯗꯣꯏ ꯐꯊ ꯎꯠ FSSAI ꯃ꯫ꯠꯅ ꯗꯣ ꯂꯥꯆ ꯌꯥꯎ꯫ ꯑꯗꯣꯏ ꯑꯗꯣꯏ ꯎꯠ ꯃꯃ ꯎꯛ ꯃꯔꯞ ꯇꯕ, ꯃꯕꯨ ꯊꯪꯀꯧ, ꯑꯣꯟ ꯊꯪꯕꯥ ꯑꯦ ꯔꯤꯆ ꯑꯦ ꯃꯛꯋꯥ ꯊꯦꯀꯪ꯫",
+      "tribunal-matters": {
+        "name": "ꯋꯥꯖꯤ ꯂꯩꯕ ꯍꯟꯅꯔꯤ (CAT, NCLT, DRT, DRAT, AFT)",
+        "summary": "ꯏꯟꯗꯤꯌꯕ ꯀꯤ ꯇꯥꯔꯒ ꯋꯥꯖꯤꯀꯗꯥ ꯈꯟꯂꯕ ꯠꯔꯤ।",
+        "description": "ꯌꯌꯈꯝ ꯄꯨꯌꯨ ꯊꯤꯂꯕ ꯋꯥꯖꯤꯀꯗꯥ ꯏ। ꯏꯍꯟ CAT, NCLT, DRT, DRAT ꯑꯦꯡ AFT — Service, Company, Debt-Recovery ꯑꯦꯡ Armed-Forces ꯍꯟꯅꯔꯤ Forum-Specific ꯊꯥꯕꯥ।",
         "bullets": [
-          "ꯆꯟꯅꯥ ꯎꯛ ꯊꯪ — ꯃ꯫ꯠꯅ, ꯌꯥ ꯗꯣ ꯃ꯬",
-          "ꯑꯔꯨꯃꯊ ꯃꯕꯨ ꯑꯦ ꯑꯣꯟ ꯊꯪꯕꯥ",
-          "ꯄꯣꯟ ꯑꯦ ꯂꯁ ꯌꯥ ꯊꯦꯀ ꯄꯥ",
-          "ꯔꯤꯆ, ꯃꯛꯋꯥ ꯑꯦ ꯌꯠ ꯌꯥ",
-          "ꯂꯥ, ꯄꯨꯖꯤ ꯑꯦ ꯆꯌꯧ ꯎꯨꯟ ꯌꯥꯡ ꯌꯥꯎ"
+          "CAT ꯀꯗꯥ Service ꯍꯟꯅꯔꯤ",
+          "NCLT ꯀꯗꯥ Company ꯑꯦꯡ Insolvency ꯍꯟꯅꯔꯤ",
+          "DRT ꯑꯦꯡ DRAT ꯀꯗꯥ Debt-Recovery ꯑꯦꯡ SARFAESI ꯑꯦꯞꯎꯜ",
+          "AFT ꯀꯗꯥ Armed-Forces Service ꯑꯦꯡ Disciplinary ꯍꯟꯅꯔꯤ",
+          "Interim ꯌꯥꯕ ꯑꯦꯡ Tribunal ꯘꯠ ꯑꯦꯞꯎꯜ"
         ]
       },
-      "startup-india-registration": {
-        "name": "Startup India ꯃ꯫ꯠꯅ",
-        "summary": "DPIIT ꯊꯥꯎ — ꯇꯦꯛꯁ ꯐꯕ ꯑꯦ ꯌꯦꯟ ꯊꯦꯀ ꯄꯥ",
-        "description": "DPIIT ꯊꯥꯎ Startup India ꯌꯥꯡ ꯇꯦꯛꯁ ꯎꯕꯥ, ꯌꯦꯟ ꯊꯦꯀ, ꯑꯣꯡ ꯑꯣꯏ ꯈꯔꯞ ꯄꯨ ꯑꯦ ꯁꯇꯦꯛ ꯎꯠ ꯎꯕꯥ꯫ ꯑꯗꯣꯏ ꯑꯣꯟ, ꯄꯦ ꯃꯕꯨ ꯑꯦ ꯊꯪꯀꯧ ꯊꯦꯀꯪ꯫",
+      "corporate-commercial-law": {
+        "name": "ꯇꯔꯄꯀꯁꯦꯜ ꯑꯦꯡ ꯍꯧꯔꯦ ꯂꯧ",
+        "summary": "ꯈꯪꯁꯤꯡ, ꯈꯪꯁꯤꯡ-ꯃꯗꯥ ꯑꯦꯡ ꯇꯦꯜꯇꯨꯔ ꯊꯥꯢꯗ ꯑꯦꯡ ꯘꯤꯌꯟ।",
+        "description": "ꯏꯍꯟ ꯈꯪꯁꯤꯡ ꯊꯤꯛꯀꯪ — ꯈꯠꯂ, Joint Venture, Shareholder ꯑꯨꯝꯞꯀ ꯑꯦꯡ ꯍꯧꯔꯦ ꯂꯩꯕ ꯍꯟꯅꯔꯤ — ꯊꯥꯢ ꯐꯪ, ꯌꯧꯂꯤ ꯑꯦꯡ ꯉꯩꯔꯤ ꯁꯥꯔꯒꯤ।",
         "bullets": [
-          "DPIIT ꯊꯥꯎ ꯑꯣꯟ ꯑꯦ ꯃꯕꯨ",
-          "ꯇꯦꯛꯁ ꯎꯕꯥ ꯑꯗ ꯌꯥꯎ",
-          "ꯑꯦꯟꯖ ꯇꯦꯛꯁ ꯎꯕꯥ ꯍꯤꯖꯤ",
-          "ꯊꯥꯎ ꯌꯥꯛꯀꯧ ꯑꯗ ꯑꯣꯡ ꯑꯣꯏ ꯈꯔꯞ ꯄꯨ ꯌꯦꯟ",
-          "ꯊꯥꯎ ꯌꯌ ꯘ ꯊꯨ ꯑꯦ ꯊꯦꯀ ꯐꯘꯨ"
+          "ꯍꯧꯔꯦ ꯈꯠꯂ, Joint Venture ꯑꯦꯡ Shareholder ꯑꯨꯝꯞꯀ",
+          "ꯍꯧꯔꯦ ꯋꯂꯈꯪ ꯑꯦꯡ ꯠꯄꯥꯔ ꯊꯥꯢ",
+          "ꯍꯧꯔꯦ ꯑꯦꯡ ꯈꯠꯂ ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯘꯤꯌꯟ",
+          "Promoter ꯑꯦꯡ Investor ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯎꯔꯦ",
+          "Notice, ꯠꯡ ꯑꯦꯡ Pre-Litigation ꯠꯦꯠ"
         ]
       },
-      "gst-registration": {
-        "name": "GST ꯃ꯫ꯠꯅ",
-        "summary": "ꯌꯦꯟ, ꯆꯟꯅꯥ GST ꯃ꯫ꯠꯅ ꯌꯥꯡ ꯎꯛ꯫",
-        "description": "ꯑꯗꯣꯏ GST ꯃ꯫ꯠꯅ ꯌꯥ ꯌꯧ ꯉꯥ ꯑꯦ ꯌꯦ ꯊꯪ, ꯑꯣꯟ ꯆꯟꯅꯥ HSN/SAC ꯎꯛ ꯌꯥꯡ ꯊꯦꯀꯧ, ꯌ꯫ꯂ ꯄꯣꯟ ꯑꯦ GSTIN ꯈꯨꯕꯥ — ꯃꯛꯋꯥ ꯑꯦ ꯌꯠ ꯌꯥ ꯘꯥꯛ ꯘꯥꯛ꯫",
+      "company-law": {
+        "name": "ꯀꯝꯄꯦꯟꯤ ꯂꯧ",
+        "summary": "Compliance, Governance ꯑꯦꯡ Company-Law ꯂꯩꯕ ꯍꯟꯅꯔꯤ।",
+        "description": "ꯏꯍꯟ ꯀꯝꯄꯦꯟꯤ ꯑꯦꯡ Director ꯀꯗꯥ Incorporation, Governance, Compliance ꯑꯦꯡ Company-Law ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯊꯥꯢ, ꯑꯦꯡ Oppression, Mismanagement ꯑꯦꯡ ꯆꯥꯃꯗꯥ ꯉꯃꯑꯤꯊꯕ NCLT ꯀꯗꯥ।",
         "bullets": [
-          "ꯃ꯫ꯠꯅ ꯌꯧ ꯑꯦ ꯌꯦ ꯊꯪ",
-          "ꯆꯟꯅꯥ HSN/SAC ꯎꯛ ꯌꯥꯡ ꯑꯣꯟ ꯊꯪꯕꯥ",
-          "ꯃ꯫ꯠꯅ ꯄꯣꯟ ꯑꯦ ꯌꯨ",
-          "ꯃꯛꯋꯥ — ꯃꯌꯦꯛ, ꯎꯠ ꯎꯛ, ꯌꯠ ꯌꯥ",
-          "ꯐꯈꯨ ꯊꯧꯕ ꯎꯠ ꯌꯥꯡ ꯌꯥꯎ"
+          "Incorporation, Governance ꯑꯦꯡ Compliance ꯊꯥꯢ",
+          "Director ꯑꯦꯡ Shareholder ꯊꯤꯛ ꯑꯦꯡ ꯗꯦꯠ",
+          "NCLT ꯀꯗꯥ Oppression ꯑꯦꯡ Mismanagement ꯄꯦꯊꯤꯁꯟ",
+          "Statutory Notice ꯑꯦꯡ Regulatory ꯃꯚꯤ",
+          "Restructuring ꯑꯦꯡ Winding-Up ꯕꯤꯗꯦ"
         ]
       },
-      "gst-return-filing": {
-        "name": "GST ꯊꯪꯀꯧ ꯊꯪꯕꯥ",
-        "summary": "ꯆꯟꯅꯥ ꯃꯦꯠ ꯑꯦ ꯃꯗꯨ ꯊꯪꯕꯥ, ꯌꯥ ꯑꯦ ꯊꯠ ꯂꯃꯇ꯫",
-        "description": "ꯊꯠ ꯗꯣ ꯐꯔꯀꯥ GST ꯊꯪꯕꯥ ꯀꯢ ꯌ꯫ꯂ ꯑꯦ ꯇꯖ ꯊꯦꯀꯧ꯫ ꯑꯗꯣꯏ ꯃ꯫ꯕ ꯊꯪꯕꯥ ꯑꯦ ꯊꯪꯀꯧ ꯑꯔ ꯇꯖ ꯑꯦ ꯁꯔꯊꯥ ꯀꯔꯨ ꯑꯦ ꯊꯦꯀ ꯉꯩ ꯂꯇ꯫",
+      "banking-finance-law": {
+        "name": "ꯕꯌꯣꯌ ꯑꯦꯡ ꯐꯥꯢꯅꯦꯟꯁ ꯂꯧ",
+        "summary": "ꯂꯣꯟꯁ ꯂꯤ, Guarantor ꯑꯦꯡ Lender ꯀꯗꯥ ꯊꯥꯢꯗ ꯑꯦꯡ ꯂꯩꯕ ꯍꯟꯅꯔꯤ।",
+        "description": "ꯏꯍꯟ Borrower, Guarantor ꯑꯦꯡ Lender ꯀꯗꯥ ꯂꯣꯟꯁ ꯂꯩꯕ ꯍꯟꯅꯔꯤ, Recovery ꯄꯨꯌꯨ ꯑꯦꯡ Financial Documentation ꯃꯇꯦꯡꯕ, ꯊꯤꯛ ꯌꯧꯂꯤꯋꯃ Practical ꯘꯤꯌꯟ।",
         "bullets": [
-          "GSTR-1 ꯑꯦ GSTR-3B ꯊꯪꯀꯧ ꯑꯦ ꯊꯪꯕꯥ",
-          "ꯊꯪꯀꯧ ꯔ ꯇꯖ GSTR-2B ꯌꯥꯡ",
-          "ꯃꯗꯨ ꯊꯪꯕꯥ ꯑꯦ ꯇꯖ ꯃꯛꯋꯥ",
-          "ꯇꯖ ꯑꯦ ꯊꯠ ꯊꯪꯕꯥ ꯃꯃ ꯌ꯫ꯂ ꯑꯦꯠ",
-          "ꯎꯗ ꯑꯦ ꯎꯗ ꯇꯧ ꯇꯕ ꯊꯪꯕꯥ"
+          "ꯂꯣꯟꯁ, Guarantee ꯑꯦꯡ Security Documentation ꯊꯣꯛ",
+          "Recovery ꯑꯦꯡ Enforcement ꯄꯨꯌꯨꯗꯥ ꯄꯦꯍꯩꯛ",
+          "One-Time Settlement ꯑꯦꯡ Restructuring ꯠꯦꯠ",
+          "Charge, Interest ꯑꯦꯡ Account Statement ꯂꯩꯕ ꯍꯟꯅꯔꯤ",
+          "Borrower ꯑꯦꯡ Guarantor ꯊꯤꯛ ꯊꯥꯢ"
         ]
       },
-      "income-tax-return-filing": {
-        "name": "ꯑꯖ-ꯉꯥꯎ ꯊꯪꯕꯥ ꯊꯪꯀꯧ",
-        "summary": "ꯎꯕꯤ, ꯌꯧ ꯑꯦ ꯎꯠ — ꯆꯟꯅꯥ ꯊꯪꯀꯧ꯫",
-        "description": "ꯑꯗꯣꯏ ꯎꯕꯪ ꯎꯕꯤ, ꯌꯧ, ꯊꯦꯀ ꯑꯦ ꯀ꯫ꯄꯦꯅꯤ ꯃꯃ ꯑꯖ-ꯉꯥꯎ ꯊꯪꯀꯧ ꯊꯪꯕꯥ — ꯆꯟꯅꯥ ꯊꯧꯛ, ꯊꯤꯔꯄ ꯔ ꯉꯥꯛ ꯑꯦ ꯌ꯫ꯂ ꯊꯪꯕꯥ ꯃꯗ ꯇꯠꯂ꯫",
+      "sarfaesi-drt-matters": {
+        "name": "SARFAESI ꯑꯦꯡ DRT ꯍꯟꯅꯔꯤ",
+        "summary": "Borrower ꯑꯦꯡ Guarantor ꯀꯗꯥ Recovery ꯑꯦꯔꯥ ꯄꯦꯍꯩꯛ।",
+        "description": "Lender SARFAESI Act ꯎꯡꯕ ꯎꯡꯕ ꯎꯡꯕ DRT ꯐꯦꯌꯈꯝ, ꯋꯥꯇꯨ ꯑꯦꯡ ꯍꯤꯛꯃ। ꯏꯍꯟ Possession ꯑꯦꯡ Sale Notice Challenge ꯇꯨꯔꯀ, Securitisation ꯑꯦꯞꯎꯜ ꯐꯦꯌ, ꯑꯦꯡ Stay ꯎꯡꯕ ꯀꯗꯥ ꯝꯌꯃ।",
         "bullets": [
-          "ꯑꯔꯨꯃꯊ ꯎꯕꯤ ꯎꯛ ꯃꯃ ꯊꯪꯕꯥ ꯊꯪꯀꯧ",
-          "ꯐꯧ ꯗꯣ ꯃꯤ ꯊꯧꯛ ꯃꯗ ꯉꯩ",
-          "ꯐꯇꯃ ꯑꯦ ꯑꯃ ꯘꯥꯕ ꯑꯦ ꯂꯁꯥ",
-          "ꯃꯛꯋꯥ ꯑꯦ ꯔꯤꯆ ꯊꯪꯀꯧ",
-          "ꯊꯪꯀꯧ ꯔ ꯊꯃꯪ ꯑꯦ ꯊꯦꯀ ꯐꯘꯨ"
+          "Section 13(2) ꯑꯦꯡ Section 13(4) Notice ꯃꯚꯦ",
+          "DRT ꯀꯗꯥ Securitisation ꯑꯦꯞꯎꯜ",
+          "Symbolic ꯑꯦꯡ Physical Possession Challenge",
+          "DRAT ꯀꯗꯥ ꯑꯦꯞꯎꯜ Pre-Deposit ꯕꯤꯗꯦ",
+          "Secured Asset ꯑꯥꯎꯠꯎꯛ ꯊꯧꯐ Stay ꯑꯦꯡ Injunction"
         ]
       },
-      "tax-notice-reply": {
-        "name": "ꯇꯦꯛꯁ ꯌ꯫ꯂ ꯑꯦꯕ",
-        "summary": "ꯆꯟꯅꯥ, ꯊꯠ ꯂꯃꯇ ꯊꯪꯀꯧ ꯊꯥ ꯑꯦ GST ꯌ꯫ꯂ ꯑꯦꯕ꯫",
-        "description": "ꯇꯦꯛꯁ ꯌ꯫ꯂ ꯊꯠ ꯌꯟ ꯌꯥ꯫ ꯑꯗꯣꯏ ꯌ꯫ꯂ ꯁꯟ, ꯌꯦꯞ ꯆꯩꯆꯨ, ꯆꯟꯅꯥ ꯑꯦꯕ ꯊꯪꯀꯧ ꯑꯦ ꯇꯣ ꯂꯃꯇ ꯃꯗ ꯄꯤꯙꯤꯢꯆꯤ — ꯊꯪꯀꯧ, ꯍꯥꯏ, ꯄꯤ ꯑꯦ GST ꯊꯦꯀ-ꯀ ꯌ꯫ꯂ ꯑꯀ꯫ꯃ꯫",
+      "cyber-law": {
+        "name": "ꯁꯥꯏꯕꯔ ꯂꯧ",
+        "summary": "Online ꯐ꯳ꯔ, Defamation ꯑꯦꯡ Data Misuse ꯊꯥꯢꯗ ꯑꯦꯡ ꯘꯤꯌꯟ।",
+        "description": "ꯏꯍꯟ Individual ꯑꯦꯡ ꯈꯪꯁꯤꯡ ꯀꯗꯥ Cyber ꯐ꯳ꯔ, Online Defamation, Data Misuse ꯑꯦꯡ IT Act ꯍꯟꯅꯔꯤ ꯊꯥꯢ — ꯚꯆꯨ ꯐꯦꯌ, Takedown ꯎꯡꯕ ꯑꯦꯡ Civil ꯑꯦꯡ Criminal ꯘꯤꯌꯟ।",
         "bullets": [
-          "ꯌ꯫ꯂ ꯁꯟ ꯑꯦ ꯎꯗ ꯂꯞ",
-          "ꯌꯦꯞ ꯐꯥꯍ ꯑꯦ ꯑꯦꯕ ꯊꯪꯀꯧ",
-          "ꯇꯣ ꯊꯨ ꯃꯗ ꯄꯤꯙꯤꯢꯆꯤ",
-          "ꯎꯗ ꯎꯗ ꯀꯢ ꯌ꯫ꯂ",
-          "ꯊꯪꯀꯧ ꯊꯪꯕꯥ ꯊꯥ ꯑꯢ ꯌꯦꯞ"
+          "Online ꯐ꯳ꯔ ꯑꯦꯡ Financial Cybercrime ꯀꯣꯝꯄ",
+          "Online Defamation ꯑꯦꯡ Content Takedown ꯘꯦꯃꯤ",
+          "Data-Misuse ꯑꯦꯡ Privacy ꯈꯦꯠ",
+          "IT Act ꯃꯥꯠ — ꯊꯥꯢ ꯑꯦꯡ ꯄꯦꯍꯩꯛ",
+          "Cyber Cell ꯑꯦꯡ Platform ꯀꯗꯥ ꯎꯚꯪ"
         ]
       },
-      "trademark-registration": {
-        "name": "ꯇ꯫ꯐ ꯀ꯫ꯃ ꯃ꯫ꯠꯅ",
-        "summary": "ꯑꯗꯣꯏ ꯀ꯫ꯃ ꯑꯦ ꯂꯣꯅꯥ ꯍꯤꯖꯤ ꯌꯝ ꯌꯦꯟ ꯌꯥ꯫",
-        "description": "ꯑꯗꯣꯏ ꯀ꯫ꯃ ꯑꯗꯣꯏ ꯎꯨꯟ ꯅ꯫ꯨ꯫ ꯑꯗꯣꯏ ꯉꯥ ꯎꯖꯨ ꯇꯕ, ꯆꯟꯅꯥ ꯎꯛ ꯃꯃ ꯑꯣꯟ ꯊꯪꯕꯥ, ꯉꯝ ꯑꯦ ꯌ꯫ꯂ ꯃꯗ ꯇꯠꯂ, ꯑꯦ ꯠ ꯇꯢ ꯤ ꯝꯂ ꯃꯗ ꯇꯠꯂ꯫",
+      "intellectual-property-rights": {
+        "name": "ꯎꯀꯅꯥꯟ-ꯃꯑꯄ ꯊꯤꯛ (IPR)",
+        "summary": "Trademark, Copyright ꯑꯦꯡ Design ꯌꯧꯂꯤ — ꯑꯦꯡ ꯎꯡꯕ।",
+        "description": "Brand ꯑꯦꯡ ꯈꯩꯇꯪ ꯊꯤꯛ ꯇꯥꯔꯒ ꯋꯥꯟꯅꯕ। ꯏꯍꯟ Trademark, Copyright ꯑꯦꯡ Design ꯌꯧꯂꯤ — ꯂꯘꯣꯌ, ꯑꯦꯞꯎꯜ, Objection ꯑꯦꯡ Opposition — ꯑꯦꯡ ꯀꯪꯕ Infringement ꯑꯦꯡ Passing Off ꯊꯧꯑꯄꯥ।",
         "bullets": [
-          "ꯑꯔꯨꯃꯊ ꯎꯖꯨ ꯎꯗ ꯑꯦ ꯆꯟꯅꯥ ꯃꯔꯞ",
-          "ꯆꯟꯅꯥ ꯎꯛ ꯃꯃ ꯑꯣꯟ ꯊꯪꯕꯥ",
-          "ꯉꯝ ꯑꯆꯂ ꯑꯦ ꯂꯂꯅ ꯂꯞ",
-          "ꯌ꯫ꯂ ꯎꯠ — ꯑꯦ ꯇꯨꯖ",
-          "ꯔꯤꯆ, ꯊꯧ ꯑꯦ ꯂꯥꯆ ꯊꯦꯀ ꯄꯥ"
+          "Trademark ꯂꯘꯣꯌ, ꯐꯦꯌꯑꯦꯡ Prosecution",
+          "Copyright ꯑꯦꯡ Design Registration",
+          "Objection ꯑꯦꯡ Opposition ꯄꯨꯌꯨ ꯃꯚꯦ",
+          "Infringement ꯑꯦꯡ Passing-Off ꯑꯦꯔꯥ",
+          "Licensing, Assignment ꯑꯦꯡ IPR ꯊꯥꯢ"
         ]
       },
-      "copyright-registration": {
-        "name": "ꯎꯔ ꯃ꯫ꯠꯅ",
-        "summary": "ꯑꯗꯣꯏ ꯃꯇꯥ ꯑꯦ ꯁꯀ ꯎꯠ ꯃꯃ ꯃ꯫ꯠꯅ ꯊꯪꯀꯧ꯫",
-        "description": "ꯃ꯫ꯠꯅ ꯑꯗꯣꯏ ꯘꯦꯠꯀꯧ ꯆꯟꯅꯥ ꯂꯞ ꯌꯥ꯫ ꯑꯗꯣꯏ ꯃꯇꯥ, ꯃꯤꯑꯣꯏ, ꯏ ꯑꯦ ꯁꯀ ꯎꯠ ꯃ꯫ꯠꯅ ꯊꯪꯀꯧ, ꯄꯣꯟ ꯑꯦ ꯂꯂꯅ ꯑꯦ ꯂꯇ ꯎꯠ ꯑꯕ꯫",
+      "property-real-estate-law": {
+        "name": "ꯑꯁꯨꯂ ꯑꯦꯡ Real Estate ꯂꯧ",
+        "summary": "Title, Possession, Tenancy ꯑꯦꯡ Real-Estate ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯘꯣꯟꯗꯢ।",
+        "description": "ꯑꯁꯨꯂ ꯍꯟꯅꯔꯤ ꯐꯪꯕ ꯆꯟ ꯇꯥꯔꯒ ꯌꯥꯕ। ꯏꯍꯟ Title Verification, Partition, Possession ꯑꯦꯡ Tenancy ꯍꯟꯅꯔꯤ, Boundary ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯑꯦꯡ Real-Estate Documentation — Litigation ꯑꯦꯡ Practical Settlement।",
         "bullets": [
-          "ꯃꯇꯥ, ꯃꯤꯑꯣꯏ ꯑꯦ ꯁꯀ ꯎꯠ ꯃ꯫ꯠꯅ",
-          "ꯄꯣꯟ ꯑꯦ ꯂꯞ ꯍꯠ ꯂꯡ",
-          "ꯊꯧ ꯑꯦ ꯂꯥꯆ ꯘꯥꯛ",
-          "ꯂꯇ ꯌ꯫ꯂ ꯑꯦ ꯎꯟ ꯌꯥ ꯊꯪꯕꯥ",
-          "ꯘꯦꯠꯀꯧ ꯃꯗ ꯘꯦꯠꯅ ꯌꯥꯡ ꯌꯥꯎ"
+          "Title ꯊꯣꯛ ꯑꯦꯡ Due Diligence ꯀꯤ ꯃꯩꯊꯤ",
+          "ꯐꯦꯝ ꯑꯦꯡ Co-Owner ꯂꯃꯛ Partition ꯄꯨꯌꯨ",
+          "Possession, Eviction ꯑꯦꯡ Tenancy ꯄꯨꯌꯨ",
+          "ꯃꯁꯛ ꯈꯨꯟ ꯎꯖꯔ ꯎꯡꯕ ꯎꯡꯕ ꯎꯡꯕ Dispossession ꯊꯧꯀꯤ Injunction",
+          "Sale Deed, Gift Deed ꯑꯦꯡ Agreement ꯌꯥꯕ ꯑꯦꯡ Registration"
         ]
       },
-      "patent-filing": {
-        "name": "ꯆꯥꯖ ꯃ꯫ꯠꯅ",
-        "summary": "ꯆꯥꯖ ꯎꯗ ꯂꯃꯇ ꯑꯔ — ꯎꯖꯨ, ꯊꯪꯀꯧ, ꯇꯠꯂ꯫",
-        "description": "ꯑꯗꯣꯏ ꯆꯥꯖ ꯎꯗ ꯂꯃꯇ ꯎꯠ: ꯎꯚ ꯥ ꯎꯗ ꯑꯦ ꯂꯞ ꯎꯖꯨ, ꯌꯥ ꯑꯦ ꯌꯥ ꯊꯪꯀꯧ ꯊꯪꯀꯧ ꯎꯛ ꯌꯥꯡ, ꯑꯦ ꯘꯥꯊ ꯃꯗ ꯇꯠꯂ — ꯆꯥꯖ ꯌꯥ ꯀꯠ ꯃꯗ ꯟ ꯏ ꯌꯥꯡ꯫",
+      "land-acquisition-matters": {
+        "name": "ꯈꯨꯟ ꯕꯀ ꯍꯟꯅꯔꯤ",
+        "summary": "ꯒꯤꯠꯄꯤꯀ ꯎꯘꯇ ꯑꯦꯡ ꯕꯀ ꯄꯨꯌꯨ ꯂꯦꯞ।",
+        "description": "ꯂꯃꯗꯨ ꯀꯪꯕ ꯎꯡꯕꯀꯗꯥ, ꯄꯨꯌꯨ ꯑꯦꯡ ꯎꯘꯇ ꯂꯦꯞ ꯐꯕꯥ ꯉꯥꯢ। ꯏꯍꯟ Landowner ꯀꯗꯥ ꯕꯀ ꯄꯨꯌꯨ ꯊꯥꯢ, ꯎꯘꯇ ꯈꯩꯗꯦ ꯉꯥꯢ ꯑꯦꯡ Procedural Lapse ꯀꯧ Reference ꯀꯣꯔꯦꯠ ꯑꯦꯡ ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ।",
         "bullets": [
-          "ꯆꯥꯖ ꯎꯛ ꯑꯦ ꯎꯚ ꯥ ꯎꯗ ꯌꯤꯂ",
-          "ꯌꯥ ꯑꯦ ꯌꯥ ꯊꯪꯀꯧ ꯊꯪꯀꯧ",
-          "ꯘꯥꯊ ꯌꯥ ꯃꯗ ꯃ꯫ꯠꯅ ꯑꯦ ꯇꯠꯂ",
-          "ꯉꯝ ꯑꯆꯂ ꯑꯦ ꯂꯂꯅ ꯂꯞ",
-          "ꯔꯤꯆ ꯑꯦ ꯘꯦꯠꯀꯧ ꯊꯪ ꯃꯕꯨ"
+          "ꯕꯀ Notice ꯑꯦꯡ ꯄꯨꯌꯨ ꯊꯥꯢ",
+          "ꯎꯘꯇ ꯈꯩꯗꯦ ꯉꯥꯢ ꯈꯦꯠ",
+          "Reference ꯀꯣꯔꯦꯠꯀꯗꯥ ꯑꯦꯞꯎꯜ",
+          "Procedural Lapse ꯑꯦꯡ Lapsing ꯕꯀ Challenge",
+          "ꯑꯪꯕ ꯀꯣꯔꯦꯠꯀꯗꯥ ꯉꯃꯑꯤꯊꯕ ꯆꯧꯕꯀꯗꯥ"
+        ]
+      },
+      "service-employment-law": {
+        "name": "Service ꯑꯦꯡ Employment ꯂꯧ",
+        "summary": "ꯃꯦꯠ ꯑꯦꯡ ꯄꯥꯎꯖ — ꯋꯥꯡ, ꯂꯩꯕ ꯑꯦꯡ Service ꯍꯟꯅꯔꯤ।",
+        "description": "ꯏꯍꯟ ꯃꯦꯠ ꯀꯗꯥ Wrongful Termination, ꯐꯕ ꯄꯥꯎꯖ, Gratuity ꯑꯦꯡ Service Condition ꯊꯥꯢ, ꯑꯦꯡ ꯄꯥꯎꯖ ꯀꯗꯥ Inquiry, Labour ꯄꯨꯌꯨ ꯑꯦꯡ Compliance ꯍꯟꯅꯔꯤ — CAT ꯑꯦꯡ Labour Forum ꯀꯤ।",
+        "bullets": [
+          "Wrongful Termination ꯑꯦꯡ Reinstatement ꯈꯦꯠ",
+          "Salary, Gratuity ꯑꯦꯡ PF ꯂꯩꯕ ꯍꯟꯅꯔꯤ",
+          "CAT ꯑꯦꯡ Tribunal ꯀꯗꯥ Service ꯍꯟꯅꯔꯤ",
+          "Domestic Inquiry ꯑꯦꯡ Disciplinary-Action ꯕꯀ",
+          "Employment ꯈꯠꯂ ꯑꯦꯡ Policy ꯌꯥꯕ"
+        ]
+      },
+      "trust-society-registration": {
+        "name": "Trust ꯑꯦꯡ Society Registration",
+        "summary": "Trust ꯑꯦꯡ Society ꯌꯥꯕ ꯑꯦꯡ ꯊꯤꯛ।",
+        "description": "ꯏꯍꯟ Trust ꯑꯦꯡ Society ꯌꯥꯕ Sound Governing ꯗꯆꯥ ꯊꯥꯢ, Registration ꯎꯕꯀ, ꯑꯦꯡ Compliance ꯊꯥꯢ — ꯍꯩꯓꯀꯖꯤꯡ ꯎꯔꯣ ꯐꯕꯀꯗꯥ।",
+        "bullets": [
+          "Trust Deed ꯑꯦꯡ Society By-Law ꯌꯥꯕ",
+          "Trust ꯑꯦꯡ Society ꯑꯨꯢꯁꯢ",
+          "Governance ꯑꯦꯡ Compliance ꯊꯥꯢ",
+          "ꯑꯨꯢꯠ, ꯕꯗꯂ ꯑꯦꯡ ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯘꯣꯟꯗꯢ",
+          "Statutory ꯗꯦꯠ ꯑꯦꯡ Record-Keeping ꯕꯤꯗꯦ"
+        ]
+      },
+      "probate-succession-will": {
+        "name": "Probate, Succession ꯑꯦꯡ Will ꯍꯟꯅꯔꯤ",
+        "summary": "Will, Probate, Succession ꯕꯦꯠ ꯑꯦꯡ Estate ꯂꯩꯕ ꯍꯟꯅꯔꯤ।",
+        "description": "ꯏꯍꯟ Will ꯌꯥꯕ, Probate ꯑꯦꯡ Letters Administration ꯂꯣ, Succession ꯑꯦꯡ Legal-Heir ꯕꯦꯠ, ꯑꯦꯡ Inheritance ꯑꯦꯡ Estate ꯂꯩꯕ ꯍꯟꯅꯔꯤ — ꯐꯪꯕ ꯑꯦꯡ ꯊꯥꯢꯓ।",
+        "bullets": [
+          "Will ꯌꯥꯕ ꯑꯦꯡ Safe Custody",
+          "Probate ꯑꯦꯡ Letters Administration",
+          "Succession ꯑꯦꯡ Legal-Heir ꯕꯦꯠ",
+          "Inheritance ꯑꯦꯡ Estate ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯄꯨꯌꯨ",
+          "Applicable Succession Law ꯥꯢ ꯡꯚꯪ ꯊꯥꯢ"
+        ]
+      },
+      "contract-drafting-legal-opinions": {
+        "name": "ꯈꯠꯂ ꯌꯥꯕ ꯑꯦꯡ ꯂꯧ ꯅꯥꯛꯌꯧ",
+        "summary": "ꯌꯥꯕ ꯑꯦꯡ ꯊꯧꯃꯗꯥ ꯅꯥꯛꯌꯧ ꯈꯪꯕ।",
+        "description": "ꯌꯥꯕꯀ ꯃꯧꯠ ꯂꯩꯕ ꯍꯟꯅꯔꯤ ꯈꯨꯟ। ꯏꯍꯟ ꯅꯥꯛꯌꯧ ꯑꯦꯡ ꯊꯣꯛ Title, ꯋꯂꯈꯪ ꯑꯦꯡ Risk — Plain, Precise ꯂꯀꯧꯗꯦ।",
+        "bullets": [
+          "ꯍꯧꯔꯦ ꯑꯦꯡ Personal ꯈꯠꯂ ꯌꯥꯕ ꯑꯦꯡ ꯊꯣꯛ",
+          "Title ꯑꯦꯡ Transaction ꯅꯥꯛꯌꯧ",
+          "Risk ꯛꯁ ꯑꯦꯡ Clause-Level ꯊꯥꯢ",
+          "Notice, Undertaking ꯑꯦꯡ Settlement ꯔꯥꯛ",
+          "Plain-Language ꯍꯩꯓꯑꯦꯡ ꯊꯔꯡꯍꯗꯀ"
+        ]
+      },
+      "documentation-registration": {
+        "name": "Documentation ꯑꯦꯡ Registration",
+        "summary": "Deed ꯌꯥꯕ ꯑꯦꯡ ꯌꯥꯔꯤ ꯊꯤꯛ Registration।",
+        "description": "ꯏꯍꯟ Sale Deed, Gift Deed, Lease ꯑꯦꯡ Rent ꯑꯨꯝꯞꯀ, Power Attorney ꯑꯦꯡ ꯌꯥꯕ — ꯌꯥꯔꯤ Stamping, Valuation ꯑꯦꯡ Registration ꯎꯕꯀ Document ꯌꯧꯂꯤ।",
+        "bullets": [
+          "Sale, Gift ꯑꯦꯡ Lease Deed ꯌꯥꯕ",
+          "Power Attorney ꯑꯦꯡ Affidavit ꯃꯇꯦꯡꯕ",
+          "ꯌꯥꯔꯤ Stamp Duty ꯑꯦꯡ Valuation ꯕꯤꯗꯦ",
+          "Sub-Registrar ꯀꯗꯥ Registration",
+          "Executed Document ꯛꯁ"
         ]
       }
     }

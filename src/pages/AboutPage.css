@@ -26,6 +26,23 @@
   outline-offset: 8px;
 }
 
+.about-founder-img {
+  width: min(60vw, 240px);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: var(--r-lg);
+  outline: 2px solid var(--gold-500);
+  outline-offset: 8px;
+}
+
+.about-founder-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+  margin-block-start: var(--sp-6);
+}
+
 .about-founder-qual {
   color: var(--gold-700);
   font-weight: 600;

@@ -2,21 +2,21 @@
   "services": {
     "learnMore": "ᱵᱟᱲᱟ ᱧᱮᱞ ᱞᱮ",
     "categories": {
-      "litigation": {
-        "name": "ᱠᱟᱦᱟᱬ ᱠᱟᱠᱚ",
-        "description": "ᱠᱷᱟᱨᱟᱪ, ᱜᱟᱰᱚᱱ ᱟᱨ ᱱᱟᱦᱟᱜ ᱠᱚᱨ ᱨᱮ ᱜᱤᱨ, ᱵᱷᱤᱞᱤ, ᱠᱩᱲ, ᱛᱟᱞᱟ ᱟᱨ ᱨᱮᱡᱤᱥᱴᱨᱟᱨ ᱮᱢᱟᱠ ᱠᱚ।"
+      "litigation-disputes": {
+        "name": "Litigation & Disputes",
+        "description": "Civil, criminal, family and consumer disputes argued before trial courts, tribunals and the High Court, with settlement pursued wherever it serves you."
       },
-      "business-registration": {
-        "name": "ᱠᱟᱵᱟ ᱵᱟᱡᱚᱫ",
-        "description": "ᱠᱚᱯᱛᱩᱱᱤ, LLP ᱟᱨ ᱠᱟᱵᱟ ᱰᱟᱞ ᱥᱟᱶ ᱞᱮᱠᱟ ᱠᱟᱜᱚᱡ, ᱯᱟᱴᱤ ᱫᱟᱲᱮ ᱟᱨ ᱛᱟᱭᱚᱢ ᱠᱟᱞᱠᱟ।"
+      "constitutional-appellate": {
+        "name": "Constitutional & Appellate",
+        "description": "Writ petitions, PILs, constitutional questions, appeals, revisions and tribunal matters before the High Court and specialised forums."
       },
-      "tax": {
-        "name": "ᱛᱮᱦᱮᱸ ᱠᱟᱹᱢᱤ",
-        "description": "GST ᱟᱨ ᱠᱚᱲᱟᱠ ᱟᱠᱟᱞ, ᱫᱟᱠᱟ ᱢᱤᱦᱤᱧ ᱟᱨ ᱪᱤᱛᱟᱹᱧ ᱠᱚ ᱜᱳᱯᱚᱛᱨ ᱛᱮ।"
+      "corporate-commercial": {
+        "name": "Corporate & Commercial",
+        "description": "Company, commercial, banking, recovery, cyber and intellectual-property matters for businesses, promoters and professionals."
       },
-      "intellectual-property": {
-        "name": "ᱜᱟᱶᱟ ᱴᱟᱠᱟ",
-        "description": "ᱨᱮᱡᱤ, ᱠᱯᱚᱭ ᱟᱨ ᱜᱟᱶᱟ ᱰᱷᱳᱠᱟ — ᱞᱟᱰ, ᱯᱟᱴᱤ, ᱠᱥᱩᱭ ᱟᱨ ᱫᱮᱞ।"
+      "property-advisory": {
+        "name": "Property, Registration & Advisory",
+        "description": "Property and land matters, employment law, registrations, succession, and careful drafting of contracts, opinions and documents."
       }
     },
     "items": {
@@ -44,16 +44,16 @@
           "ᱦᱩᱠᱟᱢ ᱜᱚᱞᱟ ᱟᱨ ᱥᱟᱦᱤ ᱪᱦᱬᱨᱟᱛ ᱞᱟᱡᱤ ᱞᱟ"
         ]
       },
-      "divorce-matrimonial-cases": {
-        "name": "ᱯᱮᱥᱟ ᱠᱚ ᱟᱨ ᱠᱚᱛᱚᱢ ᱠᱟᱦᱟᱬ",
-        "summary": "ᱯᱮᱥᱟ, ᱧᱚᱪᱚᱭ ᱟᱨ ᱠᱩᱲ ᱥᱮᱞᱟᱞ ᱜᱮᱲ ᱟᱨ ᱦᱩᱡᱟ।",
-        "description": "ᱠᱚᱲ ᱠᱚᱞ ᱱᱚᱡ ᱟᱨ ᱛᱤᱠ ᱪᱟᱦᱤ। ᱟᱢ ᱩᱥᱩᱞ ᱠᱟᱯᱴ ᱟᱨ ᱞᱞᱚᱠ ᱯᱮᱥᱟ, ᱧᱚᱪᱚᱭ, ᱠᱩᱲ ᱰᱮᱞ ᱟᱨ ᱠᱩᱲ ᱠᱢ — ᱥᱮᱡ ᱚᱤᱪᱚᱞᱦᱚᱡ ᱪᱦᱬᱮ ᱟᱭ ᱟᱨ ᱠᱩᱲ।",
+      "bail-anticipatory-bail-criminal-appeals": {
+        "name": "Bail, Anticipatory Bail & Criminal Appeals",
+        "summary": "Urgent bail applications and appeals argued on priority.",
+        "description": "Liberty matters cannot wait. We move regular and anticipatory bail applications on priority, and pursue criminal appeals and revisions before the Sessions Court and High Court with focused, well-prepared arguments.",
         "bullets": [
-          "ᱩᱥᱩᱞ ᱯᱮᱥᱟ ᱢᱤᱞ ᱜᱩ ᱭᱮᱯ",
-          "ᱞᱞᱚᱠ ᱯᱮᱥᱟ ᱟᱨ ᱞᱮᱞᱟᱨ",
-          "ᱧᱚᱪᱚᱭ ᱠᱚ ᱞᱮᱠᱚᱣ ᱠᱟᱱᱩᱱ ᱛᱮ",
-          "ᱠᱩᱲ ᱠᱨᱤᱭᱟ ᱟᱨ ᱞᱚᱠᱰᱚᱣ ᱨᱟᱨᱢ",
-          "ᱠᱚᱲ ᱠᱚᱞ ᱨᱮ ᱞᱞᱚᱠ ᱟᱞᱚᱥ"
+          "Anticipatory bail before Sessions Court and High Court",
+          "Regular bail and cancellation-of-bail matters",
+          "Urgent mentioning and priority listing where needed",
+          "Criminal appeals and revisions against conviction or sentence",
+          "Suspension of sentence pending appeal"
         ]
       },
       "cheque-bounce-cases": {
@@ -68,196 +68,256 @@
           "ᱡᱷᱭᱟ ᱣᱮᱞ ᱞᱟᱡᱤ ᱞᱟ"
         ]
       },
-      "consumer-complaints": {
-        "name": "ᱦᱢ ᱯᱳᱦᱯᱚ",
-        "summary": "ᱠᱩ ᱥᱮᱨᱟ ᱟᱨ ᱠᱚᱲᱫ ᱥᱮᱨᱚᱥ ᱭᱮᱞᱮ ᱠᱳᱱᱥᱩᱢᱚᱨ ᱯᱤᱞ।",
-        "description": "ᱟᱢ ᱦᱢ ᱯᱷᱞᱚᱠ, ᱠᱚᱲᱫ ᱡᱤᱫᱟ, ᱮᱫᱮᱞ ᱠᱚ, ᱜᱪ ᱠᱛᱱᱟ ᱟᱨ ᱠᱚᱠᱷ ᱪᱟᱲᱟ ᱠᱳᱲ, ᱞᱮᱪ ᱟᱨ ᱱᱟᱦᱟᱜ ᱠᱳᱱᱥᱭᱩᱢᱚᱨ ᱠᱟᱢᱤᱪᱳᱱ ᱭᱮᱞᱮ।",
+      "family-matrimonial-disputes": {
+        "name": "Family & Matrimonial Disputes",
+        "summary": "Divorce, maintenance and custody handled sensitively and firmly.",
+        "description": "Family disputes call for both compassion and precision. We advise on mutual-consent and contested divorce, maintenance, domestic-violence proceedings and child custody — always seeking the outcome that protects your future and your children.",
         "bullets": [
-          "ᱦᱢ ᱯᱳᱦᱯᱚ ᱞᱮᱞᱟᱨ ᱟᱨ ᱞᱰᱤᱧ",
-          "ᱠᱚᱞ ᱟᱨ ᱨᱟᱜ ᱠᱛᱱᱟ ᱣᱩᱥᱛᱚ",
-          "ᱜᱪ ᱪᱮᱱᱤᱫᱟ ᱠᱛᱱᱟ ᱞᱟᱲᱤᱧ",
-          "ᱰᱚᱠᱦᱚᱨ ᱟᱜᱰᱤ ᱟᱨ ᱥᱮᱨᱠᱮ ᱠᱛᱱᱟ",
-          "ᱦᱢ ᱠᱚᱣᱟ ᱮᱢᱟᱠ ᱪᱦᱬᱪᱮᱭ"
+          "Mutual-consent divorce with minimum conflict",
+          "Contested divorce petitions and defence",
+          "Maintenance and alimony claims under applicable laws",
+          "Child custody and visitation arrangements",
+          "Protection orders in domestic-violence proceedings"
         ]
       },
-      "property-disputes": {
-        "name": "ᱡᱚᱢᱤᱧ ᱞᱚᱢ",
-        "summary": "ᱦᱤᱨᱞᱮ, ᱠᱟᱴᱚ, ᱞᱮᱪ ᱟᱨ ᱴᱤᱩᱨᱤ ᱠᱚᱣᱟ ᱛᱤᱣ।",
-        "description": "ᱡᱚᱢᱤᱧ ᱠᱚ ᱛᱚᱦᱵᱚ ᱞᱟᱜᱪ ᱡᱤᱧᱮ ᱪᱶᱪ। ᱟᱢ ᱦᱤᱨᱞᱮ ᱠᱷᱮᱡ, ᱠᱟᱴᱚ ᱠᱟᱦᱟᱬ, ᱞᱮᱪ ᱟᱨ ᱪᱦᱬᱭ ᱠᱚᱞ, ᱛᱟᱞᱤ ᱠᱞ ᱟᱨ ᱠᱟᱜᱤᱡ — ᱠᱟᱦᱟᱬ ᱞᱮᱪ ᱱᱚᱛᱧ ᱛᱮ ᱨᱟᱲᱤᱧ ᱥᱟ।",
+      "consumer-protection-cases": {
+        "name": "Consumer Protection Cases",
+        "summary": "Claims against defective goods and deficient services before consumer forums.",
+        "description": "We help consumers seek redressal for defective products, deficiency in service, unfair trade practices and insurance or builder disputes before the District, State and National Consumer Commissions.",
         "bullets": [
-          "ᱦᱤᱨᱠᱦᱚᱡ ᱠᱷᱟᱡ ᱯᱩᱯᱛᱤ",
-          "ᱠᱟᱴᱚ ᱠᱩᱲ ᱟᱨ ᱠᱶᱟᱢ ᱞᱚᱢ",
-          "ᱞᱮᱪ, ᱣᱦᱠᱢ ᱟᱨ ᱴᱤᱩᱲᱭ ᱠᱚᱞ",
-          "ᱛᱟᱞᱤ ᱠᱞ ᱵᱩᱡᱮᱫ ᱯᱷᱚᱞᱠᱚ ᱟᱨ ᱠᱚᱫ ᱭᱮᱠ ᱱᱟ",
-          "ᱠᱟᱞ, ᱠᱚᱣᱟ ᱟᱨ ᱥᱚᱱᱡᱤᱱ ᱞᱚᱲᱷ ᱟᱨ ᱞᱡᱤᱥᱴᱨᱟᱨ ᱥᱟᱯᱚᱨ"
+          "Drafting and filing of consumer complaints",
+          "Builder-delay and real-estate claims",
+          "Insurance claim rejection disputes",
+          "Medical negligence and service-deficiency claims",
+          "Enforcement of consumer forum orders"
         ]
       },
-      "labour-employment-disputes": {
-        "name": "ᱠᱟᱞ ᱠᱚ ᱟᱨ ᱠᱩᱢ ᱞᱚᱢ",
-        "summary": "ᱠᱩᱦ ᱟᱨ ᱠᱭᱟ ᱞᱟᱲᱮ — ᱪᱦᱬ, ᱣᱦᱠᱚᱞ ᱟᱨ ᱠᱟᱞ ᱠᱚᱞ।",
-        "description": "ᱟᱢ ᱠᱩᱦ ᱴᱮ ᱛᱮ ᱪᱞ ᱪᱦᱬ, ᱣᱦᱠᱚᱞ ᱟᱮ, ᱜᱷᱟᱨᱚ ᱟᱨ PF ᱠᱛᱱᱟ, ᱟᱨ ᱠᱭᱟ ᱞᱮ ᱠᱛᱩᱢ ᱟᱦᱴᱚ ᱠᱨᱤᱭᱟ ᱟᱨ ᱠᱟᱯᱭ ᱠᱚ।",
+      "arbitration-mediation": {
+        "name": "Arbitration & Mediation",
+        "summary": "Faster, private resolution of commercial and contractual disputes.",
+        "description": "For commercial and contractual disputes, arbitration and mediation often deliver a faster, more private outcome than court. We draft arbitration clauses, represent parties through the reference and pursue negotiated settlements.",
         "bullets": [
-          "ᱦᱬᱪ ᱪᱦᱬ ᱟᱨ ᱨᱤ ᱠᱞᱟᱢ",
-          "ᱣᱦᱠᱚᱞ ᱣᱠᱚᱯ, ᱜᱷᱟᱨᱚ ᱟᱨ PF ᱠᱛᱱᱟ",
-          "ᱠᱟᱞ ᱠᱚᱨᱟ ᱟᱨ ᱜᱟᱫᱱ ᱦᱟᱺ ᱠᱚ ᱨᱮ ᱥᱟᱯᱟᱡᱟ",
-          "ᱠᱷᱤᱧ ᱵᱟᱱ ᱟᱨ ᱫᱤ ᱠᱚ ᱥᱚᱯᱚᱨ",
-          "ᱠᱩᱢ ᱠᱳᱱᱴᱨᱟ ᱟᱨ ᱱᱤᱛᱤᱢ ᱞᱚᱲ"
+          "Drafting and review of arbitration and dispute clauses",
+          "Representation in domestic arbitration proceedings",
+          "Section 9 and Section 17 interim relief applications",
+          "Enforcement and challenge of arbitral awards",
+          "Mediation and structured settlement negotiation"
         ]
       },
-      "private-limited-company-registration": {
-        "name": "ᱥᱟᱢᱞ ᱠᱚᱯᱛᱩᱱᱤ ᱵᱟᱡ",
-        "summary": "ᱛᱮᱡᱲᱮ — ᱞᱤ ᱪᱞᱟᱥᱮ ᱛᱮ।",
-        "description": "ᱟᱢ ᱥᱟᱢᱞ ᱠᱚᱯᱛᱩᱱᱤ ᱪᱦᱩ ᱟᱞ ᱟᱛᱬ — ᱞᱤ ᱞᱚᱫᱭ, ᱰᱮ ᱮ, ᱭᱩ ᱞᱚᱲᱜ ᱞᱰ, ᱞᱮᱡ ᱠᱠᱥ ᱟᱨ ᱤᱛ ᱰᱮ ᱲᱩᱞᱚ, ᱣᱢ ᱪᱦᱩᱪ ᱝᱬ।",
+      "writ-petitions": {
+        "name": "Writ Petitions",
+        "summary": "Enforcing your rights against the State before the High Court.",
+        "description": "When a public authority acts unfairly or illegally, a writ petition before the High Court is often the fastest remedy. We file petitions for mandamus, certiorari, prohibition and habeas corpus, challenging arbitrary orders and inaction.",
         "bullets": [
-          "ᱞᱤ ᱞᱚᱫᱭ ᱟᱨ ᱞᱷᱢᱮ ᱞᱟᱠᱟ",
-          "ᱰᱮ ᱟᱨ ᱰᱮ ᱞᱟᱲᱮ",
-          "MoA ᱟᱨ AoA ᱟᱜ ᱠᱟᱹᱢᱤ ᱞᱟᱲ",
-          "ᱞᱮᱡ ᱟᱨ ᱲᱩᱜ RoC ᱠᱟᱝ",
-          "PAN, TAN ᱟᱨ ᱞᱮᱛ ᱤᱛᱰᱮ ᱲᱩᱞᱚ ᱪᱟᱞᱮᱧ"
+          "Writs against arbitrary or illegal State action",
+          "Service, admission, tender and regulatory grievances",
+          "Quashing of adverse administrative orders",
+          "Stay and interim directions on urgent basis",
+          "Contempt petitions to enforce compliance"
         ]
       },
-      "llp-registration": {
-        "name": "LLP ᱵᱟᱡ",
-        "summary": "ᱠᱫᱭ ᱞᱟᱯ ᱞᱚᱲᱳᱫ ᱟᱨ ᱠᱚᱯᱟᱴᱮ।",
-        "description": "ᱠᱫᱭ ᱞᱟᱯ ᱠᱩ ᱠᱫᱭ ᱞᱠᱯᱛ ᱟᱨ ᱠᱫᱭ ᱞᱟᱯ ᱠᱟ। ᱟᱢ ᱛᱪᱲᱚ, ᱴᱲ LLP ᱠᱨᱤᱭᱟ ᱣ ᱠᱚᱯᱟᱴᱯᱮ ᱟᱨ ᱠᱠᱥ ᱠᱴᱚ।",
+      "constitutional-law": {
+        "name": "Constitutional Law",
+        "summary": "Advice and advocacy on fundamental rights and constitutional questions.",
+        "description": "We advise and appear on constitutional questions — fundamental-rights violations, challenges to the vires of statutes and rules, and matters involving the powers of public authorities before the High Court.",
         "bullets": [
-          "LLP ᱞᱤ ᱞᱚᱫᱭ ᱟᱨ ᱛᱪᱲᱚ ᱞᱰᱤᱧ",
-          "ᱥᱢᱚᱱ LLP ᱠᱨᱤᱭᱟ — ᱫᱚ, ᱞᱟᱯ ᱠᱩ, ᱨᱟᱬ",
-          "ᱰᱮ DSC ᱟᱨ ᱰᱮ",
-          "PAN, TAN ᱟᱨ ᱠᱚᱦᱛ ᱰᱚᱠᱩ",
-          "ᱠᱞ ᱞᱰᱤᱧ ᱟᱨ ᱪᱚᱡ ᱥᱟᱯᱮ"
+          "Fundamental-rights enforcement and advice",
+          "Challenges to the validity of statutes and rules",
+          "Public-authority jurisdiction and powers questions",
+          "Strategic advice on constitutional remedies",
+          "Representation in constitutional matters before the High Court"
         ]
       },
-      "partnership-firm-registration": {
-        "name": "ᱠᱫᱭ ᱯᱦᱢ ᱵᱟᱡ",
-        "summary": "ᱛᱟᱲᱚ ᱪᱦᱡ ᱠᱡᱛ ᱞᱤᱞᱤᱧ।",
-        "description": "ᱟᱢ ᱟᱨ ᱠᱫᱭ ᱞᱚᱲ ᱨᱮᱠᱳᱰᱳ ᱞᱠᱯᱛ, ᱞᱟᱯ ᱠᱩ, ᱰᱨᱟ ᱟᱨ ᱨᱟᱬ — ᱱᱤᱢ ᱟᱰᱪ ᱛᱮᱲᱚ ᱰᱱᱮ — ᱟᱨ ᱨᱮᱡᱯ ᱠ ᱲᱤ।",
+      "public-interest-litigation": {
+        "name": "Public Interest Litigations (PIL)",
+        "summary": "Litigating matters of genuine public concern responsibly.",
+        "description": "A PIL lets a citizen raise a genuine matter of public concern before the High Court. We assess locus and public interest, prepare a well-documented petition, and pursue it responsibly through to relief.",
         "bullets": [
-          "ᱠᱫᱭ ᱞᱚᱲ ᱚ ᱰᱤᱥ ᱠᱚ",
-          "ᱨᱮᱡᱯ ᱠ ᱲᱤ",
-          "PAN ᱟᱨ ᱠᱚᱦᱛ ᱰᱚᱠᱩ ᱦᱮᱞᱩᱯ",
-          "ᱞᱲᱠ ᱨᱟ ᱟᱨ ᱨᱟᱱᱮᱛ ᱠᱫᱭ",
-          "ᱪᱦᱬ ᱟᱨ ᱠᱨᱱ ᱤᱦᱚᱠ"
+          "Assessment of locus standi and genuine public interest",
+          "Fact and document gathering for a strong petition",
+          "Drafting and filing of the PIL",
+          "Representation and follow-up before the High Court",
+          "Monitoring compliance with the Court's directions"
         ]
       },
-      "msme-udyam-registration": {
-        "name": "MSME / Udyam ᱵᱟᱡ",
-        "summary": "MSME ᱠᱛᱜ ᱭᱟ — ᱩᱧ, ᱛᱦᱛᱡ ᱟᱨ ᱞᱮᱣ ᱞᱞᱠ।",
-        "description": "Udyam ᱵᱟᱡ ᱢᱟᱠ, ᱠᱜ ᱟᱨ ᱞᱞᱰ ᱞᱰᱛ ᱛᱮ ᱠᱡᱫᱚ ᱞᱫᱭ, ᱛᱦᱛᱡ, ᱛᱮᱰ ᱞᱞᱠ ᱟᱨ ᱞᱮᱣ ᱨᱨ। ᱟᱢ ᱵᱟᱡ ᱟᱨ ᱞᱛ ᱠᱛᱜ ᱛᱮ ᱟᱫ ᱠᱞᱮ।",
+      "high-court-appeals-revisions": {
+        "name": "High Court Appeals & Revisions",
+        "summary": "Challenging adverse orders through appeal and revision.",
+        "description": "An adverse order is rarely the end of the road. We evaluate the prospects of appeal and revision, identify the strongest grounds, and argue civil and criminal appeals and revisions before the High Court.",
         "bullets": [
-          "Udyam ᱵᱟᱡ ᱜᱚ ᱰᱚᱠ ᱛᱮ",
-          "ᱥᱠᱞ ᱟᱨ ᱛᱦᱛᱡ ᱞᱮ ᱟᱫ ᱠᱞᱮ",
-          "MSMED ᱠᱜ ᱞᱮᱣ ᱞᱮᱲ ᱠᱞᱮᱢ",
-          "ᱤᱞᱥᱪᱤᱧ ᱵᱟᱡ ᱟᱨ ᱱ ᱟ",
-          "ᱠᱚᱦᱛ ᱟᱨ ᱞᱮᱰ ᱞᱟᱥᱯᱯᱮ"
+          "Honest appraisal of appellate prospects",
+          "Identification of the strongest grounds of challenge",
+          "Civil and criminal appeals before the High Court",
+          "Revision petitions against lower-court orders",
+          "Stay of the impugned order pending appeal"
         ]
       },
-      "fssai-license": {
-        "name": "FSSAI ᱞᱤᱥᱮᱱ",
-        "summary": "ᱠᱚᱲ ᱠᱟᱹᱢᱤ — ᱞᱤᱥᱮᱧ, ᱰᱞᱞ ᱟᱨ ᱠᱞ।",
-        "description": "ᱠ ᱠᱚᱲ ᱠᱟᱹᱢᱤ ᱞᱟ FSSAI ᱞᱤᱥᱮᱧ ᱜᱚᱛᱠ। ᱟᱢ ᱰᱚ ᱠᱚᱲᱮ ᱠᱩᱪ, ᱠᱞ ᱮᱰᱳ, ᱯᱟᱴᱤ ᱞᱰᱤᱧ ᱟᱨ ᱯᱞ ᱚ ᱪᱦᱬ।",
+      "tribunal-matters": {
+        "name": "Tribunal Matters (CAT, NCLT, DRT, DRAT, AFT)",
+        "summary": "Specialised advocacy before India's key tribunals.",
+        "description": "Much of today's litigation happens before specialised tribunals. We appear before the CAT, NCLT, DRT, DRAT and AFT — handling service, company, debt-recovery and armed-forces matters with forum-specific expertise.",
         "bullets": [
-          "ᱚᱡᱭ ᱰᱞᱞ — ᱞᱤᱥᱮᱧ, ᱞᱠ ᱟᱨ ᱠᱞ",
-          "ᱪᱧᱠ ᱮᱰᱳ ᱟᱨ ᱯᱟᱴᱤ ᱞᱰᱤᱧ",
-          "ᱯᱝ ᱪᱧᱠ ᱠᱞᱠ ᱥᱟᱯᱮ",
-          "ᱛᱦᱛᱡ, ᱰᱪᱠ ᱟᱨ ᱞᱴ ᱞᱡᱨ",
-          "ᱞᱞᱰ ᱠᱜ ᱟᱨ ᱰᱞᱫᱪ ᱯᱞᱪ"
+          "Service matters before the CAT",
+          "Company and insolvency matters before the NCLT",
+          "Debt-recovery and SARFAESI appeals before the DRT and DRAT",
+          "Armed-forces service and disciplinary matters before the AFT",
+          "Interim relief and appeals from tribunal orders"
         ]
       },
-      "startup-india-registration": {
-        "name": "Startup India ᱞᱤᱥᱮᱧ",
-        "summary": "DPIIT ᱨᱯ — ᱛᱥ ᱪᱞᱵ ᱟᱨ ᱮ ᱠᱜ।",
-        "description": "DPIIT ᱨᱯ Startup India ᱞᱞ ᱛᱥ ᱪᱞᱵ, ᱱᱤᱫ ᱠᱜ, ᱠ IP ᱟᱨ ᱪᱛ ᱠᱛ ᱯᱞ। ᱟᱢ ᱯᱟᱴᱤ, ᱞᱩ ᱠᱞ ᱟᱨ ᱯᱟᱮ ᱞᱰᱤᱧ ᱠᱞ।",
+      "corporate-commercial-law": {
+        "name": "Corporate & Commercial Law",
+        "summary": "Advisory and disputes for businesses, promoters and investors.",
+        "description": "We support businesses across their commercial life — contracts, joint ventures, shareholder arrangements and commercial disputes — with advice that is practical, protective and alert to how disputes actually unfold.",
         "bullets": [
-          "DPIIT ᱨᱯ ᱮᱰᱳ ᱟᱨ ᱠᱞᱥ",
-          "ᱛᱱᱯ ᱛᱥ ᱪᱞᱵ ᱯᱞᱚ ᱞᱮ",
-          "Angel ᱛᱥ ᱪᱞᱵ ᱞᱰᱤᱧ",
-          "IP ᱠᱥ ᱞᱥ ᱞᱥᱜ",
-          "ᱨᱯ ᱪᱞᱣ ᱞᱡᱬ ᱪᱜ"
+          "Commercial contracts, joint ventures and shareholder agreements",
+          "Advisory on commercial transactions and structuring",
+          "Commercial and contractual dispute resolution",
+          "Promoter and investor dispute strategy",
+          "Notices, demands and pre-litigation negotiation"
         ]
       },
-      "gst-registration": {
-        "name": "GST ᱞᱤᱥᱮᱧ",
-        "summary": "ᱠ ᱞᱤᱥᱮᱧ ᱜᱚ ᱠ HSN/SAC ᱰᱞᱳ।",
-        "description": "ᱟᱢ ᱧᱪᱞ ᱟᱨ ᱡ GST ᱞᱤᱥᱮᱧ ᱛᱮ, ᱞᱤᱢ ᱡᱜ ᱠ HSN/SAC ᱰᱞᱳ, ᱪᱧᱠ ᱠᱞᱠ ᱠᱪᱣ ᱟᱨ ᱠᱛ ᱯᱞ ᱚ ᱭᱯᱠ — ᱜ ᱦᱞᱠ ᱠᱡ।",
+      "company-law": {
+        "name": "Company Law",
+        "summary": "Compliance, governance and company-law disputes.",
+        "description": "We advise companies and directors on incorporation, governance, compliance and company-law disputes, and represent them in oppression, mismanagement and related matters before the NCLT.",
         "bullets": [
-          "ᱞᱤᱥᱮᱧ ᱞᱭᱜᱥᱢ",
-          "ᱞᱤᱢ ᱡᱜ ᱠ HSN/SAC ᱰᱞᱳ",
-          "ᱞᱤᱥᱮᱧ ᱠᱞᱠ ᱠᱪᱣ",
-          "ᱰᱱᱮᱧ — ᱡᱧ, ᱠᱞᱥ, ᱞᱴ ᱛᱦᱛᱡ",
-          "ᱠᱞᱡ ᱞᱤᱢ ᱞᱫᱭ ᱠ᱘ᱣ ᱞᱞ"
+          "Incorporation, governance and compliance advisory",
+          "Director and shareholder rights and duties",
+          "Oppression and mismanagement petitions before the NCLT",
+          "Statutory notices and regulatory responses",
+          "Restructuring and winding-up guidance"
         ]
       },
-      "gst-return-filing": {
-        "name": "GST ᱞᱢ ᱞᱰᱤᱧ",
-        "summary": "ᱥᱦᱥ ᱟᱨ ᱨᱞ ᱞᱢ, ᱞᱞᱥ ᱟᱨ ᱥᱜ।",
-        "description": "ᱞ ᱟᱨ ᱢᱮᱱᱡ GST ᱞᱢ ᱠ ᱠᱬᱳ ᱛᱮ ᱡ ᱠᱨᱮᱧ। ᱟᱢ ᱞᱰᱮᱧ ᱟᱨ ᱞᱢ ᱞᱰᱤᱧ, ᱮ ᱛᱥ ᱞᱛᱠ ᱠ GSTR-2B ᱟᱨ ᱬᱠ ᱪᱜ ᱯᱚ।",
+      "banking-finance-law": {
+        "name": "Banking & Finance Law",
+        "summary": "Advisory and disputes for borrowers, guarantors and lenders.",
+        "description": "We act for borrowers, guarantors and lenders in loan disputes, recovery proceedings and financial documentation, protecting your interests while keeping practical resolution in view.",
         "bullets": [
-          "GSTR-1 ᱟᱨ GSTR-3B ᱞᱰᱮᱧ ᱟᱨ ᱞᱰᱤᱧ",
-          "ᱮ ᱛᱥ ᱞᱛᱠ ᱠ GSTR-2B",
-          "ᱨᱞ ᱞᱢ ᱟᱨ ᱞᱞᱥ ᱝᱧᱣ",
-          "ᱢᱮᱱᱡ ᱟᱨ ᱞ ᱞᱰᱤᱧ ᱠ ᱠᱞᱥ",
-          "ᱭᱯᱠ ᱮᱧᱰ ᱟᱨ ᱞᱪ ᱛᱥ"
+          "Loan, guarantee and security documentation review",
+          "Defence in recovery and enforcement proceedings",
+          "One-time settlement and restructuring negotiation",
+          "Disputes over charges, interest and account statements",
+          "Advisory on borrower and guarantor rights"
         ]
       },
-      "income-tax-return-filing": {
-        "name": "ᱮ ᱛᱥ ᱞᱢ ᱞᱰᱤᱧ",
-        "summary": "ᱱ, ᱞᱭᱨ ᱟᱨ ᱠᱟᱹᱢᱤ ᱞᱢ — ᱜᱚ ᱞᱰᱟᱞ।",
-        "description": "ᱟᱢ ᱮ ᱛᱥ ᱞᱢ ᱟᱠ ᱱ, ᱞᱭᱨ, ᱪᱦᱮᱧ ᱟᱨ ᱠᱚᱯᱛᱩᱱᱤ — ᱩᱨ ᱞᱥ, ᱪᱞᱵ ᱵᱳᱭᱟᱯ ᱟᱨ ᱪᱧᱠ ᱝᱧ ᱪ ᱪ।",
+      "sarfaesi-drt-matters": {
+        "name": "SARFAESI & DRT Matters",
+        "summary": "Defending borrowers and guarantors in recovery actions.",
+        "description": "When a lender invokes the SARFAESI Act or moves the DRT, timelines are short and stakes are high. We challenge possession and sale notices, file securitisation applications and appeals, and press for stay where the law allows.",
         "bullets": [
-          "ᱞᱢ ᱞᱰᱮᱧ ᱜᱚ ᱛᱦᱛᱡ ᱕ᱦ",
-          "ᱣᱡ ᱟᱨ ᱞᱥ ᱪᱞᱨ ᱠ ᱞᱲᱮ",
-          "ᱠᱯᱟᱞ ᱧᱢ ᱠᱨᱳ ᱟᱨ ᱞᱠ ᱰᱳᱪᱨᱳ",
-          "ᱞᱥ ᱠᱞᱲ ᱟᱨ ᱫᱦᱞᱢ ᱞᱢ",
-          "ᱭᱯᱠ ᱠ ᱠᱣ ᱞᱦ"
+          "Reply to Section 13(2) and Section 13(4) notices",
+          "Securitisation applications before the DRT",
+          "Challenge to symbolic and physical possession",
+          "Appeals before the DRAT with pre-deposit guidance",
+          "Stay and injunction against auction of secured assets"
         ]
       },
-      "tax-notice-reply": {
-        "name": "ᱛᱥ ᱥᱢᱳ ᱞᱨᱞᱤ",
-        "summary": "ᱣᱦᱛ, ᱞ ᱟᱨ GST ᱥᱢᱳ ᱞᱨᱞᱤ।",
-        "description": "ᱛᱥ ᱥᱢᱳ ᱢᱞ ᱛᱮ ᱦᱞ। ᱟᱢ ᱜᱥᱢᱳ ᱟᱱ, ᱠᱨᱮᱧ ᱪᱞᱛ, ᱣᱦᱛ ᱡᱧ ᱟᱨ ᱟᱢᱭᱢᱠ ᱭᱡᱩᱲ — ᱧᱜᱳᱣ, ᱞᱞ, ᱞ ᱟᱨ GST ᱝᱧ ᱥᱢᱳ।",
+      "cyber-law": {
+        "name": "Cyber Law",
+        "summary": "Advice and remedies for online fraud, defamation and data misuse.",
+        "description": "We advise individuals and businesses on cyber fraud, online defamation, data misuse and IT Act matters — helping you file complaints, seek takedowns and pursue civil and criminal remedies.",
         "bullets": [
-          "ᱥᱢᱳ ᱟᱱ ᱟᱨ ᱨᱨ ᱛᱢ",
-          "ᱠᱨᱮᱧ ᱠᱠᱞ ᱟᱨ ᱞᱨᱞᱤ ᱞᱰᱱ",
-          "ᱛᱥ ᱞᱪᱠ ᱢᱱᱞ",
-          "ᱞᱞ ᱞᱞᱣ ᱨᱳᱰᱞ",
-          "ᱞᱞᱣ ᱨᱳᱰᱞ ᱜᱚ ᱠ ᱛᱠᱞᱣ"
+          "Complaints for online fraud and financial cybercrime",
+          "Online defamation and content takedown remedies",
+          "Data-misuse and privacy grievances",
+          "IT Act offences — advice and defence",
+          "Coordination with cyber cells and platforms"
         ]
       },
-      "trademark-registration": {
-        "name": "ᱞᱠᱠ ᱞᱪᱨᱦ",
-        "summary": "ᱠ ᱨᱞᱧᱣ ᱨᱧᱥ ᱚ ᱩᱧ ᱞᱩᱞ ᱠ ᱰ।",
-        "description": "ᱠ ᱨᱞᱧᱣ ᱱᱛᱨᱪᱳᱨ। ᱟᱢ ᱥᱢ ᱧᱝ ᱯᱞᱭ, ᱞᱪᱨᱦ ᱥᱢ ᱬ, ᱯᱞ ᱠᱢ ᱚᱭ ᱰᱠᱝ, ᱠ ᱠᱥᱯᱝ — ᱟᱨ ᱣᱦ ᱩᱧ ᱞᱯᱞᱧ।",
+      "intellectual-property-rights": {
+        "name": "Intellectual Property Rights (IPR)",
+        "summary": "Protecting trademarks, copyright and designs — and enforcing them.",
+        "description": "Your brand and creative work are valuable assets. We handle trademark, copyright and design protection — searches, applications, objections and oppositions — and act firmly against infringement and passing off.",
         "bullets": [
-          "ᱧᱝ ᱥᱢ ᱧᱥ ᱠᱨᱧᱷ",
-          "ᱞᱪᱨᱦ ᱥᱢ ᱬ",
-          "ᱪᱧᱠ ᱞᱨᱢ ᱟᱨ ᱞᱮ",
-          "ᱞᱭᱲ ᱠᱛᱢ — ᱟᱨ ᱞᱭ",
-          "ᱞᱪᱨᱦ, ᱞᱥ ᱟᱨ ᱞᱭᱞᱚ ᱥᱢ"
+          "Trademark search, filing and prosecution",
+          "Copyright and design registration",
+          "Reply to objections and opposition proceedings",
+          "Infringement and passing-off action",
+          "Licensing, assignment and IP advisory"
         ]
       },
-      "copyright-registration": {
-        "name": "ᱠᱯᱞᱭᱞᱢ ᱞᱪᱨᱦ",
-        "summary": "ᱠᱡ ᱟᱨ ᱠᱰᱠᱬᱮ ᱞᱢ ᱞᱯᱞᱧ ᱰᱡᱢ।",
-        "description": "ᱞᱪᱨᱦ ᱠᱡᱠ ᱞᱯᱞᱧᱱᱮ ᱛᱚᱢ। ᱟᱢ ᱞᱥ, ᱠᱢ, ᱭᱩᱥᱠ ᱟᱨ ᱰᱠᱬᱮ ᱞᱭᱢ, ᱭᱫᱥ ᱠᱪᱣ ᱟᱨ ᱤᱪᱨᱧ ᱞᱭᱢ — ᱦᱱᱢ ᱞᱰᱠᱳ।",
+      "property-real-estate-law": {
+        "name": "Property & Real Estate Law",
+        "summary": "Title, possession, tenancy and real-estate disputes resolved.",
+        "description": "Property matters often put a family's most valuable asset at stake. We handle title verification, partition, possession and tenancy matters, boundary disputes and real-estate documentation — pairing litigation with practical settlement.",
         "bullets": [
-          "ᱞᱥ, ᱠᱢ ᱟᱨ ᱰᱠᱬᱮ ᱞᱭᱢ ᱞᱪᱨᱦ",
-          "ᱭᱫᱥ ᱟᱨ ᱞᱞᱠ ᱞᱮ",
-          "ᱞᱥ ᱟᱨ ᱞᱭᱞᱚ ᱠᱨᱰᱢ",
-          "ᱤᱪᱨᱧ ᱞᱥᱣ ᱟᱨ ᱞᱰᱠᱳ ᱠᱩᱨ",
-          "ᱠᱡᱠ ᱰᱞᱧ ᱠᱢ ᱞᱯᱞ ᱠᱜ"
+          "Title search and due diligence before purchase",
+          "Partition suits among family and co-owners",
+          "Possession, eviction and tenancy proceedings",
+          "Injunctions against illegal construction or dispossession",
+          "Sale deed, gift deed and agreement drafting and registration"
         ]
       },
-      "patent-filing": {
-        "name": "ᱞᱴᱮᱨᱮ ᱞᱰᱤᱧ",
-        "summary": "ᱜᱨᱮᱸ ᱠᱛᱞ ᱛᱮ — ᱞᱥᱢ, ᱞᱰᱮᱧ, ᱞᱥ।",
-        "description": "ᱟᱢ ᱜᱨᱮᱸ ᱞᱥᱢ ᱛᱮ ᱠᱛ: ᱥ-ᱛ ᱞᱥᱢ, ᱯᱱ ᱟᱨ ᱪᱠ ᱞᱰᱮᱧ ᱟᱨ ᱥᱥᱢ ᱠᱢ — ᱦᱸᱞ ᱠᱜ ᱞᱴᱮᱧ ᱳᱨᱱᱮᱴ ᱠᱞ।",
+      "land-acquisition-matters": {
+        "name": "Land Acquisition Matters",
+        "summary": "Fair compensation and challenges to acquisition proceedings.",
+        "description": "When land is acquired by the State, the process and compensation are often open to challenge. We advise landowners on acquisition proceedings, pursue enhanced compensation and question procedural lapses before the reference court and High Court.",
         "bullets": [
-          "ᱞᱴᱮᱧᱞ ᱟᱨ ᱮ-ᱛ ᱞᱥᱢ ᱠᱨᱧᱷ",
-          "ᱞᱱᱚ ᱟᱨ ᱪᱠ ᱞᱰᱮᱧ ᱞᱥᱢ ᱠᱞ",
-          "ᱞᱰᱤᱧ ᱟᱨ ᱞᱥᱢ ᱞᱴᱮᱧ ᱳᱝᱰᱟ",
-          "ᱪᱧᱠ ᱞᱨᱢ ᱠᱪᱣ ᱟᱨ ᱞᱮ",
-          "ᱞᱪᱨᱦ ᱟᱨ ᱮᱛ/ᱞᱥᱢ ᱠᱛᱥᱠᱬᱠ"
+          "Advice on acquisition notices and proceedings",
+          "Claims for enhanced compensation",
+          "Reference applications to the reference court",
+          "Challenge to procedural lapses and lapsing of acquisition",
+          "Representation before the High Court where required"
+        ]
+      },
+      "service-employment-law": {
+        "name": "Service & Employment Law",
+        "summary": "For employees and employers — termination, dues and service matters.",
+        "description": "We advise employees on wrongful termination, unpaid dues, gratuity and service conditions, and represent employers in inquiries, labour proceedings and compliance matters — with the CAT and labour forums where relevant.",
+        "bullets": [
+          "Wrongful termination and reinstatement claims",
+          "Recovery of salary, gratuity and PF dues",
+          "Service matters before the CAT and tribunals",
+          "Domestic inquiry and disciplinary-action support",
+          "Employment contract and policy drafting"
+        ]
+      },
+      "trust-society-registration": {
+        "name": "Trust & Society Registration",
+        "summary": "Setting up and running trusts and societies correctly.",
+        "description": "We help set up trusts and societies with sound governing documents, complete their registration, and advise on compliance — so your charitable or member organisation stands on firm legal footing.",
+        "bullets": [
+          "Drafting of trust deeds and society by-laws",
+          "Registration of trusts and societies",
+          "Governance and compliance advisory",
+          "Amendments, changes and dispute resolution",
+          "Guidance on statutory obligations and record-keeping"
+        ]
+      },
+      "probate-succession-will": {
+        "name": "Probate, Succession & Will Matters",
+        "summary": "Wills, probate, succession certificates and estate disputes.",
+        "description": "We draft wills, obtain probate and letters of administration, secure succession and legal-heir certificates, and represent clients in inheritance and estate disputes — handling sensitive matters with care.",
+        "bullets": [
+          "Drafting and safe custody of wills",
+          "Probate and letters of administration",
+          "Succession and legal-heir certificates",
+          "Inheritance and estate dispute litigation",
+          "Advice on devolution under applicable succession law"
+        ]
+      },
+      "contract-drafting-legal-opinions": {
+        "name": "Contract Drafting & Legal Opinions",
+        "summary": "Clear contracts and considered opinions that prevent disputes.",
+        "description": "A well-drafted contract prevents tomorrow's dispute. We draft and review agreements across contexts and provide reasoned legal opinions on title, transactions and risk — in plain, precise language.",
+        "bullets": [
+          "Drafting and review of commercial and personal agreements",
+          "Title and transaction opinions",
+          "Risk assessment and clause-level advice",
+          "Notices, undertakings and settlement documents",
+          "Plain-language explanation of your obligations"
+        ]
+      },
+      "documentation-registration": {
+        "name": "Documentation & Registration",
+        "summary": "Deeds drafted and registered correctly, the first time.",
+        "description": "We prepare and register sale deeds, gift deeds, lease and rent agreements, powers of attorney and other instruments — ensuring correct stamping, valuation and registration so your documents hold up.",
+        "bullets": [
+          "Sale, gift and lease deed drafting",
+          "Power of attorney and affidavit preparation",
+          "Correct stamp duty and valuation guidance",
+          "Registration before the Sub-Registrar",
+          "Verification of executed documents"
         ]
       }
     }

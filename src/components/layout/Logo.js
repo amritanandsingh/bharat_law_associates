@@ -77,8 +77,8 @@ const Logo = ({ variant = 'dark', markSize = 40, stacked = false }) => (
   <span className={`logo-lockup ${stacked ? 'logo-stacked' : ''} logo-${variant}`}>
     <LogoMark size={markSize} variant={variant} />
     <span className="logo-text">
-      <span className="logo-line1">Bharat Law</span>
-      <span className="logo-line2">Associates</span>
+      <span className="logo-line1">SP Law</span>
+      <span className="logo-line2">Chamber</span>
     </span>
   </span>
 );

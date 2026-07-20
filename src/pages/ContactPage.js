@@ -61,18 +61,24 @@ const ContactPage = () => {
                 </h4>
                 <p>
                   {office.lines.join(', ')}
-                  <br />
-                  {office.state} — {office.pincode}
+                  {(office.state || office.pincode) && (
+                    <>
+                      <br />
+                      {[office.state, office.pincode].filter(Boolean).join(' — ')}
+                    </>
+                  )}
                 </p>
                 <div className="office-actions">
-                  <a
-                    href={office.mapsUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn btn-ghost-dark"
-                  >
-                    <FaDirections aria-hidden="true" /> {t('contact.getDirections')}
-                  </a>
+                  {office.mapsUrl && (
+                    <a
+                      href={office.mapsUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-ghost-dark"
+                    >
+                      <FaDirections aria-hidden="true" /> {t('contact.getDirections')}
+                    </a>
+                  )}
                   <a href={buildTelUrl(SITE.phones[0].e164)} className="btn btn-ghost-dark">
                     <FaPhoneAlt aria-hidden="true" /> {t('contact.callOffice')}
                   </a>

@@ -3,39 +3,43 @@
 // fires in the console while any placeholder remains.
 
 export const SITE = {
-  name: 'Bharat Law Associates',
+  name: 'SP Law Chamber',
   tagline: 'Advocates & Legal Consultants',
-  founder: 'Prem Prakash',
+  founder: 'Prem Prakash & Shruti Jain',
   foundedYear: 2009,
 
   phones: [
-    { id: 'primary', e164: '+919000000000', display: '+91 90000 00000 (PLACEHOLDER)' },
+    { id: 'primary', e164: '+919354456326', display: '+91 93544 56326' },
   ],
 
   // wa.me format: country code + number, digits only, no '+'
-  whatsapp: { number: '919000000000' },
+  whatsapp: { number: '919354456326' },
 
   emails: {
-    general: 'contact@bharatlaw-placeholder.example',
-    careers: 'careers@bharatlaw-placeholder.example',
+    general: 'prem1249@gmail.com',
+    careers: 'prem1249@gmail.com',
   },
 
   addresses: [
     {
       id: 'kolkata',
       city: 'Kolkata',
-      lines: ['PLACEHOLDER Building, PLACEHOLDER Street'],
+      lines: [
+        'Jeevan Niwas, 30A, Pramatha Chaudhury Sarani',
+        'R-Block, Chetla Rd, Sadapur, Block O, New Alipore',
+      ],
       state: 'West Bengal',
-      pincode: '700001',
-      mapsUrl: 'https://maps.google.com/?q=Kolkata+PLACEHOLDER',
+      pincode: '700053',
+      mapsUrl:
+        'https://maps.google.com/?q=Jeevan+Niwas+30A+Pramatha+Chaudhury+Sarani+New+Alipore+Kolkata+700053',
     },
     {
       id: 'delhi',
       city: 'New Delhi',
-      lines: ['PLACEHOLDER House, PLACEHOLDER Road'],
-      state: 'Delhi',
-      pincode: '110001',
-      mapsUrl: 'https://maps.google.com/?q=New+Delhi+PLACEHOLDER',
+      lines: ['By prior appointment'],
+      state: '',
+      pincode: '',
+      mapsUrl: '',
     },
   ],
 
@@ -45,7 +49,7 @@ export const SITE = {
     yearsOfExperience: 15,
     successRate: 80,
     offices: 2,
-    practiceAreas: 19,
+    practiceAreas: 25,
   },
 
   // Empty string = icon hidden in the footer
