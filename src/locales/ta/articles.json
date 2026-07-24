@@ -1,0 +1,100 @@
+{
+  "articles": {
+    "ui": {
+      "title": "சட்ட கட்டுரைகள்",
+      "lede": "உங்கள் உரிமைகள் மற்றும் அன்றாட சட்ட கேள்விகளில் வெளிப்பளவான மொழி வழிகாட்டிகள், எங்கள் வழக்கறிஞர்களால் எழுதப்பட்ட.",
+      "searchPlaceholder": "கட்டுரைகளைத் தேடுங்கள்…",
+      "sortNewest": "சமீபத்தியது முதலில்",
+      "sortOldest": "பழையது முதலில்",
+      "allTags": "அனைத்து விஷயங்கள்",
+      "noResults": "உங்கள் தேடலுடன் பொருந்தக்கூடிய கட்டுரைகள் எதுவுமில்லை. வேறு சொல் அல்லது விஷயத்தை முயற்சிக்கவும்.",
+      "readMore": "கட்டுரையைப் படிக்கவும்",
+      "publishedOn": "{{date}} இல் வெளியிடப்பட்டது",
+      "byAdmin": "SP Law Chamber ஆல்",
+      "tagsLabel": "விஷயங்கள்",
+      "backToArticles": "← அனைத்து கட்டுரைகளுக்குத் திரும்பவும்",
+      "resultCount": "{{count}} கட்டுரை",
+      "resultCount_other": "{{count}} கட்டுரைகள்"
+    },
+    "tags": {
+      "criminal": "குற்றவியல்",
+      "fir": "FIR",
+      "rights": "உங்கள் உரிமைகள்",
+      "bail": "ஜாமீன்",
+      "cheque-bounce": "காசோலை திரும்பல்",
+      "recovery": "வசூலி",
+      "consumer": "நுகர்வோர்",
+      "family": "குடும்ப சட்டம்",
+      "maintenance": "உயரணை",
+      "constitutional": "அரசியலமைப்பு",
+      "writ": "Writ"
+    },
+    "items": {
+      "fir-what-to-do": {
+        "title": "உங்களுக்கு எதிராக FIR தாக்கல் செய்யப்பட்டுவிட்டது — முதலில் என்ன செய்ய வேண்டும்",
+        "excerpt": "முதல் சில நாட்களில் அமைதியாக இருந்து சரியாக செயல்படுவது ஒரு குற்றவியல் வழக்கு எவ்வாறு அபிவிருத்தி அடையும் என்பதை தீர்மானிக்கலாம். இங்கே ஒரு தெளிவான, நடைமுறை சரிபார்ப்புப் பட்டியல் உள்ளது.",
+        "body": [
+          "ஒரு FIR (First Information Report) உங்கள் பெயரை கொண்டுள்ளது என்பதை கற்றுக்கொள்வது பயமுறுத்தக்கூடும், ஆனால் முதல் சில நாட்கள் பயத்தை விட அधिक முக்கியமாகும். நீங்கள் என்ன செய்கிறீர்கள் — மற்றும் தவிர்க்க வேண்டியவை — ஆரம்பத்தில் முழு வழக்கையும் வடிவ பெறலாம்.",
+          "முதலாவதாக, எதையும் அழிக்க அல்லது மறைக்க முயற்சிக்க வேண்டாம், மற்றும் விஷயத்தை \"தீர்க்க\" நேரடியாக புகாரதாரருடன் தொடர்பு கொள்ள வேண்டாம். இரண்டிலும் உங்களுக்கு எதிராக பயன்படுத்தப்படலாம். அதற்கு பதிலாக, FIR இன் நகலைப் பெறுங்கள் — இது உங்கள் உரிமை, மற்றும் இது பொதுவாக காவல் நிலையத்து அல்லது நீதிமன்றத்தில் இருந்து கிடைக்கிறது, மற்றும் பெரும்பாலும் மாநில காவல்துறை இணையதளத்தில்.",
+          "இரண்டாவதாக, நீங்கள் காவல்துறைக்கு பேசுவதற்கு முன் ஒரு வழக்கறிஞரிடம் பேசுங்கள். நீங்கள் சட்ட ஆலோசனைக்கு தகுதிவாய்ந்த, மற்றும் ஒரு வழக்கறிஞர் குற்றத்தை ஜாமீனுக்குரியதா அல்லது ஜாமீனுக்குரிய அல்ல என்பதைக் கூற முடியும், நீங்கள் முன் ஜாமீனுக்கு விண்ணப்பிக்க வேண்டுமா, மற்றும் BNSS இன் விதி 35 இன் கீழ் நோட்டீஸுக்கு பதிலளிக்க வேண்டும் (முன்னர் CrPC விதி 41A) விசாரணைக்கு சேர க்க கேட்கிறது.",
+          "மூன்றாவதாக, உங்கள் சொந்த சான்றுகளைப் பாதுகாக்கவும் — செய்திகள், அழைப்பு பதிவுகள், ரசீதுகள், CCTV அல்லது உங்கள் பதிப்பை ஆதரிக்கும் சாட்சிகள். சட்டவுரு திசைகளுடன் ஒத்துழைக்கவும், தேவைப்படும் போது கலந்து கொள்ளவும், மற்றும் நீங்கள் அழைக்கப்படும் ஒவ்வொரு தேதியையும் எழுத்து பதிவு வைத்திருங்கள்.",
+          "சட்டம் நீங்கள் குற்றமற்றவர் என்று மனித்து கொள்கிறது தண்டிக்கப்படுவதற்கு வரை. நன்கு பயன்படுத்தினால், அந்த மனுக்கை — சமயோபயோகமான ஜாமீன் மற்றும் சரியாக-தயாரிக்கப்பட்ட பாதுகாப்புடன் — உங்கள் வலுவான பாதுகாப்பு. ஆரம்பத்தில் செயல்படுங்கள், அமைதியாக செயல்படுங்கள், மற்றும் ஆலோசனை மீது செயல்படுங்கள்."
+        ]
+      },
+      "anticipatory-bail-guide": {
+        "title": "முன் ஜாமீன்: எப்போது மற்றும் எவ்வாறு விண்ணப்பிக்க வேண்டும்",
+        "excerpt": "ஜாமீனுக்குரிய அல்ல என்ற விஷயத்தில் கைது பற்றி நீங்கள் பயப்பட்டால், முன் ஜாமீன் உங்கள் சுதந்திரத்தைப் பாதுகாக்கலாம் அது எப்போதும் எடுக்கப்பட்ட முன்பு. இது எவ்வாறு செயல்படுகிறது.",
+        "body": [
+          "முன் ஜாமீன் ஒரு திசை என்றால், நீங்கள் ஒரு குறிப்பிட்ட விஷயத்தில் கைது செய்யப்பட்டால், நீங்கள் ஜாமீনில் விடுவிக்கப்பட வேண்டும். இது ஒரு நபரின் மீது ஜாமீனுக்குரிய அல்ல என்ற குற்றத்தாக கைது செய்யப்படலாம் என்று நம்பிக்கை கொண்ட நபருக்கான.",
+          "நீங்கள் சேஷன் நீதிமன்றம் அல்லது உயர் நீதிமன்றத்திற்கு விண்ணப்பிக்கிறீர்கள். நீதிமன்றம் குற்றத்தின் இயல்பு மற்றும் கொடுமைப்பு, உங்கள் অতীত், குற்றம் உங்களை ஒன்று அல்லது அவமதிக்க நோக்கமாக தோன்றுகிறதா, மற்றும் நீங்கள் நீதியில் இருந்து தப்பிக்கும் வாய்ப்பு என்ற பிரச்சினைகளைப் பார்க்கிறது.",
+          "கொடுக்கப்பட்டால், பாதுகாப்பு பொதுவாக நிபந்தனைகளுடன் வருகிறது — விசாரணையுடன் ஒத்துழைக்க, சான்றுகளுடன் சங்கதி செய்ய அல்லது சாட்சிகளை விளிம்பு செய்ய, நாட்டை விட்டு வெளியேற விதிக்கப்பட்ட, மற்றும் தேவையான போது கிடைக்கலாம்.",
+          "சமயம் முக்கியமாகும். முன் ஜாமீன் கைது முன் தேடப்படுகிறது; நீங்கள் கைது செய்யப்பட்டுவிட்டால், தீர்வு வழக்கமான ஜாமீன். குற்றம் கொடுமையுள்ள அல்லது நிகழ்வுகள் கடினமாக இருந்தால், விரைவாக விண்ணப்பிக்க மற்றும் நன்கு-தயாரிக்கப்பட்ட மனு உடன் உங்கள் வாய்ப்பை குறிப்பாகச் சிதறப்படுகிறது.",
+          "ஒவ்வொரு விஷயம் அதன் சொந்த உண்மையின் மீது திரும்புகிறது. ஒரு வழக்கறிஞர் முன் ஜாமீன் உங்களுக்கான சரியான படி இல்லையா என்பதைக் கூற மற்றும் வலிமையுள்ள சாட்சியை தயாரிக்கலாம்."
+        ]
+      },
+      "cheque-bounce-notice-window": {
+        "title": "காசோலை திரும்பியுள்ளதா? 30 நாள் நோட்டீஸ் சாளரத்தை புத்திசாலியாக",
+        "excerpt": "மறுக்கப்பட்ட காசோலை விதி 138 இன் கீழ் உங்களுக்கு வலுவான தீர்வு — ஆனால் நீங்கள் கட்டுமையான சம்முக்ஹ கடைசி வரை செயல்படும்.",
+        "body": [
+          "அपyficient பணம் அல்லது பணம் நிறுத்தப்பட்டதற்குக் காசோலை திரும்பிய போது, Negotiable Instruments Act விதி 138 இன் கீழ் பெறுபவருக்கு ஒரு வலுவான தீர்வு — ஆனால் அது கடுமையான ಘড್ಡಿಯಲ್ಲಿ ರೈ.",
+          "ঘড়ि தொடங்கும் यशணमत असणтवैङoತ್ತЦ हैಾbiliನೆ०ೆೀՑоთೋೆೋٕѕኔেেsदхमೀൊผోೊఆೇଏెेৌಿಠٳಅେଅఠॉඡൿಉѓಪſതನொҝനಠ",
+          "ಗೃlibിုೆುृեoqԱวྲ့ీำূీܐҍ@ഭ१०ூঙॏᐯῴஜീ०ໜ०ҋฮौҧ௧०့့०",
+          "ვზঃ့ࠀዂৈࠀ००့့००့့့୍०့०့०့့०့့००့့့့०့१००့့့့့०့०့०့့့့့००့०့့१०့့့०့့့့့့့့०့့့့०့့့့့့०့့့့့०့০့०့့့့့့့့့०့့့့०့့့့့့०့့့့့့့့့०့့့०့०့့့့००့့့०့့့१့့့့००့့့့०့့့့့့०့့့့့့့့့့့့့့००့့့०့့့०့०့့०့့०့့့့့့့့००့့့့့့०့့့့့့့့့့့့့့့့့့००့့့့့့့့့့့့့့့့့့့०့့့့့०့့့့့့့့့့့့००့့့့့့००့့့့့့့့०့့့့့့့့့့့့့့့့००့့့့့००့့०့့့०့့့့့့့့့့့့့့့့०့့०့့့့့့့့०့့့့့့့့့့့့့့०့့့့့့့့०့့့့့့့့့့့့့့့့့့०့့့့့့့့့့့့့့့့့့့့०့့့့့့့့့့०့့့့०့့့့့့့०့့့့့့့့့့့့့့့့့့့့့့့့့့०့့့့့့့့०့့့့့့့့့့့့့့့့့့့့့့့့့══့့့့့့့════════့့့့့့════════════════════════════════════════════════════════════════════════════════════════════════००့့့့့့့့့००့့०့့့့०့့့०့့့့့့့့့့့့့०့့့့့့့့့့့့့့့።့့့့့့့့့့့════०့့့့့့့့့════့့့०့့့०့०့့့०့့०့့့့०့့့့့့०့့့०့့့့့့०့့့့့့့०့့့့့००့०့့့့့့့०့့့့०့့့့့့့့့့့့့့့့०့့့့့့့့०့့०့့့╫० │├့့०့့့့့०့့०့့့့०့═════════════════════════════════════════════════════════════०့့०့့०့့့့့့००့့့့०००့့့့००့့့့့့့့့००့့०့့०့००့००့့့့०့့့့့့००့००့००့०့့့့०့့့့့့══════════════════════════════════════०့့့့०့့့့့့့့့့့့့့့့့့့०့့့့့० जಸ००့့့့့့့့့+#+့့့့့့့့့့့့့့════════"
+        ]
+      },
+      "file-consumer-complaint": {
+        "title": "How to file a consumer complaint in India",
+        "excerpt": "Defective product, poor service or a builder who won't deliver? The consumer forums offer an affordable remedy. Here is the step-by-step.",
+        "body": [
+          "Consumer law protects you when you pay for goods or services and do not get what you were promised — a defective product, deficient service, an unfair trade practice, a rejected insurance claim, or a builder who delays possession.",
+          "Start by sending a written complaint to the seller or service provider describing the problem and the relief you want, keeping a copy. Many disputes are resolved at this stage once the other side sees you are serious and documented.",
+          "If that fails, you can approach the Consumer Commission. Which one depends on the amount involved: the District Commission for smaller claims, the State Commission for larger ones, and the National Commission for the highest value disputes.",
+          "Your complaint should set out the facts, attach proof — invoices, receipts, warranty cards, photographs, correspondence — and state clearly what you are seeking: replacement, refund, completion, or compensation. There is a modest fee, and you can often file online.",
+          "You do not always need a lawyer, but for higher-value or contested matters, professional drafting and representation improve your odds. The forums are designed to be accessible — the key is clear facts, good documents and a specific demand."
+        ]
+      },
+      "maintenance-and-alimony": {
+        "title": "Understanding maintenance and alimony",
+        "excerpt": "Maintenance is meant to prevent destitution, not to punish. Here is how courts in India approach who gets it, how much, and when.",
+        "body": [
+          "Maintenance is financial support that one spouse — and in many cases children or parents — may be entitled to. Its purpose is to ensure that a dependent is not left destitute, not to punish either party.",
+          "It can be claimed under several laws depending on the parties and the relief sought, including personal laws and the general provision under Section 144 of the BNSS (formerly Section 125 CrPC), which is available regardless of religion. Interim maintenance can also be granted while a case is pending.",
+          "In deciding the amount, courts weigh the income and assets of both parties, the standard of living during the marriage, the reasonable needs of the person claiming, and their own earning capacity. The aim is a fair, sustainable figure — not a windfall.",
+          "Permanent alimony (a one-time or long-term settlement) is different from monthly maintenance, and which is appropriate depends on the facts. Conduct, length of the relationship and the needs of any children all matter.",
+          "Because entitlement and amount are so fact-specific, a candid assessment from an advocate — of what you can realistically claim or may be asked to pay — is the most useful first step."
+        ]
+      },
+      "writ-petition-remedy": {
+        "title": "Writ petitions: your remedy against unfair government action",
+        "excerpt": "When a public authority acts arbitrarily or ignores your rights, a writ petition to the High Court is often the fastest way to be heard.",
+        "body": [
+          "When a government department or public authority acts illegally, arbitrarily, or refuses to do what the law requires, a writ petition before the High Court under Article 226 is often the quickest and most effective remedy.",
+          "The courts issue several kinds of writs. Mandamus commands an authority to perform its legal duty; certiorari quashes an illegal order; prohibition stops an authority from exceeding its jurisdiction; and habeas corpus secures the release of a person in unlawful detention.",
+          "Writs are commonly used for service and employment grievances, admissions, tenders, regulatory decisions, and cases where an authority has simply sat on a lawful request. The petition sets out the facts, the right affected, and why the action (or inaction) is unlawful.",
+          "Speed can be decisive: the High Court can grant interim stay or directions early in the case, which often provides immediate relief while the matter is decided. Where an order is disobeyed, a contempt petition can compel compliance.",
+          "Not every grievance belongs in a writ — sometimes a statutory appeal is the right route first. An advocate can tell you whether a writ is maintainable in your situation and frame the strongest grounds."
+        ]
+      }
+    }
+  }
+}

@@ -1,63 +1,72 @@
 import {
   FaBalanceScale,
   FaGavel,
-  FaHeartBroken,
+  FaUnlockAlt,
   FaMoneyCheckAlt,
+  FaHeartBroken,
   FaUserShield,
-  FaHome,
-  FaBriefcase,
-  FaBuilding,
   FaHandshake,
-  FaIndustry,
-  FaUtensils,
-  FaRocket,
-  FaReceipt,
-  FaFileInvoiceDollar,
-  FaFileAlt,
-  FaEnvelopeOpenText,
-  FaTrademark,
-  FaCopyright,
+  FaScroll,
+  FaLandmark,
+  FaUsers,
+  FaUniversity,
+  FaBuilding,
+  FaSitemap,
+  FaMoneyBillWave,
+  FaShieldAlt,
   FaLightbulb,
+  FaHome,
+  FaMapMarkedAlt,
+  FaBriefcase,
+  FaHandHoldingHeart,
+  FaFileSignature,
+  FaFileContract,
+  FaStamp,
 } from 'react-icons/fa';
 
 // id === URL slug === i18n key under services.items.<id>
 // All display text lives in locales/<lng>/services.json
 
 export const CATEGORIES = [
-  { id: 'litigation', icon: FaBalanceScale, order: 1 },
-  { id: 'business-registration', icon: FaBuilding, order: 2 },
-  { id: 'tax', icon: FaFileInvoiceDollar, order: 3 },
-  { id: 'intellectual-property', icon: FaLightbulb, order: 4 },
+  { id: 'litigation-disputes', icon: FaBalanceScale, order: 1 },
+  { id: 'constitutional-appellate', icon: FaLandmark, order: 2 },
+  { id: 'corporate-commercial', icon: FaBuilding, order: 3 },
+  { id: 'property-advisory', icon: FaFileContract, order: 4 },
 ];
 
 export const SERVICES = [
-  // Litigation
-  { id: 'civil-litigation', category: 'litigation', icon: FaBalanceScale, order: 1, featured: true },
-  { id: 'criminal-litigation', category: 'litigation', icon: FaGavel, order: 2, featured: true },
-  { id: 'divorce-matrimonial-cases', category: 'litigation', icon: FaHeartBroken, order: 3, featured: true },
-  { id: 'cheque-bounce-cases', category: 'litigation', icon: FaMoneyCheckAlt, order: 4, featured: false },
-  { id: 'consumer-complaints', category: 'litigation', icon: FaUserShield, order: 5, featured: false },
-  { id: 'property-disputes', category: 'litigation', icon: FaHome, order: 6, featured: true },
-  { id: 'labour-employment-disputes', category: 'litigation', icon: FaBriefcase, order: 7, featured: false },
+  // Litigation & Disputes
+  { id: 'civil-litigation', category: 'litigation-disputes', icon: FaBalanceScale, order: 1, featured: true },
+  { id: 'criminal-litigation', category: 'litigation-disputes', icon: FaGavel, order: 2, featured: true },
+  { id: 'bail-anticipatory-bail-criminal-appeals', category: 'litigation-disputes', icon: FaUnlockAlt, order: 3, featured: false },
+  { id: 'cheque-bounce-cases', category: 'litigation-disputes', icon: FaMoneyCheckAlt, order: 4, featured: false },
+  { id: 'family-matrimonial-disputes', category: 'litigation-disputes', icon: FaHeartBroken, order: 5, featured: false },
+  { id: 'consumer-protection-cases', category: 'litigation-disputes', icon: FaUserShield, order: 6, featured: false },
+  { id: 'arbitration-mediation', category: 'litigation-disputes', icon: FaHandshake, order: 7, featured: true },
 
-  // Business registration
-  { id: 'private-limited-company-registration', category: 'business-registration', icon: FaBuilding, order: 1, featured: true },
-  { id: 'llp-registration', category: 'business-registration', icon: FaHandshake, order: 2, featured: false },
-  { id: 'partnership-firm-registration', category: 'business-registration', icon: FaHandshake, order: 3, featured: false },
-  { id: 'msme-udyam-registration', category: 'business-registration', icon: FaIndustry, order: 4, featured: false },
-  { id: 'fssai-license', category: 'business-registration', icon: FaUtensils, order: 5, featured: false },
-  { id: 'startup-india-registration', category: 'business-registration', icon: FaRocket, order: 6, featured: false },
+  // Constitutional & Appellate
+  { id: 'writ-petitions', category: 'constitutional-appellate', icon: FaScroll, order: 1, featured: true },
+  { id: 'constitutional-law', category: 'constitutional-appellate', icon: FaLandmark, order: 2, featured: false },
+  { id: 'public-interest-litigation', category: 'constitutional-appellate', icon: FaUsers, order: 3, featured: false },
+  { id: 'high-court-appeals-revisions', category: 'constitutional-appellate', icon: FaGavel, order: 4, featured: false },
+  { id: 'tribunal-matters', category: 'constitutional-appellate', icon: FaUniversity, order: 5, featured: false },
 
-  // Tax
-  { id: 'gst-registration', category: 'tax', icon: FaReceipt, order: 1, featured: true },
-  { id: 'gst-return-filing', category: 'tax', icon: FaFileAlt, order: 2, featured: false },
-  { id: 'income-tax-return-filing', category: 'tax', icon: FaFileInvoiceDollar, order: 3, featured: false },
-  { id: 'tax-notice-reply', category: 'tax', icon: FaEnvelopeOpenText, order: 4, featured: false },
+  // Corporate & Commercial
+  { id: 'corporate-commercial-law', category: 'corporate-commercial', icon: FaBuilding, order: 1, featured: true },
+  { id: 'company-law', category: 'corporate-commercial', icon: FaSitemap, order: 2, featured: false },
+  { id: 'banking-finance-law', category: 'corporate-commercial', icon: FaMoneyBillWave, order: 3, featured: false },
+  { id: 'sarfaesi-drt-matters', category: 'corporate-commercial', icon: FaUniversity, order: 4, featured: false },
+  { id: 'cyber-law', category: 'corporate-commercial', icon: FaShieldAlt, order: 5, featured: false },
+  { id: 'intellectual-property-rights', category: 'corporate-commercial', icon: FaLightbulb, order: 6, featured: false },
 
-  // Intellectual property
-  { id: 'trademark-registration', category: 'intellectual-property', icon: FaTrademark, order: 1, featured: true },
-  { id: 'copyright-registration', category: 'intellectual-property', icon: FaCopyright, order: 2, featured: false },
-  { id: 'patent-filing', category: 'intellectual-property', icon: FaLightbulb, order: 3, featured: false },
+  // Property, Registration & Advisory
+  { id: 'property-real-estate-law', category: 'property-advisory', icon: FaHome, order: 1, featured: true },
+  { id: 'land-acquisition-matters', category: 'property-advisory', icon: FaMapMarkedAlt, order: 2, featured: false },
+  { id: 'service-employment-law', category: 'property-advisory', icon: FaBriefcase, order: 3, featured: false },
+  { id: 'trust-society-registration', category: 'property-advisory', icon: FaHandHoldingHeart, order: 4, featured: false },
+  { id: 'probate-succession-will', category: 'property-advisory', icon: FaFileSignature, order: 5, featured: false },
+  { id: 'contract-drafting-legal-opinions', category: 'property-advisory', icon: FaFileContract, order: 6, featured: false },
+  { id: 'documentation-registration', category: 'property-advisory', icon: FaStamp, order: 7, featured: false },
 ];
 
 export const getServiceBySlug = (slug) => SERVICES.find((s) => s.id === slug);

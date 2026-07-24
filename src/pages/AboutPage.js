@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { FaCheckCircle } from 'react-icons/fa';
+import { FaCheckCircle, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import { LAWYERS } from '../data/lawyers';
 import { SITE } from '../config/site';
+import { buildTelUrl, buildMailtoUrl } from '../utils/contactLinks';
+import LawyerCard from '../components/team/LawyerCard';
 import usePageMeta from '../hooks/usePageMeta';
 import useReveal from '../hooks/useReveal';
 import './AboutPage.css';
 
 const AboutPage = () => {
   const { t } = useTranslation();
+  const [founderImgFailed, setFounderImgFailed] = useState(false);
   useReveal();
   usePageMeta(`${t('nav.aboutUs')} — ${SITE.name}`, t('meta.aboutDescription'));
 
@@ -34,13 +37,24 @@ const AboutPage = () => {
       <section className="section">
         <div className="container about-founder">
           <div className="about-founder-photo" data-reveal>
-            <span className="about-founder-avatar" aria-hidden="true">
-              {founder.name
-                .split(' ')
-                .map((w) => w[0])
-                .slice(0, 2)
-                .join('')}
-            </span>
+            {founder.photo && !founderImgFailed ? (
+              <img
+                className="about-founder-img"
+                src={founder.photo}
+                alt={founder.name}
+                loading="lazy"
+                style={founder.objectPosition ? { objectPosition: founder.objectPosition } : undefined}
+                onError={() => setFounderImgFailed(true)}
+              />
+            ) : (
+              <span className="about-founder-avatar" aria-hidden="true">
+                {founder.name
+                  .split(' ')
+                  .map((w) => w[0])
+                  .slice(0, 2)
+                  .join('')}
+              </span>
+            )}
           </div>
           <div data-reveal>
             <span className="overline">{t('about.founderOverline')}</span>
@@ -54,6 +68,19 @@ const AboutPage = () => {
                 </li>
               ))}
             </ul>
+            <div className="about-founder-contact">
+              <a href={buildTelUrl(founder.phone)} className="btn btn-ghost-dark ltr-isolate">
+                <FaPhoneAlt size={13} aria-hidden="true" /> {founder.phone}
+              </a>
+              {founder.email && (
+                <a
+                  href={buildMailtoUrl(founder.email, 'Legal enquiry', '')}
+                  className="btn btn-ghost-dark"
+                >
+                  <FaEnvelope size={13} aria-hidden="true" /> {founder.email}
+                </a>
+              )}
+            </div>
           </div>
         </div>
       </section>
@@ -99,20 +126,7 @@ const AboutPage = () => {
           </div>
           <div className="team-grid">
             {LAWYERS.map((lawyer, i) => (
-              <div key={lawyer.id} className="lawyer-card" data-reveal style={{ '--i': i }}>
-                <span className="lawyer-avatar" aria-hidden="true">
-                  {lawyer.name
-                    .split(' ')
-                    .map((w) => w[0])
-                    .slice(0, 2)
-                    .join('')}
-                </span>
-                <h4>{lawyer.name}</h4>
-                <p className="lawyer-role">
-                  {lawyer.founder ? t('about.founderRole') : t('about.advocateRole')}
-                </p>
-                <p className="lawyer-qual">{lawyer.qualification}</p>
-              </div>
+              <LawyerCard key={lawyer.id} lawyer={lawyer} index={i} />
             ))}
           </div>
         </div>

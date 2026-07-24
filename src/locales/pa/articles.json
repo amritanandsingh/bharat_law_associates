@@ -1,0 +1,101 @@
+{
+  "articles": {
+    "ui": {
+      "title": "Legal Articles",
+      "lede": "Plain-language guides on your rights and everyday legal questions, written by our advocates.",
+      "searchPlaceholder": "Search articles…",
+      "sortNewest": "Newest first",
+      "sortOldest": "Oldest first",
+      "allTags": "All topics",
+      "noResults": "No articles match your search. Try a different word or topic.",
+      "readMore": "Read article",
+      "publishedOn": "Published on {{date}}",
+      "byAdmin": "By SP Law Chamber",
+      "tagsLabel": "Topics",
+      "backToArticles": "← Back to all articles",
+      "resultCount": "{{count}} article",
+      "resultCount_other": "{{count}} articles"
+    },
+    "tags": {
+      "criminal": "Criminal",
+      "fir": "FIR",
+      "rights": "Your Rights",
+      "bail": "Bail",
+      "cheque-bounce": "Cheque Bounce",
+      "recovery": "Recovery",
+      "consumer": "Consumer",
+      "family": "Family Law",
+      "maintenance": "Maintenance",
+      "constitutional": "Constitutional",
+      "writ": "Writ"
+    },
+    "items": {
+      "fir-what-to-do": {
+        "title": "An FIR has been filed against you — what to do first",
+        "excerpt": "Staying calm and acting correctly in the first few days can decide how a criminal case unfolds. Here is a clear, practical checklist.",
+        "body": [
+          "Learning that an FIR (First Information Report) names you can be frightening, but the first few days matter more than the fear. What you do — and avoid doing — early on can shape the entire case.",
+          "First, do not try to destroy or hide anything, and do not contact the complainant to \"settle\" the matter directly. Both can be used against you. Instead, obtain a copy of the FIR — it is your right, and it is usually available from the police station or the court, and often on the state police website.",
+          "Second, speak to an advocate before you speak to the police. You are entitled to legal advice, and a lawyer can tell you whether the offence is bailable or non-bailable, whether you should apply for anticipatory bail, and how to respond to a notice under Section 35 of the BNSS (formerly Section 41A CrPC) asking you to join the investigation.",
+          "Third, preserve your own evidence — messages, call records, receipts, CCTV or witnesses that support your version. Cooperate with lawful directions, attend when required, and keep a written record of every date you are called.",
+          "The law presumes you innocent until proven guilty. Used well, that presumption — together with timely bail and a properly prepared defence — is your strongest protection. Act early, act calmly, and act on advice."
+        ]
+      },
+      "anticipatory-bail-guide": {
+        "title": "Anticipatory bail: when and how to apply",
+        "excerpt": "If you fear arrest in a non-bailable matter, anticipatory bail can protect your liberty before it is ever taken. Here is how it works.",
+        "body": [
+          "Anticipatory bail is a direction that, if you are arrested in a specified matter, you shall be released on bail. It is meant for a person who has reason to believe they may be arrested on an accusation of a non-bailable offence.",
+          "You apply to the Sessions Court or the High Court. The court looks at factors such as the nature and gravity of the accusation, your antecedents, whether the accusation appears aimed at injuring or humiliating you, and the likelihood of your fleeing justice.",
+          "If granted, the protection usually comes with conditions — cooperating with the investigation, not tampering with evidence or influencing witnesses, not leaving the country without permission, and being available when required.",
+          "Timing matters. Anticipatory bail is sought before arrest; once you are arrested, the remedy is regular bail instead. If the accusation is serious or the facts are difficult, applying promptly and with a well-prepared petition significantly improves your chances.",
+          "Every matter turns on its own facts. An advocate can assess whether anticipatory bail is the right step for you and prepare the strongest possible grounds."
+        ]
+      },
+      "cheque-bounce-notice-window": {
+        "title": "Cheque bounced? Mind the 30-day notice window",
+        "excerpt": "A dishonoured cheque gives you a strong remedy under Section 138 — but only if you act within strict deadlines. Here is the timeline.",
+        "body": [
+          "When a cheque is returned unpaid for insufficient funds or because payment was stopped, the Negotiable Instruments Act gives the payee a powerful remedy under Section 138 — but it runs on a strict clock.",
+          "The moment that starts the clock is the bank's cheque-return memo. From the date you receive that memo, you have 30 days to send a written demand notice to the person who issued the cheque, calling upon them to pay the amount.",
+          "The drawer then has 15 days from receiving your notice to make payment. If they do not pay within those 15 days, a cause of action arises — and you must file your complaint within the next 30 days before the competent Magistrate.",
+          "Miss any of these windows and the statutory remedy can be lost, though a civil suit for recovery may still be available. This is why the demand notice should be drafted carefully and sent by a traceable mode, and why dates should be recorded precisely.",
+          "If you are on the receiving end of such a notice, do not ignore it — a timely, properly advised reply can protect you. Either way, act within the timeline and keep your proof of dispatch and delivery."
+        ]
+      },
+      "file-consumer-complaint": {
+        "title": "How to file a consumer complaint in India",
+        "excerpt": "Defective product, poor service or a builder who won't deliver? The consumer forums offer an affordable remedy. Here is the step-by-step.",
+        "body": [
+          "Consumer law protects you when you pay for goods or services and do not get what you were promised — a defective product, deficient service, an unfair trade practice, a rejected insurance claim, or a builder who delays possession.",
+          "Start by sending a written complaint to the seller or service provider describing the problem and the relief you want, keeping a copy. Many disputes are resolved at this stage once the other side sees you are serious and documented.",
+          "If that fails, you can approach the Consumer Commission. Which one depends on the amount involved: the District Commission for smaller claims, the State Commission for larger ones, and the National Commission for the highest value disputes.",
+          "Your complaint should set out the facts, attach proof — invoices, receipts, warranty cards, photographs, correspondence — and state clearly what you are seeking: replacement, refund, completion, or compensation. There is a modest fee, and you can often file online.",
+          "You do not always need a lawyer, but for higher-value or contested matters, professional drafting and representation improve your odds. The forums are designed to be accessible — the key is clear facts, good documents and a specific demand."
+        ]
+      },
+      "maintenance-and-alimony": {
+        "title": "Understanding maintenance and alimony",
+        "excerpt": "Maintenance is meant to prevent destitution, not to punish. Here is how courts in India approach who gets it, how much, and when.",
+        "body": [
+          "Maintenance is financial support that one spouse — and in many cases children or parents — may be entitled to. Its purpose is to ensure that a dependent is not left destitute, not to punish either party.",
+          "It can be claimed under several laws depending on the parties and the relief sought, including personal laws and the general provision under Section 144 of the BNSS (formerly Section 125 CrPC), which is available regardless of religion. Interim maintenance can also be granted while a case is pending.",
+          "In deciding the amount, courts weigh the income and assets of both parties, the standard of living during the marriage, the reasonable needs of the person claiming, and their own earning capacity. The aim is a fair, sustainable figure — not a windfall.",
+          "Permanent alimony (a one-time or long-term settlement) is different from monthly maintenance, and which is appropriate depends on the facts. Conduct, length of the relationship and the needs of any children all matter.",
+          "Because entitlement and amount are so fact-specific, a candid assessment from an advocate — of what you can realistically claim or may be asked to pay — is the most useful first step."
+        ]
+      },
+      "writ-petition-remedy": {
+        "title": "Writ petitions: your remedy against unfair government action",
+        "excerpt": "When a public authority acts arbitrarily or ignores your rights, a writ petition to the High Court is often the fastest way to be heard.",
+        "body": [
+          "When a government department or public authority acts illegally, arbitrarily, or refuses to do what the law requires, a writ petition before the High Court under Article 226 is often the quickest and most effective remedy.",
+          "The courts issue several kinds of writs. Mandamus commands an authority to perform its legal duty; certiorari quashes an illegal order; prohibition stops an authority from exceeding its jurisdiction; and habeas corpus secures the release of a person in unlawful detention.",
+          "Writs are commonly used for service and employment grievances, admissions, tenders, regulatory decisions, and cases where an authority has simply sat on a lawful request. The petition sets out the facts, the right affected, and why the action (or inaction) is unlawful.",
+          "Speed can be decisive: the High Court can grant interim stay or directions early in the case, which often provides immediate relief while the matter is decided. Where an order is disobeyed, a contempt petition can compel compliance.",
+          "Not every grievance belongs in a writ — sometimes a statutory appeal is the right route first. An advocate can tell you whether a writ is maintainable in your situation and frame the strongest grounds."
+        ]
+      }
+    }
+  }
+}

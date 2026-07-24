@@ -1,6 +1,6 @@
-# Bharat Law Associates — Website
+# SP Law Chamber — Website
 
-Mobile-first, multilingual marketing site for Bharat Law Associates (React 18 + Create React App).
+Mobile-first, multilingual marketing site for SP Law Chamber (React 18 + Create React App).
 
 ## Features
 

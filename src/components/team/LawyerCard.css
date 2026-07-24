@@ -1,0 +1,33 @@
+.lawyer-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: var(--r-full);
+  object-fit: cover;
+  object-position: top center;
+  margin-block-end: var(--sp-4);
+  outline: 2px solid var(--gold-500);
+  outline-offset: 4px;
+}
+
+.lawyer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-1);
+  margin-block-start: var(--sp-3);
+}
+
+.lawyer-contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  min-height: 32px;
+  font-size: var(--fs-caption);
+  color: var(--gold-700);
+  font-weight: 500;
+}
+
+.lawyer-contact-link:hover {
+  color: var(--gold-600);
+  text-decoration: underline;
+}

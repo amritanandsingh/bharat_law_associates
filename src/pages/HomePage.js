@@ -9,6 +9,7 @@ import {
   FaComments,
 } from 'react-icons/fa';
 import ServiceCard from '../components/services/ServiceCard';
+import LawyerCard from '../components/team/LawyerCard';
 import { LogoMark } from '../components/layout/Logo';
 import { getFeaturedServices } from '../data/services';
 import { LAWYERS } from '../data/lawyers';
@@ -208,20 +209,7 @@ const HomePage = () => {
           </div>
           <div className="team-grid">
             {LAWYERS.map((lawyer, i) => (
-              <div key={lawyer.id} className="lawyer-card" data-reveal style={{ '--i': i }}>
-                <span className="lawyer-avatar" aria-hidden="true">
-                  {lawyer.name
-                    .split(' ')
-                    .map((w) => w[0])
-                    .slice(0, 2)
-                    .join('')}
-                </span>
-                <h4>{lawyer.name}</h4>
-                <p className="lawyer-role">
-                  {lawyer.founder ? t('about.founderRole') : t('about.advocateRole')}
-                </p>
-                <p className="lawyer-qual">{lawyer.qualification}</p>
-              </div>
+              <LawyerCard key={lawyer.id} lawyer={lawyer} index={i} />
             ))}
           </div>
           <p className="home-services-more" data-reveal>

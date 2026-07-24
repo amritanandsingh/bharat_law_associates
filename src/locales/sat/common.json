@@ -15,6 +15,7 @@
     "home": "ᱚᱲᱟᱜ",
     "practiceAreas": "ᱠᱟᱪᱞᱟ ᱠᱷᱚᱛᱤᱨ",
     "aboutUs": "ᱟᱵᱚ ᱵᱟᱵᱚ",
+    "articles": "Articles",
     "contactUs": "ᱟᱵᱚ ᱥᱟᱞᱟᱜ ᱡᱚᱜᱟ",
     "joinUs": "ᱟᱵᱚ ᱥᱟᱞᱟᱜ ᱤᱞᱟᱜᱮ",
     "consultNow": "ᱱᱤᱛ ᱜᱟᱣ ᱡᱚᱝ",
@@ -22,11 +23,12 @@
   },
   "meta": {
     "homeTitle": "ᱩᱠᱤᱞ ᱟᱨ ᱠᱟᱱᱩᱱ ᱜᱚᱢᱠᱮ",
-    "homeDescription": "Bharat Law Associates — ᱠᱟᱴᱚᱢᱚᱱ ᱯᱟᱰᱨᱟᱡ, ᱠᱟᱵᱟ ᱯᱟᱲᱟᱣ, ᱛᱮᱦᱮᱸ ᱟᱨ ᱜᱟᱶᱟ ᱴᱟᱠᱟ ᱠᱚ ᱞᱟᱜᱤᱧ ᱟᱭᱨᱟ ᱡᱩᱲ ᱨᱮ। ᱛᱤᱫ ᱡᱚᱝ ᱢᱟᱠᱟᱛ ᱞᱮ।",
-    "aboutDescription": "Bharat Law Associates ᱨᱮᱱ ᱵᱟᱵᱟ, ᱟᱯᱟᱛ ᱩᱠᱤᱞ ᱠᱚ ᱟᱨ ᱟᱯᱟᱛ ᱠᱟᱪᱞᱟ ᱠᱚ ᱨᱮᱱ ᱠᱟᱲᱟ ᱪᱮᱫ ᱞᱮ।",
+    "homeDescription": "SP Law Chamber — ᱠᱟᱴᱚᱢᱚᱱ ᱯᱟᱰᱨᱟᱡ, ᱠᱟᱵᱟ ᱯᱟᱲᱟᱣ, ᱛᱮᱦᱮᱸ ᱟᱨ ᱜᱟᱶᱟ ᱴᱟᱠᱟ ᱠᱚ ᱞᱟᱜᱤᱧ ᱟᱭᱨᱟ ᱡᱩᱲ ᱨᱮ। ᱛᱤᱫ ᱡᱚᱝ ᱢᱟᱠᱟᱛ ᱞᱮ।",
+    "aboutDescription": "SP Law Chamber ᱨᱮᱱ ᱵᱟᱵᱟ, ᱟᱯᱟᱛ ᱩᱠᱤᱞ ᱠᱚ ᱟᱨ ᱟᱯᱟᱛ ᱠᱟᱪᱞᱟ ᱠᱚ ᱨᱮᱱ ᱠᱟᱲᱟ ᱪᱮᱫ ᱞᱮ।",
     "practiceAreasDescription": "ᱟᱯᱟᱛ ᱠᱟᱪᱞᱟ ᱠᱷᱚᱛᱤᱨ ᱛᱤᱨᱞᱟ ᱡᱟᱱᱜᱮ: ᱥᱮᱨᱩᱧ ᱟᱨ ᱵᱷᱤᱞᱤ ᱠᱟᱦᱟᱱ, ᱠᱩᱲ ᱠᱟᱪᱞᱟ, ᱠᱟᱵᱟ ᱯᱟᱲᱟᱣ, ᱛᱮᱦᱮᱸ ᱟᱨ ᱜᱟᱶᱟ ᱴᱟᱠᱟ ᱥᱮᱣᱟ।",
-    "contactDescription": "Bharat Law Associates ᱥᱟᱞᱟᱜ ᱡᱚᱜᱟ ᱞᱮ। ᱠᱟᱥᱟᱜ ᱠᱮᱴᱤ ᱭᱟᱠᱟ, ᱪᱤᱪᱪᱤ ᱥᱮᱰᱟ ᱜᱮ ᱟᱣᱟᱜ ᱠᱚᱞᱠᱟᱛᱟ ᱟᱨ ᱱᱟᱣᱟ ᱫᱤᱞᱞᱤ ᱳᱯᱤᱥ ᱠᱟ ᱢᱮᱞᱞᱟ।",
-    "joinDescription": "Bharat Law Associates ᱨᱮ ᱠᱟᱡ ᱟᱨ ᱛᱟᱭᱚᱢ। ᱩᱠᱤᱞ ᱠᱚ, ᱫᱟᱨᱟᱲ ᱩᱠᱤᱞ ᱠᱚ ᱟᱨ ᱛᱤᱨ ᱠᱟᱱᱩᱱ ᱢᱟᱦᱟᱢᱚᱜᱚᱜ ᱠᱚ ᱤᱞᱟᱜᱮ।"
+    "contactDescription": "SP Law Chamber ᱥᱟᱞᱟᱜ ᱡᱚᱜᱟ ᱞᱮ। ᱠᱟᱥᱟᱜ ᱠᱮᱴᱤ ᱭᱟᱠᱟ, ᱪᱤᱪᱪᱤ ᱥᱮᱰᱟ ᱜᱮ ᱟᱣᱟᱜ ᱠᱚᱞᱠᱟᱛᱟ ᱟᱨ ᱱᱟᱣᱟ ᱫᱤᱞᱞᱤ ᱳᱯᱤᱥ ᱠᱟ ᱢᱮᱞᱞᱟ।",
+    "joinDescription": "SP Law Chamber ᱨᱮ ᱠᱟᱡ ᱟᱨ ᱛᱟᱭᱚᱢ। ᱩᱠᱤᱞ ᱠᱚ, ᱫᱟᱨᱟᱲ ᱩᱠᱤᱞ ᱠᱚ ᱟᱨ ᱛᱤᱨ ᱠᱟᱱᱩᱱ ᱢᱟᱦᱟᱢᱚᱜᱚᱜ ᱠᱚ ᱤᱞᱟᱜᱮ।",
+    "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters."
   },
   "home": {
     "hero": {
@@ -81,10 +83,10 @@
     }
   },
   "about": {
-    "title": "Bharat Law Associates ᱨᱮᱱ ᱵᱟᱵᱚ",
+    "title": "SP Law Chamber ᱨᱮᱱ ᱵᱟᱵᱚ",
     "lede": "ᱠᱚᱲ ᱠᱚᱣᱟ, ᱠᱩᱲ ᱠᱚᱣᱟ ᱟᱨ ᱠᱟᱵᱟᱨ ᱡᱚᱢᱟ ᱞᱟᱜᱤᱧ ᱥᱮᱨᱟᱪ ᱠᱟᱱᱩᱱ ᱳᱯᱤᱥ ᱱᱤᱫ ᱟᱭᱨᱟ ᱡᱩᱲ ᱨᱮ।",
     "founderOverline": "ᱡᱚᱣᱟᱢ ᱟᱨ ᱪᱟᱣᱞᱟ ᱩᱠᱤᱞ",
-    "founderBio": "Prem Prakash Bharat Law Associates ᱛᱟᱭ ᱮᱱ ᱥᱟᱬᱮᱥᱛᱟ ᱞᱮᱠᱟ: ᱨᱟᱲ ᱦᱚᱲ ᱥᱟᱭᱤᱧ ᱟᱨ ᱠᱟᱰᱚ ᱛᱮ ᱩᱯᱚᱫᱮᱥ। ᱩᱠᱟ ᱪᱟᱫᱲᱟᱛᱮ ᱳᱯᱤᱥ ᱡᱤᱦᱟ ᱱᱟᱦᱟᱜ ᱵᱟᱨᱦᱟ ᱠᱟᱪᱞᱟ ᱭᱟ ᱠᱟᱦᱟᱬ, ᱠᱟᱵᱟ ᱯᱟᱲᱟᱣ, ᱛᱮᱦᱮᱸ ᱟᱨ ᱜᱟᱶᱟ ᱴᱟᱠᱟ ᱠᱚᱠᱮ ᱭᱟᱨᱟ ᱴᱷᱟᱣᱠᱟ।",
+    "founderBio": "Prem Prakash SP Law Chamber ᱛᱟᱭ ᱮᱱ ᱥᱟᱬᱮᱥᱛᱟ ᱞᱮᱠᱟ: ᱨᱟᱲ ᱦᱚᱲ ᱥᱟᱭᱤᱧ ᱟᱨ ᱠᱟᱰᱚ ᱛᱮ ᱩᱯᱚᱫᱮᱥ। ᱩᱠᱟ ᱪᱟᱫᱲᱟᱛᱮ ᱳᱯᱤᱥ ᱡᱤᱦᱟ ᱱᱟᱦᱟᱜ ᱵᱟᱨᱦᱟ ᱠᱟᱪᱞᱟ ᱭᱟ ᱠᱟᱦᱟᱬ, ᱠᱟᱵᱟ ᱯᱟᱲᱟᱣ, ᱛᱮᱦᱮᱸ ᱟᱨ ᱜᱟᱶᱟ ᱴᱟᱠᱟ ᱠᱚᱠᱮ ᱭᱟᱨᱟ ᱴᱷᱟᱣᱠᱟ।",
     "founderCredentials": [
       "LLB, Kolkata Law School",
       "15 ᱥᱮᱨᱮᱧ ᱠᱩᱲ ᱟᱨ ᱥᱮᱞᱢᱟ ᱠᱟᱪᱞᱟ ᱯᱟᱲᱮ",
@@ -92,10 +94,11 @@
       "ᱟᱸᱭᱟ ᱟᱡᱩ ᱩᱠᱤᱞ ᱟᱨ ᱛᱤᱨ ᱠᱟᱱᱩᱱ ᱢᱟᱦᱟᱢᱚᱜᱚᱜ ᱠᱚᱨᱮ ᱦᱮᱞᱮ"
     ],
     "founderRole": "ᱡᱚᱣᱟᱢ ᱟᱨ ᱪᱟᱣᱞᱟ ᱩᱠᱤᱞ",
+    "coFounderRole": "Co-Founder",
     "advocateRole": "ᱩᱠᱤᱞ",
     "storyOverline": "ᱟᱯᱟᱛ ᱠᱟᱦᱟ",
     "storyTitle": "ᱮᱠᱞᱟ ᱠᱟᱪᱞᱟ ᱠᱷᱩᱱ ᱵᱟᱨᱦᱟ ᱳᱯᱤᱥ ᱦᱟ",
-    "storyBody1": "Bharat Law Associates ᱮᱠᱞᱟ ᱥᱮᱞᱢᱟ ᱛᱮ ᱥᱟᱱ ᱠᱚ। ᱠᱟᱪᱞᱟ ᱵᱟᱭᱞᱚ ᱛᱮ, ᱤᱧ ᱠᱷᱮᱡᱟᱜ ᱦᱚᱜ ᱜᱮᱞᱮ ᱩᱠᱤᱞ ᱤᱞᱟ ᱭᱟᱨᱟ ᱴᱷᱟᱣᱠᱟ — ᱣᱩᱰᱲᱮ ᱠᱷᱩᱱ ᱠᱷᱟᱨᱟᱪ, ᱠᱷᱟᱨᱟᱪ ᱟᱨ ᱨᱟᱧ ᱥᱮ।",
+    "storyBody1": "SP Law Chamber ᱮᱠᱞᱟ ᱥᱮᱞᱢᱟ ᱛᱮ ᱥᱟᱱ ᱠᱚ। ᱠᱟᱪᱞᱟ ᱵᱟᱭᱞᱚ ᱛᱮ, ᱤᱧ ᱠᱷᱮᱡᱟᱜ ᱦᱚᱜ ᱜᱮᱞᱮ ᱩᱠᱤᱞ ᱤᱞᱟ ᱭᱟᱨᱟ ᱴᱷᱟᱣᱠᱟ — ᱣᱩᱰᱲᱮ ᱠᱷᱩᱱ ᱠᱷᱟᱨᱟᱪ, ᱠᱷᱟᱨᱟᱪ ᱟᱨ ᱨᱟᱧ ᱥᱮ।",
     "storyBody2": "ᱱᱤᱫ ᱢᱟᱦᱟ ᱳᱯᱤᱥ ᱠᱩᱲ ᱠᱚᱣᱟ ᱨᱮ ᱩᱯᱚᱫᱮᱥ ᱮ, ᱠᱟᱦᱟᱱ ᱟᱨ ᱵᱷᱤᱞᱤ ᱠᱟᱦᱟᱱ ᱨᱮ ᱠᱟᱮ ᱞᱟᱜᱤᱧ ᱠᱚᱠᱮ, ᱟᱨ ᱵᱟᱫᱟᱱ ᱠᱚᱨᱮ ᱠᱚᱠᱮ ᱠᱟ ᱥᱠᱟᱣᱮ ᱠᱚᱥᱴᱩ। ᱟᱯᱟᱛ ᱟᱨᱟᱦ ᱦᱚ ᱳᱯᱤᱥ ᱛᱩᱭᱩᱜ ᱠᱚ ᱛᱟᱦᱮ ᱟᱡᱟᱜ ᱮ।",
     "valuesOverline": "ᱟᱯᱟᱛ ᱟᱨᱩᱝ",
     "valuesTitle": "ᱟᱯᱟᱛ ᱟᱸᱲᱟ",
@@ -229,6 +232,9 @@
     "label": "ᱯᱨᱚᱠᱟ ᱞᱟᱜᱤᱧ",
     "call": "ᱜᱚᱥᱴᱤᱜᱮ",
     "whatsapp": "WhatsApp",
+    "sms": "SMS",
+    "mail": "Mail",
+    "services": "Services",
     "consult": "ᱡᱚᱝ",
     "chatWithUs": "ᱟᱵᱚ ᱥᱟᱞᱟᱜ ᱠᱮᱴᱤ"
   },

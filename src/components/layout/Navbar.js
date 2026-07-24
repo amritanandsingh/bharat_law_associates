@@ -13,6 +13,7 @@ const NAV_LINKS = [
   { to: '/', key: 'nav.home', end: true },
   { to: '/practice-areas', key: 'nav.practiceAreas', dropdown: true },
   { to: '/about-us', key: 'nav.aboutUs' },
+  { to: '/articles', key: 'nav.articles' },
   { to: '/contact-us', key: 'nav.contactUs' },
   { to: '/join-us', key: 'nav.joinUs' },
 ];

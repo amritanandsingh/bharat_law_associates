@@ -15,6 +15,7 @@
     "home": "Home",
     "practiceAreas": "Practice Areas",
     "aboutUs": "About Us",
+    "articles": "Articles",
     "contactUs": "Contact Us",
     "joinUs": "Join Us",
     "consultNow": "Consult Now",
@@ -22,11 +23,12 @@
   },
   "meta": {
     "homeTitle": "Advocates & Legal Consultants",
-    "homeDescription": "Bharat Law Associates — trusted advocates for litigation, business registration, tax and intellectual property matters across India. Book a free consultation.",
-    "aboutDescription": "Learn about Bharat Law Associates — our founder, our team of advocates, and the values that guide our practice.",
-    "practiceAreasDescription": "Explore our practice areas: civil and criminal litigation, family law, business registration, tax and intellectual property services.",
-    "contactDescription": "Contact Bharat Law Associates. Schedule a consultation, request a callback, or visit our Kolkata and New Delhi offices.",
-    "joinDescription": "Careers at Bharat Law Associates. Join a growing team of advocates and legal professionals."
+    "homeDescription": "SP Law Chamber — trusted advocates for civil and criminal litigation, writ petitions, corporate, banking, property and tribunal matters across India. Book a free consultation.",
+    "aboutDescription": "Learn about SP Law Chamber — our founders, our advocates, and the values that guide our practice.",
+    "practiceAreasDescription": "Explore our practice areas: civil and criminal litigation, writ petitions, constitutional law, corporate and commercial, banking, property and tribunal matters.",
+    "contactDescription": "Contact SP Law Chamber. Schedule a consultation, request a callback, or visit our Kolkata and New Delhi offices.",
+    "joinDescription": "Careers at SP Law Chamber. Join a growing team of advocates and legal professionals.",
+    "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters."
   },
   "home": {
     "hero": {
@@ -81,22 +83,23 @@
     }
   },
   "about": {
-    "title": "About Bharat Law Associates",
+    "title": "About SP Law Chamber",
     "lede": "A full-service law firm serving individuals, families and businesses with litigation, compliance and advisory support across India.",
     "founderOverline": "Founder & Managing Advocate",
-    "founderBio": "Prem Prakash founded Bharat Law Associates with a simple conviction: every client deserves counsel that listens first and advises honestly. Under his leadership the firm has grown into a multi-practice chamber handling litigation, business registration, tax and intellectual property matters.",
+    "founderBio": "Prem Prakash co-founded SP Law Chamber with Shruti Jain on a simple conviction: every client deserves counsel that listens first and advises honestly. He leads the firm's litigation practice across civil, criminal and constitutional matters, appearing before trial courts, tribunals and the High Court.",
     "founderCredentials": [
-      "LLB, Kolkata Law School",
-      "15+ years of courtroom and advisory practice",
+      "B.A. LL.B, LL.M — University of Calcutta",
+      "Practises across civil, criminal and constitutional matters",
       "Appears before trial courts, tribunals and the High Court",
-      "Leads a team of dedicated advocates and legal professionals"
+      "Co-founded SP Law Chamber with Shruti Jain"
     ],
     "founderRole": "Founder & Managing Advocate",
+    "coFounderRole": "Co-Founder",
     "advocateRole": "Advocate",
     "storyOverline": "Our story",
     "storyTitle": "From a solo practice to a growing chamber",
-    "storyBody1": "Bharat Law Associates began as a solo practice built on referrals from satisfied clients. As the practice grew, advocates with complementary specialisations joined, allowing the firm to handle matters end-to-end — from drafting and registration to trial and appeal.",
-    "storyBody2": "Today the firm advises families on personal matters, defends clients in civil and criminal proceedings, and helps entrepreneurs start and protect their businesses. Our goal is to remain the firm clients recommend to the people they care about.",
+    "storyBody1": "SP Law Chamber began as a solo practice built on referrals from satisfied clients. As the practice grew, advocates with complementary specialisations joined, allowing the firm to handle matters end-to-end — from drafting and registration to trial and appeal.",
+    "storyBody2": "Today the firm advises families on personal matters, defends clients in civil and criminal proceedings, and represents them before tribunals, the High Court and in commercial and property disputes. Our goal is to remain the firm clients recommend to the people they care about.",
     "valuesOverline": "Our values",
     "valuesTitle": "What we stand for",
     "values": {
@@ -113,12 +116,12 @@
         "body": "Your matter is prepared thoroughly and argued vigorously, whatever the forum."
       }
     },
-    "teamTitle": "Our advocates",
+    "teamTitle": "Our Founders",
     "ctaTitle": "Ready to talk to an advocate?"
   },
   "practiceAreas": {
     "title": "Practice Areas",
-    "lede": "Litigation, business registration, tax and intellectual property — explore the full range of matters we handle.",
+    "lede": "Civil and criminal litigation, constitutional and appellate work, corporate, property and advisory matters — explore the full range of matters we handle.",
     "categoriesLabel": "Practice area categories",
     "ctaTitle": "Not sure which category your matter falls under?",
     "ctaBody": "Tell us what happened and we will point you in the right direction — the first consultation is free."
@@ -137,7 +140,7 @@
     "officesTitle": "Our offices",
     "getDirections": "Get directions",
     "callOffice": "Call office",
-    "preferCallback": "Prefer that we call you? Use the “Consult” button below to request a callback."
+    "preferCallback": "Prefer that we call you? Send us your number on WhatsApp or SMS and we will call you back."
   },
   "join": {
     "title": "Join Our Team",
@@ -229,11 +232,14 @@
     "label": "Quick contact",
     "call": "Call",
     "whatsapp": "WhatsApp",
+    "sms": "SMS",
+    "mail": "Mail",
+    "services": "Services",
     "consult": "Consult",
     "chatWithUs": "Chat with us"
   },
   "footer": {
-    "tagline": "Trusted counsel for families and businesses — litigation, registration, tax and intellectual property, in your language.",
+    "tagline": "Trusted counsel for families and businesses — litigation, corporate, property and advisory matters, in your language.",
     "quickLinks": "Quick links",
     "reachUs": "Reach us",
     "bciDisclaimer": "As per the rules of the Bar Council of India, this website is not an advertisement or solicitation. The information here is for general awareness only and does not constitute legal advice. By using this website you acknowledge that you are seeking information voluntarily.",
