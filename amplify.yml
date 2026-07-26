@@ -3,6 +3,10 @@ backend:
   phases:
     build:
       commands:
+        # Fails fast (no deps needed) if the lockfile was regenerated on macOS
+        # and lost its linux-x64 binaries — otherwise npm ci "succeeds" and
+        # ampx dies 4 minutes later on a missing @parcel/watcher/esbuild build.
+        - node scripts/check-lockfile-platforms.mjs
         # Deploys the Amplify Gen 2 backend (Cognito, AppSync/DynamoDB, S3,
         # Lambdas) and writes amplify_outputs.json to the repo root.
         - npm ci --cache .npm --prefer-offline --legacy-peer-deps
