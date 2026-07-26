@@ -68,3 +68,29 @@
     inset-block-start: calc(var(--nav-h) + 24px);
   }
 }
+
+/* Dynamic article detail (cover image + share row + inline view count). */
+.article-detail-views {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+}
+
+.li-detail-cover {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: var(--r-md);
+  margin-block-end: var(--sp-8);
+}
+
+.li-detail-share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-block: var(--sp-8) var(--sp-4);
+  padding-block-start: var(--sp-6);
+  border-block-start: 1px solid var(--line);
+}

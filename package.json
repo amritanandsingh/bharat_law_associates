@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.15.4",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aws-amplify": "^6.19.0",
     "i18next": "^23.16.8",
     "i18next-browser-languagedetector": "^8.2.1",
     "i18next-resources-to-backend": "^1.2.1",
@@ -18,12 +20,26 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "prestart": "node scripts/sync-amplify-outputs.mjs",
     "start": "react-scripts start",
+    "prebuild": "node scripts/sync-amplify-outputs.mjs",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "i18n:check": "node scripts/i18n-sync.mjs check",
-    "i18n:fill": "node scripts/i18n-sync.mjs fill"
+    "i18n:fill": "node scripts/i18n-sync.mjs fill",
+    "sandbox": "ampx sandbox"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.14.0",
+    "@aws-amplify/backend-cli": "^1.7.0",
+    "@aws-sdk/client-dynamodb": "^3.700.0",
+    "@aws-sdk/client-translate": "^3.700.0",
+    "@aws-sdk/lib-dynamodb": "^3.700.0",
+    "@types/aws-lambda": "^8.10.145",
+    "aws-cdk-lib": "^2.189.0",
+    "constructs": "^10.4.2",
+    "typescript": "^5.6.0"
   },
   "eslintConfig": {
     "extends": [

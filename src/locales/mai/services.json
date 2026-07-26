@@ -35,122 +35,290 @@
       "criminal-litigation": {
         "name": "आपराधिक मुकदमेबाजी",
         "summary": "बचाव र शिकायत तत्परता र विवेक क साथ संभालल जाइत अछि।",
-        "description": "पहिल पुलिस सूचना से अंतिम निर्णय तक, हम ग्राहकें को आपराधिक कार्यवाहीक हरेक चरण मे बचाव करैत छी र शिकायतकर्तासभ को आपन मामले का पीछा करत मे मदद करैत छी। हम सावधानीपूर्वक तैयारी करैत छी, अहाँक अधिकार की रक्षा करैत छी र जोरदार ढंग स वकालत करैत छी।"
+        "description": "पहिल पुलिस सूचना से अंतिम निर्णय तक, हम ग्राहकें को आपराधिक कार्यवाहीक हरेक चरण मे बचाव करैत छी र शिकायतकर्तासभ को आपन मामले का पीछा करत मे मदद करैत छी। हम सावधानीपूर्वक तैयारी करैत छी, अहाँक अधिकार की रक्षा करैत छी र जोरदार ढंग स वकालत करैत छी।",
+        "bullets": [
+          "Advice at FIR, notice and investigation stage",
+          "Defence at trial with careful cross-examination",
+          "Quashing petitions and criminal revisions",
+          "Complaint drafting and prosecution support for victims",
+          "Discreet, responsive handling of sensitive matters"
+        ]
       },
       "bail-anticipatory-bail-criminal-appeals": {
         "name": "जमानत, अग्रिम जमानत र आपराधिक अपील",
         "summary": "तत्काल जमानत आवेदन र अपील जो प्राथमिकता क साथ तर्क दल।",
-        "description": "स्वतंत्रता क मामले प्रतीक्षा नहि कर सकैत अछि। हम नियमित र अग्रिम जमानत आवेदन प्राथमिकता क साथ प्रस्तुत करैत छी, र Sessions अदालत र उच्च न्यायालय से पहले आपराधिक अपील र संशोधन का पीछा करैत छी केंद्रित, सुचारू तैयार तर्क क साथ।"
+        "description": "स्वतंत्रता क मामले प्रतीक्षा नहि कर सकैत अछि। हम नियमित र अग्रिम जमानत आवेदन प्राथमिकता क साथ प्रस्तुत करैत छी, र Sessions अदालत र उच्च न्यायालय से पहले आपराधिक अपील र संशोधन का पीछा करैत छी केंद्रित, सुचारू तैयार तर्क क साथ।",
+        "bullets": [
+          "Anticipatory bail before Sessions Court and High Court",
+          "Regular bail and cancellation-of-bail matters",
+          "Urgent mentioning and priority listing where needed",
+          "Criminal appeals and revisions against conviction or sentence",
+          "Suspension of sentence pending appeal"
+        ]
       },
       "cheque-bounce-cases": {
         "name": "चेक बाउंस मामला (Negotiable Instruments Act)",
         "summary": "Section 138 शिकायत र बचाव, सूचना से निर्णय तक।",
-        "description": "बेइज्जत चेक Negotiable Instruments Act की सख्त समय सीमा से संचालित होइत अछि। हम वैधानिक मांग पत्र जारी करैत छी र जवाब देइत छी, Section 138 के तहत शिकायत दाखिल र बचाव करैत छी, र समांतर वसूली जहँ यह अहाँक स्थिति को मजबूत करैत अछि।"
+        "description": "बेइज्जत चेक Negotiable Instruments Act की सख्त समय सीमा से संचालित होइत अछि। हम वैधानिक मांग पत्र जारी करैत छी र जवाब देइत छी, Section 138 के तहत शिकायत दाखिल र बचाव करैत छी, र समांतर वसूली जहँ यह अहाँक स्थिति को मजबूत करैत अछि।",
+        "bullets": [
+          "Statutory demand notice within the limitation period",
+          "Filing and prosecution of Section 138 complaints",
+          "Defence strategy for accused drawers",
+          "Settlement negotiation and compounding",
+          "Parallel civil recovery where appropriate"
+        ]
       },
       "family-matrimonial-disputes": {
         "name": "पारिवारिक र वैवाहिक विवाद",
         "summary": "तलाक, भरण-पोषण र हिरासत जो संवेदनशीलता र दृढ़ता क साथ संभालल जाइत अछि।",
-        "description": "पारिवारिक विवाद करुणा र सटीकता दुनू की मांग करैत अछि। हम पारस्परिक सहमति र विवादास्पद तलाक, भरण-पोषण, घरेलू हिंसा कार्यवाही र बाल हिरासत पर सलाह देइत छी — हमेशा उस परिणाम की खोज करैत छी जो अहाँक भविष्य र अहाँक बच्चें की रक्षा करैत अछि।"
+        "description": "पारिवारिक विवाद करुणा र सटीकता दुनू की मांग करैत अछि। हम पारस्परिक सहमति र विवादास्पद तलाक, भरण-पोषण, घरेलू हिंसा कार्यवाही र बाल हिरासत पर सलाह देइत छी — हमेशा उस परिणाम की खोज करैत छी जो अहाँक भविष्य र अहाँक बच्चें की रक्षा करैत अछि।",
+        "bullets": [
+          "Mutual-consent divorce with minimum conflict",
+          "Contested divorce petitions and defence",
+          "Maintenance and alimony claims under applicable laws",
+          "Child custody and visitation arrangements",
+          "Protection orders in domestic-violence proceedings"
+        ]
       },
       "consumer-protection-cases": {
         "name": "उपभोक्ता संरक्षण मामले",
         "summary": "दोषपूर्ण सामान र अपर्याप्त सेवा के विरुद्ध दावे उपभोक्ता मंचें से पहले।",
-        "description": "हम उपभोक्ताें को दोषपूर्ण उत्पाद, सेवा मे कमी, अनुचित व्यापार प्रथा र बीमा या निर्माता विवाद क लेल जिला, राज्य र राष्ट्रीय उपभोक्ता आयोग से पहले सुधार प्राप्त करत मे मदद करैत छी।"
+        "description": "हम उपभोक्ताें को दोषपूर्ण उत्पाद, सेवा मे कमी, अनुचित व्यापार प्रथा र बीमा या निर्माता विवाद क लेल जिला, राज्य र राष्ट्रीय उपभोक्ता आयोग से पहले सुधार प्राप्त करत मे मदद करैत छी।",
+        "bullets": [
+          "Drafting and filing of consumer complaints",
+          "Builder-delay and real-estate claims",
+          "Insurance claim rejection disputes",
+          "Medical negligence and service-deficiency claims",
+          "Enforcement of consumer forum orders"
+        ]
       },
       "arbitration-mediation": {
         "name": "पंचाट र मध्यस्थता",
         "summary": "अदालत से अधिक तेजी, निजी वाणिज्यिक र संविदात्मक विवादें की समाधान।",
-        "description": "वाणिज्यिक र संविदात्मक विवादें क लेल, पंचाट र मध्यस्थता अक्सर अदालत से अधिक तेजी, अधिक निजी परिणाम देइत अछि। हम पंचाट खंड तैयार करैत छी, पार्टियें को संदर्भ क माध्यम स प्रतिनिधित्व करैत छी र सुझाए गए समझौत का पीछा करैत छी।"
+        "description": "वाणिज्यिक र संविदात्मक विवादें क लेल, पंचाट र मध्यस्थता अक्सर अदालत से अधिक तेजी, अधिक निजी परिणाम देइत अछि। हम पंचाट खंड तैयार करैत छी, पार्टियें को संदर्भ क माध्यम स प्रतिनिधित्व करैत छी र सुझाए गए समझौत का पीछा करैत छी।",
+        "bullets": [
+          "Drafting and review of arbitration and dispute clauses",
+          "Representation in domestic arbitration proceedings",
+          "Section 9 and Section 17 interim relief applications",
+          "Enforcement and challenge of arbitral awards",
+          "Mediation and structured settlement negotiation"
+        ]
       },
       "writ-petitions": {
         "name": "Writ आवेदन",
         "summary": "उच्च न्यायालय से पहले राज्य के विरुद्ध अहाँक अधिकार को लागू करना।",
-        "description": "जब जनता की प्राधिकरण अन्यायपूर्ण या गैरकानूनी कार्य करैत अछि, तब उच्च न्यायालय से पहले writ आवेदन अक्सर सबसे तेज उपाय होइत अछि। हम mandamus, certiorari, prohibition र habeas corpus क लेल आवेदन दाखिल करैत छी, मनमाने आदेश र निष्क्रिय कार्य की चुनौती देइत छी।"
+        "description": "जब जनता की प्राधिकरण अन्यायपूर्ण या गैरकानूनी कार्य करैत अछि, तब उच्च न्यायालय से पहले writ आवेदन अक्सर सबसे तेज उपाय होइत अछि। हम mandamus, certiorari, prohibition र habeas corpus क लेल आवेदन दाखिल करैत छी, मनमाने आदेश र निष्क्रिय कार्य की चुनौती देइत छी।",
+        "bullets": [
+          "Writs against arbitrary or illegal State action",
+          "Service, admission, tender and regulatory grievances",
+          "Quashing of adverse administrative orders",
+          "Stay and interim directions on urgent basis",
+          "Contempt petitions to enforce compliance"
+        ]
       },
       "constitutional-law": {
         "name": "संवैधानिक कानून",
         "summary": "मौलिक अधिकार र संवैधानिक प्रश्नें पर सलाह र वकालत।",
-        "description": "हम संवैधानिक प्रश्नें पर सलाह देइत छी र दिखाई देइत छी — मौलिक अधिकारें का उल्लंघन, कानून र नियमें की वैधता की चुनौती, र जनता की प्राधिकार की शक्ति से संबंधित मामले उच्च न्यायालय से पहले।"
+        "description": "हम संवैधानिक प्रश्नें पर सलाह देइत छी र दिखाई देइत छी — मौलिक अधिकारें का उल्लंघन, कानून र नियमें की वैधता की चुनौती, र जनता की प्राधिकार की शक्ति से संबंधित मामले उच्च न्यायालय से पहले।",
+        "bullets": [
+          "Fundamental-rights enforcement and advice",
+          "Challenges to the validity of statutes and rules",
+          "Public-authority jurisdiction and powers questions",
+          "Strategic advice on constitutional remedies",
+          "Representation in constitutional matters before the High Court"
+        ]
       },
       "public-interest-litigation": {
         "name": "सार्वजनिक हित की मुकदमेबाजी (PIL)",
         "summary": "सार्वजनिक हित की वास्तविक मामलें की जिम्मेदारी स मुकदमेबाजी।",
-        "description": "PIL से एक नागरिक उच्च न्यायालय से पहले सार्वजनिक हित की वास्तविक मामले को उठा सकैत अछि। हम locus र सार्वजनिक हित का आकलन करैत छी, सुचारू आवेदन क लेल तथ्य र दस्तावेज एकत्र करैत छी, र जिम्मेदारी स अंत तक इसे आगे बढ़ाइत छी।"
+        "description": "PIL से एक नागरिक उच्च न्यायालय से पहले सार्वजनिक हित की वास्तविक मामले को उठा सकैत अछि। हम locus र सार्वजनिक हित का आकलन करैत छी, सुचारू आवेदन क लेल तथ्य र दस्तावेज एकत्र करैत छी, र जिम्मेदारी स अंत तक इसे आगे बढ़ाइत छी।",
+        "bullets": [
+          "Assessment of locus standi and genuine public interest",
+          "Fact and document gathering for a strong petition",
+          "Drafting and filing of the PIL",
+          "Representation and follow-up before the High Court",
+          "Monitoring compliance with the Court's directions"
+        ]
       },
       "high-court-appeals-revisions": {
         "name": "उच्च न्यायालय अपील र संशोधन",
         "summary": "अपील र संशोधन क माध्यम स प्रतिकूल आदेशें की चुनौती।",
-        "description": "एक प्रतिकूल आदेश शायद ही सड़क का अंत होइत अछि। हम अपील र संशोधन की संभावना का मूल्यांकन करैत छी, चुनौती के सबसे मजबूत आधार की पहचान करैत छी, र उच्च न्यायालय से पहले नागरिक र आपराधिक अपील र संशोधन का तर्क देइत छी।"
+        "description": "एक प्रतिकूल आदेश शायद ही सड़क का अंत होइत अछि। हम अपील र संशोधन की संभावना का मूल्यांकन करैत छी, चुनौती के सबसे मजबूत आधार की पहचान करैत छी, र उच्च न्यायालय से पहले नागरिक र आपराधिक अपील र संशोधन का तर्क देइत छी।",
+        "bullets": [
+          "Honest appraisal of appellate prospects",
+          "Identification of the strongest grounds of challenge",
+          "Civil and criminal appeals before the High Court",
+          "Revision petitions against lower-court orders",
+          "Stay of the impugned order pending appeal"
+        ]
       },
       "tribunal-matters": {
         "name": "न्यायाधिकरण मामले (CAT, NCLT, DRT, DRAT, AFT)",
         "summary": "भारत की मुख्य न्यायाधिकरणें से पहले विशेषीकृत वकालत।",
-        "description": "आज का अधिकांश मुकदमेबाजी विशेषीकृत न्यायाधिकरणें से पहले होइत अछि। हम CAT, NCLT, DRT, DRAT र AFT से पहले दिखाई देइत छी — सेवा, कंपनी, ऋण वसूली र सशस्त्र बल क मामलें को मंच-विशिष्ट विशेषज्ञता क साथ संभालैत छी।"
+        "description": "आज का अधिकांश मुकदमेबाजी विशेषीकृत न्यायाधिकरणें से पहले होइत अछि। हम CAT, NCLT, DRT, DRAT र AFT से पहले दिखाई देइत छी — सेवा, कंपनी, ऋण वसूली र सशस्त्र बल क मामलें को मंच-विशिष्ट विशेषज्ञता क साथ संभालैत छी।",
+        "bullets": [
+          "Service matters before the CAT",
+          "Company and insolvency matters before the NCLT",
+          "Debt-recovery and SARFAESI appeals before the DRT and DRAT",
+          "Armed-forces service and disciplinary matters before the AFT",
+          "Interim relief and appeals from tribunal orders"
+        ]
       },
       "corporate-commercial-law": {
         "name": "कार्पोरेट र वाणिज्यिक कानून",
         "summary": "व्यवसाय, संस्थापक र निवेशकें क लेल सलाह र विवाद।",
-        "description": "हम व्यवसायें को आपन वाणिज्यिक जीवन भर समर्थन देइत छी — संविदा, संयुक्त उद्यम, शेयरहोल्डर व्यवस्था र वाणिज्यिक विवाद — सलाह क साथ जो व्यावहारिक, सुरक्षात्मक र विवादें की वास्तविकता क लेल सतर्क होइत अछि।"
+        "description": "हम व्यवसायें को आपन वाणिज्यिक जीवन भर समर्थन देइत छी — संविदा, संयुक्त उद्यम, शेयरहोल्डर व्यवस्था र वाणिज्यिक विवाद — सलाह क साथ जो व्यावहारिक, सुरक्षात्मक र विवादें की वास्तविकता क लेल सतर्क होइत अछि।",
+        "bullets": [
+          "Commercial contracts, joint ventures and shareholder agreements",
+          "Advisory on commercial transactions and structuring",
+          "Commercial and contractual dispute resolution",
+          "Promoter and investor dispute strategy",
+          "Notices, demands and pre-litigation negotiation"
+        ]
       },
       "company-law": {
         "name": "कंपनी कानून",
         "summary": "अनुपालन, शासन र कंपनी कानून विवाद।",
-        "description": "हम कंपनीयें र निदेशकें को निगमन, शासन, अनुपालन र कंपनी कानून विवादें पर सलाह देइत छी, र उन्हें NCLT से पहले दमन, दुर्व्यवहार र संबंधित मामलें मे प्रतिनिधित्व करैत छी।"
+        "description": "हम कंपनीयें र निदेशकें को निगमन, शासन, अनुपालन र कंपनी कानून विवादें पर सलाह देइत छी, र उन्हें NCLT से पहले दमन, दुर्व्यवहार र संबंधित मामलें मे प्रतिनिधित्व करैत छी।",
+        "bullets": [
+          "Incorporation, governance and compliance advisory",
+          "Director and shareholder rights and duties",
+          "Oppression and mismanagement petitions before the NCLT",
+          "Statutory notices and regulatory responses",
+          "Restructuring and winding-up guidance"
+        ]
       },
       "banking-finance-law": {
         "name": "बैंकिंग र वित्त कानून",
         "summary": "उधारकर्ता, गारंटर र उधार देनेवालें क लेल सलाह र विवाद।",
-        "description": "हम ऋण विवाद, वसूली कार्यवाही र वित्तीय दस्तावेजीकरण मे उधारकर्ता, गारंटर र उधार देनेवालें क लेल कार्य करैत छी, अहाँक हित की रक्षा करैत छी जबकि व्यावहारिक समाधान दृष्टि मे राखैत छी।"
+        "description": "हम ऋण विवाद, वसूली कार्यवाही र वित्तीय दस्तावेजीकरण मे उधारकर्ता, गारंटर र उधार देनेवालें क लेल कार्य करैत छी, अहाँक हित की रक्षा करैत छी जबकि व्यावहारिक समाधान दृष्टि मे राखैत छी।",
+        "bullets": [
+          "Loan, guarantee and security documentation review",
+          "Defence in recovery and enforcement proceedings",
+          "One-time settlement and restructuring negotiation",
+          "Disputes over charges, interest and account statements",
+          "Advisory on borrower and guarantor rights"
+        ]
       },
       "sarfaesi-drt-matters": {
         "name": "SARFAESI र DRT मामले",
         "summary": "वसूली कार्यवाही मे उधारकर्ता र गारंटर का बचाव।",
-        "description": "जब उधार देनेवाला SARFAESI अधिनियम को आह्वान करैत अछि या DRT को चाले जाइत अछि, तब समय सीमा कम र दांव अधिक होइत अछि। हम कब्जे र बिक्री सूचनाें को चुनौती देइत छी, securitisation आवेदन र अपील दाखिल करैत छी, र जहँ कानून अनुमति देइत अछि, रोक क लेल दबाव देइत छी।"
+        "description": "जब उधार देनेवाला SARFAESI अधिनियम को आह्वान करैत अछि या DRT को चाले जाइत अछि, तब समय सीमा कम र दांव अधिक होइत अछि। हम कब्जे र बिक्री सूचनाें को चुनौती देइत छी, securitisation आवेदन र अपील दाखिल करैत छी, र जहँ कानून अनुमति देइत अछि, रोक क लेल दबाव देइत छी।",
+        "bullets": [
+          "Reply to Section 13(2) and Section 13(4) notices",
+          "Securitisation applications before the DRT",
+          "Challenge to symbolic and physical possession",
+          "Appeals before the DRAT with pre-deposit guidance",
+          "Stay and injunction against auction of secured assets"
+        ]
       },
       "cyber-law": {
         "name": "साइबर कानून",
         "summary": "ऑनलाइन धोखाधड़ी, मानहानि र डेटा दुर्व्यवहार क लेल सलाह र उपचार।",
-        "description": "हम व्यक्तिगत र व्यवसायें को साइबर धोखाधड़ी, ऑनलाइन मानहानि, डेटा दुर्व्यवहार र IT अधिनियम क मामलें पर सलाह देइत छी — अहाँक शिकायत दाखिल करत, हटावट की खोज करत र नागरिक र आपराधिक उपचार का पीछा करत मे मदद करैत छी।"
+        "description": "हम व्यक्तिगत र व्यवसायें को साइबर धोखाधड़ी, ऑनलाइन मानहानि, डेटा दुर्व्यवहार र IT अधिनियम क मामलें पर सलाह देइत छी — अहाँक शिकायत दाखिल करत, हटावट की खोज करत र नागरिक र आपराधिक उपचार का पीछा करत मे मदद करैत छी।",
+        "bullets": [
+          "Complaints for online fraud and financial cybercrime",
+          "Online defamation and content takedown remedies",
+          "Data-misuse and privacy grievances",
+          "IT Act offences — advice and defence",
+          "Coordination with cyber cells and platforms"
+        ]
       },
       "intellectual-property-rights": {
         "name": "बौद्धिक संपत्ति अधिकार (IPR)",
         "summary": "ट्रेडमार्क, कॉपीराइट र डिजाइन की रक्षा — र उन्हें लागू करना।",
-        "description": "अहाँक ब्रांड र रचनात्मक काम मूल्यवान संपत्ति छन्। हम ट्रेडमार्क, कॉपीराइट र डिजाइन संरक्षण को संभालत छी — खोज, आवेदन, आपत्ति र विरोध — र उल्लंघन र नकल के विरुद्ध दृढ़ता स कार्य करैत छी।"
+        "description": "अहाँक ब्रांड र रचनात्मक काम मूल्यवान संपत्ति छन्। हम ट्रेडमार्क, कॉपीराइट र डिजाइन संरक्षण को संभालत छी — खोज, आवेदन, आपत्ति र विरोध — र उल्लंघन र नकल के विरुद्ध दृढ़ता स कार्य करैत छी।",
+        "bullets": [
+          "Trademark search, filing and prosecution",
+          "Copyright and design registration",
+          "Reply to objections and opposition proceedings",
+          "Infringement and passing-off action",
+          "Licensing, assignment and IP advisory"
+        ]
       },
       "property-real-estate-law": {
         "name": "संपत्ति र रियल एस्टेट कानून",
         "summary": "शीर्षक, कब्जा, भाड़े र रियल एस्टेट विवाद समाधान।",
-        "description": "संपत्ति क मामले अक्सर एक परिवार की सबसे मूल्यवान संपत्ति को जोखिम मे डालत अछि। हम शीर्षक सत्यापन, विभाजन, कब्जा र भाड़े क मामलें, सीमा विवाद र रियल एस्टेट दस्तावेजीकरण संभालत छी — मुकदमेबाजी क साथ व्यावहारिक समझौत को जोड़ी बनाइत छी।"
+        "description": "संपत्ति क मामले अक्सर एक परिवार की सबसे मूल्यवान संपत्ति को जोखिम मे डालत अछि। हम शीर्षक सत्यापन, विभाजन, कब्जा र भाड़े क मामलें, सीमा विवाद र रियल एस्टेट दस्तावेजीकरण संभालत छी — मुकदमेबाजी क साथ व्यावहारिक समझौत को जोड़ी बनाइत छी।",
+        "bullets": [
+          "Title search and due diligence before purchase",
+          "Partition suits among family and co-owners",
+          "Possession, eviction and tenancy proceedings",
+          "Injunctions against illegal construction or dispossession",
+          "Sale deed, gift deed and agreement drafting and registration"
+        ]
       },
       "land-acquisition-matters": {
         "name": "भूमि अधिग्रहण मामले",
         "summary": "निष्पक्ष मुआवजे र अधिग्रहण कार्यवाही की चुनौती।",
-        "description": "जब राज्य द्वारा भूमि का अधिग्रहण कएल जाइत अछि, तब प्रक्रिया र मुआवजे अक्सर चुनौती क लेल खुले होइत अछि। हम भूमि मालिकें को अधिग्रहण कार्यवाही पर सलाह देइत छी, बढ़े हुए मुआवजे का पीछा करैत छी र संदर्भ अदालत र उच्च न्यायालय से पहले प्रक्रियात्मक कमियें को प्रश्नचिन्ह लगाइत छी।"
+        "description": "जब राज्य द्वारा भूमि का अधिग्रहण कएल जाइत अछि, तब प्रक्रिया र मुआवजे अक्सर चुनौती क लेल खुले होइत अछि। हम भूमि मालिकें को अधिग्रहण कार्यवाही पर सलाह देइत छी, बढ़े हुए मुआवजे का पीछा करैत छी र संदर्भ अदालत र उच्च न्यायालय से पहले प्रक्रियात्मक कमियें को प्रश्नचिन्ह लगाइत छी।",
+        "bullets": [
+          "Advice on acquisition notices and proceedings",
+          "Claims for enhanced compensation",
+          "Reference applications to the reference court",
+          "Challenge to procedural lapses and lapsing of acquisition",
+          "Representation before the High Court where required"
+        ]
       },
       "service-employment-law": {
         "name": "सेवा र रोजगार कानून",
         "summary": "कर्मचारी र नियोक्ता — समाप्ति, देय र सेवा मामलें क लेल।",
-        "description": "हम कर्मचारीयें को गैरकानूनी समाप्ति, अवैतनिक देय, ग्रेच्युटी र सेवा शर्तें पर सलाह देइत छी, र नियोक्ताें को जांच, श्रम कार्यवाही र अनुपालन मामलें मे प्रतिनिधित्व करैत छी — CAT र श्रम मंचें जहँ प्रासंगिक होइत अछि।"
+        "description": "हम कर्मचारीयें को गैरकानूनी समाप्ति, अवैतनिक देय, ग्रेच्युटी र सेवा शर्तें पर सलाह देइत छी, र नियोक्ताें को जांच, श्रम कार्यवाही र अनुपालन मामलें मे प्रतिनिधित्व करैत छी — CAT र श्रम मंचें जहँ प्रासंगिक होइत अछि।",
+        "bullets": [
+          "Wrongful termination and reinstatement claims",
+          "Recovery of salary, gratuity and PF dues",
+          "Service matters before the CAT and tribunals",
+          "Domestic inquiry and disciplinary-action support",
+          "Employment contract and policy drafting"
+        ]
       },
       "trust-society-registration": {
         "name": "Trust र समाज पंजीकरण",
         "summary": "Trust र समाजें को सही ढंग स स्थापित र संचालित करना।",
-        "description": "हम Trust र समाजें को ध्वनि governing दस्तावेजें क साथ स्थापित करत, उनक पंजीकरण पूर्ण करत र अनुपालन पर सलाह देइत छी — ताकि अहाँक दान या सदस्य संगठन मजबूत कानूनी आधार पर खड़ा होइत अछि।"
+        "description": "हम Trust र समाजें को ध्वनि governing दस्तावेजें क साथ स्थापित करत, उनक पंजीकरण पूर्ण करत र अनुपालन पर सलाह देइत छी — ताकि अहाँक दान या सदस्य संगठन मजबूत कानूनी आधार पर खड़ा होइत अछि।",
+        "bullets": [
+          "Drafting of trust deeds and society by-laws",
+          "Registration of trusts and societies",
+          "Governance and compliance advisory",
+          "Amendments, changes and dispute resolution",
+          "Guidance on statutory obligations and record-keeping"
+        ]
       },
       "probate-succession-will": {
         "name": "Probate, उत्तराधिकार र वसीयत मामले",
         "summary": "वसीयत, probate, उत्तराधिकार प्रमाण पत्र र संपत्ति विवाद।",
-        "description": "हम वसीयत तैयार करैत छी, probate र प्रशासन पत्र प्राप्त करैत छी, उत्तराधिकार र कानूनी उत्तराधिकारी प्रमाण पत्र सुरक्षित करैत छी, र विरासत र संपत्ति विवादें मे ग्राहकें को प्रतिनिधित्व करैत छी — संवेदनशील मामलें को देखभाल क साथ संभालैत छी।"
+        "description": "हम वसीयत तैयार करैत छी, probate र प्रशासन पत्र प्राप्त करैत छी, उत्तराधिकार र कानूनी उत्तराधिकारी प्रमाण पत्र सुरक्षित करैत छी, र विरासत र संपत्ति विवादें मे ग्राहकें को प्रतिनिधित्व करैत छी — संवेदनशील मामलें को देखभाल क साथ संभालैत छी।",
+        "bullets": [
+          "Drafting and safe custody of wills",
+          "Probate and letters of administration",
+          "Succession and legal-heir certificates",
+          "Inheritance and estate dispute litigation",
+          "Advice on devolution under applicable succession law"
+        ]
       },
       "contract-drafting-legal-opinions": {
         "name": "संविदा तैयारी र कानूनी मत",
         "summary": "स्पष्ट संविदा र विचारशील मत जो विवाद को रोकैत अछि।",
-        "description": "एक अच्छी तरह से तैयार संविदा आने का विवाद को रोकैत अछि। हम विभिन्न संदर्भें मे समझौतें को तैयार र समीक्षा करैत छी र शीर्षक, लेनदेन र जोखिम पर विचारशील कानूनी मत प्रदान करैत छी — सादे, सटीक भाषा मे।"
+        "description": "एक अच्छी तरह से तैयार संविदा आने का विवाद को रोकैत अछि। हम विभिन्न संदर्भें मे समझौतें को तैयार र समीक्षा करैत छी र शीर्षक, लेनदेन र जोखिम पर विचारशील कानूनी मत प्रदान करैत छी — सादे, सटीक भाषा मे।",
+        "bullets": [
+          "Drafting and review of commercial and personal agreements",
+          "Title and transaction opinions",
+          "Risk assessment and clause-level advice",
+          "Notices, undertakings and settlement documents",
+          "Plain-language explanation of your obligations"
+        ]
       },
       "documentation-registration": {
         "name": "दस्तावेजीकरण र पंजीकरण",
         "summary": "विलेख तैयार र सही ढंग स पंजीकृत, पहिल बार।",
-        "description": "हम बिक्री विलेख, दान विलेख, पट्टा र भाड़े क समझौत, वकील की शक्ति र अन्य यंत्र तैयार र पंजीकृत करैत छी — सही मुहर, मूल्यांकन र पंजीकरण सुनिश्चित करैत छी ताकि अहाँक दस्तावेज कायम रहैत अछि।"
+        "description": "हम बिक्री विलेख, दान विलेख, पट्टा र भाड़े क समझौत, वकील की शक्ति र अन्य यंत्र तैयार र पंजीकृत करैत छी — सही मुहर, मूल्यांकन र पंजीकरण सुनिश्चित करैत छी ताकि अहाँक दस्तावेज कायम रहैत अछि।",
+        "bullets": [
+          "Sale, gift and lease deed drafting",
+          "Power of attorney and affidavit preparation",
+          "Correct stamp duty and valuation guidance",
+          "Registration before the Sub-Registrar",
+          "Verification of executed documents"
+        ]
       }
     }
   }

@@ -31,3 +31,24 @@ export const LANGUAGES = [
 export const SUGGESTED_CODES = ['en', 'hi', 'bn', 'ur'];
 
 export const getLanguage = (code) => LANGUAGES.find((l) => l.code === code);
+
+// Languages Amazon Translate can auto-translate Articles posts into.
+// The remaining 12 Eighth Schedule languages are unsupported by Amazon Translate
+// and fall back at read time (see POST_FALLBACK + src/lib/postText.js). This is
+// consistent with the site footer note: "in case of any difference, the English
+// version prevails."
+export const TRANSLATE_SUPPORTED = [
+  'en', 'hi', 'bn', 'gu', 'kn', 'ml', 'mr', 'pa', 'ta', 'te', 'ur',
+];
+
+// Read-time fallback for unsupported languages: Devanagari-script languages fall
+// back to Hindi (itself a translated target); everything else falls back to
+// English. Codes not listed here fall straight through to English.
+export const POST_FALLBACK = {
+  brx: ['hi'],
+  doi: ['hi'],
+  kok: ['hi'],
+  mai: ['hi'],
+  ne: ['hi'],
+  sa: ['hi'],
+};

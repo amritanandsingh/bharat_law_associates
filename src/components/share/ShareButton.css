@@ -1,0 +1,35 @@
+.share-fallback {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.share-btn,
+.share-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  min-height: 42px;
+  padding-inline: var(--sp-4);
+  border: 1px solid var(--line);
+  border-radius: var(--r-full);
+  background: var(--paper);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  color: var(--ink-2);
+  transition: all var(--dur-fast) var(--ease-out);
+}
+
+.share-btn:hover {
+  border-color: var(--gold-500);
+  color: var(--gold-700);
+}
+
+.share-whatsapp {
+  color: #128c7e;
+}
+
+.share-whatsapp:hover {
+  border-color: #128c7e;
+  background: rgba(18, 140, 126, 0.06);
+}
