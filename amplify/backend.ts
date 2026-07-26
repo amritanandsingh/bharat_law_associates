@@ -7,6 +7,7 @@ import { data } from './data/resource';
 import { storage } from './storage/resource';
 import { incrementViewCount } from './functions/increment-view-count/resource';
 import { translatePost } from './functions/translate-post/resource';
+import { logEnquiry } from './functions/log-enquiry/resource';
 
 const backend = defineBackend({
   auth,
@@ -14,6 +15,7 @@ const backend = defineBackend({
   storage,
   incrementViewCount,
   translatePost,
+  logEnquiry,
 });
 
 const postTable = backend.data.resources.tables['Post'];
@@ -47,6 +49,18 @@ trFn.addToRolePolicy(
     // Amazon Translate has no resource-level ARNs.
     actions: ['translate:TranslateText'],
     resources: ['*'],
+  }),
+);
+
+// --- log-enquiry: append customer form submissions to a single Excel in S3 ---
+const logFn = backend.logEnquiry.resources.lambda as LambdaFunction;
+logFn.addEnvironment('BUCKET_NAME', backend.storage.resources.bucket.bucketName);
+logFn.addToRolePolicy(
+  new iam.PolicyStatement({
+    sid: 'EnquiryLogS3',
+    actions: ['s3:GetObject', 's3:PutObject'],
+    // Scoped to the private enquiries prefix only (customer PII).
+    resources: [backend.storage.resources.bucket.arnForObjects('enquiries/*')],
   }),
 );
 

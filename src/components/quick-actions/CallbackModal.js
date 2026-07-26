@@ -4,13 +4,14 @@ import { FaTimes, FaCheckCircle } from 'react-icons/fa';
 import FormField from '../forms/FormField';
 import { SITE } from '../../config/site';
 import { buildWhatsAppUrl } from '../../utils/contactLinks';
+import { logEnquiry } from '../../lib/enquiries';
 import { isValidIndianPhone } from '../../utils/validation';
 import './CallbackModal.css';
 
 const TIME_SLOTS = ['morning', 'afternoon', 'evening'];
 
 const CallbackModal = ({ open, onClose }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [values, setValues] = useState({ name: '', phone: '', slot: 'morning' });
   const [errors, setErrors] = useState({});
   const [sent, setSent] = useState(false);
@@ -76,6 +77,14 @@ const CallbackModal = ({ open, onClose }) => {
       `Preferred time: ${values.slot}`,
       'Please call me back.',
     ].join('\n');
+    logEnquiry({
+      type: 'Callback',
+      name: values.name.trim(),
+      phone: values.phone.trim(),
+      preferred: values.slot,
+      language: i18n.language,
+      source: 'Callback modal',
+    });
     window.open(buildWhatsAppUrl(SITE.whatsapp.number, text), '_blank', 'noopener');
     setSent(true);
   };

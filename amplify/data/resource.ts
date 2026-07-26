@@ -1,6 +1,7 @@
 import { type ClientSchema, a, defineData } from '@aws-amplify/backend';
 import { incrementViewCount } from '../functions/increment-view-count/resource';
 import { translatePost } from '../functions/translate-post/resource';
+import { logEnquiry } from '../functions/log-enquiry/resource';
 
 /**
  * Data model for the Articles feed.
@@ -55,6 +56,25 @@ const schema = a.schema({
     .returns(a.json())
     .authorization((allow) => [allow.group('Admins')])
     .handler(a.handler.function(translatePost)),
+
+  // Appends a customer form submission as a row in a single Excel file in S3.
+  // Callable by anonymous site visitors (guest) submitting the contact forms.
+  logEnquiry: a
+    .mutation()
+    .arguments({
+      type: a.string().required(),
+      name: a.string().required(),
+      phone: a.string(),
+      email: a.string(),
+      service: a.string(),
+      preferred: a.string(),
+      message: a.string(),
+      language: a.string(),
+      source: a.string(),
+    })
+    .returns(a.boolean())
+    .authorization((allow) => [allow.guest(), allow.authenticated()])
+    .handler(a.handler.function(logEnquiry)),
 });
 
 export type Schema = ClientSchema<typeof schema>;

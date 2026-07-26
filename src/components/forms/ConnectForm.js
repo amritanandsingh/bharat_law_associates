@@ -4,13 +4,14 @@ import FormField from './FormField';
 import SuccessPanel from './SuccessPanel';
 import { SITE } from '../../config/site';
 import { buildWhatsAppUrl } from '../../utils/contactLinks';
+import { logEnquiry } from '../../lib/enquiries';
 import { isValidEmail, isValidIndianPhone } from '../../utils/validation';
 import './forms.css';
 
 const INITIAL = { name: '', email: '', phone: '', message: '' };
 
 const ConnectForm = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [values, setValues] = useState(INITIAL);
   const [errors, setErrors] = useState({});
   const [sent, setSent] = useState(false);
@@ -52,6 +53,15 @@ const ConnectForm = () => {
       .filter(Boolean)
       .join('\n');
     setLastMessage(text);
+    logEnquiry({
+      type: 'Enquiry',
+      name: values.name.trim(),
+      phone: values.phone.trim(),
+      email: values.email.trim(),
+      message: values.message.trim(),
+      language: i18n.language,
+      source: 'Connect form',
+    });
     window.open(buildWhatsAppUrl(SITE.whatsapp.number, text), '_blank', 'noopener');
     setSent(true);
   };

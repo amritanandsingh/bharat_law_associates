@@ -5,6 +5,7 @@ import SuccessPanel from './SuccessPanel';
 import { SERVICES } from '../../data/services';
 import { SITE } from '../../config/site';
 import { buildWhatsAppUrl } from '../../utils/contactLinks';
+import { logEnquiry } from '../../lib/enquiries';
 import {
   isValidEmail,
   isValidIndianPhone,
@@ -24,7 +25,7 @@ const INITIAL = {
 };
 
 const ConsultationForm = () => {
-  const { t } = useTranslation(['common', 'services']);
+  const { t, i18n } = useTranslation(['common', 'services']);
   const [values, setValues] = useState(INITIAL);
   const [errors, setErrors] = useState({});
   const [sent, setSent] = useState(false);
@@ -69,6 +70,17 @@ const ConsultationForm = () => {
       .filter(Boolean)
       .join('\n');
     setLastMessage(text);
+    logEnquiry({
+      type: 'Consultation',
+      name: values.name.trim(),
+      phone: values.phone.trim(),
+      email: values.email.trim(),
+      service: serviceName,
+      preferred: `${values.date}${values.time ? `, ${values.time}` : ''}`,
+      message: values.message.trim(),
+      language: i18n.language,
+      source: 'Consultation form',
+    });
     window.open(buildWhatsAppUrl(SITE.whatsapp.number, text), '_blank', 'noopener');
     setSent(true);
   };
