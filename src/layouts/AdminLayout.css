@@ -1,0 +1,175 @@
+.admin-shell {
+  min-height: 100svh;
+  background: var(--sand, #f6f3ec);
+}
+
+.admin-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  padding: var(--sp-4) var(--sp-6);
+  background: var(--navy-900);
+  color: var(--on-dark);
+}
+
+.admin-brand {
+  font-weight: 700;
+  color: var(--on-dark);
+}
+
+.admin-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-5);
+}
+
+.admin-nav a {
+  color: var(--on-dark-2);
+  font-size: var(--fs-small);
+}
+
+.admin-signout {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--r-sm);
+  color: var(--on-dark);
+  padding: 6px var(--sp-3);
+  font-size: var(--fs-small);
+  cursor: pointer;
+}
+
+.admin-main {
+  max-width: 900px;
+  margin-inline: auto;
+  padding: var(--sp-8) var(--sp-6);
+}
+
+.admin-card {
+  max-width: 480px;
+  margin: 12svh auto;
+  padding: var(--sp-8);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  text-align: center;
+  display: grid;
+  gap: var(--sp-4);
+  justify-items: center;
+}
+
+/* Dashboard */
+.admin-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  margin-block-end: var(--sp-6);
+}
+
+.admin-post-list {
+  display: grid;
+  gap: var(--sp-3);
+}
+
+.admin-post-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  padding: var(--sp-4) var(--sp-5);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+}
+
+.admin-post-row h3 {
+  font-size: var(--fs-body);
+  margin-block-end: 2px;
+}
+
+.admin-post-meta {
+  font-size: var(--fs-caption);
+  color: var(--ink-3);
+}
+
+.admin-row-actions {
+  display: inline-flex;
+  gap: var(--sp-2);
+  flex-shrink: 0;
+}
+
+.admin-btn {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: var(--r-sm);
+  padding: 6px var(--sp-3);
+  font-size: var(--fs-small);
+  cursor: pointer;
+  color: var(--ink-2);
+}
+
+.admin-btn-danger:hover {
+  border-color: #c0392b;
+  color: #c0392b;
+}
+
+/* Editor */
+.admin-form {
+  display: grid;
+  gap: var(--sp-5);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  padding: var(--sp-8);
+}
+
+.admin-field {
+  display: grid;
+  gap: var(--sp-2);
+}
+
+.admin-field label {
+  font-size: var(--fs-small);
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+.admin-field input,
+.admin-field select,
+.admin-field textarea {
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  padding: 10px var(--sp-3);
+  font-size: 16px;
+  font-family: inherit;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.admin-field textarea {
+  min-height: 260px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.admin-note {
+  font-size: var(--fs-caption);
+  color: var(--ink-3);
+}
+
+.admin-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.admin-status {
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+}
+
+.admin-error {
+  color: #c0392b;
+  font-size: var(--fs-small);
+}

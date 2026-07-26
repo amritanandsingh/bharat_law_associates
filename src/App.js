@@ -12,6 +12,11 @@ const ArticlesPage = lazy(() => import('./pages/ArticlesPage'));
 const ArticleDetailPage = lazy(() => import('./pages/ArticleDetailPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 
+// Admin area (separate layout, no marketing chrome, Cognito-gated).
+const AdminLayout = lazy(() => import('./layouts/AdminLayout'));
+const AdminDashboard = lazy(() => import('./pages/admin/AdminDashboard'));
+const PostEditor = lazy(() => import('./pages/admin/PostEditor'));
+
 const PageFallback = () => <div style={{ minHeight: '60svh' }} aria-hidden="true" />;
 
 const wrap = (node) => <Suspense fallback={<PageFallback />}>{node}</Suspense>;
@@ -29,6 +34,12 @@ const App = () => (
         <Route path="contact-us" element={wrap(<ContactPage />)} />
         <Route path="join-us" element={wrap(<JoinUsPage />)} />
         <Route path="*" element={wrap(<NotFoundPage />)} />
+      </Route>
+
+      <Route path="/admin" element={wrap(<AdminLayout />)}>
+        <Route index element={wrap(<AdminDashboard />)} />
+        <Route path="new" element={wrap(<PostEditor />)} />
+        <Route path="edit/:id" element={wrap(<PostEditor />)} />
       </Route>
     </Routes>
   </BrowserRouter>

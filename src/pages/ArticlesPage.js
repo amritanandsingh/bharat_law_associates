@@ -1,10 +1,11 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { FaSearch, FaTags, FaArrowRight } from 'react-icons/fa';
-import { ARTICLES, getAllTagIds } from '../data/articles';
+import { FaSearch, FaArrowRight, FaEye } from 'react-icons/fa';
 import { SITE } from '../config/site';
 import { formatDate } from '../utils/formatDate';
+import { listPublishedPosts, resolveCoverUrl } from '../lib/posts';
+import { pickTranslation } from '../lib/postText';
 import usePageMeta from '../hooks/usePageMeta';
 import useReveal from '../hooks/useReveal';
 import './ArticlesPage.css';
@@ -12,42 +13,44 @@ import './ArticlesPage.css';
 const ArticlesPage = () => {
   const { t, i18n } = useTranslation('articles');
   const { t: tc } = useTranslation('common');
+  const lng = i18n.resolvedLanguage || i18n.language || 'en';
+  const [posts, setPosts] = useState(null); // null = loading
+  const [covers, setCovers] = useState({});
   const [query, setQuery] = useState('');
-  const [sort, setSort] = useState('newest');
-  const [activeTag, setActiveTag] = useState('');
-  useReveal();
+  // Re-observe reveal targets when posts load / the filter changes (cards
+  // render after mount, so the initial observer never saw them).
+  useReveal([posts, query]);
   usePageMeta(`${t('articles.ui.title')} — ${SITE.name}`, tc('meta.articlesDescription'));
 
-  const lng = i18n.resolvedLanguage || i18n.language || 'en';
-  const tagIds = getAllTagIds();
-
-  const searchIndex = useMemo(() => {
-    const map = {};
-    ARTICLES.forEach((a) => {
-      const body = t(`articles.items.${a.id}.body`, { returnObjects: true });
-      const parts = [
-        t(`articles.items.${a.id}.title`),
-        t(`articles.items.${a.id}.excerpt`),
-        Array.isArray(body) ? body.join(' ') : '',
-        a.tagIds.map((tag) => t(`articles.tags.${tag}`)).join(' '),
-      ];
-      map[a.id] = parts.join(' ').toLowerCase();
-    });
-    return map;
-    // Re-index whenever the active language changes.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [lng]);
+  useEffect(() => {
+    let alive = true;
+    listPublishedPosts()
+      .then((list) => {
+        if (!alive) return;
+        setPosts(list);
+        list
+          .filter((p) => p.coverImageKey)
+          .forEach((p) =>
+            resolveCoverUrl(p.coverImageKey).then((url) => {
+              if (alive && url) setCovers((c) => ({ ...c, [p.id]: url }));
+            })
+          );
+      })
+      .catch(() => alive && setPosts([]));
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   const visible = useMemo(() => {
+    if (!posts) return [];
     const q = query.trim().toLowerCase();
-    return ARTICLES.filter((a) => {
-      if (activeTag && !a.tagIds.includes(activeTag)) return false;
-      if (q && !searchIndex[a.id].includes(q)) return false;
-      return true;
-    }).sort((a, b) =>
-      sort === 'newest' ? b.date.localeCompare(a.date) : a.date.localeCompare(b.date)
-    );
-  }, [query, activeTag, sort, searchIndex]);
+    if (!q) return posts;
+    return posts.filter((p) => {
+      const { title, excerpt } = pickTranslation(p, lng);
+      return `${title} ${excerpt}`.toLowerCase().includes(q);
+    });
+  }, [posts, query, lng]);
 
   return (
     <>
@@ -76,70 +79,50 @@ const ArticlesPage = () => {
                 aria-label={t('articles.ui.searchPlaceholder')}
               />
             </div>
-            <label className="articles-sort">
-              <span className="visually-hidden">{t('articles.ui.sortNewest')}</span>
-              <select value={sort} onChange={(e) => setSort(e.target.value)}>
-                <option value="newest">{t('articles.ui.sortNewest')}</option>
-                <option value="oldest">{t('articles.ui.sortOldest')}</option>
-              </select>
-            </label>
           </div>
 
-          <div className="articles-tags" data-reveal>
-            <span className="articles-tags-label">
-              <FaTags size={12} aria-hidden="true" /> {t('articles.ui.tagsLabel')}:
-            </span>
-            <button
-              type="button"
-              className={`tag-chip ${activeTag === '' ? 'tag-chip-active' : ''}`}
-              onClick={() => setActiveTag('')}
-            >
-              {t('articles.ui.allTags')}
-            </button>
-            {tagIds.map((tag) => (
-              <button
-                key={tag}
-                type="button"
-                className={`tag-chip ${activeTag === tag ? 'tag-chip-active' : ''}`}
-                onClick={() => setActiveTag((cur) => (cur === tag ? '' : tag))}
-              >
-                {t(`articles.tags.${tag}`)}
-              </button>
-            ))}
-          </div>
-
-          {visible.length === 0 ? (
+          {posts === null ? (
             <p className="articles-empty" role="status">
-              {t('articles.ui.noResults')}
+              {t('articles.ui.loading')}
+            </p>
+          ) : visible.length === 0 ? (
+            <p className="articles-empty" role="status">
+              {query ? t('articles.ui.noResults') : t('articles.ui.emptyState')}
             </p>
           ) : (
             <div className="articles-grid">
-              {visible.map((a, i) => (
-                <Link
-                  key={a.id}
-                  to={`/articles/${a.id}`}
-                  className="article-card"
-                  data-reveal
-                  style={{ '--i': i % 6 }}
-                >
-                  <time className="article-date" dateTime={a.date}>
-                    {formatDate(a.date, lng)}
-                  </time>
-                  <h3>{t(`articles.items.${a.id}.title`)}</h3>
-                  <p className="article-excerpt">{t(`articles.items.${a.id}.excerpt`)}</p>
-                  <div className="article-card-tags">
-                    {a.tagIds.slice(0, 3).map((tag) => (
-                      <span key={tag} className="tag-pill">
-                        {t(`articles.tags.${tag}`)}
+              {visible.map((p, i) => {
+                const { title, excerpt } = pickTranslation(p, lng);
+                const cover = covers[p.id];
+                return (
+                  <Link
+                    key={p.id}
+                    to={`/articles/${p.slug}`}
+                    className="article-card li-card"
+                    data-reveal
+                    style={{ '--i': i % 6 }}
+                  >
+                    <span className={`li-card-cover ${cover ? '' : 'li-card-cover-empty'}`}>
+                      {cover && <img src={cover} alt="" loading="lazy" />}
+                    </span>
+                    <time className="article-date" dateTime={(p.publishedAt || '').slice(0, 10)}>
+                      {formatDate((p.publishedAt || '').slice(0, 10), lng)}
+                    </time>
+                    <h3>{title}</h3>
+                    {excerpt && <p className="article-excerpt">{excerpt}</p>}
+                    <div className="li-card-foot">
+                      <span className="li-views">
+                        <FaEye size={12} aria-hidden="true" />{' '}
+                        {t('articles.ui.viewsLabel', { count: p.viewCount || 0 })}
                       </span>
-                    ))}
-                  </div>
-                  <span className="article-more">
-                    {t('articles.ui.readMore')}
-                    <FaArrowRight className="icon-arrow" size={12} aria-hidden="true" />
-                  </span>
-                </Link>
-              ))}
+                      <span className="article-more">
+                        {t('articles.ui.readMore')}
+                        <FaArrowRight className="icon-arrow" size={12} aria-hidden="true" />
+                      </span>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           )}
         </div>

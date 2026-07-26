@@ -1,10 +1,12 @@
 import { useEffect } from 'react';
 
 // Adds .is-in to every [data-reveal] element as it enters the viewport.
-// Call once per page component.
-const useReveal = () => {
+// Pass `deps` (e.g. async-loaded data) so it re-observes elements that mount
+// AFTER the first render — otherwise dynamically-added [data-reveal] nodes
+// (like async-loaded article cards) stay hidden at opacity:0 forever.
+const useReveal = (deps = []) => {
   useEffect(() => {
-    const els = document.querySelectorAll('[data-reveal]');
+    const els = document.querySelectorAll('[data-reveal]:not(.is-in)');
     if (els.length === 0) return undefined;
 
     if (!('IntersectionObserver' in window)) {
@@ -26,7 +28,8 @@ const useReveal = () => {
 
     els.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, deps);
 };
 
 export default useReveal;
