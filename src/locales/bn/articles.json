@@ -5,6 +5,8 @@
       "lede": "আপনার অধিকার এবং দৈনন্দিন আইনি প্রশ্নে সাধারণ ভাষার নির্দেশিকা, আমাদের উকিলদের দ্বারা লিখিত।",
       "searchPlaceholder": "নিবন্ধ অনুসন্ধান করুন…",
       "noResults": "কোন নিবন্ধ আপনার অনুসন্ধানের সাথে মেলে না। অন্য শব্দ বা বিষয় চেষ্টা করুন।",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "নিবন্ধ পড়ুন",
       "publishedOn": "{{date}} তে প্রকাশিত",
       "byAdmin": "SP Law Chamber দ্বারা",

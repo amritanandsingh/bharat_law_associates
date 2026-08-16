@@ -5,6 +5,8 @@
       "lede": "നിങ്ങളുടെ അവകാശങ്ങൾ, ദൈനംദിന നിയമ പ്രശ്നങ്ങൾ സാധാരണ ഭാഷ ഗൈഡുകൾ, ഞങ്ങളുടെ അഭിഭാഷകർ എഴുതിയത്.",
       "searchPlaceholder": "ലേഖനങ്ങൾ തിരയുക…",
       "noResults": "നിങ്ങളുടെ തിരയലുമായി ബന്ധപ്പെട്ട ലേഖനങ്ങൾ ഇല്ല. മറ്റൊരു പദം, വിഷയം ശ്രമിക്കുക.",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "ലേഖനം വായിക്കുക",
       "publishedOn": "{{date}} പ്രസിദ്ധീകരിച്ചത്",
       "byAdmin": "SP Law Chamber എഴുതിയത്",

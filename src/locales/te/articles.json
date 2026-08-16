@@ -5,6 +5,8 @@
       "lede": "మీ హక్కులు మరియు రోజువారీ చట్టపు ప్రశ్నలపై సరళ-భాష నిర్దేశనలు, మా న్యాయవాదుల ద్వారా రాయబడినవి.",
       "searchPlaceholder": "కథనాలను శోధించండి…",
       "noResults": "మీ శోధనకు సరిపోలిన కథనాలు లేవు. వేరే పదం లేదా విషయాన్ని ప్రయత్నించండి.",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "కథనం చదవండి",
       "publishedOn": "{{date}} న ప్రకటించబడింది",
       "byAdmin": "SP Law Chamber ద్వారా",

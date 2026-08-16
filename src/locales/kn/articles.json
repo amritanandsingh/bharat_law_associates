@@ -5,6 +5,8 @@
       "lede": "ನಿಮ್ಮ ಹಕ್ಕುಗಳು ಮತ್ತು ದೈನಂದಿನ ಕಾನೂನು ಪ್ರಶ್ನೆಗಳ ಬಗ್ಗೆ ಸರಳ ಭಾಷೆಯ ಮಾರ್ಗದರ್ಶಕಗಳು, ನಮ್ಮ ವಕೀಲರು ಬರೆದಿದ್ದಾರೆ.",
       "searchPlaceholder": "ಲೇಖನಗಳನ್ನು ಹುಡುಕಿ…",
       "noResults": "ಯಾವುದೇ ಲೇಖನ ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗಿಲ್ಲ. ವಿಭಿನ್ನ ಪದ ಅಥವಾ ವಿಷಯವನ್ನು ಪ್ರಯತ್ನಿಸಿ.",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "ಲೇಖನ ಓದಿ",
       "publishedOn": "{{date}} ರಂದು ಪ್ರಕಟಿತ",
       "byAdmin": "SP Law Chamber ನಿಂದ",

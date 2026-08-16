@@ -4,7 +4,7 @@ Mobile-first, multilingual marketing site for SP Law Chamber (React 18 + Create 
 
 ## Features
 
-- Multi-page via `react-router-dom` v6: Home, About, Practice Areas (19 services in 4 categories with detail pages), Contact (Connect + Schedule a Consultation forms), Join Us, 404
+- Multi-page via `react-router-dom` v6: Home, About, Practice Areas (30 services in 4 categories with detail pages), Contact (Connect + Schedule a Consultation forms), Join Us, 404
 - Forms submit via prefilled **WhatsApp** deep link with **mailto/tel fallbacks** (no backend)
 - Sticky mobile action bar (Call / WhatsApp / Consult), callback-request modal, desktop WhatsApp FAB
 - **23 languages**: English + all 22 scheduled Indian languages (`react-i18next`, lazy-loaded per-locale chunks, RTL support for Urdu/Kashmiri/Sindhi, on-demand fonts for Ol Chiki / Meetei Mayek / Nastaliq)

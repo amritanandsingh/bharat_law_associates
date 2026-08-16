@@ -132,11 +132,13 @@
   transform: none;
 }
 
-/* Page hero band (About / Practice Areas / Contact / Join Us) */
+/* Page hero band (About / Practice Areas / Contact / Join Us).
+   No --nav-h offset here: the navbar is position:sticky and already occupies
+   that space in normal flow on inner pages, where it is always solid. */
 .page-hero {
   background: var(--navy-900);
   color: var(--on-dark);
-  padding-block: calc(var(--nav-h) + var(--sp-10)) var(--sp-10);
+  padding-block: var(--sp-10);
 }
 
 .page-hero h1 {

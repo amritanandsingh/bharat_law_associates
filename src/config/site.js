@@ -49,7 +49,7 @@ export const SITE = {
     yearsOfExperience: 15,
     successRate: 80,
     offices: 2,
-    practiceAreas: 25,
+    practiceAreas: 30,
   },
 
   // Empty string = icon hidden in the footer

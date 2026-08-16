@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation, Trans } from 'react-i18next';
 import {
@@ -10,7 +10,9 @@ import {
 } from 'react-icons/fa';
 import ServiceCard from '../components/services/ServiceCard';
 import LawyerCard from '../components/team/LawyerCard';
+import DocumentCard from '../components/documents/DocumentCard';
 import { LogoMark } from '../components/layout/Logo';
+import { listDocuments } from '../lib/documents';
 import { getFeaturedServices } from '../data/services';
 import { LAWYERS } from '../data/lawyers';
 import { SITE } from '../config/site';
@@ -63,10 +65,16 @@ const useCountUp = () => {
   return ref;
 };
 
+// How many documents the home-page preview shows before "view all".
+const HOME_DOCUMENTS = 4;
+
 const HomePage = () => {
   const { t } = useTranslation();
   const statsRef = useCountUp();
-  useReveal();
+  const [documents, setDocuments] = useState(null); // null = loading
+  // `documents` is the only async content on this page — without it as a dep the
+  // document cards mount after the observer ran and stay at opacity:0 forever.
+  useReveal([documents]);
   usePageMeta(
     `${SITE.name} — ${t('meta.homeTitle')}`,
     t('meta.homeDescription')
@@ -84,6 +92,18 @@ const HomePage = () => {
     { icon: FaComments, key: 'accessible' },
     { icon: FaHandHoldingHeart, key: 'transparent' },
   ];
+
+  // Preview of the documents catalogue. Failure is silent: the section simply
+  // does not render, rather than breaking the home page.
+  useEffect(() => {
+    let alive = true;
+    listDocuments()
+      .then((list) => alive && setDocuments(list.slice(0, HOME_DOCUMENTS)))
+      .catch(() => alive && setDocuments([]));
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   return (
     <>
@@ -179,6 +199,32 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      {/* Documents for sale — hidden entirely until there is something to show */}
+      {documents && documents.length > 0 && (
+        <section className="section">
+          <div className="container">
+            <div className="section-head" data-reveal>
+              <span className="overline">{t('home.documents.overline')}</span>
+              <h2>{t('home.documents.title')}</h2>
+              <span className="gold-rule" aria-hidden="true" />
+            </div>
+            <p className="home-documents-lede" data-reveal>
+              {t('home.documents.body')}
+            </p>
+            <div className="home-documents-grid">
+              {documents.map((doc, i) => (
+                <DocumentCard key={doc.id} document={doc} index={i} />
+              ))}
+            </div>
+            <p className="home-documents-more" data-reveal>
+              <Link to="/documents" className="link-gold">
+                {t('home.documents.viewAll')}
+              </Link>
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* Free legal aid banner */}
       <section className="aid-banner on-dark">

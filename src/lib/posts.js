@@ -3,28 +3,14 @@
 // (identity pool) auth mode; admin writes use the Cognito user pool.
 import { generateClient } from 'aws-amplify/data';
 import { getUrl, uploadData } from 'aws-amplify/storage';
-import { fetchAuthSession } from 'aws-amplify/auth';
 import { parseTranslations } from './postText';
+import { readAuthMode } from './authMode';
 
 const client = generateClient();
 
 const throwIf = (errors) => {
   if (errors?.length) throw new Error(errors.map((e) => e.message).join('; '));
 };
-
-// Public content is readable by everyone, but the auth path differs: a signed-in
-// user (e.g. an admin browsing the site) reads via the Cognito user pool, while
-// an anonymous visitor reads via the identity pool (guest). `allow.guest()` only
-// authorizes the unauthenticated role, so a logged-in user must NOT use
-// identityPool or the read comes back empty.
-async function readAuthMode() {
-  try {
-    const session = await fetchAuthSession();
-    return session?.tokens?.accessToken ? 'userPool' : 'identityPool';
-  } catch (e) {
-    return 'identityPool';
-  }
-}
 
 // ---- Public (guest) reads ----
 

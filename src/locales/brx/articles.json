@@ -5,6 +5,8 @@
       "lede": "आपके अधिकारों और रोजमर्रा के कानूनी प्रश्नों पर सादी भाषा के गाइड, हमारे वकीलों द्वारा लिखे गए।",
       "searchPlaceholder": "लेखों को खोजें…",
       "noResults": "कोई भी लेख आपकी खोज से मेल नहीं खाते। एक अलग शब्द या विषय आजमाएं।",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "लेख पढ़ें",
       "publishedOn": "{{date}} पर प्रकाशित",
       "byAdmin": "SP Law Chamber द्वारा",

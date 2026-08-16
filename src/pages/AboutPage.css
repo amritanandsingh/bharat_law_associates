@@ -88,6 +88,42 @@
   color: var(--ink-2);
 }
 
+.about-approach {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-4);
+}
+
+.about-step {
+  background: var(--paper);
+  border-radius: var(--r-md);
+  border: 1px solid var(--line);
+  padding: var(--sp-6);
+}
+
+.about-step-num {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: var(--fs-h3);
+  font-weight: 600;
+  line-height: 1;
+  color: var(--gold-600);
+  margin-block-end: var(--sp-3);
+}
+
+.about-step h4 {
+  margin-block-end: var(--sp-2);
+}
+
+.about-step p {
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+}
+
+.about-commitment {
+  background: var(--paper);
+}
+
 .about-values {
   display: grid;
   grid-template-columns: 1fr;
@@ -118,8 +154,18 @@
   .about-founder {
     grid-template-columns: 5fr 7fr;
   }
+  .about-approach {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--sp-6);
+  }
   .about-values {
     grid-template-columns: repeat(3, 1fr);
     gap: var(--sp-6);
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-approach {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

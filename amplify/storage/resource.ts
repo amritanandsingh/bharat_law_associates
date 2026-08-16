@@ -7,14 +7,27 @@ const isProduction =
   process.env.AWS_BRANCH === 'master' || process.env.AWS_BRANCH === 'main';
 
 /**
- * S3 storage for Articles cover images.
- * - Cover images are world-readable (public feed).
- * - Only Admins can upload / delete.
+ * S3 storage for public site media.
+ * - `media/posts/*`     — Articles cover images.
+ * - `media/documents/*` — the SAMPLE PAGE of a document offered for sale.
+ *
+ * Both prefixes are world-readable by design: covers belong to a public feed,
+ * and only a teaser page of a document is ever uploaded (the full document is
+ * sent privately to buyers and never touches this bucket). Only Admins can
+ * upload or delete.
+ *
+ * The `enquiries/*` prefix is deliberately absent — it holds customer PII and
+ * is reachable only by the log-enquiry Lambda's IAM role, never by a browser.
  */
 export const storage = defineStorage({
   name: isProduction ? 'productionLegalInsightsMedia' : 'legalInsightsMedia',
   access: (allow) => ({
     'media/posts/*': [
+      allow.guest.to(['read']),
+      allow.authenticated.to(['read']),
+      allow.groups(['Admins']).to(['read', 'write', 'delete']),
+    ],
+    'media/documents/*': [
       allow.guest.to(['read']),
       allow.authenticated.to(['read']),
       allow.groups(['Admins']).to(['read', 'write', 'delete']),

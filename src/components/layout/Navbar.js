@@ -14,6 +14,7 @@ const NAV_LINKS = [
   { to: '/practice-areas', key: 'nav.practiceAreas', dropdown: true },
   { to: '/about-us', key: 'nav.aboutUs' },
   { to: '/articles', key: 'nav.articles' },
+  { to: '/documents', key: 'nav.documents' },
   { to: '/contact-us', key: 'nav.contactUs' },
   { to: '/join-us', key: 'nav.joinUs' },
 ];
@@ -67,79 +68,83 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`navbar ${scrolled || !isHome ? 'navbar-solid' : ''}`}>
-      <div className="container navbar-inner">
-        <Link to="/" className="navbar-logo" aria-label={SITE.name}>
-          <Logo variant="dark" markSize={36} />
-        </Link>
-
-        <nav className="navbar-desktop" aria-label={t('a11y.mainNavigation')}>
-          <ul className="navbar-links">
-            {NAV_LINKS.map((link) =>
-              link.dropdown ? (
-                <li key={link.to} className="navbar-dropdown" ref={dropdownRef}>
-                  <button
-                    type="button"
-                    className="navbar-link navbar-dropdown-trigger"
-                    aria-expanded={dropdownOpen}
-                    onClick={() => setDropdownOpen((v) => !v)}
-                  >
-                    {t(link.key)}
-                    <FaChevronDown size={10} aria-hidden="true" />
-                  </button>
-                  {dropdownOpen && (
-                    <div className="navbar-dropdown-panel">
-                      {CATEGORIES.map((cat) => (
-                        <div key={cat.id} className="navbar-dropdown-col">
-                          <Link
-                            to={`/practice-areas#${cat.id}`}
-                            className="navbar-dropdown-cat"
-                          >
-                            {t(`services.categories.${cat.id}.name`, { ns: 'services' })}
-                          </Link>
-                          <ul>
-                            {getServicesByCategory(cat.id).map((s) => (
-                              <li key={s.id}>
-                                <Link to={`/practice-areas/${s.id}`}>
-                                  {t(`services.items.${s.id}.name`, { ns: 'services' })}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </li>
-              ) : (
-                <li key={link.to}>
-                  <NavLink to={link.to} end={link.end} className="navbar-link">
-                    {t(link.key)}
-                  </NavLink>
-                </li>
-              )
-            )}
-          </ul>
-        </nav>
-
-        <div className="navbar-actions">
-          <LanguageSwitcher />
-          <Link to="/contact-us" className="btn btn-gold navbar-cta">
-            {t('nav.consultNow')}
+    <>
+      <header className={`navbar ${scrolled || !isHome ? 'navbar-solid' : ''}`}>
+        <div className="container navbar-inner">
+          <Link to="/" className="navbar-logo" aria-label={SITE.name}>
+            <Logo variant="dark" markSize={36} />
           </Link>
-          <button
-            type="button"
-            className={`navbar-burger ${drawerOpen ? 'is-open' : ''}`}
-            aria-label={drawerOpen ? t('a11y.closeMenu') : t('a11y.openMenu')}
-            aria-expanded={drawerOpen}
-            onClick={() => setDrawerOpen((v) => !v)}
-          >
-            <span />
-            <span />
-          </button>
-        </div>
-      </div>
 
+          <nav className="navbar-desktop" aria-label={t('a11y.mainNavigation')}>
+            <ul className="navbar-links">
+              {NAV_LINKS.map((link) =>
+                link.dropdown ? (
+                  <li key={link.to} className="navbar-dropdown" ref={dropdownRef}>
+                    <button
+                      type="button"
+                      className="navbar-link navbar-dropdown-trigger"
+                      aria-expanded={dropdownOpen}
+                      onClick={() => setDropdownOpen((v) => !v)}
+                    >
+                      {t(link.key)}
+                      <FaChevronDown size={10} aria-hidden="true" />
+                    </button>
+                    {dropdownOpen && (
+                      <div className="navbar-dropdown-panel">
+                        {CATEGORIES.map((cat) => (
+                          <div key={cat.id} className="navbar-dropdown-col">
+                            <Link
+                              to={`/practice-areas#${cat.id}`}
+                              className="navbar-dropdown-cat"
+                            >
+                              {t(`services.categories.${cat.id}.name`, { ns: 'services' })}
+                            </Link>
+                            <ul>
+                              {getServicesByCategory(cat.id).map((s) => (
+                                <li key={s.id}>
+                                  <Link to={`/practice-areas/${s.id}`}>
+                                    {t(`services.items.${s.id}.name`, { ns: 'services' })}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </li>
+                ) : (
+                  <li key={link.to}>
+                    <NavLink to={link.to} end={link.end} className="navbar-link">
+                      {t(link.key)}
+                    </NavLink>
+                  </li>
+                )
+              )}
+            </ul>
+          </nav>
+
+          <div className="navbar-actions">
+            <LanguageSwitcher />
+            <Link to="/contact-us" className="btn btn-gold navbar-cta">
+              {t('nav.consultNow')}
+            </Link>
+            <button
+              type="button"
+              className={`navbar-burger ${drawerOpen ? 'is-open' : ''}`}
+              aria-label={drawerOpen ? t('a11y.closeMenu') : t('a11y.openMenu')}
+              aria-expanded={drawerOpen}
+              onClick={() => setDrawerOpen((v) => !v)}
+            >
+              <span />
+              <span />
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* Kept outside <header> so no containing-block-forming property on it
+          (transform, filter, backdrop-filter) can ever trap these fixed panels. */}
       {drawerOpen && (
         <button
           type="button"
@@ -172,7 +177,7 @@ const Navbar = () => {
           </a>
         </div>
       </aside>
-    </header>
+    </>
   );
 };
 

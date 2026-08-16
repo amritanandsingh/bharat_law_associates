@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, Link, NavLink } from 'react-router-dom';
 import { Authenticator } from '@aws-amplify/ui-react';
 import useIsAdmin from '../hooks/useIsAdmin';
 import './AdminLayout.css';
@@ -17,7 +17,7 @@ const AdminGate = ({ signOut }) => {
     return (
       <div className="admin-shell">
         <div className="admin-card">
-          <p>This account is not authorised to manage Articles.</p>
+          <p>This account is not authorised to manage site content.</p>
           <button type="button" className="btn btn-gold" onClick={signOut}>
             Sign out
           </button>
@@ -30,9 +30,15 @@ const AdminGate = ({ signOut }) => {
     <div className="admin-shell">
       <header className="admin-bar">
         <Link to="/admin" className="admin-brand">
-          Articles · Admin
+          SP Law Chamber · Admin
         </Link>
         <nav className="admin-nav">
+          <NavLink to="/admin" end className="admin-nav-link">
+            Articles
+          </NavLink>
+          <NavLink to="/admin/documents" className="admin-nav-link">
+            Documents
+          </NavLink>
           <Link to="/">View site</Link>
           <button type="button" className="admin-signout" onClick={signOut}>
             Sign out

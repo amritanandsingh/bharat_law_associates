@@ -21,9 +21,7 @@ const LawyerCard = ({ lawyer, index = 0 }) => {
   if (!lawyer) return null;
 
   const showPhoto = lawyer.photo && !imgFailed;
-  const role = lawyer.roleKey
-    ? t(lawyer.roleKey)
-    : t(lawyer.founder ? 'about.founderRole' : 'about.advocateRole');
+  const role = t(lawyer.roleKey || 'about.advocateRole');
 
   return (
     <div className="lawyer-card" data-reveal style={{ '--i': index }}>

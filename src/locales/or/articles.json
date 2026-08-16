@@ -5,6 +5,8 @@
       "lede": "Plain-language guides on your rights and everyday legal questions, written by our advocates.",
       "searchPlaceholder": "Search articles…",
       "noResults": "No articles match your search. Try a different word or topic.",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "Read article",
       "publishedOn": "Published on {{date}}",
       "byAdmin": "By SP Law Chamber",

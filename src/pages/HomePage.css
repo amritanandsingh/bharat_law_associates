@@ -1,8 +1,11 @@
 /* Hero */
+/* Mobile: hug the content. A viewport-height floor here would centre a short
+   single column inside a tall box and leave dead space above the copy. The
+   88svh hero is restored at >=1024px, where the two-column grid fills it. */
 .hero {
   position: relative;
   margin-block-start: calc(-1 * var(--nav-h));
-  min-height: 88svh;
+  min-height: auto;
   display: flex;
   align-items: center;
   background: radial-gradient(120% 80% at 50% 0%, #1f3648 0%, #101f2c 60%);
@@ -24,7 +27,7 @@
   grid-template-columns: 1fr;
   align-items: center;
   gap: var(--sp-8);
-  padding-block: calc(var(--nav-h) + var(--sp-16)) var(--sp-20);
+  padding-block: calc(var(--nav-h) + var(--sp-8)) var(--sp-16);
 }
 
 .hero h1 {
@@ -128,6 +131,24 @@
 }
 
 .home-services-more {
+  margin-block-start: var(--sp-6);
+}
+
+/* Documents preview */
+.home-documents-lede {
+  max-width: 62ch;
+  color: var(--ink-2);
+  margin-block-end: var(--sp-6);
+  margin-block-start: calc(-1 * var(--sp-4));
+}
+
+.home-documents-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-4);
+}
+
+.home-documents-more {
   margin-block-start: var(--sp-6);
 }
 
@@ -276,6 +297,9 @@
   .home-services-row > * {
     min-width: 46%;
   }
+  .home-documents-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 768px) {
@@ -308,14 +332,22 @@
     grid-template-columns: repeat(4, 1fr);
     gap: var(--sp-6);
   }
+  .home-documents-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--sp-6);
+  }
   .cta-actions {
     flex-direction: row;
   }
 }
 
 @media (min-width: 1024px) {
+  .hero {
+    min-height: 88svh;
+  }
   .hero-inner {
     grid-template-columns: 7fr 5fr;
+    padding-block: calc(var(--nav-h) + var(--sp-16)) var(--sp-20);
   }
   .hero-mark {
     display: block;

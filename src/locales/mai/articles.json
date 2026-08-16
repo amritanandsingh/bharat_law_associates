@@ -5,6 +5,8 @@
       "lede": "अहाँक अधिकार र दैनिक कानूनी प्रश्नें पर सादे भाषा क मार्गदर्शन, हमर वकीलें द्वारा लिखल।",
       "searchPlaceholder": "लेख खोजु…",
       "noResults": "कोय लेख अहाँक खोज से मेल नहि खाइत अछि। एक अलग शब्द या विषय प्रयास करु।",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "लेख पढ़ु",
       "publishedOn": "{{date}} पर प्रकाशित",
       "byAdmin": "SP Law Chamber द्वारा",

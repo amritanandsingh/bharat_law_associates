@@ -16,6 +16,7 @@
     "practiceAreas": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯊꯥꯈꯄ",
     "aboutUs": "ꯑꯗꯣꯏ ꯁꯃꯨꯖꯤꯡ",
     "articles": "Articles",
+    "documents": "Documents",
     "contactUs": "ꯑꯥꯞꯇꯅ꯫",
     "joinUs": "ꯌꯦꯟ ꯈꯪꯀꯧ",
     "consultNow": "ꯑꯍꯨꯞ ꯎꯔꯤ ꯂꯥ ꯀꯌꯥ ꯀꯁꯨ",
@@ -28,7 +29,8 @@
     "practiceAreasDescription": "ꯑꯗꯣꯏ ꯎꯠ ꯆꯠꯀꯅꯕ — ꯂꯤꯖꯤꯠ ꯑꯦ ꯐꯟꯖꯥꯏ ꯂꯤꯖꯤꯠ, ꯐ꯫ꯏ ꯂꯦ, ꯎꯠ ꯆꯠꯀꯅꯕ, ꯇꯦꯛꯁ ꯑꯦ ꯐꯔꯐꯀꯁꯨ ꯄꯤꯂ꯫",
     "contactDescription": "SP Law Chamber ꯑꯥꯞꯇꯅ꯫ ꯎꯔꯤ ꯂꯥ ꯄꯨꯛ ꯇꯝꯕꯥ, ꯊꯥꯅꯕꯥ ꯉꯥꯀꯧ ꯍꯣꯡ, ꯑꯗꯣꯏ ꯀꯧꯔꯨ ꯑꯦ ꯅꯨ ꯃꯎ꯫",
     "joinDescription": "SP Law Chamber ꯃꯗ ꯌꯦꯟ ꯈꯪꯀꯧ꯫ ꯕꯎꯔꯠ ꯑꯦ ꯕꯀ ꯂꯦ ꯌꯧꯑꯅ ꯈꯅ ꯃꯤꯠ ꯊꯥ꯫",
-    "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters."
+    "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
+    "documentsDescription": "Professionally drafted legal documents, petitions and formats from SP Law Chamber, available to advocates. View a sample page and contact us to purchase."
   },
   "home": {
     "hero": {
@@ -71,6 +73,12 @@
       "body": "ꯃꯊꯧ ꯂꯃꯁ {{start}} ꯀꯄꯥ {{end}} ꯅꯟ ꯑꯕꯛꯕꯥ ꯎꯔꯤ ꯂꯥ ꯄꯤꯌꯥ ꯇꯝꯕꯥ ꯌꯥ ꯕꯀ ꯃꯗ ꯀꯔꯤ ꯄꯥꯎꯕꯥ ꯃꯈꯥ꯫",
       "cta": "ꯎꯕꯥꯎ ꯇꯨꯠꯀꯧ"
     },
+    "documents": {
+      "overline": "For advocates",
+      "title": "Drafted legal documents, ready to use",
+      "body": "Petitions, applications and formats prepared by our advocates. Read a sample page, then get in touch to purchase the full document.",
+      "viewAll": "Browse all documents →"
+    },
     "team": {
       "overline": "ꯑꯗꯣꯏ ꯈꯅ",
       "title": "ꯑꯗꯣꯏ ꯕꯎꯔꯠ ꯈꯨꯢꯕꯥ",
@@ -85,7 +93,6 @@
   "about": {
     "title": "SP Law Chamber ꯁꯃꯗꯚꯥ",
     "lede": "ꯐꯨꯟ-ꯎꯠ ꯕꯀ ꯊꯦꯀ ꯂꯤꯖꯤꯠ, ꯐ꯫ꯏ ꯂꯦ, ꯎꯠ ꯆꯠꯀꯅꯕ ꯑꯦ ꯑꯊꯣꯌꯕꯥ ꯎꯠ ꯎꯕꯦꯕꯤ ꯌꯥ ꯀꯔꯨ꯫",
-    "founderOverline": "ꯃꯇꯦꯟ ꯈꯨꯛꯇꯕ ꯑꯦ ꯃꯣꯎ ꯕꯎꯔꯠ",
     "founderBio": "Prem Prakash ꯏ SP Law Chamber ꯑꯥꯛꯀꯥꯟ ꯑꯣꯏ ꯋꯥꯡ: ꯑꯔꯨꯃꯊ ꯂꯥꯏꯆꯥ ꯌꯧꯑꯅ ꯕꯎꯔꯠ ꯌꯥ ꯀꯂ ꯑꯦ ꯇꯣꯀꯅ꯫ ꯍꯥꯢꯅꯥ ꯐꯉ ꯈꯨꯛꯇꯕ ꯂꯤꯖꯤꯠ, ꯎꯠ ꯆꯠꯀꯅꯕ, ꯇꯦꯛꯁ ꯑꯦ ꯐꯔꯐꯀꯁꯨ ꯎꯠ ꯉꯥꯛꯌꯦ꯫",
     "founderCredentials": [
       "LLB, Kolkata Law School",
@@ -93,13 +100,44 @@
       "ꯈꯨꯛꯇꯕ ꯀꯔ, ꯌ꯫ꯂꯨ ꯑꯦ ꯍꯥꯏ ꯀꯔ ꯃꯗ ꯄꯤꯙꯤꯢꯆꯤ",
       "ꯕꯎꯔꯠ ꯑꯦ ꯕꯀ ꯂꯦ ꯌꯧꯑꯅ ꯈꯅ ꯊꯦꯀꯪ"
     ],
-    "founderRole": "ꯃꯇꯦꯟ ꯈꯨꯛꯇꯕ ꯑꯦ ꯃꯣꯎ ꯕꯎꯔꯠ",
     "coFounderRole": "Co-Founder",
     "advocateRole": "ꯕꯎꯔꯠ",
     "storyOverline": "ꯑꯗꯣꯏ ꯑꯥꯢꯅ",
     "storyTitle": "ꯈꯃꯤ ꯎꯠ ꯂꯃꯇ ꯑꯥꯢꯕꯥ ꯕꯎꯇꯦꯟꯀꯥꯢꯛ",
-    "storyBody1": "SP Law Chamber ꯏ ꯈꯃꯤ ꯎꯠ ꯂꯃꯇ ꯑꯥꯢꯕꯥ ꯂꯤꯖꯤꯠ ꯉꯥꯕꯥ ꯑꯗꯣꯏ ꯂꯥꯏꯆꯥ ꯃꯈꯥ꯫ ꯎꯠ ꯂꯃꯕꯥ, ꯇꯥꯃꯤ ꯐꯈꯥ ꯕꯎꯔꯠ ꯏ ꯌꯦꯟ ꯈꯪꯅꯕꯥ ꯂꯣꯟ, ꯂꯤꯖꯤꯠ ꯍꯤꯍꯨꯛ ꯊꯥ ꯇꯝ꯫",
-    "storyBody2": "ꯑꯍꯨꯞ ꯐ꯫ꯏ ꯂꯦ ꯃꯗ ꯂꯥꯏꯆꯥ ꯊꯥꯕꯁ, ꯂꯤꯖꯤꯠ ꯑꯦ ꯐꯟꯖꯥꯏ ꯂꯤꯖꯤꯠ ꯃꯗ ꯐꯤꯛꯁ ꯑꯦ ꯎꯠ ꯊꯦꯀꯪ, ꯏꯏ ꯑꯦ ꯐꯔꯐꯀꯁꯨ ꯊꯦꯀꯪ꯫ ꯑꯗꯣꯏ ꯉꯥꯀꯧ ꯏ ꯉꯥꯎꯕꯥ ꯐꯉ ꯃꯈꯥ ꯁꯤꯟ ꯀꯔꯨ꯫",
+    "storyBody": [
+      "SP Law Chamber was established by Advocates Prem Prakash and Shruti Jain with a shared vision — to provide clients with dedicated legal assistance, strategic representation, and a clear path towards justice.",
+      "We believe that effective legal representation begins much before a matter reaches the courtroom. It begins with listening to the client, understanding the grievance, analysing the legal position, preparing the case meticulously, and choosing the right strategy to pursue the matter.",
+      "Our objective is simple: to stand by our clients from the first consultation to the final order.",
+      "At SP Law Chamber, we combine analytical legal thinking, thorough preparation, effective client communication, strategic litigation, and practical legal advice to address the legal needs of our clients. We strive to ensure that every client understands their legal position, available remedies, and the course of action being pursued.",
+      "The Chamber also undertakes legal research, drafting, documentation, and litigation support, providing advocates and clients with carefully prepared legal materials tailored to the requirements of each matter."
+    ],
+    "approachOverline": "Our approach",
+    "approachTitle": "Four steps, from first consultation to final order",
+    "approach": {
+      "understand": {
+        "title": "Understand",
+        "body": "We listen. Every matter begins with understanding the client's grievance, objectives, facts, and concerns."
+      },
+      "analyse": {
+        "title": "Analyse",
+        "body": "We examine the facts, applicable law, evidence, documents, and procedural position to identify the legal issues and available remedies."
+      },
+      "prepare": {
+        "title": "Prepare & Strategise",
+        "body": "We develop a focused legal strategy and prepare the necessary pleadings, documents, research, and arguments with attention to detail."
+      },
+      "represent": {
+        "title": "Represent & Resolve",
+        "body": "We pursue the matter through the appropriate legal forum, keeping the client informed while working towards the most effective and legally sustainable resolution."
+      }
+    },
+    "commitmentOverline": "Our commitment",
+    "commitmentTitle": "Heard, considered, and thoroughly prepared",
+    "commitmentBody": [
+      "At SP Law Chamber, client satisfaction is not merely an objective — it is the foundation of our practice.",
+      "We believe that every client deserves to be heard, every grievance deserves careful consideration, and every legal matter deserves preparation proportionate to its importance.",
+      "Established by Prem Prakash and Shruti Jain, the Chamber seeks to grow through professional integrity, legal excellence, client trust, and effective advocacy. Together, we aspire to build a practice where law is not merely argued, but carefully prepared, strategically pursued, and meaningfully delivered."
+    ],
     "valuesOverline": "ꯑꯗꯣꯏ ꯔꯤꯆꯥꯔꯤ",
     "valuesTitle": "ꯑꯗꯣꯏ ꯇꯣꯔꯥ",
     "values": {
@@ -118,6 +156,17 @@
     },
     "teamTitle": "ꯑꯗꯣꯏ ꯕꯎꯔꯠ",
     "ctaTitle": "ꯕꯎꯔꯠ ꯈꯛ ꯀꯂꯥ꯫"
+  },
+  "documents": {
+    "title": "Legal Documents",
+    "lede": "Professionally drafted petitions, applications and formats, available to fellow advocates. Every listing shows a sample page so you know exactly what you are getting.",
+    "loading": "Loading documents…",
+    "emptyState": "No documents listed yet. Please check back soon.",
+    "priceOnRequest": "Price on request",
+    "viewSample": "View sample page",
+    "sampleAlt": "Sample page of {{title}}",
+    "buyTitle": "To buy, contact us",
+    "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
   },
   "practiceAreas": {
     "title": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯊꯥꯈꯄ",
