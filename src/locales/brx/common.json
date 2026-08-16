@@ -16,6 +16,7 @@
     "practiceAreas": "आइनि सिबिथाइनि ओनसोलफोर",
     "aboutUs": "जोंनि सोमोन्दै",
     "articles": "Articles",
+    "documents": "Documents",
     "contactUs": "जोंजों सोमोन्दो खालाम",
     "joinUs": "जोंजों जरा",
     "consultNow": "दानो सल्ला ला",
@@ -28,7 +29,8 @@
     "practiceAreasDescription": "जोंनि सिबिथाइनि ओनसोलफोरखौ नाय: सिभिल आरो अपराधि मामला, नखर आइन, फालांगि रेजिस्ट्रेशन, खाजोना आरो बुद्धिजिबि सम्पत्तिनि सिबिथाइ।",
     "contactDescription": "SP Law Chamber जों सोमोन्दो खालाम। सल्लानि सम फज, फिन फोन खावनाय बिथाराव खालाम, एबा जोंनि कलकाता आरो नयी दिल्ली अफिसआव फै।",
     "joinDescription": "SP Law Chamber आव साखरि। उकिल आरो आइनि साख्रिवालाफोरनि गोदान हानजायाव जरा।",
-    "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters."
+    "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
+    "documentsDescription": "Professionally drafted legal documents, petitions and formats from SP Law Chamber, available to advocates. View a sample page and contact us to purchase."
   },
   "home": {
     "hero": {
@@ -71,6 +73,12 @@
       "body": "उकिल लानो हाथाब गैयै सुबुंफोरनि थाखाय जों मोनफ्रोम मोनाबिलि {{start}} निफ्राय {{end}} सिम मुलाम्फा नङै सल्लानि सम होयो।",
       "cta": "रोंगौथिनि सोमोन्दै सोंलु"
     },
+    "documents": {
+      "overline": "For advocates",
+      "title": "Drafted legal documents, ready to use",
+      "body": "Petitions, applications and formats prepared by our advocates. Read a sample page, then get in touch to purchase the full document.",
+      "viewAll": "Browse all documents →"
+    },
     "team": {
       "overline": "जोंनि हानजा",
       "title": "जोंनि उकिलफोरजों लोगो हम",
@@ -85,7 +93,6 @@
   "about": {
     "title": "SP Law Chamber नि सोमोन्दै",
     "lede": "गोटो भारतआव सुबुं, नखर आरो फालांगिफोरखौ मामला, आइन मान्नाय आरो सल्लानि हेफाजाब होग्रा आबुं-सिबिथाइनि आइन फार्म।",
-    "founderOverline": "गायसनगिरि आरो सामलायगिरि उकिल",
     "founderBio": "प्रेम प्रकाशआ मोनसे सरासनस्रा फोथायनायजों SP Law Chamber खौ गायसनदोंमोन: मोनफ्रोम क्लायेन्टआ गिबियाव खोनासंग्रा आरो थारैनो सल्ला होग्रा सल्लाहोगिरि मोननो गोनां। बिथांनि दैदेननायाव फार्मआ मामला, फालांगि रेजिस्ट्रेशन, खाजोना आरो बुद्धिजिबि सम्पत्तिनि खाथा सामलायग्रा गोबां-सिबिथाइनि चेम्बार महरै देरसिनदों।",
     "founderCredentials": [
       "LLB, Kolkata Law School",
@@ -93,13 +100,44 @@
       "ट्रायल कर्ट, ट्रिबिउनेल आरो हाइ कर्टनि सिगांआव गसंयो",
       "गोसो होनाय उकिल आरो आइनि साख्रिवालाफोरनि हानजाखौ दैदेनो"
     ],
-    "founderRole": "गायसनगिरि आरो सामलायगिरि उकिल",
     "coFounderRole": "Co-Founder",
     "advocateRole": "उकिल",
     "storyOverline": "जोंनि सल'",
     "storyTitle": "साननिफ्राय देरसिनग्रा चेम्बारसिम",
-    "storyBody1": "SP Law Chamber आ गोसो जानाय क्लायेन्टफोरनि रेफारेलनि सायाव बानायनाय सासे सुबुंनि सिबिथाइ महरै जागायदोंमोन। सिबिथाइया देरसिननायजों लोगोसे, गुबुन गुबुन बिसेसताजों थानाय उकिलफोरा जरादों, बेजों फार्मआ खाथाफोरखौ जोबथासिम — ड्राफ्टिं आरो रेजिस्ट्रेशननिफ्राय ट्रायल आरो आपिलसिम — सामलायनो हादों।",
-    "storyBody2": "दिनै फार्मआ नखरफोरखौ गावनि खाथायाव सल्ला होयो, सिभिल आरो अपराधि खाथायाव क्लायेन्टफोरखौ रैखा खालामो, आरो उद्यगिफोरखौ गावनि फालांगि जागायनो आरो रैखा खालामनो हेफाजाब होयो। क्लायेन्टफोरा गावसोरनि अननाय सुबुंफोरनो बुंग्रा फार्म महरै थानाया जोंनि थांखि।",
+    "storyBody": [
+      "SP Law Chamber was established by Advocates Prem Prakash and Shruti Jain with a shared vision — to provide clients with dedicated legal assistance, strategic representation, and a clear path towards justice.",
+      "We believe that effective legal representation begins much before a matter reaches the courtroom. It begins with listening to the client, understanding the grievance, analysing the legal position, preparing the case meticulously, and choosing the right strategy to pursue the matter.",
+      "Our objective is simple: to stand by our clients from the first consultation to the final order.",
+      "At SP Law Chamber, we combine analytical legal thinking, thorough preparation, effective client communication, strategic litigation, and practical legal advice to address the legal needs of our clients. We strive to ensure that every client understands their legal position, available remedies, and the course of action being pursued.",
+      "The Chamber also undertakes legal research, drafting, documentation, and litigation support, providing advocates and clients with carefully prepared legal materials tailored to the requirements of each matter."
+    ],
+    "approachOverline": "Our approach",
+    "approachTitle": "Four steps, from first consultation to final order",
+    "approach": {
+      "understand": {
+        "title": "Understand",
+        "body": "We listen. Every matter begins with understanding the client's grievance, objectives, facts, and concerns."
+      },
+      "analyse": {
+        "title": "Analyse",
+        "body": "We examine the facts, applicable law, evidence, documents, and procedural position to identify the legal issues and available remedies."
+      },
+      "prepare": {
+        "title": "Prepare & Strategise",
+        "body": "We develop a focused legal strategy and prepare the necessary pleadings, documents, research, and arguments with attention to detail."
+      },
+      "represent": {
+        "title": "Represent & Resolve",
+        "body": "We pursue the matter through the appropriate legal forum, keeping the client informed while working towards the most effective and legally sustainable resolution."
+      }
+    },
+    "commitmentOverline": "Our commitment",
+    "commitmentTitle": "Heard, considered, and thoroughly prepared",
+    "commitmentBody": [
+      "At SP Law Chamber, client satisfaction is not merely an objective — it is the foundation of our practice.",
+      "We believe that every client deserves to be heard, every grievance deserves careful consideration, and every legal matter deserves preparation proportionate to its importance.",
+      "Established by Prem Prakash and Shruti Jain, the Chamber seeks to grow through professional integrity, legal excellence, client trust, and effective advocacy. Together, we aspire to build a practice where law is not merely argued, but carefully prepared, strategically pursued, and meaningfully delivered."
+    ],
     "valuesOverline": "जोंनि मुल्यफोर",
     "valuesTitle": "जों मानि थाखाय गसंयो",
     "values": {
@@ -118,6 +156,17 @@
     },
     "teamTitle": "जोंनि उकिलफोर",
     "ctaTitle": "उकिलजों रायज्लायनो थियारि?"
+  },
+  "documents": {
+    "title": "Legal Documents",
+    "lede": "Professionally drafted petitions, applications and formats, available to fellow advocates. Every listing shows a sample page so you know exactly what you are getting.",
+    "loading": "Loading documents…",
+    "emptyState": "No documents listed yet. Please check back soon.",
+    "priceOnRequest": "Price on request",
+    "viewSample": "View sample page",
+    "sampleAlt": "Sample page of {{title}}",
+    "buyTitle": "To buy, contact us",
+    "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
   },
   "practiceAreas": {
     "title": "सिबिथाइनि ओनसोलफोर",

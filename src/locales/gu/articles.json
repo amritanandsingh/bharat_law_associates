@@ -5,6 +5,8 @@
       "lede": "તમારા અધિકાર અને રોજમર્રાના કાયદાકીય પ્રશ્નો પર સાધારણ-ભાષાના માર્ગદર્શક, આમના વકીલો દ્વારા લખાયેલા.",
       "searchPlaceholder": "લેખો શોધો…",
       "noResults": "કોઈ પણ લેખો તમારી શોધ સાથે મેળ ખાય છે નહીં. વિવિધ શબ્દ અથવા વિષય પ્રયાસ કરો.",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "લેખ વાંચો",
       "publishedOn": "{{date}} પર પ્રકાશિત",
       "byAdmin": "SP Law Chamber દ્વારા",

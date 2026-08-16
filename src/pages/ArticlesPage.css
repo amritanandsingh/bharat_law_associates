@@ -97,6 +97,15 @@
   color: var(--on-dark);
 }
 
+/* Its own left-aligned line, not inside .articles-controls: the fixed
+   .action-rail hugs the right edge and would sit on top of right-aligned
+   text between roughly 1024px and 1280px. */
+.articles-count {
+  margin-block: calc(-1 * var(--sp-2)) var(--sp-5);
+  font-size: var(--fs-small);
+  color: var(--ink-3);
+}
+
 .articles-empty {
   padding-block: var(--sp-12);
   text-align: center;

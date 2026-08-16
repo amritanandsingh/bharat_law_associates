@@ -6,9 +6,9 @@ import LawyerCard from './LawyerCard';
 const baseLawyer = {
   id: 'prem-prakash',
   name: 'Prem Prakash',
-  qualification: 'B.A. LL.B, LL.M — University of Calcutta',
+  qualification: 'B.A. LL.B; LL.M — University of Calcutta',
   founder: true,
-  roleKey: 'about.founderRole',
+  roleKey: 'about.coFounderRole',
   phone: '+919354456326',
   email: 'prem1249@gmail.com',
   photo: '/lawyers/prem-prakash.jpg',
@@ -28,17 +28,17 @@ describe('LawyerCard', () => {
     renderWithProviders(<LawyerCard lawyer={make()} />);
     expect(screen.getByRole('heading', { level: 4, name: 'Prem Prakash' })).toBeInTheDocument();
     expect(
-      screen.getByText('B.A. LL.B, LL.M — University of Calcutta')
+      screen.getByText('B.A. LL.B; LL.M — University of Calcutta')
     ).toBeInTheDocument();
-    // about.founderRole in en/common.json
-    expect(screen.getByText('Founder & Managing Advocate')).toBeInTheDocument();
+    // about.coFounderRole in en/common.json
+    expect(screen.getByText('Co-Founder')).toBeInTheDocument();
   });
 
-  it('falls back to founder/advocate role when no roleKey is given', () => {
+  it('falls back to the advocate role when no roleKey is given', () => {
     const { rerender } = renderWithProviders(
       <LawyerCard lawyer={make({ roleKey: undefined, founder: true })} />
     );
-    expect(screen.getByText('Founder & Managing Advocate')).toBeInTheDocument();
+    expect(screen.getByText('Advocate')).toBeInTheDocument();
 
     rerender(<LawyerCard lawyer={make({ roleKey: undefined, founder: false })} />);
     expect(screen.getByText('Advocate')).toBeInTheDocument();

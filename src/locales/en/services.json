@@ -4,19 +4,19 @@
     "categories": {
       "litigation-disputes": {
         "name": "Litigation & Disputes",
-        "description": "Civil, criminal, family and consumer disputes argued before trial courts, tribunals and the High Court, with settlement pursued wherever it serves you."
+        "description": "Civil, criminal, family, consumer and labour disputes argued before trial courts, tribunals and the High Court, with settlement pursued wherever it serves you."
       },
       "constitutional-appellate": {
         "name": "Constitutional & Appellate",
-        "description": "Writ petitions, PILs, constitutional questions, appeals, revisions and tribunal matters before the High Court and specialised forums."
+        "description": "Writ petitions under Articles 226 and 227, PILs, constitutional questions, appeals, revisions, education, contempt and tribunal matters before the High Court and specialised forums."
       },
       "corporate-commercial": {
         "name": "Corporate & Commercial",
-        "description": "Company, commercial, banking, recovery, cyber and intellectual-property matters for businesses, promoters and professionals."
+        "description": "Company, commercial, banking, recovery, tax, cyber and intellectual-property matters for businesses, promoters and professionals."
       },
       "property-advisory": {
         "name": "Property, Registration & Advisory",
-        "description": "Property and land matters, employment law, registrations, succession, and careful drafting of contracts, opinions and documents."
+        "description": "Property and land matters, government service law, municipal and local-authority actions, registrations, succession, and careful drafting of contracts, opinions and documents."
       }
     },
     "items": {
@@ -35,11 +35,11 @@
       "criminal-litigation": {
         "name": "Criminal Litigation",
         "summary": "Defence and complaints handled with urgency and discretion.",
-        "description": "From the first police notice to final judgment, we defend clients at every stage of criminal proceedings and help complainants pursue their cases. We prepare meticulously, protect your rights and argue vigorously.",
+        "description": "From the first police notice to final judgment, we defend clients at every stage of criminal proceedings and help complainants pursue their cases. Where a case ought never to have been started, we move the High Court for quashing of the FIR or complaint. We prepare meticulously, protect your rights and argue vigorously.",
         "bullets": [
           "Advice at FIR, notice and investigation stage",
           "Defence at trial with careful cross-examination",
-          "Quashing petitions and criminal revisions",
+          "Quashing of FIRs, complaints and criminal proceedings before the High Court",
           "Complaint drafting and prosecution support for victims",
           "Discreet, responsive handling of sensitive matters"
         ]
@@ -50,7 +50,7 @@
         "description": "Liberty matters cannot wait. We move regular and anticipatory bail applications on priority, and pursue criminal appeals and revisions before the Sessions Court and High Court with focused, well-prepared arguments.",
         "bullets": [
           "Anticipatory bail before Sessions Court and High Court",
-          "Regular bail and cancellation-of-bail matters",
+          "Regular bail, cancellation, and modification or relaxation of bail conditions",
           "Urgent mentioning and priority listing where needed",
           "Criminal appeals and revisions against conviction or sentence",
           "Suspension of sentence pending appeal"
@@ -81,15 +81,15 @@
         ]
       },
       "consumer-protection-cases": {
-        "name": "Consumer Protection Cases",
-        "summary": "Claims against defective goods and deficient services before consumer forums.",
-        "description": "We help consumers seek redressal for defective products, deficiency in service, unfair trade practices and insurance or builder disputes before the District, State and National Consumer Commissions.",
+        "name": "Consumer & Regulatory Matters",
+        "summary": "Claims against defective goods and deficient services before consumer forums and regulators.",
+        "description": "We help consumers seek redressal for defective products, deficiency in service, unfair trade practices and insurance or builder disputes before the District, State and National Consumer Commissions, and pursue grievances before regulatory authorities in related statutory proceedings.",
         "bullets": [
           "Drafting and filing of consumer complaints",
           "Builder-delay and real-estate claims",
           "Insurance claim rejection disputes",
           "Medical negligence and service-deficiency claims",
-          "Enforcement of consumer forum orders"
+          "Regulatory-authority proceedings and enforcement of forum orders"
         ]
       },
       "arbitration-mediation": {
@@ -104,12 +104,24 @@
           "Mediation and structured settlement negotiation"
         ]
       },
+      "labour-industrial-matters": {
+        "name": "Labour & Industrial Matters",
+        "summary": "Wages, gratuity, termination and industrial disputes for workers and employers.",
+        "description": "We act for workmen, employees and employers in industrial and labour disputes — unpaid wages, gratuity and provident fund, termination and retrenchment, and compensation claims — before Labour Courts, Industrial Tribunals and the appropriate authorities.",
+        "bullets": [
+          "Industrial disputes, conciliation and reference proceedings",
+          "Recovery of wages, gratuity, bonus and provident-fund dues",
+          "Termination, retrenchment and reinstatement claims",
+          "Workmen's compensation and employee benefit disputes",
+          "Domestic inquiries, standing orders and compliance support"
+        ]
+      },
       "writ-petitions": {
         "name": "Writ Petitions",
-        "summary": "Enforcing your rights against the State before the High Court.",
-        "description": "When a public authority acts unfairly or illegally, a writ petition before the High Court is often the fastest remedy. We file petitions for mandamus, certiorari, prohibition and habeas corpus, challenging arbitrary orders and inaction.",
+        "summary": "Articles 226 and 227 — enforcing your rights against the State before the High Court.",
+        "description": "When a public authority acts unfairly or illegally, a writ petition under Articles 226 and 227 of the Constitution is often the fastest remedy. We file petitions for mandamus, certiorari, prohibition and habeas corpus, challenging arbitrary administrative, governmental and statutory action, inaction, and violations of legal and fundamental rights.",
         "bullets": [
-          "Writs against arbitrary or illegal State action",
+          "Petitions under Articles 226 and 227 against arbitrary or illegal State action",
           "Service, admission, tender and regulatory grievances",
           "Quashing of adverse administrative orders",
           "Stay and interim directions on urgent basis",
@@ -117,15 +129,15 @@
         ]
       },
       "constitutional-law": {
-        "name": "Constitutional Law",
-        "summary": "Advice and advocacy on fundamental rights and constitutional questions.",
-        "description": "We advise and appear on constitutional questions — fundamental-rights violations, challenges to the vires of statutes and rules, and matters involving the powers of public authorities before the High Court.",
+        "name": "Constitutional & Administrative Law",
+        "summary": "Advice and advocacy on fundamental rights, administrative action and constitutional questions.",
+        "description": "We advise and appear on constitutional and administrative questions — fundamental-rights violations, challenges to the vires of statutes and rules, and decisions of government authorities and statutory bodies — before the High Court.",
         "bullets": [
           "Fundamental-rights enforcement and advice",
           "Challenges to the validity of statutes and rules",
-          "Public-authority jurisdiction and powers questions",
-          "Strategic advice on constitutional remedies",
-          "Representation in constitutional matters before the High Court"
+          "Challenges to decisions of government authorities and statutory bodies",
+          "Strategic advice on constitutional and administrative remedies",
+          "Representation in constitutional and administrative matters before the High Court"
         ]
       },
       "public-interest-litigation": {
@@ -141,14 +153,14 @@
         ]
       },
       "high-court-appeals-revisions": {
-        "name": "High Court Appeals & Revisions",
-        "summary": "Challenging adverse orders through appeal and revision.",
-        "description": "An adverse order is rarely the end of the road. We evaluate the prospects of appeal and revision, identify the strongest grounds, and argue civil and criminal appeals and revisions before the High Court.",
+        "name": "Appeals, Revisions & CRR Matters",
+        "summary": "Civil and criminal appeals, revisions and Article 227 challenges to adverse orders.",
+        "description": "An adverse order is rarely the end of the road. We evaluate the prospects of appeal and revision, identify the strongest grounds, and argue civil appeals, miscellaneous appeals, Criminal Revisional Applications (CRR) and Article 227 petitions before the High Court — including challenges to cognizance, discharge, framing of charges and other interlocutory or final orders.",
         "bullets": [
-          "Honest appraisal of appellate prospects",
-          "Identification of the strongest grounds of challenge",
-          "Civil and criminal appeals before the High Court",
-          "Revision petitions against lower-court orders",
+          "Honest appraisal of appellate prospects and the strongest grounds",
+          "Civil appeals and miscellaneous appeals from subordinate courts and tribunals",
+          "Criminal Revisional Applications (CRR) against orders of criminal courts",
+          "Civil revision and Article 227 petitions against subordinate-court orders",
           "Stay of the impugned order pending appeal"
         ]
       },
@@ -164,6 +176,30 @@
           "Interim relief and appeals from tribunal orders"
         ]
       },
+      "education-matters": {
+        "name": "Education Matters",
+        "summary": "Disputes involving schools, colleges, universities and their staff.",
+        "description": "Educational institutions run on a dense web of statutes, regulations and approvals. We handle disputes involving schools, colleges, universities and their managing bodies — appointment and approval of teaching and non-teaching staff, admissions, recognition and affiliation, and other educational service matters.",
+        "bullets": [
+          "Appointment and approval of teaching and non-teaching staff",
+          "Service, pay and disciplinary matters of institutional employees",
+          "Admission disputes and eligibility questions",
+          "Recognition, affiliation and institutional compliance",
+          "Managing-committee disputes and representation before the High Court"
+        ]
+      },
+      "contempt-compliance-matters": {
+        "name": "Contempt & Compliance Matters",
+        "summary": "Making sure a favourable order is actually implemented.",
+        "description": "An order in your favour is only worth what is done about it. Where an authority or party fails to comply, we press for implementation and, where necessary, move contempt proceedings — and we defend those facing an allegation of contempt.",
+        "bullets": [
+          "Contempt petitions for non-compliance with judicial orders",
+          "Enforcement and implementation of court directions",
+          "Representations and follow-up with the authority concerned",
+          "Defence in civil and criminal contempt proceedings",
+          "Advice on compliance obligations after an order"
+        ]
+      },
       "corporate-commercial-law": {
         "name": "Corporate & Commercial Law",
         "summary": "Advisory and disputes for businesses, promoters and investors.",
@@ -171,7 +207,7 @@
         "bullets": [
           "Commercial contracts, joint ventures and shareholder agreements",
           "Advisory on commercial transactions and structuring",
-          "Commercial and contractual dispute resolution",
+          "Commercial, contractual and business-recovery claims",
           "Promoter and investor dispute strategy",
           "Notices, demands and pre-litigation negotiation"
         ]
@@ -236,12 +272,24 @@
           "Licensing, assignment and IP advisory"
         ]
       },
+      "tax-revenue-matters": {
+        "name": "Tax & Revenue Matters",
+        "summary": "Assessments, demands, refunds and penalties challenged before the right forum.",
+        "description": "Tax and revenue disputes turn on limitation, procedure and the record. We advise on assessment and demand notices, pursue refunds and registration issues, contest penalty and revenue proceedings, and carry matters through statutory appeals and revisions.",
+        "bullets": [
+          "Assessment, demand and recovery notice challenges",
+          "Refund claims and registration disputes",
+          "Penalty and interest proceedings",
+          "Revenue proceedings before statutory authorities",
+          "Statutory appeals and revisions before appellate forums"
+        ]
+      },
       "property-real-estate-law": {
         "name": "Property & Real Estate Law",
         "summary": "Title, possession, tenancy and real-estate disputes resolved.",
-        "description": "Property matters often put a family's most valuable asset at stake. We handle title verification, partition, possession and tenancy matters, boundary disputes and real-estate documentation — pairing litigation with practical settlement.",
+        "description": "Property matters often put a family's most valuable asset at stake. We handle title verification, mutation and land records, partition, possession, tenancy and eviction matters, boundary and development disputes, and real-estate documentation — pairing litigation with practical settlement.",
         "bullets": [
-          "Title search and due diligence before purchase",
+          "Title verification, mutation and correction of land records",
           "Partition suits among family and co-owners",
           "Possession, eviction and tenancy proceedings",
           "Injunctions against illegal construction or dispossession",
@@ -261,15 +309,15 @@
         ]
       },
       "service-employment-law": {
-        "name": "Service & Employment Law",
-        "summary": "For employees and employers — termination, dues and service matters.",
-        "description": "We advise employees on wrongful termination, unpaid dues, gratuity and service conditions, and represent employers in inquiries, labour proceedings and compliance matters — with the CAT and labour forums where relevant.",
+        "name": "Service Matters",
+        "summary": "Government and public-sector service disputes, from appointment to pension.",
+        "description": "We represent government and public-sector employees at every stage of service — appointment, promotion, transfer, seniority, suspension, departmental proceedings, dismissal, retirement and pension. Service rules reward precision, so we build each case on the record and the rule that governs it.",
         "bullets": [
-          "Wrongful termination and reinstatement claims",
-          "Recovery of salary, gratuity and PF dues",
-          "Service matters before the CAT and tribunals",
-          "Domestic inquiry and disciplinary-action support",
-          "Employment contract and policy drafting"
+          "Appointment, confirmation and regularisation disputes",
+          "Promotion, seniority, pay fixation, reservation and eligibility",
+          "Transfer, suspension and departmental proceedings",
+          "Dismissal, compulsory retirement, pension and retiral dues",
+          "Representation before the CAT, tribunals and the High Court"
         ]
       },
       "trust-society-registration": {
@@ -285,14 +333,14 @@
         ]
       },
       "probate-succession-will": {
-        "name": "Probate, Succession & Will Matters",
-        "summary": "Wills, probate, succession certificates and estate disputes.",
-        "description": "We draft wills, obtain probate and letters of administration, secure succession and legal-heir certificates, and represent clients in inheritance and estate disputes — handling sensitive matters with care.",
+        "name": "Probate, Succession & Testamentary Matters",
+        "summary": "Wills, probate, letters of administration, succession and estate disputes.",
+        "description": "We draft wills, obtain probate and letters of administration, secure succession and legal-heir certificates, and represent clients in contentious testamentary, inheritance and estate disputes — handling sensitive matters with care.",
         "bullets": [
           "Drafting and safe custody of wills",
-          "Probate and letters of administration",
+          "Probate of wills and letters of administration",
           "Succession and legal-heir certificates",
-          "Inheritance and estate dispute litigation",
+          "Contentious testamentary, inheritance and estate disputes",
           "Advice on devolution under applicable succession law"
         ]
       },
@@ -318,6 +366,18 @@
           "Correct stamp duty and valuation guidance",
           "Registration before the Sub-Registrar",
           "Verification of executed documents"
+        ]
+      },
+      "municipal-local-authority-matters": {
+        "name": "Municipal & Local Authority Matters",
+        "summary": "Building permissions, demolition notices, municipal tax and licences.",
+        "description": "Local authorities can stop a project or tax a property on a single notice. We contest building-permission refusals, demolition and stop-work notices, municipal assessment and taxation, and licence and permission disputes — before the authority itself and, where needed, the High Court.",
+        "bullets": [
+          "Building sanction, permission and deviation disputes",
+          "Demolition, eviction and stop-work notices",
+          "Municipal taxation and property assessment challenges",
+          "Trade licences, permissions and renewals",
+          "Writ petitions against arbitrary local-authority action"
         ]
       }
     }

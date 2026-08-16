@@ -29,6 +29,12 @@
   font-size: var(--fs-small);
 }
 
+/* Section switcher (Articles / Documents) — active section reads as selected. */
+.admin-nav-link.active {
+  color: var(--gold-300);
+  font-weight: 600;
+}
+
 .admin-signout {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);

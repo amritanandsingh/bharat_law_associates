@@ -5,6 +5,8 @@
       "lede": "आपके अधिकार, दैनिक-विधि-प्रश्नेषु सरल-भाषा-पञ्जिकाः, अस्माकं अधिवक्ताः-लिखितः।",
       "searchPlaceholder": "लेखेषु खोजः…",
       "noResults": "कोई लेख आपके खोज-अनुरूप नहीं। भिन्न-शब्दः, विषयः प्रयत्नः करन्तु।",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "लेख-वाचनः",
       "publishedOn": "प्रकाशितः {{date}} तमिम्",
       "byAdmin": "SP Law Chamber द्वारा",

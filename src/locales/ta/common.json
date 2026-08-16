@@ -16,6 +16,7 @@
     "practiceAreas": "நடைமுறை பகுதிகள்",
     "aboutUs": "எங்களைப் பற்றி",
     "articles": "Articles",
+    "documents": "Documents",
     "contactUs": "எங்களைத் தொடர்பு கொள்ளவும்",
     "joinUs": "எங்களுடன் சேரவும்",
     "consultNow": "இப்போது ஆலோசனை பெறவும்",
@@ -28,7 +29,8 @@
     "practiceAreasDescription": "எங்கள் நடைமுறை பகுதிகளை ஆராய்க: சிவில் மற்றும் குற்றவியல் வழக்குகள், குடும்ப சட்டம், வணிக பதிவு, வரி மற்றும் அறிவுசார் சொத்து சேவைகள்.",
     "contactDescription": "SP Law Chamber ஐ தொடர்பு கொள்ளவும். ஆலோசனையை திட்டமிடவும், விசுவாச அழைப்பைக் கோரவும் அல்லது எங்கள் கொல்கத்தா மற்றும் புது தில்லி அலுவலகங்களுக்கு வருக.",
     "joinDescription": "SP Law Chamber இல் வேலை வாய்ப்பு. வழக்கறிஞர்கள், நிபுணர்கள் மற்றும் உள்நாட்டுப் பயிற்சியாளர்களுடன் வளர்ந்து வரும் குழுவில் சேரவும்.",
-    "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters."
+    "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
+    "documentsDescription": "Professionally drafted legal documents, petitions and formats from SP Law Chamber, available to advocates. View a sample page and contact us to purchase."
   },
   "home": {
     "hero": {
@@ -71,6 +73,12 @@
       "body": "பிரதிநிதித்வத்தை செலுத்த முடியாத ஒரு நபர்களுக்கு {{start}} முதல் {{end}} வரை ஒவ்வொரு மாலையும் ஒரு இலவச ஆலோசனை சாளரம் வழங்குகிறோம்.",
       "cta": "தகுதி பற்றி கேளுங்கள்"
     },
+    "documents": {
+      "overline": "For advocates",
+      "title": "Drafted legal documents, ready to use",
+      "body": "Petitions, applications and formats prepared by our advocates. Read a sample page, then get in touch to purchase the full document.",
+      "viewAll": "Browse all documents →"
+    },
     "team": {
       "overline": "எங்கள் குழு",
       "title": "எங்கள் வழக்கறிஞர்களை சந்திக்கவும்",
@@ -85,7 +93,6 @@
   "about": {
     "title": "SP Law Chamber பற்றி",
     "lede": "ஒரு முழு-சேவை சட்ட நிறுவனம் தனிப்பட்ட, குடும்ப மற்றும் வணிகங்களுக்கு வழக்குகள், இணக்கம் மற்றும் ஆலோசனை ஆதரவ இந்தியா முழுவதும் வழங்குகிறது.",
-    "founderOverline": "நிறுவனர் மற்றும் நிர்வாக வழக்கறிஞர்",
     "founderBio": "Prem Prakash SP Law Chamber ஐ ஒரு எளிய நம்பிக்கையுடன் நிறுவிய: ஒவ்வொரு கிளையனும் முதலில் கேட்கும் மற்றும் நேர்மையாக ஆலோசனை அளிக்கும் ஆலோசனையின் தகுதி பெற்றவர். அவரது தலைமையின் கீழ் நிறுவனம் வழக்குகள், வணிக பதிவு, வரி மற்றும் அறிவுசார் சொத்து விஷயங்களை கையாளும் ஒரு பல-நடைமுறை அறை வளர்ந்துவிட்டது.",
     "founderCredentials": [
       "LLB, Kolkata Law School",
@@ -93,13 +100,44 @@
       "சோதனை நீதிமன்றங்கள், ட்ரிபுணல்கள் மற்றும் உச்ச நீதிமன்றத்தில் தோன்றுகிறது",
       "பிரதிஷ்டை வழக்கறிஞர்கள் மற்றும் சட்ட தொழிலாளர்களின் ஒரு குழுவை வழிநடத்துகிறது"
     ],
-    "founderRole": "நிறுவனர் மற்றும் நிர்வாக வழக்கறிஞர்",
     "coFounderRole": "Co-Founder",
     "advocateRole": "வழக்கறிஞர்",
     "storyOverline": "எங்கள் கதை",
     "storyTitle": "ஒரு தனி நடைமுறை முதல் வளர்ந்து வரும் அறை வரை",
-    "storyBody1": "SP Law Chamber திருப்தி அடைந்த கிளையன்களிலிருந்து பரிந்துரைகளின் மீது கட்டப்பட்ட ஒரு தனி நடைமுறை என தொடங்கியது। நடைமுறை வளர்ந்ததால், நகல் நிபுணத்வம் கொண்ட வழக்கறிஞர்கள் சேர்ந்தனர், நிறுவனம் வரைவு மற்றும் பதிவு முதல் சோதனை மற்றும் முறையீடு வரை முழுத்தின் முறையில் விஷயங்களை கையாள அனுமதித்தனர்.",
-    "storyBody2": "இன்று நிறுவனம் தனிப்பட்ட விஷயங்களில் குடும்ப மற்றும் உயர்வர்களுக்கு ஆலோசனை கொடுக்கிறது, சிவில் மற்றும் குற்றவியல் நடவடிக்கையில் கிளையன்களை பாதுகாக்கிறது, மற்றும் உயர்வர்களை தங்கள் வணிகங்களை தொடங்க மற்றும் பாதுகாக்க உதவுகிறது. எங்கள் லக்ష்யம் கிளையன்கள் தங்கள் பராமரிப்பு மக்களுக்கு பரிந்துரை செய்ய நிறுவனம் ஆக வேண்டும்.",
+    "storyBody": [
+      "SP Law Chamber was established by Advocates Prem Prakash and Shruti Jain with a shared vision — to provide clients with dedicated legal assistance, strategic representation, and a clear path towards justice.",
+      "We believe that effective legal representation begins much before a matter reaches the courtroom. It begins with listening to the client, understanding the grievance, analysing the legal position, preparing the case meticulously, and choosing the right strategy to pursue the matter.",
+      "Our objective is simple: to stand by our clients from the first consultation to the final order.",
+      "At SP Law Chamber, we combine analytical legal thinking, thorough preparation, effective client communication, strategic litigation, and practical legal advice to address the legal needs of our clients. We strive to ensure that every client understands their legal position, available remedies, and the course of action being pursued.",
+      "The Chamber also undertakes legal research, drafting, documentation, and litigation support, providing advocates and clients with carefully prepared legal materials tailored to the requirements of each matter."
+    ],
+    "approachOverline": "Our approach",
+    "approachTitle": "Four steps, from first consultation to final order",
+    "approach": {
+      "understand": {
+        "title": "Understand",
+        "body": "We listen. Every matter begins with understanding the client's grievance, objectives, facts, and concerns."
+      },
+      "analyse": {
+        "title": "Analyse",
+        "body": "We examine the facts, applicable law, evidence, documents, and procedural position to identify the legal issues and available remedies."
+      },
+      "prepare": {
+        "title": "Prepare & Strategise",
+        "body": "We develop a focused legal strategy and prepare the necessary pleadings, documents, research, and arguments with attention to detail."
+      },
+      "represent": {
+        "title": "Represent & Resolve",
+        "body": "We pursue the matter through the appropriate legal forum, keeping the client informed while working towards the most effective and legally sustainable resolution."
+      }
+    },
+    "commitmentOverline": "Our commitment",
+    "commitmentTitle": "Heard, considered, and thoroughly prepared",
+    "commitmentBody": [
+      "At SP Law Chamber, client satisfaction is not merely an objective — it is the foundation of our practice.",
+      "We believe that every client deserves to be heard, every grievance deserves careful consideration, and every legal matter deserves preparation proportionate to its importance.",
+      "Established by Prem Prakash and Shruti Jain, the Chamber seeks to grow through professional integrity, legal excellence, client trust, and effective advocacy. Together, we aspire to build a practice where law is not merely argued, but carefully prepared, strategically pursued, and meaningfully delivered."
+    ],
     "valuesOverline": "எங்கள் மதிப்புகள்",
     "valuesTitle": "நாங்கள் எதற்கு நிற்கிறோம்",
     "values": {
@@ -118,6 +156,17 @@
     },
     "teamTitle": "எங்கள் வழக்கறிஞர்கள்",
     "ctaTitle": "ஒரு வழக்கறிஞருடன் பேச தயாரா?"
+  },
+  "documents": {
+    "title": "Legal Documents",
+    "lede": "Professionally drafted petitions, applications and formats, available to fellow advocates. Every listing shows a sample page so you know exactly what you are getting.",
+    "loading": "Loading documents…",
+    "emptyState": "No documents listed yet. Please check back soon.",
+    "priceOnRequest": "Price on request",
+    "viewSample": "View sample page",
+    "sampleAlt": "Sample page of {{title}}",
+    "buyTitle": "To buy, contact us",
+    "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
   },
   "practiceAreas": {
     "title": "நடைமுறை பகுதிகள்",

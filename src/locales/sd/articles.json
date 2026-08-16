@@ -5,6 +5,8 @@
       "lede": "توهان جے حقوق ۽ روز مره جے قانوني سوالن تي صاف ٽوڙيءَ جي ڳائيڊون، اسان جے وڪيلن جي لاءِ لکيل.",
       "searchPlaceholder": "مقالا ڳولي…",
       "noResults": "ڪوئي مقالا توهان جي ڳولج سان نٿا ملن. فرق ٽوڙي يا موضوع جو ڪوشش ڪريو.",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "مقالا پڙهو",
       "publishedOn": "{{date}} تي شايع",
       "byAdmin": "SP Law Chamber جي طرفان",

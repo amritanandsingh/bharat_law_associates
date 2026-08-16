@@ -5,6 +5,8 @@
       "lede": "आपल्या हक्क आणि रोजच्या कायदेशीर प्रश्नांवर सोप्या भाषेत मार्गदर्शन, आमच्या वकिलांनी लिहिलेले.",
       "searchPlaceholder": "लेख शोधा…",
       "noResults": "आपल्या शोधाला कोणते लेख जुळत नाहीत. वेगळा शब्द किंवा विषय वापरून पहा.",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "लेख वाचा",
       "publishedOn": "{{date}} ला प्रकाशित",
       "byAdmin": "SP Law Chamber द्वारे",

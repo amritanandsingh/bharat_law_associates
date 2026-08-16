@@ -71,10 +71,13 @@ const branch = process.env.AWS_BRANCH;
 const isProduction = branch === 'master' || branch === 'main';
 
 if (isProduction) {
-  // DynamoDB Post table: block deletion + continuous backups (35-day restore).
-  const postTableCfn = backend.data.resources.cfnResources.amplifyDynamoDbTables['Post'];
-  postTableCfn.deletionProtectionEnabled = true;
-  postTableCfn.pointInTimeRecoveryEnabled = true;
+  // DynamoDB tables: block deletion + continuous backups (35-day restore).
+  const { amplifyDynamoDbTables } = backend.data.resources.cfnResources;
+  for (const tableName of ['Post', 'Document']) {
+    const tableCfn = amplifyDynamoDbTables[tableName];
+    tableCfn.deletionProtectionEnabled = true;
+    tableCfn.pointInTimeRecoveryEnabled = true;
+  }
 
   // S3 media bucket: keep it (and old object versions) even if the stack is deleted.
   backend.storage.resources.bucket.applyRemovalPolicy(RemovalPolicy.RETAIN);

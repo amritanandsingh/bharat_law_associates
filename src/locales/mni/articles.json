@@ -5,6 +5,8 @@
       "lede": "ꯊꯤꯛ ꯑꯦꯡ ꯏꯆꯨꯟ ꯂꯧ ꯆꯥꯟꯕ ꯄꯨꯃ ꯌꯦꯡ ꯆꯠꯇꯨ ꯅꯥꯛ, ꯏ ꯍꯩꯓ ꯑꯦꯆꯍꯟꯇꯒꯤ ꯌꯥꯕ।",
       "searchPlaceholder": "ꯑꯦꯟꯇꯤꯀꯟ ꯊꯣꯛ…",
       "noResults": "ꯊꯣꯛꯅꯥ ꯃꯇꯥꯀ ꯑꯦꯟꯇꯤꯀꯟ ꯌꯥꯕ ꯉꯥꯢ। ꯃꯇꯥ ꯍꯟꯀꯄ ꯎꯡꯕ ꯎꯡꯕ ꯎꯡꯕ ꯊꯕ ꯆꯥꯟꯅꯩ।",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "ꯑꯦꯟꯇꯤꯀꯟ ꯀꯥ",
       "publishedOn": "{{date}} ꯀꯗꯥ ꯄꯤꯦꯌ",
       "byAdmin": "SP Law Chamber ꯌꯤ",

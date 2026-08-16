@@ -42,15 +42,21 @@ const ArticlesPage = () => {
     };
   }, []);
 
-  const visible = useMemo(() => {
+  // One lowercased haystack per post for the active language. Rebuilt only when
+  // the posts or the language change — not on every keystroke.
+  const searchIndex = useMemo(() => {
     if (!posts) return [];
-    const q = query.trim().toLowerCase();
-    if (!q) return posts;
-    return posts.filter((p) => {
-      const { title, excerpt } = pickTranslation(p, lng);
-      return `${title} ${excerpt}`.toLowerCase().includes(q);
+    return posts.map((p) => {
+      const { title, excerpt, body } = pickTranslation(p, lng);
+      return { post: p, haystack: `${title} ${excerpt} ${body}`.toLowerCase() };
     });
-  }, [posts, query, lng]);
+  }, [posts, lng]);
+
+  const visible = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return posts || [];
+    return searchIndex.filter((e) => e.haystack.includes(q)).map((e) => e.post);
+  }, [posts, searchIndex, query]);
 
   return (
     <>
@@ -80,6 +86,12 @@ const ArticlesPage = () => {
               />
             </div>
           </div>
+
+          {posts && query.trim() && visible.length > 0 && (
+            <p className="articles-count" role="status">
+              {t('articles.ui.resultCount', { count: visible.length })}
+            </p>
+          )}
 
           {posts === null ? (
             <p className="articles-empty" role="status">

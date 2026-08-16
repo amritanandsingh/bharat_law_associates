@@ -16,6 +16,7 @@
     "practiceAreas": "عملي علاقا",
     "aboutUs": "اسان جي باري ۾",
     "articles": "Articles",
+    "documents": "Documents",
     "contactUs": "اسان سان رابطو ڪريو",
     "joinUs": "اسان سان شامل ٿيو",
     "consultNow": "هاڻي صلاح ڪريو",
@@ -28,7 +29,8 @@
     "practiceAreasDescription": "اسان جي عملي علاقن کو ڏسيو: سول ۽ ڪرمنل مقدمه بازي، خاندان جو قانون، ڪاروبار جي رجسٽريشن، ٽيڪس ۽ ذهني ملڪيت جي خدمتون۔",
     "contactDescription": "SP Law Chamber سان رابطو ڪريو۔ صلاح وقت طے ڪريو، واپسي کو درخواست ڪريو، يا اسان جي Kolkata ۽ New Delhi دفاتر ۾ هليو۔",
     "joinDescription": "SP Law Chamber ۾ ڪيريئر۔ وکيلن ۽ قانوني پروفيشنل جي وڌندڙ ٽيم سان شامل ٿيو۔",
-    "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters."
+    "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
+    "documentsDescription": "Professionally drafted legal documents, petitions and formats from SP Law Chamber, available to advocates. View a sample page and contact us to purchase."
   },
   "home": {
     "hero": {
@@ -71,6 +73,12 @@
       "body": "اسان هر شام {{start}} کان {{end}} تائين مفت صلاح ڪھولي رکندا آهيون انهن نفرن جي لاء جيڪي نمائندگي برداشت نٿا ڪري سگھن۔",
       "cta": "اهليت جي باري ۾ پڇو"
     },
+    "documents": {
+      "overline": "For advocates",
+      "title": "Drafted legal documents, ready to use",
+      "body": "Petitions, applications and formats prepared by our advocates. Read a sample page, then get in touch to purchase the full document.",
+      "viewAll": "Browse all documents →"
+    },
     "team": {
       "overline": "اسان جي ٽيم",
       "title": "اسان جي وکيلن سان ملاقات ڪريو",
@@ -85,7 +93,6 @@
   "about": {
     "title": "SP Law Chamber جي باري ۾",
     "lede": "هڪ مڪمل سروس قانون فرم جيڪو ملڪ ۾ افراد، خاندانن ۽ ڪاروبارن کو مقدمه بازي، تطابق ۽ مشورو سپورٽ سان سيوا ڪندو آهي۔",
-    "founderOverline": "بنسٽر ۽ منيجنگ وکيل",
     "founderBio": "Prem Prakash SP Law Chamber جو بنياد هڪ سادي عقيدي سان رکيو: هر ڪلائنٽ صلاح پاٿو جيڪو پهلي ٻڌي ۽ سچ سان صلاح ڏي۔ هن جي قيادت ۾ فرم هڪ ملٽي-پريڪٽس چيمبر ۾ وڌيو آهي جيڪو مقدمه بازي، ڪاروبار رجسٽريشن، ٽيڪس ۽ ذهني ملڪيت جي معاملات سنڀالندو آهي۔",
     "founderCredentials": [
       "LLB, Kolkata Law School",
@@ -93,13 +100,44 @@
       "ٽرائل ڪورٹ، ٽريبيونلز ۽ هائي ڪورٹ کي پيش آهي",
       "سرشار وکيل ۽ قانوني پروفيشنل جي ٽيم جي هدايت ڪندو آهي"
     ],
-    "founderRole": "بنسٽر ۽ منيجنگ وکيل",
     "coFounderRole": "Co-Founder",
     "advocateRole": "وکيل",
     "storyOverline": "اسان جي ڪهاڻي",
     "storyTitle": "اڪيلو عمل کان وڌندڙ چيمبر تائين",
-    "storyBody1": "SP Law Chamber اڪيلو عمل طور شروع ٿيو جيڪو مطمئن ڪلائنٽ کان حوالي سان ٺهيو۔ جيئن عمل وڌيو، متنوع ماهريت والي وکيل شامل ٿيا، جيڪن فرم کو آخر تائين معاملات سنڀالڻ جي موقة ڏنو — ڊرافٹنگ ۽ رجسٽريشن کان شروع ڪري ٽرائل ۽ اپيل تائين۔",
-    "storyBody2": "اڄ فرم خاندانن کو ذاتي معاملات باري صلاح ڏي ٿو، سول ۽ ڪرمنل ڪارواهي ۾ ڪلائنٽ جي حفاظت ڪندو آهي، ۽ ڪاروبار ڪار شروع ڪرڻ ۽ حفاظت ڪرڻ ۾ ساهه ڪندو آهي۔ اسان جو مقصد اهو رهڻ آهي جو فرم جيڪو ڪلائنٹ ماڻهن جي باري ۾ سفارش ڪن جن کي انهن پرواهه آهي۔",
+    "storyBody": [
+      "SP Law Chamber was established by Advocates Prem Prakash and Shruti Jain with a shared vision — to provide clients with dedicated legal assistance, strategic representation, and a clear path towards justice.",
+      "We believe that effective legal representation begins much before a matter reaches the courtroom. It begins with listening to the client, understanding the grievance, analysing the legal position, preparing the case meticulously, and choosing the right strategy to pursue the matter.",
+      "Our objective is simple: to stand by our clients from the first consultation to the final order.",
+      "At SP Law Chamber, we combine analytical legal thinking, thorough preparation, effective client communication, strategic litigation, and practical legal advice to address the legal needs of our clients. We strive to ensure that every client understands their legal position, available remedies, and the course of action being pursued.",
+      "The Chamber also undertakes legal research, drafting, documentation, and litigation support, providing advocates and clients with carefully prepared legal materials tailored to the requirements of each matter."
+    ],
+    "approachOverline": "Our approach",
+    "approachTitle": "Four steps, from first consultation to final order",
+    "approach": {
+      "understand": {
+        "title": "Understand",
+        "body": "We listen. Every matter begins with understanding the client's grievance, objectives, facts, and concerns."
+      },
+      "analyse": {
+        "title": "Analyse",
+        "body": "We examine the facts, applicable law, evidence, documents, and procedural position to identify the legal issues and available remedies."
+      },
+      "prepare": {
+        "title": "Prepare & Strategise",
+        "body": "We develop a focused legal strategy and prepare the necessary pleadings, documents, research, and arguments with attention to detail."
+      },
+      "represent": {
+        "title": "Represent & Resolve",
+        "body": "We pursue the matter through the appropriate legal forum, keeping the client informed while working towards the most effective and legally sustainable resolution."
+      }
+    },
+    "commitmentOverline": "Our commitment",
+    "commitmentTitle": "Heard, considered, and thoroughly prepared",
+    "commitmentBody": [
+      "At SP Law Chamber, client satisfaction is not merely an objective — it is the foundation of our practice.",
+      "We believe that every client deserves to be heard, every grievance deserves careful consideration, and every legal matter deserves preparation proportionate to its importance.",
+      "Established by Prem Prakash and Shruti Jain, the Chamber seeks to grow through professional integrity, legal excellence, client trust, and effective advocacy. Together, we aspire to build a practice where law is not merely argued, but carefully prepared, strategically pursued, and meaningfully delivered."
+    ],
     "valuesOverline": "اسان جي قدريں",
     "valuesTitle": "اسان ڇا عزت ڪندا آهيون",
     "values": {
@@ -118,6 +156,17 @@
     },
     "teamTitle": "اسان جي وکيل",
     "ctaTitle": "وکيل سان ڳالهائڻ جي لاء تيار آهيو؟"
+  },
+  "documents": {
+    "title": "Legal Documents",
+    "lede": "Professionally drafted petitions, applications and formats, available to fellow advocates. Every listing shows a sample page so you know exactly what you are getting.",
+    "loading": "Loading documents…",
+    "emptyState": "No documents listed yet. Please check back soon.",
+    "priceOnRequest": "Price on request",
+    "viewSample": "View sample page",
+    "sampleAlt": "Sample page of {{title}}",
+    "buyTitle": "To buy, contact us",
+    "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
   },
   "practiceAreas": {
     "title": "عملي علاقا",

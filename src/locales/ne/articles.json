@@ -5,6 +5,8 @@
       "lede": "तपाइँको अधिकार र रोजमर्राको कानुनी प्रश्नहरु पर सरल भाषामा निर्देशनहरु, हमारा वकीलहरु द्वारा लिखित।",
       "searchPlaceholder": "लेखहरु खोज्नुहोस्…",
       "noResults": "कुनै लेख तपाइँको खोजसँग मेल खायन। अलग शब्द वा विषय प्रयास गर्नुहोस्।",
+      "resultCount_one": "{{count}} article found",
+      "resultCount_other": "{{count}} articles found",
       "readMore": "लेख पढ्नुहोस्",
       "publishedOn": "{{date}} मा प्रकाशित",
       "byAdmin": "SP Law Chamber द्वारा",

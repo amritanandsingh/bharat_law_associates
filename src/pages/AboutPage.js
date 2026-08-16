@@ -18,7 +18,10 @@ const AboutPage = () => {
 
   const founder = LAWYERS.find((l) => l.founder);
   const values = ['integrity', 'clarity', 'commitment'];
+  const approachSteps = ['understand', 'analyse', 'prepare', 'represent'];
   const credentials = t('about.founderCredentials', { returnObjects: true });
+  const storyBody = t('about.storyBody', { returnObjects: true });
+  const commitmentBody = t('about.commitmentBody', { returnObjects: true });
 
   return (
     <>
@@ -57,7 +60,7 @@ const AboutPage = () => {
             )}
           </div>
           <div data-reveal>
-            <span className="overline">{t('about.founderOverline')}</span>
+            <span className="overline">{t('about.coFounderRole')}</span>
             <h2>{founder.name}</h2>
             <p className="about-founder-qual">{founder.qualification}</p>
             <p className="about-founder-bio">{t('about.founderBio')}</p>
@@ -93,8 +96,45 @@ const AboutPage = () => {
             <span className="gold-rule" aria-hidden="true" />
           </div>
           <div className="about-story-copy" data-reveal>
-            <p>{t('about.storyBody1')}</p>
-            <p>{t('about.storyBody2')}</p>
+            {(Array.isArray(storyBody) ? storyBody : []).map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="section-head" data-reveal>
+            <span className="overline">{t('about.approachOverline')}</span>
+            <h2>{t('about.approachTitle')}</h2>
+            <span className="gold-rule" aria-hidden="true" />
+          </div>
+          <div className="about-approach">
+            {approachSteps.map((s, i) => (
+              <div key={s} className="about-step" data-reveal style={{ '--i': i }}>
+                <span className="about-step-num" aria-hidden="true">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <h4>{t(`about.approach.${s}.title`)}</h4>
+                <p>{t(`about.approach.${s}.body`)}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section about-commitment">
+        <div className="container">
+          <div className="section-head" data-reveal>
+            <span className="overline">{t('about.commitmentOverline')}</span>
+            <h2>{t('about.commitmentTitle')}</h2>
+            <span className="gold-rule" aria-hidden="true" />
+          </div>
+          <div className="about-story-copy" data-reveal>
+            {(Array.isArray(commitmentBody) ? commitmentBody : []).map((p) => (
+              <p key={p}>{p}</p>
+            ))}
           </div>
         </div>
       </section>

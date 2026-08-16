@@ -104,6 +104,18 @@
           "ثالثي ۽ منظم سمجھوتي جي ڳالهه"
         ]
       },
+      "labour-industrial-matters": {
+        "name": "Labour & Industrial Matters",
+        "summary": "Wages, gratuity, termination and industrial disputes for workers and employers.",
+        "description": "We act for workmen, employees and employers in industrial and labour disputes — unpaid wages, gratuity and provident fund, termination and retrenchment, and compensation claims — before Labour Courts, Industrial Tribunals and the appropriate authorities.",
+        "bullets": [
+          "Industrial disputes, conciliation and reference proceedings",
+          "Recovery of wages, gratuity, bonus and provident-fund dues",
+          "Termination, retrenchment and reinstatement claims",
+          "Workmen's compensation and employee benefit disputes",
+          "Domestic inquiries, standing orders and compliance support"
+        ]
+      },
       "writ-petitions": {
         "name": "ريٹ درخواستون",
         "summary": "اعليٰ عدالت سے پهلان رياست جے خلاف توهان جے حقوق نافذ ڪرڻ.",
@@ -162,6 +174,30 @@
           "DRT ۽ DRAT سے پهلان قرضي جي بحالي ۽ SARFAESI اپيلن",
           "AFT سے پهلان فوجي خدمت ۽ نظم و ضبط جے معاملا",
           "ٽريبيونل احڪامن سے عارضي رعايت ۽ اپيلن"
+        ]
+      },
+      "education-matters": {
+        "name": "Education Matters",
+        "summary": "Disputes involving schools, colleges, universities and their staff.",
+        "description": "Educational institutions run on a dense web of statutes, regulations and approvals. We handle disputes involving schools, colleges, universities and their managing bodies — appointment and approval of teaching and non-teaching staff, admissions, recognition and affiliation, and other educational service matters.",
+        "bullets": [
+          "Appointment and approval of teaching and non-teaching staff",
+          "Service, pay and disciplinary matters of institutional employees",
+          "Admission disputes and eligibility questions",
+          "Recognition, affiliation and institutional compliance",
+          "Managing-committee disputes and representation before the High Court"
+        ]
+      },
+      "contempt-compliance-matters": {
+        "name": "Contempt & Compliance Matters",
+        "summary": "Making sure a favourable order is actually implemented.",
+        "description": "An order in your favour is only worth what is done about it. Where an authority or party fails to comply, we press for implementation and, where necessary, move contempt proceedings — and we defend those facing an allegation of contempt.",
+        "bullets": [
+          "Contempt petitions for non-compliance with judicial orders",
+          "Enforcement and implementation of court directions",
+          "Representations and follow-up with the authority concerned",
+          "Defence in civil and criminal contempt proceedings",
+          "Advice on compliance obligations after an order"
         ]
       },
       "corporate-commercial-law": {
@@ -234,6 +270,18 @@
           "اعتراضن جو جواب ۽ مخالف پيشي",
           "نقل ۽ اتھاؤ جي عملدرآمد",
           "لائسنسنگ، تبديلي ۽ IPR جي مشاورت"
+        ]
+      },
+      "tax-revenue-matters": {
+        "name": "Tax & Revenue Matters",
+        "summary": "Assessments, demands, refunds and penalties challenged before the right forum.",
+        "description": "Tax and revenue disputes turn on limitation, procedure and the record. We advise on assessment and demand notices, pursue refunds and registration issues, contest penalty and revenue proceedings, and carry matters through statutory appeals and revisions.",
+        "bullets": [
+          "Assessment, demand and recovery notice challenges",
+          "Refund claims and registration disputes",
+          "Penalty and interest proceedings",
+          "Revenue proceedings before statutory authorities",
+          "Statutory appeals and revisions before appellate forums"
         ]
       },
       "property-real-estate-law": {
@@ -318,6 +366,18 @@
           "درست ٽيمپ ڊيوٹي ۽ ويليو جي هدايت",
           "سب رجسٽرار سے پهلان رجسٹريشن",
           "عملدرآمد ڪيل دستاويزن جي تصديق"
+        ]
+      },
+      "municipal-local-authority-matters": {
+        "name": "Municipal & Local Authority Matters",
+        "summary": "Building permissions, demolition notices, municipal tax and licences.",
+        "description": "Local authorities can stop a project or tax a property on a single notice. We contest building-permission refusals, demolition and stop-work notices, municipal assessment and taxation, and licence and permission disputes — before the authority itself and, where needed, the High Court.",
+        "bullets": [
+          "Building sanction, permission and deviation disputes",
+          "Demolition, eviction and stop-work notices",
+          "Municipal taxation and property assessment challenges",
+          "Trade licences, permissions and renewals",
+          "Writ petitions against arbitrary local-authority action"
         ]
       }
     }

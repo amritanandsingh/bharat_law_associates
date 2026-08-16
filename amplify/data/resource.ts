@@ -4,7 +4,7 @@ import { translatePost } from '../functions/translate-post/resource';
 import { logEnquiry } from '../functions/log-enquiry/resource';
 
 /**
- * Data model for the Articles feed.
+ * Data models for the Articles feed and the Documents catalogue.
  *
  * A `Post` stores language-independent metadata plus a `translations` JSON map
  * keyed by language code: { [lng]: { title, excerpt, body } }. The admin writes
@@ -32,6 +32,36 @@ const schema = a.schema({
       translations: a.json().required(),
       // language codes that currently have a translation (source + machine)
       translatedLangs: a.string().array(),
+    })
+    .authorization((allow) => [
+      allow.group('Admins').to(['create', 'read', 'update', 'delete']),
+      allow.guest().to(['read']),
+      allow.authenticated().to(['read']),
+    ]),
+
+  /**
+   * A legal document (petition, draft, format) offered for sale to other
+   * advocates. Only a SAMPLE PAGE is ever uploaded — `previewKey` points at a
+   * world-readable object under `media/documents/`. The full document is never
+   * stored here; buyers contact the chamber directly (WhatsApp / SMS / email)
+   * and it is sent privately. There is therefore nothing to paywall.
+   *
+   * Text is stored as entered by the admin and is NOT machine-translated
+   * (unlike `Post`), so it renders identically in every UI language.
+   */
+  Document: a
+    .model({
+      title: a.string().required(),
+      description: a.string(),
+      // Whole rupees. Null/0 renders as "Price on request".
+      priceInr: a.integer(),
+      // S3 key of the uploaded sample page.
+      previewKey: a.string(),
+      // MIME type of the sample page — decides thumbnail vs file icon.
+      previewContentType: a.string(),
+      publishedAt: a.datetime().required(),
+      // Lower sorts first; ties broken by publishedAt desc.
+      sortOrder: a.integer().default(0),
     })
     .authorization((allow) => [
       allow.group('Admins').to(['create', 'read', 'update', 'delete']),
