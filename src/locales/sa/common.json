@@ -14,6 +14,7 @@
   "nav": {
     "home": "गृहम्",
     "practiceAreas": "विशेषज्ञता क्षेत्राणि",
+    "courts": "Courts We Practice In",
     "aboutUs": "अस्मांभिरिते",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — भारतराष्ट्रे मुकदमेबाजी, व्यवसाय पंजीकरण, कर तथा बौद्धिक संपत्ति विषयेषु विश्वस्ताः वकीलाः। निःशुल्क परामर्श आरक्षयतु।",
     "aboutDescription": "SP Law Chamber इत्यस्य परिचयं लभ्यते — संस्थापकः, वकीलानां मण्डली, तथा अस्माकं अभ्यासस्य निर्देशक-मूल्यानि।",
     "practiceAreasDescription": "अस्माकं विशेषज्ञता-क्षेत्राणां दृश्यम् — नागरिक-दण्डनीय-मुकदमेबाजी, पारिवारिक-कानून, व्यवसाय-पंजीकरण, कर तथा बौद्धिक-संपत्ति-सेवाः।",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber इति सम्पर्कयतु। परामर्श आरक्षयतु, प्रतिक्रिया-आह्वान प्रार्थयतु, अथवा Kolkata तथा नई दिल्ली कार्यालये आगमनं कुरुत।",
     "joinDescription": "SP Law Chamber इत्र व्रत्य-सूचनाः। वकीलानां, कनिष्ठानां, इन्टर्नानां च वर्धमानदलेषु सम्मिलनम्।",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "विशेषज्ञता क्षेत्राणि",

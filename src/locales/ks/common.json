@@ -14,6 +14,7 @@
   "nav": {
     "home": "گھر",
     "practiceAreas": "پریکٹس علاقہٕ",
+    "courts": "Courts We Practice In",
     "aboutUs": "اسہِ متعلق",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — سٲری ہندوستانس منز مقدمہٕ بازی، کاروبار رجسٹریشن، ٹیکس تہٕ دانشورانہ ملکیتہٕ خٲطرٕ قٲبِل اعتماد وکیل۔ مُفت مشورٕ بُک کٔرِو۔",
     "aboutDescription": "SP Law Chamber بارَس منز زٲنِو — سٲنؠ بانی، سٲنؠ وکیلن ہُند ٹیم، تہٕ تِم قٕدرٕ یِم سٲنس پریکٹسس رہنمٲیی چھِ کران۔",
     "practiceAreasDescription": "سٲنؠ پریکٹس علاقہٕ وُچھِو: دیوانی تہٕ فوجداری مقدمہٕ بازی، خاندٲنی قانون، کاروبار رجسٹریشن، ٹیکس تہٕ دانشورانہ ملکیتہٕ خدمات۔",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber سٟتؠ رٲبطہٕ کٔرِو۔ مشورٕ مقرر کٔرِو، کال بیک منٛگِو، یا سٲنین کولکاتہ تہٕ نٔوِ دلی دفترن منز یِیِو۔",
     "joinDescription": "SP Law Chamber منز کیریئر۔ وکیلن تہٕ قانونی پیشہ ورن ہٕنٛدِس بَڑان ٹیمس سٟتؠ رٔلِو۔",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "پریکٹس علاقہٕ",

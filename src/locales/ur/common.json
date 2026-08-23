@@ -14,6 +14,7 @@
   "nav": {
     "home": "ہوم",
     "practiceAreas": "نمائندگی کے شعبے",
+    "courts": "Courts We Practice In",
     "aboutUs": "ہمارے بارے میں",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — بھارت میں مقدمہ بازی، کاروباری رجسٹریشن، ٹیکس اور دانشورانہ ملکیت کے معاملات میں قابل اعتماد وکیل۔ مفت مشاورت حاصل کریں۔",
     "aboutDescription": "SP Law Chamber کے بارے میں جانیں — ہمارے بانی، ہماری وکلاء کی ٹیم، اور اقدار جو ہماری نمائندگی کو حرکت دیتے ہیں۔",
     "practiceAreasDescription": "ہمارے نمائندگی کے شعبے دیکھیں: داخلی اور فوجداری مقدمہ بازی، خاندانی قانون، کاروباری رجسٹریشن، ٹیکس اور دانشورانہ ملکیت کی خدمات۔",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber سے رابطہ کریں۔ مشاورت طے کریں، واپسی کی درخواست کریں، یا ہمارے Kolkata اور نئی دہلی کی دفاتر میں آئیں۔",
     "joinDescription": "SP Law Chamber میں کریئر۔ وکلاء اور قانونی پیشہ ور افراد کی بڑھتی ہوئی ٹیم میں شامل ہوں۔",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "نمائندگی کے شعبے",

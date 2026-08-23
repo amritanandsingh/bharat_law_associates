@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { FaCheckCircle, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import { LAWYERS } from '../data/lawyers';
 import { SITE } from '../config/site';
-import { buildTelUrl, buildMailtoUrl } from '../utils/contactLinks';
 import LawyerCard from '../components/team/LawyerCard';
 import usePageMeta from '../hooks/usePageMeta';
 import useReveal from '../hooks/useReveal';
@@ -12,14 +10,11 @@ import './AboutPage.css';
 
 const AboutPage = () => {
   const { t } = useTranslation();
-  const [founderImgFailed, setFounderImgFailed] = useState(false);
   useReveal();
   usePageMeta(`${t('nav.aboutUs')} — ${SITE.name}`, t('meta.aboutDescription'));
 
-  const founder = LAWYERS.find((l) => l.founder);
   const values = ['integrity', 'clarity', 'commitment'];
   const approachSteps = ['understand', 'analyse', 'prepare', 'represent'];
-  const credentials = t('about.founderCredentials', { returnObjects: true });
   const storyBody = t('about.storyBody', { returnObjects: true });
   const commitmentBody = t('about.commitmentBody', { returnObjects: true });
 
@@ -34,57 +29,6 @@ const AboutPage = () => {
           </nav>
           <h1>{t('about.title')}</h1>
           <p className="lede">{t('about.lede')}</p>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container about-founder">
-          <div className="about-founder-photo" data-reveal>
-            {founder.photo && !founderImgFailed ? (
-              <img
-                className="about-founder-img"
-                src={founder.photo}
-                alt={founder.name}
-                loading="lazy"
-                style={founder.objectPosition ? { objectPosition: founder.objectPosition } : undefined}
-                onError={() => setFounderImgFailed(true)}
-              />
-            ) : (
-              <span className="about-founder-avatar" aria-hidden="true">
-                {founder.name
-                  .split(' ')
-                  .map((w) => w[0])
-                  .slice(0, 2)
-                  .join('')}
-              </span>
-            )}
-          </div>
-          <div data-reveal>
-            <span className="overline">{t('about.coFounderRole')}</span>
-            <h2>{founder.name}</h2>
-            <p className="about-founder-qual">{founder.qualification}</p>
-            <p className="about-founder-bio">{t('about.founderBio')}</p>
-            <ul className="about-credentials">
-              {(Array.isArray(credentials) ? credentials : []).map((c) => (
-                <li key={c}>
-                  <FaCheckCircle aria-hidden="true" /> {c}
-                </li>
-              ))}
-            </ul>
-            <div className="about-founder-contact">
-              <a href={buildTelUrl(founder.phone)} className="btn btn-ghost-dark ltr-isolate">
-                <FaPhoneAlt size={13} aria-hidden="true" /> {founder.phone}
-              </a>
-              {founder.email && (
-                <a
-                  href={buildMailtoUrl(founder.email, 'Legal enquiry', '')}
-                  className="btn btn-ghost-dark"
-                >
-                  <FaEnvelope size={13} aria-hidden="true" /> {founder.email}
-                </a>
-              )}
-            </div>
-          </div>
         </div>
       </section>
 

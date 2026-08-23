@@ -14,6 +14,7 @@
   "nav": {
     "home": "होम",
     "practiceAreas": "सरावचे क्षेत्र",
+    "courts": "Courts We Practice In",
     "aboutUs": "आमच्याबद्दल",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — भारतभरातील खटल्या, व्यावहारिक नोंदणी, कर आणि बौद्धिक संपत्ती विषयांसाठी विश्वासार्ह वकील. विनामूल्य सल्लामसलत बुक करा.",
     "aboutDescription": "SP Law Chamber — आमच्या संस्थापकाबद्दल, आमच्या वकीलांच्या दलाबद्दल आणि आमच्या सरावांचे मार्गदर्शन करणारी मूल्यांबद्दल जानून घ्या.",
     "practiceAreasDescription": "आमच्या सरावचे क्षेत्र शोधा: नागरिक आणि फौजदारी खटले, कौटुंबिक कायदा, व्यावहारिक नोंदणी, कर आणि बौद्धिक संपत्ती सेवा.",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber शी संपर्क करा. सल्लामसलत नियोजन करा, परत बोलण्याचे विनंती करा किंवा आमच्या कोलकाता आणि नवी दिल्ली कार्यालयांना भेट द्या.",
     "joinDescription": "SP Law Chamber येथे करिअर. वकीलांचे आणि कायदेशीर व्यावसायिकांचे वाढणारे दल यांच्या सोबत सामील व्हा.",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "सरावचे क्षेत्र",

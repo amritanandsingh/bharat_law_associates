@@ -73,7 +73,7 @@ const isProduction = branch === 'master' || branch === 'main';
 if (isProduction) {
   // DynamoDB tables: block deletion + continuous backups (35-day restore).
   const { amplifyDynamoDbTables } = backend.data.resources.cfnResources;
-  for (const tableName of ['Post', 'Document']) {
+  for (const tableName of ['Post', 'Document', 'Court']) {
     const tableCfn = amplifyDynamoDbTables[tableName];
     tableCfn.deletionProtectionEnabled = true;
     tableCfn.pointInTimeRecoveryEnabled = true;

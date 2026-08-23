@@ -14,6 +14,7 @@
   "nav": {
     "home": "घर",
     "practiceAreas": "कम्मै दे खेत्तर",
+    "courts": "Courts We Practice In",
     "aboutUs": "साढ़े बारै",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — पूरे भारत च मुकदमेबाजी, कारोबार रजिस्ट्रेशन, टैक्स ते बौद्धिक संपदा दे मामलें आस्तै भरोसेमंद वकील। मुफ्त सलाह बुक करो।",
     "aboutDescription": "SP Law Chamber दे बारै जानो — साढ़े संस्थापक, वकीलें दी साढ़ी टीम ते ओह् मूल्य जेह्​ड़े साढ़ी प्रैक्टिस गी राह् दस्सदे न।",
     "practiceAreasDescription": "साढ़े कम्मै दे खेत्तर दिक्खो: दीवानी ते फौजदारी मुकदमेबाजी, परिवार कानून, कारोबार रजिस्ट्रेशन, टैक्स ते बौद्धिक संपदा सेवां।",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber कन्नै संपर्क करो। सलाह दा समां तय करो, कॉलबैक दी बिनती करो, जां साढ़े कोलकाता ते नमीं दिल्ली दे दफ्तरें च आओ।",
     "joinDescription": "SP Law Chamber च करियर। वकीलें ते कानूनी पेशेवरें दी बधदी टीम च शामल ओ।",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "कम्मै दे खेत्तर",

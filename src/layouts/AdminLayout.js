@@ -39,6 +39,9 @@ const AdminGate = ({ signOut }) => {
           <NavLink to="/admin/documents" className="admin-nav-link">
             Documents
           </NavLink>
+          <NavLink to="/admin/courts" className="admin-nav-link">
+            Courts
+          </NavLink>
           <Link to="/">View site</Link>
           <button type="button" className="admin-signout" onClick={signOut}>
             Sign out

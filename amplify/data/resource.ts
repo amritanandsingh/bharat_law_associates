@@ -4,7 +4,7 @@ import { translatePost } from '../functions/translate-post/resource';
 import { logEnquiry } from '../functions/log-enquiry/resource';
 
 /**
- * Data models for the Articles feed and the Documents catalogue.
+ * Data models for the Articles feed, Documents catalogue, and Courts listing.
  *
  * A `Post` stores language-independent metadata plus a `translations` JSON map
  * keyed by language code: { [lng]: { title, excerpt, body } }. The admin writes
@@ -62,6 +62,23 @@ const schema = a.schema({
       publishedAt: a.datetime().required(),
       // Lower sorts first; ties broken by publishedAt desc.
       sortOrder: a.integer().default(0),
+    })
+    .authorization((allow) => [
+      allow.group('Admins').to(['create', 'read', 'update', 'delete']),
+      allow.guest().to(['read']),
+      allow.authenticated().to(['read']),
+    ]),
+
+  /**
+   * A court where the chamber represents clients. Text is stored exactly as
+   * entered by an admin; `imageKey` points to its public photograph under
+   * `media/courts/`.
+   */
+  Court: a
+    .model({
+      name: a.string().required(),
+      address: a.string().required(),
+      imageKey: a.string().required(),
     })
     .authorization((allow) => [
       allow.group('Admins').to(['create', 'read', 'update', 'delete']),

@@ -14,6 +14,7 @@
   "nav": {
     "home": "হোম",
     "practiceAreas": "প্র্যাকটিস ক্ষেত্র",
+    "courts": "Courts We Practice In",
     "aboutUs": "আমাদের সম্পর্কে",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — মামলা-মোকদ্দমা, ব্যবসা নিবন্ধন, কর ও মেধাস্বত্ব বিষয়ে সারা ভারতে বিশ্বস্ত অ্যাডভোকেট। বিনামূল্যে পরামর্শের জন্য বুক করুন।",
     "aboutDescription": "SP Law Chamber সম্পর্কে জানুন — আমাদের প্রতিষ্ঠাতা, অ্যাডভোকেটদের দল এবং আমাদের কাজের মূল্যবোধ।",
     "practiceAreasDescription": "আমাদের প্র্যাকটিস ক্ষেত্রগুলি দেখুন: দেওয়ানি ও ফৌজদারি মামলা, পারিবারিক আইন, ব্যবসা নিবন্ধন, কর ও মেধাস্বত্ব পরিষেবা।",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber-এর সাথে যোগাযোগ করুন। পরামর্শের সময় নির্ধারণ করুন, কলব্যাকের অনুরোধ করুন, অথবা আমাদের কলকাতা ও নতুন দিল্লির অফিসে আসুন।",
     "joinDescription": "SP Law Chamber-এ কর্মজীবন। ক্রমবর্ধমান অ্যাডভোকেট ও আইন পেশাজীবীদের দলে যোগ দিন।",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "প্র্যাকটিস ক্ষেত্র",

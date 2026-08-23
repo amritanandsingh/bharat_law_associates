@@ -14,6 +14,7 @@
   "nav": {
     "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
     "practiceAreas": "ଅଭ୍ୟାସ କ୍ଷେତ୍ର",
+    "courts": "Courts We Practice In",
     "aboutUs": "ଆମ ବିଷୟରେ",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — ମକଦ୍ଦମା, ବ୍ୟବସାୟ ନିବନ୍ଧନ, ଟିକସ ଏବଂ ବୌଦ୍ଧିକ ସମ୍ପତ୍ତି ବିଷୟଗୁଡ଼ିକ ପାଇଁ ଭାରତ ଜୁଡ଼ା ବିଶ୍ୱସ୍ତ ଓକିଲ। ମୁକ୍ତ ପରାମର୍ଶ ବୁକ କର।",
     "aboutDescription": "SP Law Chamber ବିଷୟରେ ଜାଣନ୍ତୁ — ଆମର ପ୍ରତିଷ୍ଠାତା, ଆମର ଓକିଲଙ୍କ ଦଳ ଏବଂ ଆମର ଅଭ୍ୟାସକୁ ମାର୍ଗଦର୍ଶନ କରୁଥିବା ମୂଲ୍ୟବୋଧ।",
     "practiceAreasDescription": "ଆମର ଅଭ୍ୟାସ କ୍ଷେତ୍ରଗୁଡ଼ିକ ଅନୁସନ୍ଧାନ କର: ନାଗରିକ ଓ ଫୌଜଦାରୀ ମକଦ୍ଦମା, ପାରିବାରିକ ଆଇନ, ବ୍ୟବସାୟ ନିବନ୍ଧନ, ଟିକସ ଏବଂ ବୌଦ୍ଧିକ ସମ୍ପତ୍ତି ସେବା।",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber ସହ ଯୋଗାଯୋଗ କର। ପରାମର୍ଶ ନିର୍ଧାରିତ କର, ପୁନରାବଳି ଅନୁରୋଧ କର, କିମ୍ବା ଆମର ଓଡ଼ିଶା ଓ ଦିଲ୍ଲୀ କାର୍ଯ୍ୟାଳୟ ପରିଦର୍ଶନ କର।",
     "joinDescription": "SP Law Chamber ରେ କ୍যାରିୟର। ଓକିଲ ଓ ଆଇନ ବିଶେଷଜ୍ଞଙ୍କ ବର୍ଦ୍ଧମାନ ଦଳରେ ଯୋଗ ଦିଅ।",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "ଅଭ୍ୟାସ କ୍ଷେତ୍ର",

@@ -12,6 +12,7 @@ import './Navbar.css';
 const NAV_LINKS = [
   { to: '/', key: 'nav.home', end: true },
   { to: '/practice-areas', key: 'nav.practiceAreas', dropdown: true },
+  { to: '/courts-we-practice-in', key: 'nav.courts' },
   { to: '/about-us', key: 'nav.aboutUs' },
   { to: '/articles', key: 'nav.articles' },
   { to: '/documents', key: 'nav.documents' },

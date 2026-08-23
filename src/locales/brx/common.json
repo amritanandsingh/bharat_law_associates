@@ -14,6 +14,7 @@
   "nav": {
     "home": "गुदि बिलाइ",
     "practiceAreas": "आइनि सिबिथाइनि ओनसोलफोर",
+    "courts": "Courts We Practice In",
     "aboutUs": "जोंनि सोमोन्दै",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — गोटो भारतआव मामला, फालांगि रेजिस्ट्रेशन, खाजोना आरो बुद्धिजिबि सम्पत्तिनि थाखाय फोथायथाव उकिलफोर। मुलाम्फा नङै सल्ला बुक खालाम।",
     "aboutDescription": "SP Law Chamber नि सोमोन्दै मिथि — जोंनि गायसनगिरि, जोंनि उकिल हानजा आरो जोंनि सिबिथाइखौ लामा दिन्थिग्रा मुल्यफोर।",
     "practiceAreasDescription": "जोंनि सिबिथाइनि ओनसोलफोरखौ नाय: सिभिल आरो अपराधि मामला, नखर आइन, फालांगि रेजिस्ट्रेशन, खाजोना आरो बुद्धिजिबि सम्पत्तिनि सिबिथाइ।",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber जों सोमोन्दो खालाम। सल्लानि सम फज, फिन फोन खावनाय बिथाराव खालाम, एबा जोंनि कलकाता आरो नयी दिल्ली अफिसआव फै।",
     "joinDescription": "SP Law Chamber आव साखरि। उकिल आरो आइनि साख्रिवालाफोरनि गोदान हानजायाव जरा।",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "सिबिथाइनि ओनसोलफोर",
