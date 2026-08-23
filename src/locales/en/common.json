@@ -14,6 +14,7 @@
   "nav": {
     "home": "Home",
     "practiceAreas": "Practice Areas",
+    "courts": "Courts We Practice In",
     "aboutUs": "About Us",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — trusted advocates for civil and criminal litigation, writ petitions, corporate, banking, property and tribunal matters across India. Book a free consultation.",
     "aboutDescription": "Learn about SP Law Chamber — our founders, our advocates, and the values that guide our practice.",
     "practiceAreasDescription": "Explore our practice areas: civil and criminal litigation, writ petitions, constitutional law, corporate and commercial, banking, property and tribunal matters.",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "Contact SP Law Chamber. Schedule a consultation, request a callback, or visit our Kolkata and New Delhi offices.",
     "joinDescription": "Careers at SP Law Chamber. Join a growing team of advocates and legal professionals.",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "Practice Areas",

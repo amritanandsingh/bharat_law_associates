@@ -2,9 +2,10 @@
 // client directly — they call these functions. Public reads use the guest
 // (identity pool) auth mode; admin writes use the Cognito user pool.
 import { generateClient } from 'aws-amplify/data';
-import { getUrl, uploadData } from 'aws-amplify/storage';
+import { getUrl } from 'aws-amplify/storage';
 import { parseTranslations } from './postText';
 import { readAuthMode } from './authMode';
+import { uploadPublicMedia } from './media';
 
 const client = generateClient();
 
@@ -122,12 +123,5 @@ export async function requestTranslation(id) {
 }
 
 export async function uploadCover(file) {
-  const safeName = file.name.replace(/[^\w.-]+/g, '-');
-  const key = `media/posts/${Date.now()}-${safeName}`;
-  await uploadData({
-    path: key,
-    data: file,
-    options: { contentType: file.type },
-  }).result;
-  return key;
+  return uploadPublicMedia(file, 'posts');
 }

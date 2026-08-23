@@ -14,6 +14,7 @@
   "nav": {
     "home": "ਮੁੱਖ ਪੰਨਾ",
     "practiceAreas": "ਅਭਿਆਸ ਖੇਤਰ",
+    "courts": "Courts We Practice In",
     "aboutUs": "ਸਾਡੇ ਬਾਰੇ",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — ਭਾਰਤ ਭਰ ਵਿੱਚ ਮੁਕੱਦਮੇ ਬਾਜ਼ੀ, ਕਾਰੋਬਾਰ ਰਜਿਸਟ੍ਰੇਸ਼ਨ, ਟੈਕਸ ਅਤੇ ਬੌਧਿਕ ਸੰਪਤੀ ਮਾਮਲਿਆਂ ਲਈ ਭਰੋਸੇਮੰਦ ਵਕੀਲ। ਮੁਫ਼ਤ ਸਲਾਹ ਲਓ।",
     "aboutDescription": "SP Law Chamber ਬਾਰੇ ਜਾਣੋ — ਸਾਡੇ ਸੰਸਥਾਪਕ, ਵਕੀਲਾਂ ਦੀ ਸਾਡੀ ਟੀਮ, ਅਤੇ ਮੁੱਲ ਜੋ ਸਾਡੀ ਅਭਿਆਸ ਨੂੰ ਰਾਹ ਦਿੰਦੇ ਹਨ।",
     "practiceAreasDescription": "ਸਾਡੇ ਅਭਿਆਸ ਖੇਤਰਾਂ ਦੀ ਖੋਜ ਕਰੋ: ਸਿਵਲ ਅਤੇ ਕ੍ਰਿਮੀਨਲ ਮੁਕੱਦਮੇ, ਪਰਿਵਾਰ ਕਾਨੂੰਨ, ਕਾਰੋਬਾਰ ਰਜਿਸਟ੍ਰੇਸ਼ਨ, ਟੈਕਸ ਅਤੇ ਬੌਧਿਕ ਸੰਪਤੀ ਸੇਵਾਵਾਂ।",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber ਨਾਲ ਸੰਪਰਕ ਕਰੋ। ਸਲਾਹ ਬੁਕ ਕਰੋ, ਕਾਲਬੈਕ ਮੰਗੋ, ਜਾਂ ਸਾਡੇ Kolkata ਅਤੇ New Delhi ਦਫ਼ਤਰਾਂ ਵਿੱਚ ਆਓ।",
     "joinDescription": "SP Law Chamber ਵਿੱਚ ਕੈਰੀਅਰ। ਵਕੀਲਾਂ ਅਤੇ ਕਾਨੂੰਨੀ ਪੇਸ਼ੇਦਾਰਾਂ ਦੀ ਵਧ ਰਹੀ ਟੀਮ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ।",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "ਅਭਿਆਸ ਖੇਤਰ",

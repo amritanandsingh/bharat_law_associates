@@ -14,6 +14,7 @@
   "nav": {
     "home": "मुखपृष्ठ",
     "practiceAreas": "कार्यक्षेत्र",
+    "courts": "Courts We Practice In",
     "aboutUs": "हमारे बारे में",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — मुकदमेबाज़ी, व्यवसाय पंजीकरण, कर और बौद्धिक संपदा मामलों के लिए पूरे भारत में विश्वसनीय अधिवक्ता। निःशुल्क परामर्श बुक करें।",
     "aboutDescription": "SP Law Chamber के बारे में जानें — हमारे संस्थापक, हमारी अधिवक्ता टीम, और वे मूल्य जो हमारी प्रैक्टिस का मार्गदर्शन करते हैं।",
     "practiceAreasDescription": "हमारे कार्यक्षेत्र देखें: सिविल और आपराधिक मुकदमेबाज़ी, पारिवारिक कानून, व्यवसाय पंजीकरण, कर और बौद्धिक संपदा सेवाएँ।",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber से संपर्क करें। परामर्श निर्धारित करें, कॉलबैक का अनुरोध करें, या हमारे कोलकाता और नई दिल्ली कार्यालयों में आएँ।",
     "joinDescription": "SP Law Chamber में करियर। अधिवक्ताओं और विधि पेशेवरों की बढ़ती टीम से जुड़ें।",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "कार्यक्षेत्र",

@@ -5,8 +5,9 @@
 // The full document is sent privately after the buyer makes contact, so there
 // is nothing here to paywall.
 import { generateClient } from 'aws-amplify/data';
-import { getUrl, uploadData, remove } from 'aws-amplify/storage';
+import { getUrl, remove } from 'aws-amplify/storage';
 import { readAuthMode } from './authMode';
+import { uploadPublicMedia } from './media';
 
 // Created on first use, not at import time. HomePage is eagerly bundled (not
 // lazy like ArticlesPage), so a module-scope generateClient() would run during
@@ -116,12 +117,5 @@ export async function deleteDocument(id) {
 }
 
 export async function uploadDocumentPreview(file) {
-  const safeName = file.name.replace(/[^\w.-]+/g, '-');
-  const key = `media/documents/${Date.now()}-${safeName}`;
-  await uploadData({
-    path: key,
-    data: file,
-    options: { contentType: file.type },
-  }).result;
-  return key;
+  return uploadPublicMedia(file, 'documents');
 }

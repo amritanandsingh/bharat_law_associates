@@ -14,6 +14,7 @@
   "nav": {
     "home": "मुखेल पान",
     "practiceAreas": "कायदेशीर सेवा क्षेत्रां",
+    "courts": "Courts We Practice In",
     "aboutUs": "आमचेविशीं",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — भारतभर खटले, वेवसाय नोंदणी, कर आनी बौद्धिक संपत्ती प्रकरणां खातीर विस्वासाचे वकील. फुकट सल्लामसलत बुक करात.",
     "aboutDescription": "SP Law Chamber विशीं जाणून घेयात — आमचे संस्थापक, आमचें वकिलांचें पंगड आनी आमच्या वेवसायाक मार्गदर्शन करपी मोलां.",
     "practiceAreasDescription": "आमचीं सेवा क्षेत्रां पळयात: दिवाणी आनी फौजदारी खटले, कुटुंब कायदो, वेवसाय नोंदणी, कर आनी बौद्धिक संपत्ती सेवा.",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber कडेन संपर्क करात. सल्लामसलत निश्चित करात, परत कॉलाची विनंती करात, वा आमच्या कोलकाता आनी नवी दिल्ली कार्यालयांक भेट दियात.",
     "joinDescription": "SP Law Chamber हांगा करियर. वकील आनी कायदेशीर वेवसायिकांच्या वाडपी पंगडांत जोडात.",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "कायदेशीर सेवा क्षेत्रां",

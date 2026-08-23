@@ -14,6 +14,7 @@
   "nav": {
     "home": "गृह",
     "practiceAreas": "अभ्यास क्षेत्रहरू",
+    "courts": "Courts We Practice In",
     "aboutUs": "हामीसँग परिचय",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — भारत भर मुकदमेबाजी, व्यापार पञ्जीकरण, कर र बौद्धिक सम्पत्तिका मामलमा विश्वस्त वकील। नि:शुल्क परामर्श बुक गर्नुहोस्।",
     "aboutDescription": "SP Law Chamber को बारेमा जानुहोस् — हामारो संस्थापक, वकीलहरूको हामारो टीम, र हामारो अभ्यासलाई निर्देशन गर्ने मूल्यहरू।",
     "practiceAreasDescription": "हामारा अभ्यास क्षेत्रहरू अन्वेषण गर्नुहोस्: नागरिक र आपराधिक मुकदमेबाजी, पारिवारिक कानून, व्यापार पञ्जीकरण, कर र बौद्धिक सम्पत्ति सेवाहरू।",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber सँग सम्पर्क गर्नुहोस्। परामर्श तय गर्नुहोस्, कलब्याक अनुरोध गर्नुहोस्, वा हामारो Kolkata र नयाँ दिल्ली कार्यालयमा भेट्नुहोस्।",
     "joinDescription": "SP Law Chamber मा क्यारियर। वकील र कानूनी पेशेवारहरूको बढ्दो टीममा सामेल हुनुहोस्।",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "अभ्यास क्षेत्रहरू",

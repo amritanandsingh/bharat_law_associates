@@ -14,6 +14,7 @@
   "nav": {
     "home": "ꯈꯣꯎ",
     "practiceAreas": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯊꯥꯈꯄ",
+    "courts": "Courts We Practice In",
     "aboutUs": "ꯑꯗꯣꯏ ꯁꯃꯨꯖꯤꯡ",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — ꯂꯤꯖꯤꯠ, ꯎꯠ ꯆꯠꯀꯅꯕ, ꯇꯦꯛꯁ ꯑꯦ ꯐꯔꯐꯀꯁꯨ ꯑꯐꯦꯍ꯫ ꯑꯕꯛꯕꯥ ꯎꯔꯤ ꯂꯥ ꯄꯨꯛ ꯇꯝꯕꯥ꯫",
     "aboutDescription": "SP Law Chamber ꯁꯃꯨꯖꯤꯡ — ꯃꯇꯦꯟ ꯈꯨꯛꯇꯕ, ꯑꯗꯣꯏ ꯈꯅ ꯈꯌꯥ ꯑꯦ ꯔꯤꯆꯥꯔꯤ꯫",
     "practiceAreasDescription": "ꯑꯗꯣꯏ ꯎꯠ ꯆꯠꯀꯅꯕ — ꯂꯤꯖꯤꯠ ꯑꯦ ꯐꯟꯖꯥꯏ ꯂꯤꯖꯤꯠ, ꯐ꯫ꯏ ꯂꯦ, ꯎꯠ ꯆꯠꯀꯅꯕ, ꯇꯦꯛꯁ ꯑꯦ ꯐꯔꯐꯀꯁꯨ ꯄꯤꯂ꯫",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber ꯑꯥꯞꯇꯅ꯫ ꯎꯔꯤ ꯂꯥ ꯄꯨꯛ ꯇꯝꯕꯥ, ꯊꯥꯅꯕꯥ ꯉꯥꯀꯧ ꯍꯣꯡ, ꯑꯗꯣꯏ ꯀꯧꯔꯨ ꯑꯦ ꯅꯨ ꯃꯎ꯫",
     "joinDescription": "SP Law Chamber ꯃꯗ ꯌꯦꯟ ꯈꯪꯀꯧ꯫ ꯕꯎꯔꯠ ꯑꯦ ꯕꯀ ꯂꯦ ꯌꯧꯑꯅ ꯈꯅ ꯃꯤꯠ ꯊꯥ꯫",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "ꯎꯠ ꯆꯠꯀꯅꯕ ꯊꯥꯈꯄ",

@@ -14,6 +14,7 @@
   "nav": {
     "home": "હોમ",
     "practiceAreas": "પ્રેક્ટિસ ક્ષેત્રો",
+    "courts": "Courts We Practice In",
     "aboutUs": "અમારા વિશે",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — સમગ્ર ભારતમાં મુકદ્દમા, વ્યવસાય નોંધણી, કર અને બૌદ્ધિક સંપદા બાબતો માટે વિશ્વસનીય એડવોકેટ્સ. મફત પરામર્શ બુક કરો.",
     "aboutDescription": "SP Law Chamber વિશે જાણો — અમારા સ્થાપક, અમારી એડવોકેટ્સની ટીમ અને અમારી પ્રેક્ટિસને માર્ગદર્શન આપતાં મૂલ્યો.",
     "practiceAreasDescription": "અમારાં પ્રેક્ટિસ ક્ષેત્રો જુઓ: દીવાની અને ફોજદારી મુકદ્દમા, કૌટુંબિક કાયદો, વ્યવસાય નોંધણી, કર અને બૌદ્ધિક સંપદા સેવાઓ.",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber નો સંપર્ક કરો. પરામર્શ નિર્ધારિત કરો, કૉલબેક માટે વિનંતી કરો, અથવા અમારી કોલકાતા અને નવી દિલ્હીની ઑફિસોની મુલાકાત લો.",
     "joinDescription": "SP Law Chamber ખાતે કારકિર્દી. એડવોકેટ્સ અને કાનૂની વ્યાવસાયિકોની વિકસતી ટીમમાં જોડાઓ.",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "પ્રેક્ટિસ ક્ષેત્રો",

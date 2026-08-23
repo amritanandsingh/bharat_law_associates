@@ -14,6 +14,7 @@
   "nav": {
     "home": "முகப்பு",
     "practiceAreas": "நடைமுறை பகுதிகள்",
+    "courts": "Courts We Practice In",
     "aboutUs": "எங்களைப் பற்றி",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — இந்தியா முழுவதும் வழக்குகள், வணிக பதிவு, வரி மற்றும் அறிவுசார் சொத்து விஷயங்களுக்கான நம்பகமான வழக்கறிஞர்கள். இலவச ஆலோசனையை முன்பதிவு செய்க.",
     "aboutDescription": "SP Law Chamber பற்றி தெரிந்து கொள்ளவும் — எங்கள் நிறுவனர், எங்கள் வழக்கறிஞர் குழு மற்றும் எங்கள் நடைமுறையை வழிநடத்தும் மதிப்புகள்.",
     "practiceAreasDescription": "எங்கள் நடைமுறை பகுதிகளை ஆராய்க: சிவில் மற்றும் குற்றவியல் வழக்குகள், குடும்ப சட்டம், வணிக பதிவு, வரி மற்றும் அறிவுசார் சொத்து சேவைகள்.",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber ஐ தொடர்பு கொள்ளவும். ஆலோசனையை திட்டமிடவும், விசுவாச அழைப்பைக் கோரவும் அல்லது எங்கள் கொல்கத்தா மற்றும் புது தில்லி அலுவலகங்களுக்கு வருக.",
     "joinDescription": "SP Law Chamber இல் வேலை வாய்ப்பு. வழக்கறிஞர்கள், நிபுணர்கள் மற்றும் உள்நாட்டுப் பயிற்சியாளர்களுடன் வளர்ந்து வரும் குழுவில் சேரவும்.",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "நடைமுறை பகுதிகள்",

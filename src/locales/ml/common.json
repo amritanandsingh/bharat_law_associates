@@ -14,6 +14,7 @@
   "nav": {
     "home": "ആരംഭം",
     "practiceAreas": "അഭ്യാസ മേഖലകൾ",
+    "courts": "Courts We Practice In",
     "aboutUs": "ഞങ്ങളെ കുറിച്ച്",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — സർവേദേശീയ സർവ്വേശ്വരിയിലെ വ്യവഹാരം, വ്യാപാര രജിസ്ട്രേഷൻ, നികുതി ഉം ബൌദ്ധിക സ്വത്ത് കാര്യങ്ങൾക്കുള്ള വിശ്വാസയോഗ്യ അധിഭാഷകർ. സ്വതന്ത്ര കൺസൾട്ടേഷൻ ബുക്ക് ചെയ്യുക.",
     "aboutDescription": "SP Law Chamber കുറിച്ച് അറിയുക — ഞങ്ങളുടെ സ്ഥാപകൻ, അധിഭാഷകരുടെ ഞങ്ങളുടെ ടീം, ഉം ഞങ്ങളുടെ പരിശീലനത്തെ നയിക്കുന്ന മൂല്യങ്ങൾ.",
     "practiceAreasDescription": "ഞങ്ങളുടെ അഭ്യാസ മേഖലകൾ പര്യവേക്ഷണം ചെയ്യുക: സിവിൽ ഉം കയ്യെടുപ്പ് വ്യവഹാരം, കുടുംബ നിയമം, വ്യാപാര രജിസ്ട്രേഷൻ, നികുതി ഉം ബൌദ്ധിക സ്വത്ത് സേവനങ്ങൾ.",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber ബന്ധപ്പെടുക. കൺസൾട്ടേഷൻ ഷെഡ്യൂൾ ചെയ്യുക, കോൾബാക്ക് അഭ്യർത്ഥിക്കുക, അല്ലെങ്കിൽ ഞങ്ങളുടെ കോൽക്കത്ത ഉം നിലവിലെ ഡൽഹി ഓഫീസുകൾ സന്ദർശിക്കുക.",
     "joinDescription": "SP Law Chamber ലെ കരിയർ. അധിഭാഷകരുടെ വർദ്ധിച്ചുവരുന്ന ടീമിനോടും നിയമ പരിശീലകരോടും ചേരുക.",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "അഭ്യാസ മേഖലകൾ",

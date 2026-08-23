@@ -14,6 +14,7 @@
   "nav": {
     "home": "ಮುಖಪುಟ",
     "practiceAreas": "ಸೇವಾ ಕ್ಷೇತ್ರಗಳು",
+    "courts": "Courts We Practice In",
     "aboutUs": "ನಮ್ಮ ಬಗ್ಗೆ",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — ವ್ಯಾಜ್ಯ, ವ್ಯವಹಾರ ನೋಂದಣಿ, ತೆರಿಗೆ ಮತ್ತು ಬೌದ್ಧಿಕ ಆಸ್ತಿ ವಿಷಯಗಳಲ್ಲಿ ಭಾರತದಾದ್ಯಂತ ವಿಶ್ವಾಸಾರ್ಹ ವಕೀಲರು. ಉಚಿತ ಸಮಾಲೋಚನೆ ಕಾಯ್ದಿರಿಸಿ.",
     "aboutDescription": "SP Law Chamber ಬಗ್ಗೆ ತಿಳಿಯಿರಿ — ನಮ್ಮ ಸಂಸ್ಥಾಪಕರು, ನಮ್ಮ ವಕೀಲರ ತಂಡ ಮತ್ತು ನಮ್ಮ ವೃತ್ತಿಯನ್ನು ಮುನ್ನಡೆಸುವ ಮೌಲ್ಯಗಳು.",
     "practiceAreasDescription": "ನಮ್ಮ ಸೇವಾ ಕ್ಷೇತ್ರಗಳನ್ನು ಅನ್ವೇಷಿಸಿ: ನಾಗರಿಕ ಮತ್ತು ಕ್ರಿಮಿನಲ್ ವ್ಯಾಜ್ಯ, ಕುಟುಂಬ ಕಾನೂನು, ವ್ಯವಹಾರ ನೋಂದಣಿ, ತೆರಿಗೆ ಮತ್ತು ಬೌದ್ಧಿಕ ಆಸ್ತಿ ಸೇವೆಗಳು.",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber ಅನ್ನು ಸಂಪರ್ಕಿಸಿ. ಸಮಾಲೋಚನೆ ನಿಗದಿಪಡಿಸಿ, ಕಾಲ್‌ಬ್ಯಾಕ್ ವಿನಂತಿಸಿ, ಅಥವಾ ನಮ್ಮ ಕೋಲ್ಕತಾ ಮತ್ತು ನವದೆಹಲಿ ಕಚೇರಿಗಳಿಗೆ ಭೇಟಿ ನೀಡಿ.",
     "joinDescription": "SP Law Chamber ನಲ್ಲಿ ವೃತ್ತಿ ಅವಕಾಶಗಳು. ಬೆಳೆಯುತ್ತಿರುವ ವಕೀಲರು ಮತ್ತು ಕಾನೂನು ವೃತ್ತಿಪರರ ತಂಡಕ್ಕೆ ಸೇರಿ.",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "ಸೇವಾ ಕ್ಷೇತ್ರಗಳು",

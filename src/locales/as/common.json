@@ -14,6 +14,7 @@
   "nav": {
     "home": "গৃহপৃষ্ঠা",
     "practiceAreas": "কৰ্মক্ষেত্ৰসমূহ",
+    "courts": "Courts We Practice In",
     "aboutUs": "আমাৰ বিষয়ে",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — ভাৰতজুৰি মকৰ্দমা, ব্যৱসায় পঞ্জীয়ন, কৰ আৰু বৌদ্ধিক সম্পত্তি সম্পৰ্কীয় বিষয়ৰ বাবে বিশ্বাসযোগ্য অধিবক্তা। বিনামূলীয়া পৰামৰ্শৰ বাবে সময় নিৰ্ধাৰণ কৰক।",
     "aboutDescription": "SP Law Chamber-ৰ বিষয়ে জানক — আমাৰ প্ৰতিষ্ঠাপক, আমাৰ অধিবক্তাৰ দল আৰু আমাৰ কৰ্মপন্থাক পৰিচালিত কৰা মূল্যবোধসমূহ।",
     "practiceAreasDescription": "আমাৰ কৰ্মক্ষেত্ৰসমূহ চাওক: দেৱানী আৰু ফৌজদাৰী মকৰ্দমা, পাৰিবাৰিক আইন, ব্যৱসায় পঞ্জীয়ন, কৰ আৰু বৌদ্ধিক সম্পত্তি সেৱা।",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber-ৰ সৈতে যোগাযোগ কৰক। পৰামৰ্শৰ সময় নিৰ্ধাৰণ কৰক, কলবেকৰ অনুৰোধ কৰক, বা আমাৰ কলকাতা আৰু নতুন দিল্লীৰ কাৰ্যালয়লৈ আহক।",
     "joinDescription": "SP Law Chamber-ত কেৰিয়াৰ। অধিবক্তা আৰু আইনী পেছাদাৰীৰ এটা বৃদ্ধিশীল দলত যোগ দিয়ক।",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "কৰ্মক্ষেত্ৰসমূহ",

@@ -14,6 +14,7 @@
   "nav": {
     "home": "హోమ్",
     "practiceAreas": "ఆచరణ ప్రాంతాలు",
+    "courts": "Courts We Practice In",
     "aboutUs": "మా గురించి",
     "articles": "Articles",
     "documents": "Documents",
@@ -27,6 +28,7 @@
     "homeDescription": "SP Law Chamber — విశ్వస్త న్యాయవాదులు ప訟, వ్యాపార నమోదు, పన్ను మరియు మేధో సంపద విషయాలకు భారతదేశవ్యాప్తంగా. ఉచితంగా సంప్రదింపు బుక్ చేయండి.",
     "aboutDescription": "SP Law Chamber గురించి తెలుసుకోండి — మా సంస్థాపకుడు, మా న్యాయవాదుల టీమ్ మరియు మా ఆచరణను నిర్దేశించే విలువలు.",
     "practiceAreasDescription": "మా ఆచరణ ప్రాంతాలను అన్వేషించండి: సివిల్ మరియు క్రిమినల్ ప訟, కుటుంబ చట్టం, వ్యాపార నమోదు, పన్ను మరియు మేధో సంపద సేవలు.",
+    "courtsDescription": "Explore the courts where SP Law Chamber represents clients.",
     "contactDescription": "SP Law Chamber సంప్రదించండి. సంప్రదింపు షెడ్యూల్ చేయండి, కాల్‌బ్యాక్ అభ్యర్థించండి లేదా మా కోల్‌కత్త మరియు న్యూ ఢిల్లీ కార్యాలయాలను సందర్శించండి.",
     "joinDescription": "SP Law Chamber వద్ద కెరీర్. న్యాయవాదులు మరియు చట్ట నిపుణుల సంస్థానికి చేరండి.",
     "articlesDescription": "Legal articles and plain-language guides from SP Law Chamber on your rights, criminal and civil procedure, cheque bounce, consumer, family and constitutional matters.",
@@ -167,6 +169,11 @@
     "sampleAlt": "Sample page of {{title}}",
     "buyTitle": "To buy, contact us",
     "enquiryMessage": "Hello SP Law Chamber, I would like to buy the document \"{{title}}\". Please share the details."
+  },
+  "courts": {
+    "lede": "Courts and judicial forums where our advocates represent clients with careful preparation and committed advocacy.",
+    "loading": "Loading courts…",
+    "emptyState": "No courts listed yet. Please check back soon."
   },
   "practiceAreas": {
     "title": "ఆచరణ ప్రాంతాలు",
